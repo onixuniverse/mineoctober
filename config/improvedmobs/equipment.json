@@ -1,0 +1,810 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "create:cardboard_sword",
+      "weight": 11616,
+      "quality": 39.868282
+    },
+    {
+      "value": "create_things_and_misc:brass_knife",
+      "weight": 59029,
+      "quality": 6.853305
+    },
+    {
+      "value": "create_things_and_misc:copper_knife",
+      "weight": 86196,
+      "quality": 0.25
+    },
+    {
+      "value": "create_things_and_misc:zinc_knife",
+      "weight": 86196,
+      "quality": 0.25
+    },
+    {
+      "value": "dndesires:handheld_saw",
+      "weight": 14693,
+      "quality": 36.89661
+    },
+    {
+      "value": "enchanted:arthana",
+      "weight": 30992,
+      "quality": 23.074833
+    },
+    {
+      "value": "irons_spellbooks:amethyst_rapier",
+      "weight": 5226,
+      "quality": 46.407475
+    },
+    {
+      "value": "irons_spellbooks:autoloader_crossbow",
+      "weight": 16028,
+      "quality": 35.643074
+    },
+    {
+      "value": "irons_spellbooks:boreal_blade",
+      "weight": 2326,
+      "quality": 49.53875
+    },
+    {
+      "value": "irons_spellbooks:claymore",
+      "weight": 3027,
+      "quality": 48.771835
+    },
+    {
+      "value": "irons_spellbooks:decrepit_scythe",
+      "weight": 2690,
+      "quality": 49.139908
+    },
+    {
+      "value": "irons_spellbooks:hellrazor",
+      "weight": 2482,
+      "quality": 49.367912
+    },
+    {
+      "value": "irons_spellbooks:keeper_flamberge",
+      "weight": 1960,
+      "quality": 49.941605
+    },
+    {
+      "value": "irons_spellbooks:legionnaire_flamberge",
+      "weight": 1928,
+      "quality": 49.9762
+    },
+    {
+      "value": "irons_spellbooks:magehunter",
+      "weight": 7406,
+      "quality": 44.121006
+    },
+    {
+      "value": "irons_spellbooks:misery",
+      "weight": 5463,
+      "quality": 46.155968
+    },
+    {
+      "value": "irons_spellbooks:spellbreaker",
+      "weight": 2942,
+      "quality": 48.86521
+    },
+    {
+      "value": "minecraft:bow",
+      "weight": 15270,
+      "quality": 36.35238
+    },
+    {
+      "value": "minecraft:crossbow",
+      "weight": 16028,
+      "quality": 35.643074
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 3958,
+      "quality": 47.763428
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 7440,
+      "quality": 44.08528
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 12349,
+      "quality": 39.150127
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 8552,
+      "quality": 42.942215
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 30992,
+      "quality": 23.074833
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 4180,
+      "quality": 47.525158
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 12156,
+      "quality": 39.338593
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 15504,
+      "quality": 36.13266
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 2934,
+      "quality": 48.873577
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 5234,
+      "quality": 46.398853
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 42915,
+      "quality": 15.008695
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 15504,
+      "quality": 36.13266
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 4284,
+      "quality": 47.41294
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 20473,
+      "quality": 31.62551
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 10714,
+      "quality": 40.761597
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 3897,
+      "quality": 47.829735
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 8600,
+      "quality": 42.892704
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 31638,
+      "quality": 22.593287
+    },
+    {
+      "value": "pastel:bedrock_axe",
+      "weight": 1078,
+      "quality": 50.918022
+    },
+    {
+      "value": "pastel:bedrock_bow",
+      "weight": 7492,
+      "quality": 44.032043
+    },
+    {
+      "value": "pastel:bedrock_crossbow",
+      "weight": 8154,
+      "quality": 43.349403
+    },
+    {
+      "value": "pastel:bedrock_sword",
+      "weight": 1219,
+      "quality": 50.760597
+    },
+    {
+      "value": "pastel:draconic_twinsword",
+      "weight": 15456,
+      "quality": 36.177086
+    },
+    {
+      "value": "pastel:dreamflayer",
+      "weight": 11118,
+      "quality": 40.360073
+    },
+    {
+      "value": "pastel:glass_crest_crossbow",
+      "weight": 10257,
+      "quality": 41.217148
+    },
+    {
+      "value": "pastel:glass_crest_ultra_greatsword",
+      "weight": 2238,
+      "quality": 49.63519
+    },
+    {
+      "value": "pastel:knotted_sword",
+      "weight": 8729,
+      "quality": 42.76143
+    },
+    {
+      "value": "pastel:malachite_crossbow",
+      "weight": 13649,
+      "quality": 37.89227
+    },
+    {
+      "value": "pastel:malachite_ultra_greatsword",
+      "weight": 2513,
+      "quality": 49.33415
+    },
+    {
+      "value": "pastel:nectar_lance",
+      "weight": 2737,
+      "quality": 49.088467
+    },
+    {
+      "value": "pastel:razor_falchion",
+      "weight": 8892,
+      "quality": 42.594658
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 675,
+      "quality": 0.9832852
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 1155,
+      "quality": 0.36020175
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 1278,
+      "quality": 0.25
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 556,
+      "quality": 1.1855242
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 817,
+      "quality": 0.7665722
+    },
+    {
+      "value": "pastel:bedrock_fishing_rod",
+      "weight": 519,
+      "quality": 1.25217
+    },
+    {
+      "value": "pastel:lagoon_rod",
+      "weight": 1041,
+      "quality": 0.48102912
+    },
+    {
+      "value": "pastel:molten_rod",
+      "weight": 1041,
+      "quality": 0.48102912
+    }
+  ],
+  "FEET": [
+    {
+      "value": "create:cardboard_boots",
+      "weight": 14102,
+      "quality": 0.25
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 12271,
+      "quality": 0.9090259
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 1902,
+      "quality": 12.403232
+    },
+    {
+      "value": "create_things_and_misc:sticky_boots_boots",
+      "weight": 2782,
+      "quality": 10.9151325
+    },
+    {
+      "value": "irons_spellbooks:archevoker_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:cultist_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:electromancer_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_boots",
+      "weight": 2255,
+      "quality": 11.795095
+    },
+    {
+      "value": "irons_spellbooks:plagued_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:priest_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_boots",
+      "weight": 2796,
+      "quality": 10.892947
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_boots",
+      "weight": 2691,
+      "quality": 11.063802
+    },
+    {
+      "value": "irons_spellbooks:speed_boots",
+      "weight": 2559,
+      "quality": 11.283864
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_boots",
+      "weight": 5154,
+      "quality": 7.3781953
+    },
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 8442,
+      "quality": 3.6174414
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 2106,
+      "quality": 12.050014
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 8169,
+      "quality": 3.8788154
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 4637,
+      "quality": 8.089979
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 9463,
+      "quality": 2.7189646
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 1902,
+      "quality": 12.403232
+    },
+    {
+      "value": "pastel:bedrock_boots",
+      "weight": 370,
+      "quality": 15.219969
+    },
+    {
+      "value": "pastel:oread_boots",
+      "weight": 2963,
+      "quality": 10.620707
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 48219,
+      "quality": 0.25
+    },
+    {
+      "value": "irons_spellbooks:archevoker_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:cultist_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:electromancer_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_leggings",
+      "weight": 2148,
+      "quality": 200.54478
+    },
+    {
+      "value": "irons_spellbooks:plagued_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:priest_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_leggings",
+      "weight": 2269,
+      "quality": 199.53006
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_leggings",
+      "weight": 2248,
+      "quality": 199.70712
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_leggings",
+      "weight": 3482,
+      "quality": 189.50172
+    },
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 4790,
+      "quality": 178.97635
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 1845,
+      "quality": 203.10094
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 8320,
+      "quality": 152.06036
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 2945,
+      "quality": 193.90826
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 16654,
+      "quality": 97.21946
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 1796,
+      "quality": 203.51276
+    },
+    {
+      "value": "pastel:bedrock_leggings",
+      "weight": 321,
+      "quality": 216.18764
+    },
+    {
+      "value": "pastel:sylph_leggings",
+      "weight": 3534,
+      "quality": 189.07588
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 115676,
+      "quality": 98.251236
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 13176,
+      "quality": 1258.4119
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 2170,
+      "quality": 1460.6743
+    },
+    {
+      "value": "irons_spellbooks:archevoker_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:cultist_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:electromancer_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_chestplate",
+      "weight": 2614,
+      "quality": 1452.2283
+    },
+    {
+      "value": "irons_spellbooks:paladin_chestplate",
+      "weight": 2564,
+      "quality": 1453.173
+    },
+    {
+      "value": "irons_spellbooks:plagued_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:priest_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_chestplate",
+      "weight": 2686,
+      "quality": 1450.8539
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_chestplate",
+      "weight": 2673,
+      "quality": 1451.0934
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_chestplate",
+      "weight": 5497,
+      "quality": 1397.9451
+    },
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 7087,
+      "quality": 1368.4485
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 2211,
+      "quality": 1459.8904
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 153418,
+      "quality": 0.25
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 7072,
+      "quality": 1368.7292
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 4626,
+      "quality": 1414.2318
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 20935,
+      "quality": 1124.8718
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 2182,
+      "quality": 1460.4501
+    },
+    {
+      "value": "pastel:bedrock_chestplate",
+      "weight": 293,
+      "quality": 1496.6619
+    },
+    {
+      "value": "pastel:ferocious_chestplate",
+      "weight": 3799,
+      "quality": 1429.7906
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 72441,
+      "quality": 513.84753
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 30636,
+      "quality": 610.14905
+    },
+    {
+      "value": "create:goggles",
+      "weight": 528287,
+      "quality": 0.25
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 9672,
+      "quality": 661.5552
+    },
+    {
+      "value": "enchanted:earmuffs",
+      "weight": 29035,
+      "quality": 614.003
+    },
+    {
+      "value": "friendsandfoes:wildfire_crown",
+      "weight": 13644,
+      "quality": 651.65533
+    },
+    {
+      "value": "irons_spellbooks:archevoker_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:cryomancer_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:cultist_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:electromancer_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:gold_crown",
+      "weight": 126,
+      "quality": 685.6509
+    },
+    {
+      "value": "irons_spellbooks:netherite_mage_helmet",
+      "weight": 11463,
+      "quality": 657.081
+    },
+    {
+      "value": "irons_spellbooks:plagued_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:priest_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:pumpkin_helmet",
+      "weight": 14222,
+      "quality": 650.2214
+    },
+    {
+      "value": "irons_spellbooks:pyromancer_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:shadowwalker_helmet",
+      "weight": 13709,
+      "quality": 651.49457
+    },
+    {
+      "value": "irons_spellbooks:tarnished_helmet",
+      "weight": 66238,
+      "quality": 527.6143
+    },
+    {
+      "value": "irons_spellbooks:wandering_magician_helmet",
+      "weight": 26398,
+      "quality": 620.373
+    },
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 23215,
+      "quality": 628.108
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 10715,
+      "quality": 658.9485
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 22692,
+      "quality": 629.3833
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 23711,
+      "quality": 626.9006
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 48510,
+      "quality": 567.9628
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 9672,
+      "quality": 661.5552
+    },
+    {
+      "value": "minecraft:shulker_shell",
+      "weight": 222151,
+      "quality": 236.7794
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 22562,
+      "quality": 629.7006
+    },
+    {
+      "value": "pastel:bedrock_helmet",
+      "weight": 1853,
+      "quality": 681.2599
+    },
+    {
+      "value": "pastel:fetchling_helmet",
+      "weight": 14830,
+      "quality": 648.7129
+    }
+  ]
+}

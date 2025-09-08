@@ -1,0 +1,1127 @@
+{
+  "itemGroup.affinity.affinity": "Affinity",
+  "itemGroup.affinity.affinity.button.github": "GitHub",
+  "itemGroup.affinity.affinity.button.modrinth": "Modrinth",
+  "itemGroup.affinity.affinity.button.curseforge": "CurseForge",
+  "itemGroup.affinity.affinity.tab.main": "Сродство",
+  "itemGroup.affinity.affinity.tab.machinery": "Механизмы",
+  "itemGroup.affinity.affinity.tab.nature": "Природа",
+  "itemGroup.affinity.affinity.tab.equipment": "Снаряжение",
+
+  "biome.affinity.wisp_forest": "Лес огоньков",
+
+  "swivel_property.affinity.facing": "Направление",
+  "swivel_property.affinity.feed_direction": "Направление подачи",
+  "swivel_property.affinity.block_half": "Половина блока",
+  "swivel_property.affinity.door_hinge": "Сторона петель",
+  "swivel_property.affinity.rotation": "Поворот",
+  "swivel_property.affinity.axis": "Ось",
+
+  "text.affinity.unfinished_item_tooltip": ["", {"text": "⚠", "color": "yellow"}, {"text": " Незавершённый", "color": "gray"}],
+
+  "item.affinity.wispen_testament": "Завет Огоньков",
+  "text.affinity.wispen_testament.next_page": "Продолжение на следующей странице...",
+  "text.affinity.wispen_testament.staff_pedestal_function": {
+    "text": "На пьедестале посоха",
+    "color": "dark_gray"
+  },
+  "structure.affinity.augmented_crafting_table": "Улучшенный верстак",
+  "structure.affinity.void_beacon": "Маяк Бездны",
+  "structure.affinity.rudimentary_aspen_infusion": "Базовая инфузия осины",
+
+  "key.affinity.activate_evade_ring": [
+    {
+      "translate": "text.affinity.prefix"
+    },
+    " Активировать кольцо уклонения"
+  ],
+  "key.affinity.select_staff_from_bundle": [
+    {
+      "translate": "text.affinity.prefix"
+    },
+    " Выбрать посох из связки"
+  ],
+
+  "text.affinity.ethereal_aethum_flux_injector.node_location_tooltip": [
+    {
+      "index": 0
+    },
+    {
+      "text": " в ",
+      "color": "gray"
+    },
+    {
+      "index": 1,
+      "color": "#4D4C7D"
+    }
+  ],
+  "text.affinity.ethereal_aethum_flux_injector.linked_node_tooltip": [
+    "",
+    {
+      "text": "[",
+      "color": "dark_gray"
+    },
+    {
+      "text": "⌘",
+      "color": "#6A67CE"
+    },
+    {
+      "text": "]",
+      "color": "dark_gray"
+    },
+    {
+      "text": " Связан (нажмите чтобы отвязать)",
+      "color": "gray"
+    }
+  ],
+  "text.affinity.ethereal_aethum_flux_injector.unlinked_node_tooltip": [
+    "",
+    {
+      "text": "[",
+      "color": "dark_gray"
+    },
+    {
+      "text": "+",
+      "color": "green"
+    },
+    {
+      "text": "]",
+      "color": "dark_gray"
+    },
+    {
+      "text": " Нажмите чтобы связать",
+      "color": "gray"
+    }
+  ],
+  "text.affinity.ethereal_aethum_flux_injector.global_nodes": [
+    "",
+    {
+      "text": "u ",
+      "font": "affinity:symbols"
+    },
+    "Все публичные узлы"
+  ],
+  "text.affinity.ethereal_aethum_flux_injector.private_nodes": [
+    "",
+    {
+      "text": "l ",
+      "font": "affinity:symbols"
+    },
+    "Только мои узлы"
+  ],
+
+  "text.affinity.aethum_flux_consumer": {
+    "translate": "text.affinity.aethum_flux_member_template",
+    "with": [
+      "потребитель"
+    ]
+  },
+  "text.affinity.aethum_flux_generator": {
+    "translate": "text.affinity.aethum_flux_member_template",
+    "with": [
+      "генератор"
+    ]
+  },
+  "text.affinity.aethum_flux_node": {
+    "translate": "text.affinity.aethum_flux_member_template",
+    "with": [
+      "узел"
+    ]
+  },
+  "text.affinity.aethum_flux_storage": {
+    "translate": "text.affinity.aethum_flux_member_template",
+    "with": [
+      "хранилище"
+    ]
+  },
+  "text.affinity.aethum_flux_member_template": [
+    "",
+    {
+      "text": "a",
+      "font": "affinity:symbols"
+    },
+    {
+      "text": " Флюкс ",
+      "color": "gray"
+    },
+    {
+      "index": 0,
+      "color": "gray"
+    }
+  ],
+
+  "entity.affinity.wisp": "Огонёк",
+  "entity.affinity.asteroid": "Астероид",
+  "entity.affinity.aethum_missile": "Эфирная ракета",
+  "death.attack.aethum_missile": "%s был ликвидирован концентрированным зарядом Эфира",
+  "death.attack.aethum_missile.player": "%s был ликвидирован концентрированным зарядом Эфира от %s",
+  "entity.affinity.emancipated_block": "Освобождённый блок",
+  "entity.affinity.emancipated_block_state": "Освобождённый %s",
+  "item.affinity.wisp_matter": "Материя огоньков",
+  "item.affinity.wisp_mist": "Туман огоньков",
+  "item.affinity.wisp_spawn_egg": "Яйцо призыва огонька",
+  "wispType.affinity.inert": "Инертный",
+  "wispType.affinity.wise": "Мудрый",
+  "wispType.affinity.vicious": "Злобный",
+
+  "category.affinity.assembly": "Сборка",
+  "category.affinity.aspen_infusion": "Инфузия осины",
+  "category.affinity.spirit_assimilation": "Ассимиляция духа",
+  "category.affinity.potion_mixing": "Смешивание зелий",
+  "category.affinity.containing_potions": "Содержание зелий",
+  "category.affinity.arcane_fading": "Мистическое угасание",
+  "category.affinity.ornament_carving": "Резьба орнаментов",
+  "category.affinity.socle_composing": "Составление цоколей",
+
+  "subtitles.item.artifact_blade.smash": "Клинок артефакта врезается в сущность",
+  "subtitles.item.iridescence_wand.bind": "Жезл переливов щёлкает",
+  "subtitles.item.nimble_staff.fling": "Проворный посох метает",
+  "subtitles.item.evade_ring.evade": "Кольцо уклонения свистит",
+  "subtitles.item.satiating_potion.start_drinking": "Бутылка насыщающего зелья разбивается",
+  "subtitles.item.aethum_fire_extinguisher.spray": "Эфирный огнетушитель распыляет",
+  "subtitles.item.salvo_staff.hit": "Эфирная ракета пронзает цель",
+  "subtitles.block.spirit_integration_apparatus.ritual_start": "Ритуал ассимиляции духа начинается",
+  "subtitles.block.asp_rite_core.craft": "Ритуал инфузии осины успешно завершается",
+  "subtitles.block.asp_rite_core.active": "Ритуал инфузии осины гудит",
+  "subtitles.block.graviton_transducer.transduce": "Преобразователь гравитонов поглощает шалкеровый снаряд",
+  "subtitles.item.satiating_potion.drink": {"text": "Насыщающее зелье творит невыразимое", "obfuscated": true},
+  "subtitles.effect.flight.duration_warning": "Эффект полёта скоро закончится",
+  "subtitles.effect.flight.interrupted": "Эффект полёта прерван",
+  "subtitles.block.brewing_cauldron.brew": "Варочный котёл завершает варку",
+  "subtitles.entity.villager.strip_arms": "Происходит грубое нарушение прав человека",
+  "subtitles.item.swivel_staff.select_property": "Поворотный посох меняет выбранное свойство",
+  "subtitles.item.swivel_staff.swivel": "Поворотный посох поворачивается",
+  "subtitles.block.brewing_cauldron.pick_up_item": "Предмет вставлен в варочный котёл",
+  "subtitles.item.aethum_overcharger.activate": "Эфирный перезарядчик активируется",
+  "subtitles.block.void_beacon.activate": "Маяк Бездны срабатывает",
+  "subtitles.item.geological_resonator.resonate": "Геологический резонатор резонирует на сгустке",
+  "subtitles.item.geological_resonator.plonk": "Геологический резонатор глухо стучит по камню",
+  "subtitles.block.graviton_transducer.shard_breaks": "Настроенный осколок аметиста ломается в преобразователе гравитонов",
+  "subtitles.item.collection_staff.mark_items": "Посох сбора помечает предметы",
+  "subtitles.item.collection_staff.teleport_items": "Посох сбора телепортирует предметы",
+  "subtitles.item.cultivation_staff.cultivate": "Посох возделывания... возделывает?",
+  "subtitles.block.spirit_integration_apparatus.drop_item": "Ритуал ассимиляции духа выбрасывает предмет",
+  "subtitles.block.spirit_integration_apparatus.ritual_fail": "Ритуал ассимиляции духа проваливается",
+  "subtitles.block.asp_rite_core.ritual_fail": "Ритуал инфузии осины проваливается",
+  "subtitles.block.sonic_syphon.shriek": "Звуковой сифон визжит",
+  "subtitles.item.echo_shard.bind": "Осколок эха привязывается к местоположению",
+  "subtitles.item.resounding_chime.ding": "Звонкий колокольчик \"звенит\"",
+  "subtitles.item.emerald_armor.equip": "Изумрудная броня надевается",
+  "subtitles.item.salvo_staff.fire_missile": "Залповый посох запускает эфирную ракету",
+  "subtitles.item.staff.select": "Посох выбран из связки",
+  "subtitles.fluid.arcane_fade.bleach": "Овца отбеливается",
+  "subtitles.fluid.arcane_fade.craft": "Предмент создаётся через мистическое угасание",
+
+  "informationProvider.affinity.block_aethum_flux_storage": "хранилище эфирного флюкса",
+  "informationProvider.affinity.item_transfer_node_queue": "очередь узла передачи предметов",
+  "informationProvider.affinity.brewing_cauldron_mixture": "смесь варочного котла",
+
+  "stat.affinity.interact_with_field_coherence_modulator": "Взаимодействия с модулятором поля",
+
+  "block.affinity.brewing_cauldron": "Варочный котёл",
+  "block.affinity.sundial": "Солнечные часы",
+  "block.affinity.copper_plated_aethum_flux_node": "Медный узел эфирного флюкса",
+  "block.affinity.aethum_flux_cache": "Кэш эфирного флюкса",
+  "block.affinity.creative_aethum_flux_cache": "Творческий кэш эфирного флюкса",
+  "block.affinity.stone_banded_aethum_flux_node": "Каменный узел эфирного флюкса",
+  "block.affinity.arboreal_annihilation_apparatus": "Аппарат древесного уничтожения",
+  "block.affinity.peculiar_clump": "Своеобразный сгусток",
+  "block.affinity.blank_ritual_socle": "Пустой ритуальный цоколь",
+  "block.affinity.rudimentary_ritual_socle": "Базовый ритуальный цоколь",
+  "item.affinity.stone_socle_ornament": "Каменный орнамент цоколя",
+  "block.affinity.sophisticated_ritual_socle": "Усовершенствованный ритуальный цоколь",
+  "item.affinity.prismarine_socle_ornament": "Призмариновый орнамент цоколя",
+  "block.affinity.refined_ritual_socle": "Улучшенный ритуальный цоколь",
+  "item.affinity.purpur_socle_ornament": "Пурпурный орнамент цоколя",
+  "block.affinity.asp_rite_core": "Ядро ритуала осины",
+  "block.affinity.ritual_socle_composer": "Компоновщик ритуальных цоколей",
+  "block.affinity.affine_infuser": "Аффинный инфузор",
+  "block.affinity.ranthracite_wire": "Пыль рантрацита",
+  "item.affinity.ranthracite_dust": {
+    "translate": "block.affinity.ranthracite_wire"
+  },
+  "block.affinity.crop_reaper": "Жнец урожая",
+  "block.affinity.affine_candle": "Аффинная свеча",
+  "block.affinity.world_pin": "Мировая точка",
+  "block.affinity.sunshine_monolith": "Солнечный монолит",
+  "block.affinity.arcane_treetap": "Мистический подсочник",
+  "block.affinity.assembly_augment": "Аугмент сборки",
+  "block.affinity.mangrove_basket": "Мангровая корзина",
+  "block.affinity.staff_pedestal": "Пьедестал для посоха",
+  "block.affinity.ouija_board": "Доска Уиджи",
+  "block.affinity.the_sky": "Небо",
+  "block.affinity.emerald_block": "Блок изумруда",
+  "block.affinity.arcane_fade": "Мистическое угасание",
+  "block.affinity.inversion_stone": "Камень инверсии",
+  "block.affinity.item_transfer_node": "Узел передачи предметов",
+  "block.affinity.item_transfer_node.clear_filter_hint": "Нажмите чтобы очистить фильтр",
+  "block.affinity.aethum_probe": "Эфирный зонд",
+  "block.affinity.void_beacon": "Маяк Бездны",
+  "block.affinity.field_coherence_modulator": "Модулятор когерентности поля",
+  "block.affinity.infused_stone": "Насыщенный камень",
+  "block.affinity.matter_harvesting_hearth": "Очаг сбора материи",
+  "block.affinity.graviton_transducer": "Преобразователь гравитонов",
+  "block.affinity.ethereal_aethum_flux_node": "Эфирный узел эфирного флюкса",
+  "block.affinity.ethereal_aethum_flux_node.tooltip.visibility_public": "Доступно всем",
+  "block.affinity.ethereal_aethum_flux_node.tooltip.visibility_private": "Доступно только вам",
+  "block.affinity.ethereal_aethum_flux_node.tooltip.owned_by_you": "Принадлежит вам",
+  "block.affinity.ethereal_aethum_flux_node.tooltip.owned_by_someone_else": "Принадлежит кому-то другому",
+  "block.affinity.ethereal_aethum_flux_injector": "Эфирный инжектор эфирного флюкса",
+  "block.affinity.local_displacement_gateway": "Шлюз локального смещения",
+  "block.affinity.sonic_syphon": "Звуковой сифон",
+
+  "block.affinity.villager_armature": "Каркас жителя",
+  "block.affinity.villager_armature.option.action": "Действие",
+  "block.affinity.villager_armature.action.use": "☞ Использовать",
+  "block.affinity.villager_armature.action.break": "⛏ Ломать",
+  "block.affinity.villager_armature.action.attack": "\uD83D\uDDE1 Атаковать",
+  "block.affinity.villager_armature.option.redstone-mode": "Режим редстоуна",
+  "block.affinity.villager_armature.redstone-mode.always_active": "Всегда активен",
+  "block.affinity.villager_armature.redstone-mode.repeat": "Повторять",
+  "block.affinity.villager_armature.redstone-mode.impulse": "Импульс",
+  "block.affinity.villager_armature.option.sneak": "Красться",
+  "block.affinity.villager_armature.sneak.yes": "Да",
+  "block.affinity.villager_armature.sneak.no": "Нет",
+
+  "block.affinity.spirit_integration_apparatus": "Аппарат интеграции духа",
+  "block.affinity.spirit_integration_apparatus.tooltip.complete": "Завершено",
+  "block.affinity.spirit_integration_apparatus.tooltip.incomplete.singular": [
+    "Отсутствует ",
+    {
+      "index": 0,
+      "color": "blue"
+    },
+    " ядро"
+  ],
+  "block.affinity.spirit_integration_apparatus.tooltip.incomplete.plural": [
+    "Отсутствует ",
+    {
+      "index": 0,
+      "color": "blue"
+    },
+    " ядра"
+  ],
+  "death.attack.ritual_sacrifice": "%s был посвящён Пути Козла",
+
+  "block.affinity.holographic_stereopticon": "Голографический стереоскоп",
+  "block.affinity.holographic_stereopticon.tooltip_spin": "Вращать",
+  "block.affinity.holographic_stereopticon.tooltip_dont_spin": "Не вращать",
+  "block.affinity.holographic_stereopticon.tooltip.assembling": "Собирается...",
+  "block.affinity.holographic_stereopticon.imprint_block_hint": [
+    {
+      "text": "Использовать с приседанием на",
+      "color": "gray"
+    },
+    {
+      "text": " блок ",
+      "color": "blue"
+    },
+    "для отпечатывания"
+  ],
+  "block.affinity.holographic_stereopticon.imprint_item_hint": [
+    {
+      "text": "Нажать ПКМ на",
+      "color": "gray"
+    },
+    {
+      "text": " предмет ",
+      "color": "blue"
+    },
+    "для отпечатывания"
+  ],
+  "block.affinity.holographic_stereopticon.imprint_entity_hint": [
+    {
+      "text": "Использовать с приседанием на",
+      "color": "gray"
+    },
+    {
+      "text": " сущность ",
+      "color": "blue"
+    },
+    "для отпечатывания"
+  ],
+  "block.affinity.holographic_stereopticon.imprint_section_hint": [
+    {
+      "text": "Использовать с приседанием для отпечатывания",
+      "color": "gray"
+    },
+    {
+      "text": " участка мира ",
+      "color": "blue"
+    }
+  ],
+  "block.affinity.holographic_stereopticon.cycle_imprint_kind_hint": {
+    "text": "ПКМ для смены типа отпечатка",
+    "color": "gray"
+  },
+  "block.affinity.holographic_stereopticon.imprinted.section_at": [
+    "Участок в ",
+    {
+      "index": 0
+    }
+  ],
+  "block.affinity.holographic_stereopticon.imprinted": [
+    {
+      "text": "Отпечатано: ",
+      "color": "gray"
+    },
+    {
+      "index": 0,
+      "color": "dark_gray"
+    }
+  ],
+
+  "block.affinity.azalea_planks": "Доски из азалии",
+  "block.affinity.azalea_log": "Бревно азалии",
+  "block.affinity.stripped_azalea_log": "Обтёсанное бревно азалии",
+  "block.affinity.azalea_wood": "Древесина азалии",
+  "block.affinity.stripped_azalea_wood": "Обтёсанная древесина азалии",
+  "block.affinity.azalea_slab": "Плита из азалии",
+  "block.affinity.azalea_fence": "Забор из азалии",
+  "block.affinity.azalea_stairs": "Ступени из азалии",
+  "block.affinity.azalea_button": "Кнопка из азалии",
+  "block.affinity.azalea_pressure_plate": "Нажимная плита из азалии",
+  "block.affinity.azalea_door": "Дверь из азалии",
+  "block.affinity.azalea_trapdoor": "Люк из азалии",
+  "block.affinity.azalea_fence_gate": "Калитка из азалии",
+  "block.affinity.azalea_sign": "Табличка из азалии",
+  "block.affinity.azalea_hanging_sign": "Подвесная табличка из азалии",
+  "block.affinity.azalea_chest": "Сундук из азалии",
+  "container.affinity.azalea_chest": "Сундук из азалии",
+  "container.affinity.azalea_chest_double": "Большой сундук из азалии",
+  "item.affinity.azalea_boat": "Лодка из азалии",
+  "item.affinity.azalea_chest_boat": "Лодка с сундуком из азалии",
+
+  "block.affinity.unflowering_azalea_leaves": "Нецветущие листья азалии",
+  "block.affinity.budding_azalea_leaves": "Распускающиеся листья азалии",
+  "item.affinity.azalea_flowers": "Цветы азалии",
+  "item.affinity.soup_of_bee": "Суп из пчелы",
+
+  "text.affinity.infinite_attack_damage": "Бесконечный",
+  "item.affinity.forgotten_artifact_blade": "Забытый клинок артефакта",
+  "item.affinity.stabilized_artifact_blade": "Стабилизированный клинок артефакта",
+  "item.affinity.strengthened_artifact_blade": "Усиленный клинок артефакта",
+  "item.affinity.superior_artifact_blade": "Превосходный клинок артефакта",
+  "item.affinity.astral_artifact_blade": "Астральный клинок артефакта",
+
+  "item.affinity.emerald_helmet": "Изумрудный шлем",
+  "item.affinity.emerald_chestplate": "Изумрудный нагрудник",
+  "item.affinity.emerald_leggings": "Изумрудные поножи",
+  "item.affinity.emerald_boots": "Изумрудные ботинки",
+  "item.affinity.emerald_ingot": "Изумрудный слиток",
+  "item.affinity.emerald_nugget": "Изумрудный самородок",
+  "attribute.name.generic.affinity.damage_taken": "Полученный урон",
+  "attribute.name.generic.affinity.knockback_susceptibility": "Восприимчивость к отбрасыванию",
+  "attribute.name.generic.affinity.fall_resistance": "Сопротивление падению",
+  "attribute.name.generic.affinity.extra_arrow_damage": "Урон стрелы",
+
+  "item.affinity.emerald_wand_of_iridescence": "Изумрудный жезл переливов",
+  "item.affinity.sapphire_wand_of_iridescence": "Сапфировый жезл переливов",
+  "item.affinity.wand_of_iridescence.mode_suffix": [
+    {
+      "text": " [",
+      "color": "dark_gray"
+    },
+    {
+      "index": 0
+    },
+    "]"
+  ],
+  "item.affinity.wand_of_iridescence.help": {
+    "text": "Использовать с приседанием для смены режимов",
+    "color": "gray"
+  },
+  "item.affinity.wand_of_iridescence.help.template": "⇄ %s",
+  "item.affinity.wand_of_iridescence.retain_mode.disabled": [
+    {
+      "text": "Не сохраняет: ",
+      "color": "dark_gray"
+    },
+    {
+      "text": "ПКМ для переключения",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.wand_of_iridescence.retain_mode.enabled": [
+    {
+      "text": "Сохраняет: "
+    },
+    {
+      "text": "Использовать с приседанием чтобы очистить",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.wand_of_iridescence.mode.bind": "Связать",
+  "item.affinity.wand_of_iridescence.mode.bind.description": {
+    "text": "Связывать механизмы вместе",
+    "color": "gray"
+  },
+  "item.affinity.wand_of_iridescence.mode.release": "Освободить",
+  "item.affinity.wand_of_iridescence.mode.release.description": {
+    "text": "Удалять связи между механизмами",
+    "color": "gray"
+  },
+  
+  "item.affinity.time_staff": "Посох времени",
+  "item.affinity.time_staff.mode.normal": "Обычный (x%s)",
+  "item.affinity.time_staff.mode.fast": "Быстрый (x%s)",
+  "item.affinity.time_staff.mode.ludicrous": "Безумный (x%s)",
+  "item.affinity.time_staff.tooltip": [
+    {
+      "text": "☄ ",
+      "color": "#c624ed"
+    },
+    {
+      "index": 0,
+      "color": "gray"
+    }
+  ],
+
+  "item.affinity.wand_of_inquiry": "Жезл исследования",
+  "item.affinity.geological_resonator": "Геологический резонатор",
+  "item.affinity.collection_staff": "Посох сбора",
+  "item.affinity.kinesis_staff": "Посох кинезиса",
+  "item.affinity.astrokinesis_staff": "Посох астрокинезиса",
+  "item.affinity.cultivation_staff": "Посох возделывания",
+  "item.affinity.cultivation_staff.super_foraging_mode": "Режим супер-собирательства™",
+  "item.affinity.salvo_staff": "Залповый посох",
+  "item.affinity.swivel_staff": "Поворотный посох",
+  "item.affinity.swivel_staff.tooltip.consumption_per_spin": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира для поворота сущности",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.nimble_staff": "Проворный посох",
+  "item.affinity.nimble_staff.direction.north": "Север",
+  "item.affinity.nimble_staff.direction.south": "Юг",
+  "item.affinity.nimble_staff.direction.east": "Восток",
+  "item.affinity.nimble_staff.direction.west": "Запад",
+  "item.affinity.aethum_flux_bottle": "Бутылка эфирного флюкса",
+  "item.affinity.pitcher_elixir_bottle": "Бутылка эликсира кувшина",
+  "item.affinity.bare_resplendent_gem": "Голый сияющий самоцвет",
+  "item.affinity.resplendent_gem": "Сияющий самоцвет",
+  "item.affinity.resonance_crystal": "Кристалл резонанса",
+  "item.affinity.unfired_clay_cup": "Необожжённая глиняная чашка",
+  "item.affinity.clay_cup": "Глиняная чашка",
+  "item.affinity.affinitea": "Аффинит",
+  "item.affinity.milk_cup": "Чашка молока",
+  "item.affinity.satiating_potion": "Насыщающее зелье",
+  "item.affinity.dragon_drop": "Капля дракона",
+  "item.affinity.blackstone_prism": "Призма из чернитного камня",
+  "item.affinity.synthetic_dragon_heart": "Синтетическое сердце дракона",
+  "item.affinity.arcane_fade_bucket": "Ведро мистического угасания",
+  "item.affinity.aethum_overcharger": "Эфирный перезарядчик",
+  "item.affinity.archetypal_iron_ring": "Архетипичное железное кольцо",
+  "item.affinity.featherweight_ring": "Кольцо невесомости",
+  "item.affinity.evade_ring": "Кольцо уклонения",
+  "item.affinity.evade_ring.tooltip.consumption_per_use": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира за использование",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.evade_ring.tooltip.take_control": [
+    {
+      "text": "▼ ",
+      "color": "#690926"
+    },
+    {
+      "text": "Взять контроль",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.lavaliere_of_safe_keeping": "Кулон сохранности",
+  "item.affinity.assassins_quiver": "Колчан убийцы",
+  "item.affinity.aethum_fire_extinguisher": "Эфирный огнетушитель",
+  "item.affinity.budding_experience_crystal": "Распускающийся кристалл опыта",
+  "item.affinity.crystallized_experience": "Кристаллизованный опыт",
+  "item.affinity.uncanny_rod": "Странный прут",
+  "item.affinity.staff_prototype": "Прототип посоха",
+  "item.affinity.misty_potion": {
+    "text": "Туманное зелье",
+    "italic": false
+  },
+  "item.affinity.potion_of_infinite_prowess": {
+    "text": "Зелье бесконечного мастерства",
+    "italic": false,
+    "color": "dark_red"
+  },
+
+  "item.affinity.resounding_chime": "Звонкий колокольчик",
+  "item.affinity.azalea_bow": "Лук из азалии",
+  "item.affinity.azalea_bow.tooltip.consumption_per_shot": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира за выстрел",
+      "color": "gray"
+    }
+  ],
+  "death.attack.resonating": "%s опоздал на урок",
+  "death.attack.resonating.player": "%s опоздал на урок, потому что болтал с %s",
+
+  "item.affinity.staff.mode_template": [
+    {
+      "text": " [",
+      "color": "dark_gray"
+    },
+    {
+      "index": 0,
+      "color": "gray"
+    },
+    "]"
+  ],
+  "item.affinity.staff.tooltip.consumption_per_use": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира за использование",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.staff.tooltip.consumption_per_second": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира в секунду",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.staff.tooltip.cycle_mode_hint": [
+    {
+      "text": "⇄",
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " Использовать с приседанием для смены режимов",
+      "color": "gray"
+    }
+  ],
+
+  "item.affinity.kinesis_staff.tooltip.consumption_per_throw": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира за бросок",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.astrokinesis_staff.tooltip.consumption_per_throw": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира чтобы бросить астероид",
+      "color": "gray"
+    }
+  ],
+  "item.affinity.salvo_staff.tooltip.consumption_per_missile": [
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эфира за ракету",
+      "color": "gray"
+    }
+  ],
+
+  "text.affinity.attuned_shard_range": [
+    {
+      "text": "Дальность: ",
+      "color": "gray"
+    },
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " блоков",
+      "color": "#4D4C7D"
+    }
+  ],
+  "text.affinity.attuned_shard_max_transfer": [
+    {
+      "text": "Скорость: ",
+      "color": "gray"
+    },
+    {
+      "index": 0,
+      "color": "#4D4C7D"
+    },
+    {
+      "text": " эф/с",
+      "color": "#4D4C7D"
+    }
+  ],
+  "text.affinity.echo_shard_location": "Привязан к %s в %s",
+  "item.affinity.mildly_attuned_amethyst_shard": "Слегка настроенный осколок аметиста",
+  "item.affinity.fairly_attuned_amethyst_shard": "Довольно настроенный осколок аметиста",
+  "item.affinity.greatly_attuned_amethyst_shard": "Сильно настроенный осколок аметиста",
+  "item.affinity.sculk_resonant_ethereal_amethyst_shard": "Скально-резонансный эфирный осколок аметиста",
+  "item.affinity.void_resonant_ethereal_amethyst_shard": "Бездно-резонансный эфирный осколок аметиста",
+  "item.affinity.phantom_bundle": "Фантомная связка",
+
+  "item.affinity.villager_arms": "Руки жителя",
+  "item.affinity.villager_arms.with_profession": "Руки %s",
+  "item.affinity.villager_arms.with_profession.with_level": "Руки %2$s %1$s",
+
+  "item.affinity.anthracite_powder": "Антрацитовый порошок",
+  "item.affinity.carbon_copy.empty": "Копия... Ничего?",
+  "item.affinity.carbon_copy": [
+    "Копия ",
+    {
+      "index": 0,
+      "color": "gray"
+    },
+    {
+      "text": "x ",
+      "color": "dark_gray"
+    },
+    {
+      "index": 1,
+      "color": "gray"
+    }
+  ],
+  "item.affinity.scintillant_anthracite_blend": "Сверкающая антрацитовая смесь",
+  "item.affinity.crystalline_wisp_matter_composite": "Кристаллический композит материи огоньков",
+  "item.affinity.aethum_map_prototype": "Прототип карты эфира",
+  "item.affinity.realized_aethum_map": "Реализованная карта эфира",
+  "item.affinity.realized_aethum_map.tooltip.locked": {
+    "text": "Заблокировано",
+    "color": "gray"
+  },
+  "item.affinity.realized_aethum_map.tooltip.unlocked": {
+    "text": "Разблокировано",
+    "color": "gray"
+  },
+
+  "enchantment.affinity.curse_of_illiteracy": "Проклятие неграмотности",
+  "enchantment.affinity.curse_of_illiteracy.desc": [
+    {
+      "text": "честно странно что это теперь читаемо",
+      "obfuscated": true
+    }
+  ],
+  "enchantment.affinity.curse_of_health": "Проклятие здоровья",
+  "enchantment.affinity.curse_of_health.desc": "Увеличивает ваше здоровье при надевании. Снимать не рекомендуется",
+  "enchantment.affinity.affine": "Аффинный",
+  "enchantment.affinity.affine.desc": "Ремонтирует предметы на земле, в руке или в рамках для предметов в радиусе действия аффинного инфузора",
+  "enchantment.affinity.ender_scourge": "Бич Энда",
+  "enchantment.affinity.ender_scourge.desc": "Увеличенный урон существам из Энда",
+  "text.affinity.absolute_enchantment_prefix": [
+    {
+      "text": "Абсолютное",
+      "color": "#541690"
+    },
+    {
+      "text": " | ",
+      "color": "gray"
+    }
+  ],
+  "enchantment.affinity.berserker": "Берсерк",
+  "enchantment.affinity.berserker.desc": [
+    {
+      "translate": "text.affinity.absolute_enchantment_prefix"
+    },
+    {
+      "text": "Увеличенное максимальное здоровье и больший урон атаки при низком здоровье"
+    }
+  ],
+  "enchantment.affinity.gravecaller": "Призыватель могил",
+  "enchantment.affinity.gravecaller.desc": [
+    {
+      "translate": "text.affinity.absolute_enchantment_prefix"
+    },
+    {
+      "text": "Ваша броня призывает нежить и подчиняет другую нежить в радиусе"
+    }
+  ],
+  "enchantment.affinity.bastion": "Бастион",
+  "enchantment.affinity.bastion.desc": [
+    {
+      "translate": "text.affinity.absolute_enchantment_prefix"
+    },
+    {
+      "text": "Экстремальная регенерация на основе здоровья ценой уменьшения урона вдвое"
+    }
+  ],
+  "enchantment.affinity.wounding": "Ранение",
+  "enchantment.affinity.wounding.desc": "Увеличенный урон критического удара",
+  "enchantment.affinity.critical_gamble": "Критический риск",
+  "enchantment.affinity.critical_gamble.desc": "Шанс мгновенно убить врагов при критическом ударе, ценой отсутствия увеличения урона в остальное время",
+  "enchantment.affinity.execute": "Казнь",
+  "enchantment.affinity.execute.desc": "Казнить цели, которые иначе бы цеплялись за жизнь",
+  "enchantment.affinity.prosecute": "Преследование",
+  "enchantment.affinity.prosecute.desc": "Увеличенный урон врагам с полным здоровьем",
+  "enchantment.affinity.updog": "Вверхсобак",
+  "enchantment.affinity.updog.desc": "Увеличенный урон противникам с гораздо большим здоровьем чем у вас",
+
+  "message.affinity.linking.already_linked": "%s уже связан",
+  "message.affinity.linking.not_linked": "%s не связан",
+  "message.affinity.linking.no_target": "Неверная цель связи",
+  "message.affinity.linking.out_of_range": "%s вне зоны досягаемости",
+  "message.affinity.linking.too_many_links": "Этот узел не может нести больше связей",
+  "message.affinity.linking.failed": "Не удалось связаться с %s",
+
+  "attribute.name.player.affinity.max_aethum": "Максимум эфира",
+  "attribute.name.player.affinity.natural_aethum_regen_speed": "Регенерация эфира",
+  "death.attack.aethum_drain": [
+    {
+      "index": 0,
+      "hoverEvent": {
+        "action": "show_text",
+        "contents": "Довольно небрежно"
+      }
+    },
+    " кончился сок"
+  ],
+
+  "text.affinity.tooltip.aethum_storage": "Флюкс: %d/%d",
+  "text.affinity.tooltip.creative_flux_cache_flux_level": "Всё это, действительно",
+
+  "death.attack.asteroid": "%s был уничтожен астероидом",
+  "death.attack.asteroid.player": "%s был уничтожен астероидом %s",
+  "death.attack.artifact_blade.player": "%s был пронзён клинком артефакта %s",
+  "death.attack.artifact_blade.item": "%s был пронзён %s %s",
+  "death.attack.sawblade": "%s был порезан и нарезан",
+  "death.attack.sawblade.player": "%s был порезан и нарезан при попытке сбежать от %s",
+
+  "gui.affinity.augmented_crafting_table.title": "Улучшенный верстак",
+
+  "gui.affinity.flux_network_visualizer.network_statistics": "Статистика сети",
+  "gui.affinity.flux_network_visualizer.member_count": [
+    "Количество участников: ",
+    {
+      "index": 0,
+      "color": "blue"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.node_count": [
+    "Количество узлов: ",
+    {
+      "index": 0,
+      "color": "blue"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.flux_capacity": [
+    "Ёмкость флюкса: ",
+    {
+      "index": 0,
+      "color": "blue"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.total_flux": [
+    "Всего флюкса: ",
+    {
+      "index": 0,
+      "color": "blue"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.rotate_hint": [
+    "ЛКМ чтобы ",
+    {
+      "text": "вращать",
+      "color": "yellow"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.move_hint": [
+    "ПКМ чтобы ",
+    {
+      "text": "двигать",
+      "color": "yellow"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.reset_hint": [
+    "Двойной клик чтобы ",
+    {
+      "text": "сбросить",
+      "color": "yellow"
+    }
+  ],
+  "gui.affinity.flux_network_visualizer.hover_hint": [
+    "Наведите чтобы ",
+    {
+      "text": "просмотреть информацию",
+      "color": "yellow"
+    }
+  ],
+
+  "gui.affinity.villager_armature.rotate_hint": [
+    "ЛКМ чтобы ",
+    {
+      "text": "вращать",
+      "color": "yellow"
+    }
+  ],
+  "gui.affinity.villager_armature.click_hint": [
+    "ПКМ чтобы ",
+    {
+      "text": "установить цель",
+      "color": "yellow"
+    }
+  ],
+  "gui.affinity.villager_armature.reset_hint": [
+    "Двойной клик чтобы ",
+    {
+      "text": "сбросить",
+      "color": "yellow"
+    }
+  ],
+
+  "advancement.affinity.root.title": "Сродство",
+  "advancement.affinity.root.description": "Ожидают шалости",
+  "advancement.affinity.so_tell_me_whats_your_intention.title": "Так Скажи Мне, Каков Твой Замысел?",
+  "advancement.affinity.so_tell_me_whats_your_intention.description": "Наденьте предмет, зачарованный Проклятием неграмотности",
+  "advancement.affinity.drag_and_drop.title": "Перетащить-и-Бросить",
+  "advancement.affinity.drag_and_drop.description": "Получите Каплю дракона",
+  "advancement.affinity.some_assembly_required.title": "Требуется Некоторая Сборка",
+  "advancement.affinity.some_assembly_required.description": "Улучшьте верстак",
+  "advancement.affinity.this_resource_matters.title": "Этот Ресурс Имеет Значение",
+  "advancement.affinity.this_resource_matters.description": "Получите свой первый кусок материи огоньков",
+  "advancement.affinity.a_resounding_success.title": "Оглушительный Успех",
+  "advancement.affinity.a_resounding_success.description": "Создайте Звонкий колокольчик",
+  "advancement.affinity.resistance_is_futile.title": "Сопротивление Бесполезно",
+  "advancement.affinity.resistance_is_futile.description": "Подготовьте ритуал ассимиляции духа",
+  "advancement.affinity.rock_and_stone.title": "Камень и Камень",
+  "advancement.affinity.rock_and_stone.description": "Вы успешно добыли свой первый Своеобразный сгусток. Вернём его домой, команда.",
+  "advancement.affinity.i_still_use_paint.title": "Я Всё Ещё Использую Paint",
+  "advancement.affinity.i_still_use_paint.description": "Создайте Ядро ритуала осины",
+  "advancement.affinity.isnt_it_iron_sword.title": "Разве Это Не Железо... Меч?",
+  "advancement.affinity.isnt_it_iron_sword.description": "Создайте свой клинок артефакта",
+  "advancement.affinity.unbreakable.title": "Несокрушимый",
+  "advancement.affinity.unbreakable.description": "Стабилизируйте свой клинок артефакта",
+  "advancement.affinity.slayer_of_titans.title": "Убийца Титанов",
+  "advancement.affinity.slayer_of_titans.description": "Усильте свой клинок артефакта используя энергии Ада",
+  "advancement.affinity.everything_is_yours.title": "Всё Твоё",
+  "advancement.affinity.everything_is_yours.description": "Слейте свой клинок артефакта с сердцем дракона. Артемиде бы это понравилось",
+  "advancement.affinity.sup_b.title": "sup(B)",
+  "advancement.affinity.sup_b.description": "Супремум (сокращённо sup; множественное число suprema) подмножества S частично упорядоченного множества P - это наименьший элемент в P, который больше или равен каждому элементу S, если такой элемент существует",
+  "advancement.affinity.big_girl_decisions.title": "Решения Большой Девочки",
+  "advancement.affinity.big_girl_decisions.description": "Специализируйте свой первый прототип посоха",
+  "advancement.affinity.intermix_chamber.title": "Камера Смешения",
+  "advancement.affinity.intermix_chamber.description": "Насытьте варочный котёл",
+  "advancement.affinity.you_cheated.title": "Ты Сжульничал",
+  "advancement.affinity.you_cheated.description": "Получите предмет только для творческого режима",
+  "advancement.affinity.its_a_fidget_cube.title": "Это Фиджет-Куб",
+  "advancement.affinity.its_a_fidget_cube.description": "Уверен, это не вызовет RSI",
+  "advancement.affinity.a_severe_and_continuous_lapse_in_your_judgement.title": "Серьёзный и Постоянный Провал в Вашем Суждении",
+  "advancement.affinity.a_severe_and_continuous_lapse_in_your_judgement.description": "Наденьте шлем, зачарованный и Проклятием неграмотности, и Проклятием связи",
+  "advancement.affinity.living_is_wise_if_you_never_ever_think_twice.title": "Жить Мудро, Если Ты Никогда Не Думаешь Дважды",
+  "advancement.affinity.living_is_wise_if_you_never_ever_think_twice.description": "Найдите предмет, зачарованный Проклятием здоровья",
+  "advancement.affinity.how_many_hours_do_we_fly.title": "Сколько Часов Мы Летим?",
+  "advancement.affinity.how_many_hours_do_we_fly.description": "Приготовьте расширенное Зелье парагравитации",
+  "advancement.affinity.nice_try.title": "Хорошая Попытка",
+  "advancement.affinity.nice_try.description": "Выполните удар клинком артефакта после падения более 100 блоков",
+  "advancement.affinity.return_to_sender_2.title": "Возвращение Отправителю 2",
+  "advancement.affinity.return_to_sender_2.description": "Попадите в шалкера его же снарядом",
+  "advancement.affinity.cache_invalidation.title": "Инвалидация Кэша",
+  "advancement.affinity.cache_invalidation.description": "Разбейте кэш эфирного флюкса, заполненный хотя бы на 50%",
+  "advancement.affinity.when_pigs_fly.title": "Когда Свиньи Полетают",
+  "advancement.affinity.when_pigs_fly.description": "Летайте на свинье",
+  "advancement.affinity.you_re_doomed.title": "Ты Обречён",
+  "advancement.affinity.you_re_doomed.description": "Используйте эфирный перезарядчик чтобы обмануть смерть и стать божественным - временно",
+  "advancement.affinity.when_the_world_is_calling_you.title": "Когда Мир Зовёт Тебя",
+  "advancement.affinity.when_the_world_is_calling_you.description": "Пожертвуйте собой в ритуале",
+  "advancement.affinity.gamedesign.title": "Геймдизайн!",
+  "advancement.affinity.gamedesign.description": "64 самородка в блоке",
+  "advancement.affinity.pure_shot_of_poison_to_my_heart.title": "Чистый Выстрел Яда в Моё Сердце",
+  "advancement.affinity.pure_shot_of_poison_to_my_heart.description": "Пожертвуйте прирученное животное в ритуале",
+  "advancement.affinity.verfluxt_und_zugenaeht.title": "Verfluxt und Zugenäht",
+  "advancement.affinity.verfluxt_und_zugenaeht.description": "Станьте свидетелем провала ритуала",
+  "advancement.affinity.from_two_hundred_cycles_to_one.title": "От 200 Циклов к 1",
+  "advancement.affinity.from_two_hundred_cycles_to_one.description": "Добавьте кэш в вашу сеть эфирного флюкса",
+  "advancement.affinity.opening_the_fluxgates.title": "Открытие Флюкс-Врат",
+  "advancement.affinity.opening_the_fluxgates.description": "Разместите свой первый генератор эфирного флюкса",
+  "advancement.affinity.the_sky_suit.title": "Небесный Костюм!",
+
+  "text.affinity.prefix": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "С",
+      "color": "#0096ff"
+    },
+    {
+      "text": "р",
+      "color": "#009fff"
+    },
+    {
+      "text": "о",
+      "color": "#00a8ff"
+    },
+    {
+      "text": "д",
+      "color": "#00b1ff"
+    },
+    {
+      "text": "с",
+      "color": "#00bbff"
+    },
+    {
+      "text": "т",
+      "color": "#00c4ff"
+    },
+    {
+      "text": "в",
+      "color": "#00cdff"
+    },
+    {
+      "text": "о",
+      "color": "#00d7ff"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    }
+  ],
+  "text.config.affinity.title": [
+    {
+      "translate": "text.affinity.prefix"
+    },
+    " Конфигурация"
+  ],
+  "text.config.affinity.option.renderEntitiesInStereopticonSectionImprints": "Показывать сущности",
+  "text.config.affinity.option.renderBlockEntitiesInStereopticonSectionImprints": "Показывать сущности блоков",
+  "text.config.affinity.option.affineInfuserCostPerDurabilityPoint": "Стоимость флюкса за очко прочности при ремонте",
+  "text.config.affinity.option.maxFluxNodeShards": "Максимум внешних осколков на узел флюкса",
+  "text.config.affinity.section.experimental": {
+    "text": "Экспериментальные",
+    "color": "red"
+  },
+  "text.config.affinity.option.stereopticonSectionImprintRecursionLimit": "Лимит рекурсии",
+  "text.config.affinity.option.stereopticonSectionImprintRecursionLimit.tooltip": "Сколько раз участок стереоскопа может отображаться\nпри вложении внутрь участка другого стереоскопа",
+  "text.config.affinity.option.theSkyIrisIntegration": "Интегрировать Небо с шейдерами Iris",
+  "text.config.affinity.option.unfinishedFeatures": "Незавершённые функции",
+
+  "effect.affinity.dripping": "Капание",
+  "effect.affinity.dripping.desc": "Получил эту капельку",
+  "effect.affinity.bastion_regeneration": "Бастион",
+  "effect.affinity.bastion_regeneration.desc": "Крайне быстрая регенерация при низком здоровье",
+  "effect.affinity.affine": "Аффинный",
+  "effect.affinity.affine.desc": "Исцеляет поражённого в радиусе действия активного аффинного инфузора",
+  "effect.affinity.resonant": "Резонансный",
+  "effect.affinity.resonant.desc": "динггггггггггг",
+
+  "effect.affinity.life_leech": "Пиявка жизни",
+  "effect.affinity.life_leech.desc": "Исцеляет поражённого при атаке",
+  "item.minecraft.potion.effect.life_leech": "Зелье пиявки жизни",
+  "item.minecraft.splash_potion.effect.life_leech": "Взрывное зелье пиявки жизни",
+  "item.minecraft.lingering_potion.effect.life_leech": "Туманное зелье пиявки жизни",
+  "item.minecraft.tipped_arrow.effect.life_leech": "Стрела пиявки жизни",
+
+  "effect.affinity.cat_anxiety": "Кошачья тревога",
+  "effect.affinity.cat_anxiety.desc": "Ох man",
+  "item.minecraft.potion.effect.cat_anxiety": "Зелье кошачьей тревоги",
+  "item.minecraft.splash_potion.effect.cat_anxiety": "Взрывное зелье кошачьей тревоги",
+  "item.minecraft.lingering_potion.effect.cat_anxiety": "Туманное зелье кошачьей тревоги",
+  "item.minecraft.tipped_arrow.effect.cat_anxiety": "Стрела кошачьей тревоги",
+
+  "effect.affinity.steadfast": "Стойкий",
+  "effect.affinity.steadfast.desc": "Временное сопротивление отбрасыванию",
+  "item.minecraft.potion.effect.steadfast": "Зелье сопротивления отбрасыванию",
+  "item.minecraft.splash_potion.effect.steadfast": "Взрывное зелье сопротивления отбрасыванию",
+  "item.minecraft.lingering_potion.effect.steadfast": "Туманное зелье сопротивления отбрасыванию",
+  "item.minecraft.tipped_arrow.effect.steadfast": "Стрела сопротивления отбрасыванию",
+
+  "effect.affinity.flight": "Полет",
+  "effect.affinity.flight.desc": "Хрупкий полёт как в творческом режиме",
+  "effect.affinity.gravity_modifier": "-9.81 Гравитация",
+  "item.minecraft.potion.effect.flight": "Зелье парагравитации",
+  "item.minecraft.splash_potion.effect.flight": "Взрывное зелье парагравитации",
+  "item.minecraft.lingering_potion.effect.flight": "Туманное зелье парагравитации",
+  "item.minecraft.tipped_arrow.effect.flight": "Стрела парагравитации",
+
+  "effect.affinity.freezing": "Замерзание",
+  "effect.affinity.freezing.desc": "Зима близко",
+  "item.minecraft.potion.effect.freezing": "Зелье зимы",
+  "item.minecraft.splash_potion.effect.freezing": "Взрывное зелье зимы",
+  "item.minecraft.lingering_potion.effect.freezing": "Туманное зелье зимы",
+  "item.minecraft.tipped_arrow.effect.freezing": "Стрела зимы",
+
+  "effect.affinity.impending_doom": "Надвигающаяся гибель",
+  "effect.affinity.impending_doom.desc": "Они знали, что он придёт, как всегда приходил, как всегда будет приходить, чтобы пировать на крови нечестивых",
+  "item.minecraft.potion.effect.impending_doom": "Зелье гибели",
+  "item.minecraft.splash_potion.effect.impending_doom": "Взрывное зелье гибели",
+  "item.minecraft.lingering_potion.effect.impending_doom": "Туманное зелье гибели",
+  "item.minecraft.tipped_arrow.effect.impending_doom": "Стрела гибели",
+  "death.attack.doom_potion": "%1$s был разорван и растерзан",
+  "death.attack.threw_doom_potion": "%1$s обнаружил очень мощную механику, которую, к сожалению, пришлось отключить",
+
+  "effect.affinity.banished": "Изгнанный",
+  "effect.affinity.banished.desc": "Временная телепортация, которая заканчивается когда эффект иссякает",
+  "item.minecraft.potion.effect.banished": "Зелье изгнания",
+  "item.minecraft.splash_potion.effect.banished": "Взрывное зелье изгнания",
+  "item.minecraft.lingering_potion.effect.banished": "Туманное зелье изгнания",
+  "item.minecraft.tipped_arrow.effect.banished": "Стрела изгнания",
+
+  "effect.affinity.unholy": "Нечестивый",
+  "effect.affinity.unholy.desc": "Поражённый становится уязвимым к зачарованию Казнь нежити",
+  "item.minecraft.potion.effect.unholy": "Нечестивая вода",
+  "item.minecraft.splash_potion.effect.unholy": "Взрывная нечестивая вода",
+  "item.minecraft.lingering_potion.effect.unholy": "Туманная нечестивая вода",
+  "item.minecraft.tipped_arrow.effect.unholy": "Нечестивая стрела",
+
+  "item.minecraft.potion.effect.dubious": "Сомнительное зелье",
+  "item.minecraft.splash_potion.effect.dubious": "Толстое взрывное зелье",
+  "item.minecraft.lingering_potion.effect.dubious": "Толстое вездесущее зелье",
+  "item.minecraft.tipped_arrow.effect.dubious": "Сомнительная стрела",
+
+  "item.minecraft.potion.effect.resistance": "Зелье устойчивости",
+  "item.minecraft.splash_potion.effect.resistance": "Взрывное зелье устойчивости",
+  "item.minecraft.lingering_potion.effect.resistance": "Туманное зелье устойчивости",
+  "item.minecraft.tipped_arrow.effect.resistance": "Стрела устойчивости",
+
+  "item.minecraft.potion.effect.glowing": "Зелье свечения",
+  "item.minecraft.splash_potion.effect.glowing": "Взрывное зелье свечения",
+  "item.minecraft.lingering_potion.effect.glowing": "Туманное зелье свечения",
+  "item.minecraft.tipped_arrow.effect.glowing": "Стрела свечения",
+
+  "item.minecraft.potion.effect.blindness": "Зелье слепоты",
+  "item.minecraft.splash_potion.effect.blindness": "Взрывное зелье слепоты",
+  "item.minecraft.lingering_potion.effect.blindness": "Туманное зелье слепоты",
+  "item.minecraft.tipped_arrow.effect.blindness": "Стрела слепоты",
+
+  "item.minecraft.potion.effect.wither": "Зелье увядания",
+  "item.minecraft.splash_potion.effect.wither": "Взрывное зелье увядания",
+  "item.minecraft.lingering_potion.effect.wither": "Туманное зелье увядания",
+  "item.minecraft.tipped_arrow.effect.wither": "Стрела увядания",
+
+  "item.minecraft.potion.effect.hunger": "Зелье изнурения",
+  "item.minecraft.splash_potion.effect.hunger": "Взрывное зелье изнурения",
+  "item.minecraft.lingering_potion.effect.hunger": "Туманное зелье изнурения",
+  "item.minecraft.tipped_arrow.effect.hunger": "Стрела изнурения",
+
+  "dimension.minecraft.overworld": "Верхний мир",
+  "dimension.minecraft.the_nether": "Незер",
+  "dimension.minecraft.the_end": "Энд",
+
+  "villagerType.minecraft.desert": "Пустыня",
+  "villagerType.minecraft.jungle": "Джунгли",
+  "villagerType.minecraft.plains": "Равнины",
+  "villagerType.minecraft.savanna": "Саванна",
+  "villagerType.minecraft.snow": "Снег",
+  "villagerType.minecraft.swamp": "Болото",
+  "villagerType.minecraft.taiga": "Тайга"
+}

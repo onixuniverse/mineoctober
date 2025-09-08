@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "139369A26CED6377"
+	group: ""
+	id: "139369A26CED6377"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BED7E4A786ED5ED"
+			rewards: [{
+				command: "/puffish_skills category unlock @s puffish_skills:mining"
+				exclude_from_claim_all: true
+				id: "354731815003866B"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "5E1B6122CDD52414"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "69DCCD0BB312EF6D"
+			rewards: [{
+				command: "/puffish_skills category unlock @s puffish_skills:lumberjack"
+				exclude_from_claim_all: true
+				id: "531E0EDA88E95A53"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "47C71D22C7EA5EFB"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "66AEBB4916DEF011"
+			rewards: [{
+				command: "/puffish_skills category unlock @s puffish_skills:farming"
+				exclude_from_claim_all: true
+				id: "4D93CA08FBA51A44"
+				type: "command"
+			}]
+			tasks: [{
+				id: "19B187197F9D7BBB"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+	]
+}
