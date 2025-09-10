@@ -4,7 +4,7 @@
 
 ## v2.2.0 - 2509101
 ### General
-> **RU:**
+**RU:**
 > Изменен способ фикса ошибки скорости плавания и других атрибутов
 > Добавлена проверка версии сборки
 > Добавлены новые предметы (артефакты)
@@ -16,7 +16,8 @@
 > Все кастомные датапаки объединены в один большой
 > Добавлено древо навыков для Исследователя
 > Удалены старые конфиг-файлы от ядра Fabric
-> **EN:**
+
+**EN:**
 > The method of fixing the error of swimming speed and other attributes has been changed
 > Added build version check
 > Added new items (artifacts)
