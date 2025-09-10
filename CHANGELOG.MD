@@ -5,19 +5,29 @@
 ## v2.2.0 - 2509101
 ### General
 > **RU:**
-> Изменен способ фикса ошибки скорости плавания и других аттрибутов
+> Изменен способ фикса ошибки скорости плавания и других атрибутов
 > Добавлена проверка версии сборки
 > Добавлены новые предметы (артефакты)
-> Добавлены новые аттрибуты
+> Добавлены новые атрибуты
 > Уменьшен спавн крабов из Crabber's Delight
 > Добавлены отсутствующие нутриенты для некоторой еды
 > Скрыты обязательные ресурспаки
 > Добавлены префиксы нагрузки на систему шейдеров (VL, L, M, H, VH)
 > Все кастомные датапаки объединены в один большой
 > Добавлено древо навыков для Исследователя
-> Удалены страые конфиг-файлы от ядра Fabric
+> Удалены старые конфиг-файлы от ядра Fabric
 > **EN:**
-> 
+> The method of fixing the error of swimming speed and other attributes has been changed
+> Added build version check
+> Added new items (artifacts)
+> Added new attributes
+> Reduced spawn of crabs from Crabber's Delight
+> Added missing nutrients for some food
+> Mandatory resource packs are hidden
+> Added shader system load prefixes (VL, L, M, H, VH)
+> All custom datapacks are combined into one big one
+> Added a skill tree for the Researcher
+> Removed old config files from Fabric core
 
 ### Mods
 - Added: relics-1.21.1-0.10.7.6
