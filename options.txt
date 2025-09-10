@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","eatinganimations_compat","continuity:default","continuity:glass_pane_culling_fix","file/AA4ShaderPatch","file/§6Antique Atlas 4 §fCompat§8§o§k.zip","file/SodiumTranslations.zip","file/MineOctober Localization Pack","file/MineOctober Tips Pack","file/BACAP Language Pack 1.19.zip","file/§aRemodeled-Fence-and-Gates§8_§61.5.zip","file/waystones_1.21.1.zip","file/Fancy_Beds-v4.0.zip","file/DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip","file/crops-3d(2).zip","file/Visual Titles 1.1+Fix","file/cubic-sun-moon-v1.8.3a.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/§fReanimated §3Blue §7v0.08.zip","file/Blues_Better_Monstersv0.11.zip","file/Blues_Better_Skeletons_v0.01.zip","file/Better_Farm_Animals_v0.08.zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","moonlight:merged_pack"]
-incompatibleResourcePacks:["file/DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip","file/crops-3d(2).zip","file/Blues_Better_Monstersv0.11.zip","file/Blues_Better_Skeletons_v0.01.zip"]
+resourcePacks:["vanilla","file/Visual Titles 1.1+Fix.zip","file/MineOctober Tips Pack.zip","file/MineOctober Localization Pack.zip","fabric","mod_resources","eatinganimations_compat","continuity:default","continuity:glass_pane_culling_fix","file/§6Antique Atlas 4 §fCompat§8§o§k.zip","file/SodiumTranslations.zip","file/BACAP Language Pack 1.19.zip","file/AA4ShaderPatch.zip","file/§aRemodeled-Fence-and-Gates§8_§61.5.zip","file/waystones_1.21.1.zip","file/Fancy_Beds-v4.0.zip","file/DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip","file/crops-3d.zip","file/cubic-sun-moon-v1.8.3a.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/§fReanimated §3Blue §7v0.08.zip","file/Blues_Better_Monstersv0.11.zip","file/Blues_Better_Skeletons_v0.01.zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","file/Better_Farm_Animals_v0.08.zip","moonlight:merged_pack"]
+incompatibleResourcePacks:["file/AA4ShaderPatch.zip","file/DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -200,11 +200,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_key.relics.active_abilities_list:key.keyboard.left.alt
 key_key.relics.research_relic:key.keyboard.left.shift
 key_key.carry.desc:key.keyboard.unknown
@@ -270,7 +270,7 @@ key_key.l2mods.swap:key.keyboard.unknown
 key_key.l2mods.shift:key.keyboard.unknown
 key_key.l2mods.alt:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-soundCategory_master:0.30629139072847683
+soundCategory_master:0.10927152317880795
 soundCategory_music:0.10211267605633803
 soundCategory_record:0.5017605633802817
 soundCategory_weather:0.3028169014084507
@@ -278,7 +278,7 @@ soundCategory_block:0.5088028169014085
 soundCategory_hostile:0.6073943661971831
 soundCategory_neutral:0.5017605633802817
 soundCategory_player:0.801056338028169
-soundCategory_ambient:0.5052816901408451
+soundCategory_ambient:0.20774647887323944
 soundCategory_voice:0.5052816901408451
 modelPart_cape:true
 modelPart_jacket:true

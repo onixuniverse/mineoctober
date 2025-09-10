@@ -9,6 +9,11 @@
     "modId": "ctov",
     "version": "3.5.10"
   },
+  "aa4-atlas-1.1.2+1.21.jar": {
+    "jarName": "aa4-atlas-1.1.2+1.21.jar",
+    "modId": "aa4_atlas",
+    "version": "1.1.2"
+  },
   "AchievementOptimizer-neoforge-1.21.1-2.1.0.jar": {
     "jarName": "AchievementOptimizer-neoforge-1.21.1-2.1.0.jar",
     "modId": "achiopt",
@@ -39,10 +44,10 @@
     "modId": "almanac",
     "version": "1.0.2"
   },
-  "AmbientSounds_NEOFORGE_v6.2.0_mc1.21.1.jar": {
-    "jarName": "AmbientSounds_NEOFORGE_v6.2.0_mc1.21.1.jar",
+  "AmbientSounds_NEOFORGE_v6.2.1_mc1.21.1.jar": {
+    "jarName": "AmbientSounds_NEOFORGE_v6.2.1_mc1.21.1.jar",
     "modId": "ambientsounds",
-    "version": "6.2.0"
+    "version": "6.2.1"
   },
   "amendments-1.21-2.0.5-neoforge.jar": {
     "jarName": "amendments-1.21-2.0.5-neoforge.jar",
@@ -94,10 +99,15 @@
     "modId": "badoptimizations",
     "version": "2.3.0"
   },
-  "balm-neoforge-1.21.1-21.0.49.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.49.jar",
+  "balm-neoforge-1.21.1-21.0.51.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.51.jar",
     "modId": "balm",
-    "version": "21.0.49"
+    "version": "21.0.51"
+  },
+  "bcc-21.1.3+mc1.21.1.jar": {
+    "jarName": "bcc-21.1.3+mc1.21.1.jar",
+    "modId": "bcc",
+    "version": "21.1.3"
   },
   "beautify-neoforge-1.21.1-2.0.2.jar": {
     "jarName": "beautify-neoforge-1.21.1-2.0.2.jar",
@@ -164,10 +174,10 @@
     "modId": "chunky",
     "version": "1.4.23"
   },
-  "clientsort-neoforge-2.0.0-beta.15+1.21.1.jar": {
-    "jarName": "clientsort-neoforge-2.0.0-beta.15+1.21.1.jar",
+  "clientsort-neoforge-2.0.0-beta.16+1.21.1.jar": {
+    "jarName": "clientsort-neoforge-2.0.0-beta.16+1.21.1.jar",
     "modId": "clientsort",
-    "version": "2.0.0-beta.15+1.21.1"
+    "version": "2.0.0-beta.16+1.21.1"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
@@ -442,10 +452,10 @@
     "modId": "entityculling",
     "version": "1.8.2"
   },
-  "EuphoriaPatcher-1.6.5-r5.5.1-neoforge.jar": {
-    "jarName": "EuphoriaPatcher-1.6.5-r5.5.1-neoforge.jar",
+  "EuphoriaPatcher-1.6.6-r5.5.1-neoforge.jar": {
+    "jarName": "EuphoriaPatcher-1.6.6-r5.5.1-neoforge.jar",
     "modId": "euphoria_patcher",
-    "version": "1.6.5-r5.5.1-neoforge"
+    "version": "1.6.6-r5.5.1-neoforge"
   },
   "expandeddelight-0.1.3.2.jar": {
     "jarName": "expandeddelight-0.1.3.2.jar",
@@ -745,6 +755,16 @@
     "modId": "letmedespawn",
     "version": "1.5.0"
   },
+  "letsdo-herbalbrews-neoforge-1.1.1.jar": {
+    "jarName": "letsdo-herbalbrews-neoforge-1.1.1.jar",
+    "modId": "herbalbrews",
+    "version": "1.1.1"
+  },
+  "letsdo-wildernature-neoforge-1.1.2.jar": {
+    "jarName": "letsdo-wildernature-neoforge-1.1.2.jar",
+    "modId": "wildernature",
+    "version": "1.1.2"
+  },
   "libIPN-neoforge-1.21-6.5.1.jar": {
     "jarName": "libIPN-neoforge-1.21-6.5.1.jar",
     "modId": "libipn",
@@ -890,10 +910,10 @@
     "modId": "monolib",
     "version": "2.1.0"
   },
-  "moonlight-1.21-2.23.5-neoforge.jar": {
-    "jarName": "moonlight-1.21-2.23.5-neoforge.jar",
+  "moonlight-1.21-2.23.7-neoforge.jar": {
+    "jarName": "moonlight-1.21-2.23.7-neoforge.jar",
     "modId": "moonlight",
-    "version": "1.21-2.23.5"
+    "version": "1.21-2.23.7"
   },
   "moredelight-25.07.28a-1.21-neoforge.jar": {
     "jarName": "moredelight-25.07.28a-1.21-neoforge.jar",
@@ -929,11 +949,6 @@
     "jarName": "no-telemetry-1.9.0.jar",
     "modId": "no_telemetry",
     "version": "1.9.0"
-  },
-  "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar": {
-    "jarName": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
-    "modId": "nerb",
-    "version": "0.4.3"
   },
   "nutritionz-1.1.0.jar": {
     "jarName": "nutritionz-1.1.0.jar",
@@ -1005,10 +1020,10 @@
     "modId": "polymorph",
     "version": "1.1.0+1.21.1"
   },
-  "polytone-1.21-3.5.6.jar": {
-    "jarName": "polytone-1.21-3.5.6.jar",
+  "polytone-1.21-3.5.7.jar": {
+    "jarName": "polytone-1.21-3.5.7.jar",
     "modId": "polytone",
-    "version": "1.21-3.5.6"
+    "version": "1.21-3.5.7"
   },
   "ponderjs-neoforge-1.21.1-2.1.3.jar": {
     "jarName": "ponderjs-neoforge-1.21.1-2.1.3.jar",
@@ -1080,6 +1095,11 @@
     "modId": "resourcefullib",
     "version": "3.0.12"
   },
+  "ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar": {
+    "jarName": "ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar",
+    "modId": "resourcepackoverrides",
+    "version": "21.1.0"
+  },
   "revelationary-neoforge-1.4.0+1.21.1.jar": {
     "jarName": "revelationary-neoforge-1.4.0+1.21.1.jar",
     "modId": "revelationary",
@@ -1125,10 +1145,10 @@
     "modId": "servercore",
     "version": "1.5.10+1.21.1"
   },
-  "SimpleDiscordLink-Universal-3.3.2.jar": {
-    "jarName": "SimpleDiscordLink-Universal-3.3.2.jar",
+  "SimpleDiscordLink-Universal-3.3.3.jar": {
+    "jarName": "SimpleDiscordLink-Universal-3.3.3.jar",
     "modId": "sdlink",
-    "version": "3.3.2"
+    "version": "3.3.3"
   },
   "SimpleRPC-4.0.4.jar": {
     "jarName": "SimpleRPC-4.0.4.jar",
@@ -1175,8 +1195,8 @@
     "modId": "sodiumleafculling",
     "version": "1.0.1"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.2.1338.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.2.1338.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.2.1342.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.2.1342.jar",
     "modId": "sophisticatedbackpacks",
     "version": "3.25.2"
   },
@@ -1185,15 +1205,15 @@
     "modId": "sophisticatedbackpackscreateintegration",
     "version": "0.1.3"
   },
-  "sophisticatedcore-1.21.1-1.3.70.1131.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.3.70.1131.jar",
+  "sophisticatedcore-1.21.1-1.3.71.1143.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.3.71.1143.jar",
     "modId": "sophisticatedcore",
-    "version": "1.3.70"
+    "version": "1.3.71"
   },
-  "sophisticatedstorage-1.21.1-1.5.2.1270.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.2.1270.jar",
+  "sophisticatedstorage-1.21.1-1.5.3.1275.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.3.1275.jar",
     "modId": "sophisticatedstorage",
-    "version": "1.5.2"
+    "version": "1.5.3"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.11.37.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.11.37.jar",
@@ -1245,10 +1265,10 @@
     "modId": "tcdcommons",
     "version": "3.12.7+fabric-1.21"
   },
-  "tenshilib-1.21.1-2.1.2-neoforge.jar": {
-    "jarName": "tenshilib-1.21.1-2.1.2-neoforge.jar",
+  "tenshilib-1.21.1-2.1.3-neoforge.jar": {
+    "jarName": "tenshilib-1.21.1-2.1.3-neoforge.jar",
     "modId": "tenshilib",
-    "version": "1.21.1-2.1.2"
+    "version": "1.21.1-2.1.3"
   },
   "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": {
     "jarName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -1340,20 +1360,20 @@
     "modId": "visualworkbench",
     "version": "21.1.1"
   },
-  "voicechat-neoforge-1.21.1-2.6.2.jar": {
-    "jarName": "voicechat-neoforge-1.21.1-2.6.2.jar",
+  "voicechat-neoforge-1.21.1-2.6.3.jar": {
+    "jarName": "voicechat-neoforge-1.21.1-2.6.3.jar",
     "modId": "voicechat",
-    "version": "1.21.1-2.6.2"
+    "version": "1.21.1-2.6.3"
   },
   "waveycapes-neoforge-1.6.2-mc1.21.jar": {
     "jarName": "waveycapes-neoforge-1.6.2-mc1.21.jar",
     "modId": "waveycapes",
     "version": "1.6.2"
   },
-  "waystones-neoforge-1.21.1-21.1.22.jar": {
-    "jarName": "waystones-neoforge-1.21.1-21.1.22.jar",
+  "waystones-neoforge-1.21.1-21.1.23.jar": {
+    "jarName": "waystones-neoforge-1.21.1-21.1.23.jar",
     "modId": "waystones",
-    "version": "21.1.22"
+    "version": "21.1.23"
   },
   "yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar": {
     "jarName": "yet_another_config_lib_v3-3.7.1+1.21.1-neoforge.jar",
@@ -1384,5 +1404,62 @@
     "jarName": "Zoomify-2.14.4+1.21.1.jar",
     "modId": "zoomify",
     "version": "2.14.4+1.21.1"
+  },
+  "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip (resourcepack)": {
+    "jarName": "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip (resourcepack)"
+  },
+  "AA4ShaderPatch.zip (resourcepack)": {
+    "jarName": "AA4ShaderPatch.zip (resourcepack)"
+  },
+  "BACAP Language Pack 1.19.zip (resourcepack)": {
+    "jarName": "BACAP Language Pack 1.19.zip (resourcepack)"
+  },
+  "Better_Farm_Animals_v0.08.zip (resourcepack)": {
+    "jarName": "Better_Farm_Animals_v0.08.zip (resourcepack)"
+  },
+  "Blues_Better_Monstersv0.11.zip (resourcepack)": {
+    "jarName": "Blues_Better_Monstersv0.11.zip (resourcepack)"
+  },
+  "Blues_Better_Skeletons_v0.01.zip (resourcepack)": {
+    "jarName": "Blues_Better_Skeletons_v0.01.zip (resourcepack)"
+  },
+  "crops-3d.zip (resourcepack)": {
+    "jarName": "crops-3d.zip (resourcepack)"
+  },
+  "cubic-sun-moon-v1.8.3a.zip (resourcepack)": {
+    "jarName": "cubic-sun-moon-v1.8.3a.zip (resourcepack)"
+  },
+  "DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip (resourcepack)": {
+    "jarName": "DinoBrik\u0027s Rum - 2D Optional RP V 1.0.1.zip (resourcepack)"
+  },
+  "Fancy_Beds-v4.0.zip (resourcepack)": {
+    "jarName": "Fancy_Beds-v4.0.zip (resourcepack)"
+  },
+  "MineOctober Localization Pack.zip (resourcepack)": {
+    "jarName": "MineOctober Localization Pack.zip (resourcepack)"
+  },
+  "MineOctober Tips Pack.zip (resourcepack)": {
+    "jarName": "MineOctober Tips Pack.zip (resourcepack)"
+  },
+  "SodiumTranslations.zip (resourcepack)": {
+    "jarName": "SodiumTranslations.zip (resourcepack)"
+  },
+  "Visual Titles 1.1+Fix.zip (resourcepack)": {
+    "jarName": "Visual Titles 1.1+Fix.zip (resourcepack)"
+  },
+  "waystones_1.21.1.zip (resourcepack)": {
+    "jarName": "waystones_1.21.1.zip (resourcepack)"
+  },
+  "§3Blue\u0027s §fBetter Zombies §7v0.13.zip (resourcepack)": {
+    "jarName": "§3Blue\u0027s §fBetter Zombies §7v0.13.zip (resourcepack)"
+  },
+  "§6Antique Atlas 4 §fCompat§8§o§k.zip (resourcepack)": {
+    "jarName": "§6Antique Atlas 4 §fCompat§8§o§k.zip (resourcepack)"
+  },
+  "§aRemodeled-Fence-and-Gates§8_§61.5.zip (resourcepack)": {
+    "jarName": "§aRemodeled-Fence-and-Gates§8_§61.5.zip (resourcepack)"
+  },
+  "§fReanimated §3Blue §7v0.08.zip (resourcepack)": {
+    "jarName": "§fReanimated §3Blue §7v0.08.zip (resourcepack)"
   }
 }

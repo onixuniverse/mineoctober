@@ -1,0 +1,47 @@
+{
+    "id": "tiered:mining_expert_pickaxe_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:pickaxes"
+        }
+    ],
+    "weight": 12,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:mining_expert_pickaxe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:fortune",
+            "modifier": {
+                "name": "tiered:mining_expert_pickaxe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:pickaxe_speed",
+            "modifier": {
+                "name": "tiered:mining_expert_pickaxe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

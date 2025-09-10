@@ -33,6 +33,14 @@ general = {disable_mod = false, auto_start = false, space_modules = true, shadow
 	total_entities_color = 16755200
 	enabled = true
 	lines = {particles = true, entities = true, monster = false, creature = false, ambient = false, axolotls = false, underground_water_creature = false, water_creature = false, water_ambient = false, misc = false, dragon = false, underground_dragon = false, small_dragon = false, glares = false, rascals = false}
+[[modules_left]]
+	name = "help"
+	name_color = 16645526
+	value_color = 5636095
+	enabled_color = 5635925
+	disabled_color = 16733525
+	enabled = true
+	lines = {pie_graph_new = true, fps_tps_new = true, ping = true, help = true}
 
 [[modules_right]]
 	name = "system"

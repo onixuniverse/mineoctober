@@ -29,7 +29,9 @@
     "fog_start": 100,
     "multi_dimension_fog_control": true,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0
+      "minecraft:overworld": 0,
+      "minecraft:the_nether": 0,
+      "minecraft:the_end": 0
     },
     "light_updates": true,
     "item_frame": true,
@@ -45,7 +47,7 @@
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
     "text_contrast": "SHADOW",
-    "show_fps": false,
+    "show_fps": true,
     "show_f_p_s_extended": true,
     "show_coords": false,
     "reduce_resolution_on_mac": false,

@@ -1,0 +1,47 @@
+{
+    "id": "tiered:celestial_melee_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:swords"
+        }
+    ],
+    "weight": 2,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:celestial_melee_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:celestial_melee_1",
+                "operation": "ADD_VALUE",
+                "amount": 5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "additionalentityattributes:player.bonus_loot_count_rolls",
+            "modifier": {
+                "name": "tiered:celestial_melee_1",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

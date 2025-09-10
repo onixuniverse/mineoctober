@@ -45,6 +45,7 @@
 				command: "/puffish_skills category unlock @s puffish_skills:farming"
 				exclude_from_claim_all: true
 				id: "4D93CA08FBA51A44"
+				permission_level: 2
 				type: "command"
 			}]
 			tasks: [{
@@ -52,6 +53,21 @@
 				type: "checkmark"
 			}]
 			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "709A20CEDA1459D6"
+			rewards: [{
+				command: "/puffish_skills category unlock @s puffish_skills:traveling"
+				id: "09C22B95D47ED65D"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "6346882B00DBB2C9"
+				type: "checkmark"
+			}]
+			x: -8.5d
 			y: -4.0d
 		}
 	]

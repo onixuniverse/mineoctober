@@ -1,0 +1,17 @@
+{
+	"unlocked_by_default": false,
+	"exclusive_root": true,
+	"title": "Mining",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:diamond_pickaxe"
+		}
+	},
+	"background": {
+      "texture": "minecraft:textures/block/diamond_ore.png",
+      "width": 32,
+      "height": 32,
+      "position": "tile"
+    }
+}

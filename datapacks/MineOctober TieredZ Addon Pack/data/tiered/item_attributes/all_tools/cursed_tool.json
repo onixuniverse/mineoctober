@@ -1,0 +1,56 @@
+{
+    "id": "tiered:cursed_tools_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:pickaxes"
+        },
+        {
+            "tag": "minecraft:axes"
+        },
+        {
+            "tag": "minecraft:shovels"
+        },
+        {
+            "tag": "minecraft:hoes"
+        }
+    ],
+    "weight": 25,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:cursed_tools_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:repair_cost",
+            "modifier": {
+                "name": "tiered:cursed_tools_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:cursed_tools_1",
+                "operation": "ADD_VALUE",
+                "amount": -3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

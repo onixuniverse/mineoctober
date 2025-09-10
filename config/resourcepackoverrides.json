@@ -1,0 +1,30 @@
+{
+  "schema_version": "2",
+
+  "default_overrides": {
+    "force_compatible": true
+  },
+
+  "pack_overrides": {
+    "req_packs": [
+        "file/AA4ShaderPatch.zip",
+        "file/MineOctober Localization Pack.zip",
+        "file/MineOctober Tips Pack.zip",
+        "file/Visual Titles 1.1+Fix.zip",
+        "file/SodiumTranslations.zip",
+        "file/DinoBrik's Rum - 2D Optional RP V 1.0.1.zip",
+        "file/BACAP Language Pack 1.19.zip",
+        "file/§6Antique Atlas 4 §fCompat§8§o§k.zip"
+    ],
+    "vanilla": {
+      "hidden": true
+    },
+    "mod_resources": {
+      "hidden": true
+    },
+    "$$req_packs": {
+      "hidden": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "max(level ^ 2.75 + 10, 800)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_jump": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.jump"
+								}
+							}
+						]
+					},
+					"is_swim": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.swim_one_cm"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_jump | is_swim",
+						"expression": "1"
+					}
+				]
+			}
+		}
+	]
+}

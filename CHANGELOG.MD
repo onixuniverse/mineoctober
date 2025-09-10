@@ -1,13 +1,83 @@
-# MineOctober 2025
+# MineOctober NF 2025
+
+---
+
+## v2.2.0 - 2509101
+### General
+> **RU:**
+> Изменен способ фикса ошибки скорости плавания и других аттрибутов
+> Добавлена проверка версии сборки
+> Добавлены новые предметы (артефакты)
+> Добавлены новые аттрибуты
+> Уменьшен спавн крабов из Crabber's Delight
+> Добавлены отсутствующие нутриенты для некоторой еды
+> Скрыты обязательные ресурспаки
+> Добавлены префиксы нагрузки на систему шейдеров (VL, L, M, H, VH)
+> Все кастомные датапаки объединены в один большой
+> Добавлено древо навыков для Исследователя
+> Удалены страые конфиг-файлы от ядра Fabric
+> **EN:**
+> 
+
+### Mods
+- Added: relics-1.21.1-0.10.7.6
+- Added: rarcompat-1.21-0.9.7
+- Added: artifacts-neoforge-13.0.7
+- Added: additional_attributes-1.21.1-1.2.2
+- Added: sinytra1343-2.0.0
+- Added: bcc-21.1.3+mc1.21.1
+- Added: CraftTweaker-neoforge-1.21.1-21.0.34
+- Added: aa4-atlas-1.1.2+1.21
+- Added: ResourcePackOverrides-v21.1.0-1.21.1-NeoForge
+- Added: letsdo-herbalbrews-neoforge-1.1.1
+- Added: letsdo-wildernature-neoforge-1.1.2
+
+- Updated: immersive_aircraft-1.4.0+1.21.1-neoforge
+- Updated: crittersandcompanions-neoforge-1.21.1-2.3.2
+- Updated: moonlight-1.21-2.23.5-neoforge
+- Updated: waystones-neoforge-1.21.1-21.1.23
+- Updated: voicechat-neoforge-1.21.1-2.6.3
+- Updated: tenshilib-1.21.1-2.1.3-neoforge
+- Updated: SimpleDiscordLink-Universal-3.3.3
+- Updated: polytone-1.21-3.5.7
+- Updated: EuphoriaPatcher-1.6.6-r5.5.1-neoforge
+- Updated: balm-neoforge-1.21.1-21.0.51
+- Updated: AmbientSounds_NEOFORGE_v6.2.1_mc1.21.1
+- Updated: sophisticatedcore-1.21.1-1.3.71.1143
+- Updated: sophisticatedbackpacks-1.21.1-3.25.2.1342
+- Updated: moonlight-1.21-2.23.7-neoforge
+- Updated: clientsort-neoforge-2.0.0-beta.16+1.21.1
+
+- Removed: Not Enough Recipe Book-NEOFORGE-0.4.3+1.21
+
+### Resourcepacks
+- Removed: NatureX 
+
+### Shaderpacks
+- Added: BSL_v10.0
+- Added: Solas Shader V2.9b
+- Added: photon_v1.2a
+- Added: iterationT 3.2.0
+- Added: miniature-shader-2.16.1
+- Added: MakeUp-UltraFast-9.3d
+
+### Known Issues
+> - 1 \\\ Crash of the game due to the Distant Horizons mod with some old-generation AMD graphics cards
 
 ---
 
 ## v2.1.9 - 2509071
 ### General
+> **RU:**
 > Добавлено много модов на оптимизацию клиента и сервера.
 > Удалён Palladium, как возможный виновник краша №2.
 > Добавлен мод на загрузку пиратских скинов через Fly.by.
 > Добавлен мод на интеграцию сборки с Discord RPC.
+> **EN:**
+> Many mods have been added to optimize the client and server.
+> Palladium has been removed as a possible culprit of crash #2.
+> Added a mod to download pirate skins via Fly.by .
+> Added a mod to integrate the build with Discord RPC.
 
 ### Mods
 - Added: packetfixer-3.3.0-1.20.5-1.21.X-merged
