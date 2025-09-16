@@ -1,0 +1,175 @@
+{
+	id: "7969EFC16E9D6F8D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "1B5CBDC90D9455B3"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 0.9f
+		}
+		{
+			count: 4
+			id: "27F25D51F045754B"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "53AB031DA37E4534"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 2
+			id: "37D214A286A0D3E3"
+			item: {
+				count: 1
+				id: "minecraft:gold_block"
+			}
+			weight: 0.7f
+		}
+		{
+			id: "228B1656563798C9"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "2968AE5CF3EA939D"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 2
+			id: "21489957355403ED"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "2B1BED8D83A295D3"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 16
+			id: "28A6846D908F1D00"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{ id: "0FBE7A169C67DBBD", item: { count: 1, id: "crabbersdelight:clam_chowder" } }
+		{
+			id: "5335AA5973E9AF53"
+			item: {
+				count: 1
+				id: "pastel:enchanted_golden_carrot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "437C0E4D0022A2D9"
+			item: {
+				count: 1
+				id: "irons_spellbooks:common_ink"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "1AEE9C4C3D3B3B0C"
+			type: "xp"
+			weight: 1.1f
+			xp: 100
+		}
+		{
+			count: 4
+			id: "1A726963DFE0E9A3"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 1.1f
+		}
+		{
+			count: 4
+			id: "24802A18EAE1E9FF"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{ id: "2A4DD6E3A69020BA", item: { components: { "minecraft:potion_contents": { potion: "minecraft:night_vision" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "14EF3C705D1B5A82", item: { components: { "minecraft:potion_contents": { potion: "minersdelight:haste" } }, count: 1, id: "minecraft:splash_potion" } }
+		{
+			count: 2
+			id: "7B840A9FCE265B1B"
+			item: {
+				count: 1
+				id: "minecraft:sea_lantern"
+			}
+		}
+		{ id: "24FC35654EC7E11F", item: { count: 1, id: "comforts:sleeping_bag_white" } }
+		{ id: "4F8E38125DD9DE37", item: { count: 1, id: "pastel:lucky_roll" } }
+		{ id: "35B3EB275A507C29", item: { count: 1, id: "dndesires:pumpkin_milkshake" } }
+		{
+			count: 2
+			id: "008F5EECFAFEC25D"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			id: "2D1C20FDCB175258"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:backpack"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "0E3E3078FFD49F43"
+			type: "xp"
+			weight: 0.15f
+			xp: 5
+		}
+		{
+			count: 4
+			id: "0896ECE5B1A87291"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:chest"
+			}
+		}
+		{ id: "3AA61674D1CD2ED3", item: { count: 1, id: "plushies:red_fox_plushie" } }
+		{ id: "48B5FC3B247DF108", item: { count: 1, id: "plushies:goat_plushie" } }
+		{ id: "35F1EE90ED779AF5", item: { count: 1, id: "plushies:skeleton_horse_plushie" } }
+		{ id: "27C76C1A84324F60", item: { count: 1, id: "plushies:small_tropical_fish_plushie" } }
+		{ id: "4B9AFBCF510E761E", item: { count: 1, id: "plushies:strider_plushie" } }
+		{ id: "3D33A00E3DEB62B3", item: { count: 1, id: "plushies:white_rabbit_plushie" } }
+	]
+}

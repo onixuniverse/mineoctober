@@ -1,0 +1,440 @@
+{
+	autofocus_id: "3D6259FBCAA99583"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_progression"
+	group: ""
+	icon: {
+		id: "endrem:cursed_eye"
+	}
+	id: "576F6A1E4D30F4F2"
+	images: [
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "mineoctober:item/quests_endventure"
+			rotation: 0.0d
+			width: 16.0d
+			x: -7.5d
+			y: -10.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "38C09CF7914BEE30"
+			shape: "rsquare"
+			tasks: [{
+				id: "03BBDE7F498EA734"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "047ACE4F6C1560F0"
+			shape: "rsquare"
+			tasks: [{
+				id: "49FD7EBD2F252C09"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "498D22534A947B79"
+			shape: "rsquare"
+			tasks: [{
+				id: "6030ACF39D2AE60F"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "41C643E334BA412E"
+			shape: "rsquare"
+			tasks: [{
+				id: "07551255E03F8720"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "79B7F2CF9843FFCB"
+			shape: "rsquare"
+			tasks: [{
+				id: "3F8715E27985B8D4"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "473610BEA4E1765D"
+			shape: "rsquare"
+			tasks: [{
+				id: "4BC19283BBBB6725"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "4D54723C26FB8C44"
+			shape: "rsquare"
+			tasks: [{
+				id: "27973190F35E7A37"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "5B2ECDE4D4FF3D8D"
+			progression_mode: "flexible"
+			shape: "rsquare"
+			tasks: [{
+				id: "4B7EDC6777C37671"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "509760809535E55E"
+			progression_mode: "flexible"
+			shape: "rsquare"
+			tasks: [{
+				id: "2192A51B50E6D55A"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "1B876E65905AE114"
+			progression_mode: "flexible"
+			shape: "rsquare"
+			tasks: [{
+				id: "5F06D21207C52E7F"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "7DDA573B83BD4B2D"
+			progression_mode: "flexible"
+			shape: "rsquare"
+			tasks: [{
+				id: "2C4615E77E17AB5C"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B7298316481A1CF"]
+			hide_dependency_lines: true
+			id: "1A1A29A846DABADB"
+			shape: "rsquare"
+			tasks: [{
+				id: "1403EF56C46F4E81"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			hide_until_deps_complete: true
+			id: "5B7298316481A1CF"
+			rewards: [{
+				count: 2
+				id: "4968C71B8513376B"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "509D5321A4F9841D"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"047ACE4F6C1560F0"
+				"79B7F2CF9843FFCB"
+				"7DDA573B83BD4B2D"
+				"41C643E334BA412E"
+				"1A1A29A846DABADB"
+				"498D22534A947B79"
+				"473610BEA4E1765D"
+				"4D54723C26FB8C44"
+				"5B2ECDE4D4FF3D8D"
+				"38C09CF7914BEE30"
+				"509760809535E55E"
+				"1B876E65905AE114"
+			]
+			hide_dependency_lines: true
+			id: "3D6259FBCAA99583"
+			rewards: [{
+				id: "620A0DB3D8E30D97"
+				type: "xp"
+				xp: 50
+			}]
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "343ED73AE0A17261"
+				type: "dimension"
+			}]
+			x: -7.5d
+			y: -4.9d
+		}
+		{
+			dependencies: ["3052F9967211F448"]
+			id: "07655CF543C452F8"
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "0D5FDB7F41EE9FD3"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D6259FBCAA99583"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "3052F9967211F448"
+			rewards: [
+				{
+					id: "719B6E67C4260F9D"
+					type: "xp"
+					xp: 8000
+				}
+				{
+					count: 8
+					id: "026D8E966C2A624F"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "2DC46985587EDE9C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3052F9967211F448"]
+			id: "7C185DB8566F7E33"
+			rewards: [{
+				id: "214C7068BF2A23E7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "7C70E53A942A8282"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3052F9967211F448"]
+			id: "746F82D541EBA386"
+			optional: true
+			rewards: [
+				{
+					id: "0D98E5B11E26D456"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 164
+					id: "17678618F6845004"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1BA1F80CFC203924"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.75d
+		}
+	]
+}

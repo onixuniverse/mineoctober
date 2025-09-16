@@ -1,0 +1,198 @@
+{
+	id: "2A65B28222932CCD"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "47550E968F9EF0D8"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "37847A47EB0F1358"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			id: "0CCD9181E8A01003"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 8
+			id: "2426ECDB022D9DF2"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{ id: "3979E16BD87422E8", item: { count: 1, id: "minecraft:amethyst_cluster" } }
+		{
+			count: 16
+			id: "27438A8F5F9A9B7B"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+		}
+		{
+			count: 8
+			id: "6DD5CC8A1D6851BB"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{
+			count: 4
+			id: "41A36DE1F5A46864"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+		}
+		{
+			count: 2
+			id: "532627F6837E465D"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "16FE268EB87F213B"
+			item: {
+				count: 1
+				id: "minecraft:apple"
+			}
+		}
+		{
+			id: "317FC4CDD9B85577"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:sharpness": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 4
+			id: "02D28A1D2DBD3150"
+			item: {
+				count: 1
+				id: "irons_spellbooks:uncommon_ink"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 8
+			id: "657CA3BCDF373EC1"
+			item: {
+				count: 1
+				id: "irons_spellbooks:common_ink"
+			}
+		}
+		{
+			count: 4
+			id: "31EC7BF2F7989913"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			count: 2
+			id: "2C1B00230C1B11B9"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 0.7f
+		}
+		{
+			count: 4
+			id: "3EB1BB0659C56917"
+			item: {
+				count: 1
+				id: "minecraft:candle"
+			}
+		}
+		{
+			count: 8
+			id: "15625B5ADB2751FC"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+		{
+			count: 2
+			id: "509ABE803A6B76BE"
+			item: {
+				count: 1
+				id: "minecraft:glowstone"
+			}
+			weight: 0.8f
+		}
+		{ id: "500D76EB99F2A1AC", item: { count: 1, id: "farmersdelight:skillet" } }
+		{ id: "6BDF13C96AD1B2CE", item: { count: 1, id: "farmersdelight:stove" } }
+		{
+			count: 16
+			id: "2DA08C628DC1A28B"
+			item: {
+				count: 1
+				id: "farmersdelight:rice"
+			}
+		}
+		{ id: "50CB90A03E9F7BB3", item: { count: 1, id: "farmersdelight:chocolate_pie" } }
+		{
+			count: 2
+			id: "0017169BF49D773C"
+			item: {
+				count: 1
+				id: "farmersdelight:mixed_salad"
+			}
+		}
+		{
+			count: 2
+			id: "66601EBFC045A02E"
+			item: {
+				count: 1
+				id: "farmersdelight:chocolate_pie"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "2CC02CEC3C8C52CE"
+			item: {
+				count: 1
+				id: "plushies:sheep_plushie"
+			}
+			weight: 1.1f
+		}
+		{
+			id: "7EF8D3D05A54AEFC"
+			item: {
+				count: 1
+				id: "plushies:squid_plushie"
+			}
+			weight: 1.1f
+		}
+	]
+}

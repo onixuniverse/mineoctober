@@ -1,16 +1,34 @@
 {
+	autofocus_id: "1BED7E4A786ED5ED"
 	default_hide_dependency_lines: false
+	default_min_width: 1
 	default_quest_shape: ""
 	filename: "139369A26CED6377"
 	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "dawnoftimebuilder:cypress"
+	}
 	id: "139369A26CED6377"
-	order_index: 0
+	images: [{
+		height: 2.0d
+		image: "mineoctober:item/quests_skills"
+		rotation: 0.0d
+		width: 7.0d
+		x: -5.5d
+		y: -6.0d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7E735829C70E829F"]
+			icon: {
+				id: "minecraft:deepslate_emerald_ore"
+			}
 			id: "1BED7E4A786ED5ED"
 			rewards: [{
-				command: "/puffish_skills category unlock @s puffish_skills:mining"
+				command: "/puffish_skills category unlock @s puffish_skills:miner"
 				exclude_from_claim_all: true
 				id: "354731815003866B"
 				permission_level: 2
@@ -24,6 +42,10 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7E735829C70E829F"]
+			icon: {
+				id: "biomeswevegone:aspen_log"
+			}
 			id: "69DCCD0BB312EF6D"
 			rewards: [{
 				command: "/puffish_skills category unlock @s puffish_skills:lumberjack"
@@ -40,9 +62,13 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7E735829C70E829F"]
+			icon: {
+				id: "farmersdelight:rich_soil_farmland"
+			}
 			id: "66AEBB4916DEF011"
 			rewards: [{
-				command: "/puffish_skills category unlock @s puffish_skills:farming"
+				command: "/puffish_skills category unlock @s puffish_skills:farmer"
 				exclude_from_claim_all: true
 				id: "4D93CA08FBA51A44"
 				permission_level: 2
@@ -56,9 +82,93 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7E735829C70E829F"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gills: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										chance: {
+											initialValue: 0.07325d
+										}
+									}
+								}
+								slipping: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 20.13525d
+										}
+										speed: {
+											initialValue: 0.00719d
+										}
+									}
+								}
+								swimming: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 30.47706d
+										}
+										speed: {
+											initialValue: 0.00798d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:amphibian_boot"
+			}
 			id: "709A20CEDA1459D6"
 			rewards: [{
-				command: "/puffish_skills category unlock @s puffish_skills:traveling"
+				command: "/puffish_skills category unlock @s puffish_skills:explorer"
 				id: "09C22B95D47ED65D"
 				permission_level: 2
 				type: "command"
@@ -68,6 +178,16 @@
 				type: "checkmark"
 			}]
 			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			id: "1D82BDEB070E5EC4"
+			tasks: [{
+				id: "01FE8D5882FB1D59"
+				type: "checkmark"
+			}]
+			x: -2.5d
 			y: -4.0d
 		}
 	]
