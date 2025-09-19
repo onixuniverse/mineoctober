@@ -9,7 +9,7 @@
         }
     },
     "background": {
-      "texture": "thaumon:textures/block/silverwood_log.png",
+      "texture": "minecraft:textures/block/dirt_path_top.png",
       "width": 32,
       "height": 32,
       "position": "tile"

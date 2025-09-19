@@ -1,7 +1,7 @@
 #General settings
 [general]
 	#The version of the modpack
-	modpackVersion = "v2.2.0"
+	modpackVersion = "v2.2.1"
 	#The name of the modpack
 	modpackName = "MineOctober 2025"
 	#modpackProjectID is now deprecated and will be removed soon

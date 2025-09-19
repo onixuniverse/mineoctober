@@ -5,6 +5,7 @@
 cosmetics/
 crash-reports/
 data/fabricDefaultResourcePacks.dat
+data/surveyor/
 debug/
 defaultconfigs/
 downloads/
@@ -18,6 +19,8 @@ schematics/
 screenshots/
 sdlinkstorage/
 saves/
+shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.8/
+Distant_Horizons_server_data/
 command_history.txt
 fabricloader.log
 immersivetips.json
@@ -25,3 +28,4 @@ servers.dat
 supportercache.json
 usercache.json
 usernamecache.json
+foolproof.json

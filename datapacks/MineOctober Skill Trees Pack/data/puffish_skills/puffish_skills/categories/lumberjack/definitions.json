@@ -50,12 +50,12 @@
 			},
 			"type": "item"
 		},
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
 		"metadata": {
 			"icon": "0mefuj23d6e0ofwn"
 		},
@@ -93,32 +93,32 @@
 		],
 		"title": "+0.1 Fortune"
 	},
-	"fortune+0.3": {
+	"bonus_tree_loot+0.3": {
 		"icon": {
 			"data": {
-				"item": "minecraft:emerald"
+				"item": "minecraft:oak_log"
 			},
 			"type": "item"
 		},
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
 		"metadata": {
 			"icon": "knd8vbq5eqo7b0ba"
 		},
 		"rewards": [
 			{
 				"data": {
-					"attribute": "puffish_skills:player.fortune",
+					"attribute": "mineoctober:bonus_tree_loot",
 					"operation": "addition",
-					"value": 0.3
+					"value": 0.1
 				},
 				"type": "puffish_skills:attribute"
 			}
 		],
-		"title": "+0.3 Fortune"
+		"title": "+0.1 Bonus Tree Drop"
 	}
 }

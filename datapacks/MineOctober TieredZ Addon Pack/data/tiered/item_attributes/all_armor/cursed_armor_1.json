@@ -1,0 +1,65 @@
+{
+    "id": "tiered:cursed_armor_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:head_armor"
+        },
+        {
+            "tag": "minecraft:chest_armor"
+        },
+        {
+            "tag": "minecraft:leg_armor"
+        },
+        {
+            "tag": "minecraft:foot_armor"
+        }
+    ],
+    "weight": 25,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:cursed_armor_1",
+                "operation": "ADD_VALUE",
+                "amount": 4
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:cursed_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.2
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:cursed_armor_1",
+                "operation": "ADD_VALUE",
+                "amount": -2
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        }
+    ]
+}

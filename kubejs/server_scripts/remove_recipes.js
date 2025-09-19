@@ -14,4 +14,6 @@ ServerEvents.recipes(event => {
     removedRecipes.forEach(item => {
         event.remove({ output: item });
     });
+
+    event.remove({ mod: 'plushies' })
 });

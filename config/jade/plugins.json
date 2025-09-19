@@ -79,6 +79,9 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -96,8 +99,8 @@
   "waystones": {
     "waystone": true
   },
-  "gravestone": {
-    "grave": true
+  "corpse": {
+    "corpse": true
   },
   "balm": {
     "jade": true

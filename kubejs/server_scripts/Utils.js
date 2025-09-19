@@ -1,8 +1,16 @@
 //priority: 2147483647
 
 const disabledItems = [
+    // Artifacts
+    'artifacts:everlasting_beef',
+    'artifacts:eternal_steak',
+
+    // Relics
+    'relics:infinity_ham',
+
     // Craete
     'create:dough',
+    'create:cardboard_sword',
     'create:handheld_worldshaper',
     'create:creative_blaze_cake',
 	'create:creative_motor',
@@ -268,13 +276,17 @@ const removedRecipes = [
     'sophisticatedstorage:storage_input',
     'sophisticatedstorage:controller',
 
-    'smallships:sail'
+    'smallships:sail',
+
+    'aa4-atlas:antique_atlas'
 ];
 
 const recipeIds = [
     'sophisticatedbackpacks:iron_backpack_from_copper',
 
     'supplementaries:cannon_2',
+
+    'vegandelight:integration/create/compacting/agave_from_compacting'
 ];
 
 const hiddenItems = [

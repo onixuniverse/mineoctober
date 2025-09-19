@@ -132,8 +132,8 @@
 			id: "38C09CF7914BEE30"
 			shape: "rsquare"
 			tasks: [{
-				id: "03BBDE7F498EA734"
-				item: { count: 1, id: "endrem:cursed_eye" }
+				id: "4C83DA1A6A4CD8F2"
+				item: { count: 1, id: "endrem:wither_eye" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -145,8 +145,8 @@
 			id: "047ACE4F6C1560F0"
 			shape: "rsquare"
 			tasks: [{
-				id: "49FD7EBD2F252C09"
-				item: { count: 1, id: "endrem:lost_eye" }
+				id: "7938A4C4F330ADC8"
+				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -158,7 +158,7 @@
 			id: "498D22534A947B79"
 			shape: "rsquare"
 			tasks: [{
-				id: "6030ACF39D2AE60F"
+				id: "306A37BE2D0D653A"
 				item: { count: 1, id: "endrem:magical_eye" }
 				type: "item"
 			}]
@@ -171,8 +171,8 @@
 			id: "41C643E334BA412E"
 			shape: "rsquare"
 			tasks: [{
-				id: "07551255E03F8720"
-				item: { count: 1, id: "endrem:old_eye" }
+				id: "3FB1DB3141557A24"
+				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -184,8 +184,8 @@
 			id: "79B7F2CF9843FFCB"
 			shape: "rsquare"
 			tasks: [{
-				id: "3F8715E27985B8D4"
-				item: { count: 1, id: "endrem:exotic_eye" }
+				id: "591052B8DD823DA7"
+				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -197,8 +197,8 @@
 			id: "473610BEA4E1765D"
 			shape: "rsquare"
 			tasks: [{
-				id: "4BC19283BBBB6725"
-				item: { count: 1, id: "endrem:nether_eye" }
+				id: "2F83A10F6BB1914B"
+				item: { count: 1, id: "endrem:old_eye" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -210,8 +210,8 @@
 			id: "4D54723C26FB8C44"
 			shape: "rsquare"
 			tasks: [{
-				id: "27973190F35E7A37"
-				item: { count: 1, id: "endrem:cryptic_eye" }
+				id: "401CF11F9F7A0D11"
+				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -224,8 +224,8 @@
 			progression_mode: "flexible"
 			shape: "rsquare"
 			tasks: [{
-				id: "4B7EDC6777C37671"
-				item: { count: 1, id: "endrem:corrupted_eye" }
+				id: "644C825F3792C210"
+				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -238,8 +238,8 @@
 			progression_mode: "flexible"
 			shape: "rsquare"
 			tasks: [{
-				id: "2192A51B50E6D55A"
-				item: { count: 1, id: "endrem:evil_eye" }
+				id: "3146713D7281966D"
+				item: { count: 1, id: "endrem:guardian_eye" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -252,8 +252,8 @@
 			progression_mode: "flexible"
 			shape: "rsquare"
 			tasks: [{
-				id: "5F06D21207C52E7F"
-				item: { count: 1, id: "endrem:black_eye" }
+				id: "2B139DA5A22C4C5A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(endrem:witch_eye)item(endrem:undead_eye))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -10.5d
@@ -266,8 +266,8 @@
 			progression_mode: "flexible"
 			shape: "rsquare"
 			tasks: [{
-				id: "2C4615E77E17AB5C"
-				item: { count: 1, id: "endrem:witch_eye" }
+				id: "6864BC6B3945BDFC"
+				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -279,8 +279,8 @@
 			id: "1A1A29A846DABADB"
 			shape: "rsquare"
 			tasks: [{
-				id: "1403EF56C46F4E81"
-				item: { count: 1, id: "endrem:wither_eye" }
+				id: "2BD9CCC0D985BDE2"
+				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -348,8 +348,8 @@
 				id: "0D5FDB7F41EE9FD3"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3D6259FBCAA99583"]
@@ -412,11 +412,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "0D98E5B11E26D456"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 164
 					id: "17678618F6845004"
 					item: {
@@ -424,6 +419,12 @@
 						id: "minecraft:firework_rocket"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33494432DD5D5FB7"
+					table_id: 3030805612006646610L
+					type: "random"
 				}
 			]
 			shape: "rsquare"

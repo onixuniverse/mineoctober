@@ -1,0 +1,47 @@
+{
+    "id": "tiered:lightweight_shield_1",
+    "verifiers": [
+        {
+            "tag": "c:tools/shields"
+        }
+    ],
+    "weight": 22,
+    "style": {
+        "color": "white"
+    },
+    "attributes": [
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:lightweight_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:lightweight_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.08
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:lightweight_shield_1",
+                "operation": "ADD_VALUE",
+                "amount": -2
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

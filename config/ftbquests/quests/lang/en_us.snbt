@@ -1,24 +1,27 @@
 {
 	chapter.09B56D111668F538.title: "&6&nGetting Started!&r"
-	chapter.139369A26CED6377.title: "&9Skills"
+	chapter.139369A26CED6377.title: "&2Skills"
 	chapter.19BE083ACF488E0F.title: "&5Iron's Spells 'n Spellbooks&r"
 	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
 	chapter.2385B4F2FA029016.title: "&5Alshanex's Familiars&r"
-	chapter.3067D17055C9C5A7.title: "&dSmall Ships&r"
+	chapter.3067D17055C9C5A7.title: "&6Small Ships&r"
 	chapter.464FB437D5DF7824.title: "&eArtifacts"
+	chapter.49288E5813B8C913.title: "&3AstikorCarts Redux"
 	chapter.53732D728CE0A308.title: "&aCreate"
-	chapter.576F6A1E4D30F4F2.title: "&l&aThe Endventure"
+	chapter.576F6A1E4D30F4F2.title: "&aThe Endventure"
 	chapter.734C4C2CDBC52F6C.title: "&3Sophisticated Storage&r"
 	chapter_group.58AC0983F019A24B.title: "Magic"
 	chapter_group.6B341B8F1D0CFE88.title: "Industry"
-	file.0000000000000001.title: "MineOctober"
+	file.0000000000000001.title: "&7Mine&r&6&lOctober&r"
 	quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10% Summon Damage"
 	quest.008E19FAAC054402.quest_subtitle: "Polar Bear Hide can be dropped by Polar Bears when using the Ravaging enchantment on a hatchet."
 	quest.009A6AA7EEEC1F17.quest_desc: [
 		"&2&lJust Enough Items (JEI)&r is a mod for viewing items and recipes."
 		""
-		"You may have already noticed the panel with all the items from the mods displayed to the right of your inventory."
+		"&2JEI&r is hidden by default; you can start typing a query in the search bar or click the \"Show Recipes\" button to reveal it."
 		""
+		"You may have already noticed the panel with all the items from the mods displayed to the right of your inventory."
+		"{@pagebreak}"
 		"How to use:"
 		""
 		"    - To see how to craft an item, hover over it and press &6[LMB]&r or, by default, the &6[R]&r key."
@@ -179,9 +182,14 @@
 		""
 		"To \"unmount\" the contraption, place it back at the Cart Assembler and turn off the redstone signal."
 	]
-	quest.0560F717010F1833.quest_subtitle: "Dropped from Mooshrooms."
 	quest.0562F21AA82B2961.quest_subtitle: "Craft any Diamond Chest type."
 	quest.05A39ED901BC6569.quest_subtitle: "Reduces the time of debuffs"
+	quest.05AE58DC5E4EB37C.quest_desc: [
+		"Gather wood and create your first &ncrafting table&r — the essential tool for all future discoveries. Without it, you won't be able to craft even the simplest tools."
+		""
+		"&9Onward to new achievements!&r"
+	]
+	quest.05AE58DC5E4EB37C.quest_subtitle: "Your adventure begins here!"
 	quest.05AE58DC5E4EB37C.title: "Crafting Table"
 	quest.05B32DE12868C6DE.quest_desc: [
 		"With your &ewooden pickaxe&r in hand, breaking stone is no longer a problem."
@@ -191,12 +199,6 @@
 		"While you're at it, consider upgrading to a stone pickaxe so you can start mining better ores like &bIron&r!"
 	]
 	quest.05B32DE12868C6DE.title: "Stone and Flame"
-	quest.05C058A7299224FF.quest_desc: [
-		"&6Range Upgrade &rincreases the operating range of a &aWireless Transmitter&r, allowing wireless tools to work farther from the network."
-		""
-		"&aApplicable to: &r"
-		"* Wireless Transmitter (up to 4 upgrades)"
-	]
 	quest.05C4FF888D75423E.quest_desc: ["The &6&lMechanical Bearing&r&r is used to rotate Contraptions. When supplied with rotational force, right-clicking the bearing will begin rotation—provided a valid Contraption is attached to its front."]
 	quest.05D652475C442E78.quest_subtitle: "Not repeatable"
 	quest.05E44A1BD522BC74.quest_desc: [
@@ -454,6 +456,11 @@
 		""
 		"-> &nColor prints&r need Cyan, Magenta, and Yellow Dyes in addition to Paper."
 	]
+	quest.0ADCD45B9716659B.quest_desc: [
+		"- Two seats for both players or mobs"
+		""
+		"{image:mineoctober:item/acr_animal_cart width:150 height:150 align:center}"
+	]
 	quest.0BACFFF65E1C4F48.quest_desc: [
 		"The &e&nNutrition&r mod adds a system of five nutritional parameters (nutrients): Carbohydrates, Proteins, Fats, Minerals, Vitamins."
 		""
@@ -497,6 +504,10 @@
 		"On a moving Contraption, Mechanical Saws are automatically powered. They can break blocks and damage entities, with their effectiveness scaling based on the Contraption speed."
 	]
 	quest.0D0A907FD6B9A21F.quest_subtitle: "Not repeatable"
+	quest.0D35D58CB7CA7580.quest_desc: [
+		"- Has 9 slots for seeds"
+		"- Plants seeds on farmland when pulled"
+	]
 	quest.0D3C1E0336120843.quest_desc: [
 		"&nThree&r new buttons have appeared in your inventory:"
 		""
@@ -514,6 +525,10 @@
 		"{image:mineoctober:item/gui_nutrition width:100 height:94 align:center}"
 	]
 	quest.0D3C1E0336120843.title: "Buttons in the Inventory"
+	quest.0D5008376CBEFC71.quest_desc: [
+		"- Harvest crops"
+		"- Use seat on the reaper to operate"
+	]
 	quest.0DBA2118C58A9676.quest_desc: [
 		"The &6&lMechanical Press&r&r is used for Pressing, Packing, and Compacting recipes."
 		""
@@ -642,6 +657,14 @@
 		""
 		"This is especially useful because this quest is set to auto-claim by default—meaning that once completed, the reward items will go directly into your inventory."
 	]
+	quest.122EF8B1DBAD48E1.quest_desc: [
+		"The last &l&4sentinel&r in the realm of the dead, a blind &l&4judge&r for those who have disturbed the eternal &9rest&r of this place."
+		"&l&4He&r feels neither hatred nor hunger."
+		"Only an indifferent, absolute purpose: to erase any violation of the &9silence&r."
+		""
+		"&l&4He&r is the embodiment of silence, and your presence is a &n&odesecration&r..."
+	]
+	quest.122EF8B1DBAD48E1.quest_subtitle: "He is not evil. He is the guardian."
 	quest.12506A200E56E7E9.quest_desc: [
 		"&e&nBlood Vial&r&r"
 		"Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
@@ -867,6 +890,13 @@
 		"It supports redstone control and connects to the network like other devices."
 	]
 	quest.1A2605092B8B7F37.quest_subtitle: "Craft any Golden Chest type."
+	quest.1ABB0B317DB25015.quest_desc: [
+		"- Smaller version of supply cart"
+		"- 27 slots of inventory space"
+		"- Can only be pulled by players"
+		""
+		"{image:mineoctober:item/acr_hand_cart width:150 height:150 align:center}"
+	]
 	quest.1AC154CB94B7A0EA.quest_desc: [
 		"The &6&lMechanical Drill&r&r breaks blocks directly in front of it when powered by rotational power. When mounted on a moving Contraption, it can break blocks and damage entities it collides with—without needing a direct rotational power source."
 		""
@@ -1194,6 +1224,12 @@
 		""
 		"With it, you conquer &8obsidian&r for a portal to &5the End&r and mine &6redstone&r and &elapis lazuli&r for the most complex mechanisms. It is a symbol of progress, strength, and true &3&omastery&r of a survivor."
 	]
+	quest.246D731F4FE2AEED.quest_desc: [
+		"&6Netherite&r is not just a metal, it is a legacy of an ancient era."
+		"Those who don armor made from it will not merely be survivors, but true &nmasters&r of the most &4infernal&r corners of this world."
+		"Prove your strength by collecting the full set."
+	]
+	quest.246D731F4FE2AEED.quest_subtitle: "Your skin will become stronger than obsidian"
 	quest.246D731F4FE2AEED.title: "Netherite Armor"
 	quest.2475C6740BBD5273.quest_desc: [
 		"To enter the &bStarlight Dimension&r, find Portal Ruins in the Overworld, guarded by the &cGatekeeper&r. "
@@ -1244,6 +1280,7 @@
 		""
 		"Organization now means less chaos later."
 	]
+	quest.261651FB7B600587.quest_subtitle: "Organizing now means less chaos later."
 	quest.261651FB7B600587.title: "Craft a Chest"
 	quest.263AD6F95DF0632D.quest_desc: [
 		"The &6&lSequenced Gearshift&r&r provides precise control over rotational behavior by executing a sequence of up to five configurable instructions. These instructions determine how rotation changes over time and can be adjusted in its interface by hovering and scrolling over each step."
@@ -1588,6 +1625,12 @@
 		""
 		"{ \"text\": \"☞ Click here to learn more\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260F19B468957BCD\" } }"
 	]
+	quest.312E75631E693DDD.quest_desc: [
+		"Tired of losing everything due to an unlucky fall into lava or an encounter with a creeper?"
+		""
+		"Spend some time crafting this compass, and it will pay for itself many times over, saving you hours of running around."
+	]
+	quest.312E75631E693DDD.quest_subtitle: "The most useful item for brave explorers."
 	quest.313B26E365615526.title: "&bCryomancecr Outfit"
 	quest.3171F1AE14E3C1ED.quest_desc: [
 		"&6Stoves &rare a stylish and functional alternative to campfires. When combined with a &6Cooking Pot,&r they become an essential tool for preparing some of the most delicious meals in the game."
@@ -1698,6 +1741,13 @@
 	]
 	quest.33EF47DF16D412B5.quest_desc: ["Has witnessed destruction. Maybe it also witnessed your stuff disappear"]
 	quest.33EF47DF16D412B5.quest_subtitle: "Dropped by The Wither"
+	quest.33FC98D03D58CB36.quest_desc: [
+		"&bDiamonds&r don't impress anyone anymore."
+		""
+		"It's time to prove you are a &nmaster&r of the highest class."
+		"Obtain the rarest resource of the &4Nether&r and craft a pickaxe that will become a symbol of your skill and courage."
+	]
+	quest.33FC98D03D58CB36.quest_subtitle: "This is the final frontier. Take it."
 	quest.3409D29DC6A2360E.quest_subtitle: " right click into a tamed familiar to allow him to block attacks with a low chance, limit 1 per familiar, found in Blacksmith Structures."
 	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
 	quest.343AB719F81DFC63.quest_desc: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
@@ -2091,6 +2141,13 @@
 	quest.3F7E6AE9B71BCE7E.quest_subtitle: "x8"
 	quest.3F83272A3D958DAB.quest_desc: ["Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."]
 	quest.3F83272A3D958DAB.title: "Fluix Crystal"
+	quest.3FF5FC2753094A27.quest_desc: [
+		"- Double Chest worth of inventory space"
+		"- One seat in the back"
+		""
+		""
+		"{image:mineoctober:item/acr_supply_cart width:150 height:112 align:center}"
+	]
 	quest.3FF93EB2C771B747.quest_desc: [
 		"The &l&6Wrench&r&r is a versatile tool used to rotate, dismantle, and configure &6&lCreate items&r&r."
 		""
@@ -2749,6 +2806,17 @@
 	]
 	quest.5534C553D15CD96B.quest_desc: ["The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."]
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
+	quest.560A7878C34E5FCC.quest_desc: [
+		"You have been through fire, water, and copper pipes."
+		""
+		"But now you must face decay itself."
+		""
+		"&0The Wither&r is not just a monster, it is walking &oruin&r, hatred embodied."
+		"Its appearance &apoisons&r the sky, and its &oscream&r drains life itself."
+		""
+		"&l&4There is no turning back&r."
+	]
+	quest.560A7878C34E5FCC.quest_subtitle: "Are you sure you are ready to summon it?"
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
 	quest.5690FCED46349207.quest_desc: [
 		"Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"
@@ -2849,27 +2917,19 @@
 	quest.5ABC7CE1A9B9FB7C.quest_subtitle: "Allows the wearer to walk on fluids while sprinting"
 	quest.5B00766B91E5F1CB.quest_subtitle: "Drops from The Dead King"
 	quest.5B7298316481A1CF.quest_desc: [
-		"To start your journey to enter &eThe End&r and face the &5Ender Dragon&r, you must first collect &a12 custom Ender Eyes&r. But don’t be fooled, collecting them won’t be an easy task! "
+		"To begin your journey to &eThe End&r and battle the &5Ender Dragon&r, you must first gather &a12 Eyes of the Ender&r. But don't be deceived, collecting them will not be an easy task!"
 		""
-		"&3Each eye&r is crafted from &33 fragments&r, and each fragment is a challenge on its own to obtain."
+		"Although 12 eyes are needed, there are 16 available. Some are easier to obtain than others, and any of them are suitable for activating the End Portal, so the choice is yours."
 		""
-		"Some will challenge your strength to defeat powerful bosses, while others will challenge your skills with Create Automation."
+		"Each eye represents its own unique challenge to acquire."
 		""
-		"{image:artifacts:item/obsidian_skull width:12 height:12 align:left}"
-		"Skull Icon represent Boss-related Eyes (Eyes 1-7)"
+		"When you have gathered all 12 eyes, throw them to locate the &nStronghold&r. But don't worry, these eyes will not break."
 		""
-		"{image:create:item/goggles width:12 height:12 align:left}"
-		"Goggles Icon represent Create Automation Eyes (Eyes 8–12)"
+		"Find the End Portal, complete the frame with 12 eyes to open the path to your final battle and conclude your journey... Or perhaps, to begin something greater?"
 		""
-		"The bosses are divided into tiers, and the higher the tier, the harder the fight (but better the reward!)."
+		"&l&cAre you ready to accept the challenge?&r&r"
 		""
-		"Start with Tier 1, the &8Forgotten Eye&r and build your strength from there. From&b tier 2 onward&r, bosses will drop &cBoss Tokens&r, which can be spent at the &6Market&r for unique rewards."
-		""
-		"Once you have collected all 12 eyes, throw them to locate a &nStronghold&r but worry not, these custom eyes won’t break."
-		""
-		"Find the End Portal, insert the 12 custom eyes into the frames to open your path to your final battle, and end your journey… Or perhaps to begin something greater?"
-		""
-		"&l&cReady for the challenge?&r&r"
+		"&d@endrem&r"
 	]
 	quest.5B7298316481A1CF.quest_subtitle: "Forge the Eyes. Face the End"
 	quest.5B7298316481A1CF.title: "&l&aYour Endventure Starts Here&r"
@@ -3118,6 +3178,12 @@
 		"The Windmill generates power based on the number of sail, up to a maximum of 128 sails."
 	]
 	quest.632F1D52317286A8.quest_subtitle: "Creepers will avoid the wearer. Hisses at attacking phantoms."
+	quest.63547815413BB12A.quest_desc: [
+		"Long ago, before us, &1&kothers&r lived here. They built cities of clay and wool, leaving behind no records, no portraits—only vast, empty &nhalls&r and &osilence&r. A silence so loud it can be heard."
+		""
+		"Find the city where history has erased the &1&kcreators&r themselves, and feel the weight of their legacy."
+	]
+	quest.63547815413BB12A.title: "Ancient City"
 	quest.636178B57E7A9E86.quest_subtitle: "Molten Remnant can be dropped by Magma Cubes when using the Ravaging enchantment on a hatchet."
 	quest.63A35C0C01372EB6.quest_desc: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
 	quest.63A35C0C01372EB6.quest_subtitle: "Craft it using aquatic items"
@@ -3164,17 +3230,19 @@
 		""
 		"Here are the default key bindings you should have:"
 		""
-		"&6\"B\"&r – Opens the Backpack (Sophisticated Backpacks)"
+		"&6[B]&r – Opens the Backpack (Sophisticated Backpacks)"
 		""
-		"&6\"V\"&r – Cast Spell (Irons and Spellbooks&r)"
+		"&6[V]&r – Cast Spell (Irons and Spellbooks&r)"
 		""
-		"&6\"F4\"&r – Opens the Quest Book"
+		"&6[F4]&r – Opens the Quest Book"
 		""
-		"&6\"MMB\"&r – Sort Inventory"
+		"&6[MMB]&r – Sort Inventory"
 		""
-		"&6\"C\"&r – Zoom (Zoomify)"
+		"&6[C]&r – Zoom (Zoomify)"
 		""
-		"&6\"K\"&r - Skills Tree (Puffish's Skills)"
+		"&6[K]&r - Skills Tree (Puffish's Skills)"
+		""
+		"&6[]]&r - SVC mod menu (Simple Voice Chat)"
 		""
 		"If something doesn't work, always check if the key is bound correctly or if it conflicts with a key from another mod!"
 	]
@@ -3782,6 +3850,12 @@
 		"Note: Adding a Note Block with a Disk makes the Mechanical Arm Dance and the Mechanicle Arm can algo wear the Engineer Goggles."
 	]
 	quest.797410E5DF1F96E5.quest_subtitle: "Not repeatable"
+	quest.7977B91DAF6112DB.quest_desc: [
+		"- Has space for 3 tools (hoes, shovels, axes)"
+		"- Uses these tools on the block beneath (tills, makes path, strips logs)"
+		""
+		"{image:mineoctober:item/acr_plow width:150 height:144 align:center}"
+	]
 	quest.79A7417475A593C6.quest_desc: [
 		"Most of an ME network uses its own dedicated power system called AE. "
 		""
@@ -3818,6 +3892,16 @@
 		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
 	]
 	quest.7AAC9B89708E9C7E.quest_subtitle: "+50% Takeoff speed."
+	quest.7AB06ED1F7F16FBE.quest_desc: [
+		"Adds carts for travel, shipping and farming."
+		""
+		"All carts can be attached and detached by pressing &6[R]&r once while riding an entity with a cart nearby. Toggle slow mode - &6[Z]&r."
+		""
+		"If the cart is going too fast, try toggling the slow mode by pressing sprint once while riding. "
+		""
+		"&9&nVideo Guide:&r youtu.be/suTj01lAFOk"
+	]
+	quest.7AB06ED1F7F16FBE.title: "&3AstikorCarts Redux"
 	quest.7B09AFE245BA7808.quest_desc: [
 		""
 		"{image:kubejs:textures/familiars/archmage.png width:100 height:51 align:center}"
@@ -3896,7 +3980,7 @@
 	quest.7DFCA72EC274F3D9.quest_subtitle: "Not repeatable"
 	quest.7E2CA676B730A7C4.quest_desc: ["&6&lPeanut Oil&r&r can be used on a Blaze Burner to get &l&bSuper Heated.&r&r"]
 	quest.7E735829C70E829F.quest_desc: [
-		"«In your dream, you saw &4&khim&r — a colossal &2&ktree&r, whose ro&kots&r go deep into the very heart of the world, and whose branches pierce the &9&ksk&ry. Its &6&kfru&rits shone like stars, and you instinctively reached for one of them... upon waking, you found a strange &7&ksym&rbol on your palm."
+		"«In your dream, you saw &4&khim&r — a colossal &2&ktree&r, whose root&k s&r go deep into the very heart of the world, and whose branches pierce the &9&ksk&ry. Its &6&kfru&rits shone like stars, and you instinctively reached for one of them... upon waking, you found a strange &7&ksym&rbol on your palm."
 		""
 		"It was not a dream. The Tree of &6&kFate&r has chosen you. Now your path is one of &a&kgrow&rth. Make deeds, overcome difficulties, and absorb the &4&kEssence of Experience&r. This &4&kessence&r is the water for the roots of your inner tree."
 		""
@@ -3977,6 +4061,7 @@
 	quest.7FCABCC6BDF8A4EB.quest_desc: ["&6The pocket dimension remote&r sends players to a small room in a custom dimension made for testing or storing machines or blocks."]
 	reward_table.0C66BB0E42692876.title: "Create Mod"
 	reward_table.173F5B7A61A12D48.title: "teste"
+	reward_table.2615352A9451AD30.title: "Netherite"
 	reward_table.2A0F95A56EEAA352.title: "Diamond"
 	reward_table.2A65B28222932CCD.title: "Iron"
 	reward_table.7969EFC16E9D6F8D.title: "Gold"
@@ -4035,5 +4120,11 @@
 	task.6EAF9118DB909B9B.title: "ME Pattern Provider"
 	task.6FD0241035AC0F91.title: "Click to Acknowledge"
 	task.714DADB6776DEE49.title: "ME Item Storage Cell"
+	quest.3FF5FC2753094A27.title: "Cargo Wagon"
+	quest.0D5008376CBEFC71.title: "Harvester"
+	quest.7977B91DAF6112DB.title: "Plow"
+	quest.0ADCD45B9716659B.title: "Animal Wagon"
+	quest.0D35D58CB7CA7580.title: "Seeder"
+	quest.1ABB0B317DB25015.title: "Hand Cart"
 	task.797924159D5342B4.title: "&l&cAre you sure you read everything? This part is really important to the pack."
 }

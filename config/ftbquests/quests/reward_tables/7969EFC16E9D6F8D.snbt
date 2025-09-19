@@ -171,5 +171,13 @@
 		{ id: "27C76C1A84324F60", item: { count: 1, id: "plushies:small_tropical_fish_plushie" } }
 		{ id: "4B9AFBCF510E761E", item: { count: 1, id: "plushies:strider_plushie" } }
 		{ id: "3D33A00E3DEB62B3", item: { count: 1, id: "plushies:white_rabbit_plushie" } }
+		{ id: "0DDD44B6ADCEA60E", item: { count: 1, id: "plushies:sniffer_plushie" } }
+		{ id: "4A3CD9F3FC934B56", item: { count: 1, id: "plushies:armadillo_plushie" } }
+		{ id: "2519851DA1FADB48", item: { count: 1, id: "plushies:ocelot_plushie" } }
+		{ id: "2CD900A80E6EEA0F", item: { count: 1, id: "plushies:bat_plushie" } }
+		{ id: "1DCBA4EA0AF30FB4", item: { count: 1, id: "plushies:silverfish_plushie" } }
+		{ id: "122759B04B56B47F", item: { count: 1, id: "plushies:hoglin_plushie" } }
+		{ id: "4CA4CBB07776B4EB", item: { count: 1, id: "plushies:blaze_plushie" } }
+		{ id: "1FED4A94A875F90E", item: { count: 1, id: "plushies:dolphin_plushie" } }
 	]
 }

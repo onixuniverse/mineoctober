@@ -2,6 +2,119 @@
 
 ---
 
+## v2.2.1 - 2509191
+### General
+**RU:**
+> Добавлены новые декоративные предметы
+> Добавлены квесты
+> Добавлены квестовые награды
+> Добавлены анимации и звук при наведении на кнопки меню
+> Добавлен новый атрибут для удвоение лута с добычи натурального дерева, получаемого с древа навыков
+> Добавлено скрытие JEI по умолчанию
+> Исправлена возможность переносить сундуки из Lootr (`CarryOn`)
+> Исправлены некоторые переводы модов
+> Изменён экран атрибутов `l2lib` на `Apothic Attributes`
+> Изменено дерево навыков для лесоруба: заменен с `+0.3 Fortune` на `+10% Chance Bonus Loot Tree`
+> Изменена формула рачета опыта для дерева Исследователя
+> Изменены таблицы лута
+> Удалены некоторые читерные рецепты крафтов
+> Некоторые квесты переведены на русский и английский языки
+> Могилы заменены на трупы (`Corpse`)
+**EN:**
+> Added new decorative items
+> Added quests
+> Added quest rewards
+> Added animations and sound when hovering over menu buttons
+> Added a new attribute for doubling loot from the extraction of natural wood obtained from the skill tree
+> Added default hiding of JEI
+> Fixed the ability to transfer chests from Lootr (`CarryOn`)
+> Fixed some translations of mods
+> Changed the `l2lib` attributes screen to `Apothic Attributes`
+> Changed the Lumberjack Skill Tree: changed from `+0.3 Fortune` to `+10% Chance Bonus Loot Tree`
+> The experience calculation formula for the Researcher's tree has been changed
+> Loot tables changed
+> Some cheating crafting recipes have been removed
+> Some quests have been translated into Russian and English
+> Graves have been replaced with corpses (`Corpse`)
+
+### Core
+- Updated: Neoforge 21.1.209
+
+
+### Mods
+- Added: ApothicAttributes-1.21.1-2.9.0
+- Added: dawnoftimebuilder-neoforge-1.21.1-1.6.1
+- Added: ftb-xmod-compat-neoforge-21.1.6
+- Added: alshanex_familiars-1.21.1_v2.0_HotFix
+- Added: dawnoftimebuilder-neoforge-1.21.1-1.6.1
+- Added: corpse-neoforge-1.21.1-1.1.10
+- Added: Scribble-1.5.1+mc1.21-neoforge
+- Added: plushies-neoforge-1.5.1
+- Added: toofast-1.21.0-0.4.3.6
+- Added: doubledoors-1.21.1-7.1
+- Added: collective-1.21.1-8.3
+- Added: fabric-api-0.101.2+1.21
+- Added: atlas_api-1.21.1-1.2.0
+- Added: better_modlist-1.1.19
+- Added: crashutilities-9.0.4
+- Added: moremousetweaks-neoforge-1.1.1+1.21.1
+- Added: accelerated-decay-neoforge-21.0.0
+- Added: foolproof-neoforge-1.0.3-1.21.1
+- Added: does_it_tick-neoforge-1.1.4-1.21.1
+- Added: satisfying_buttons-neoforge-1.1.2-1.21.1
+- Added: distraction_free_recipes-neoforge-1.2.1-1.21.1
+- Added: chunkactivitytracker-neoforge-1.0.1-1.21.1
+
+- Updated: sophisticatedstorage-1.21.1-1.5.5.1293
+- Updated: sophisticatedcore-1.21.1-1.3.73.1154
+- Updated: sophisticatedbackpacks-1.21.1-3.25.6.1367
+- Updated: moonlight-1.21-2.23.8-neoforge
+- Updated: letsdo-herbalbrews-neoforge-1.1.1
+- Updated: letsdo-wildernature-neoforge-1.1.3
+- Updated: crabbersdelight-1.21.1-1.2.0
+- Updated: clientsort-neoforge-2.0.0-beta.19+1.21.1
+- Updated: Ribbits-1.21.1-NeoForge-4.1.4
+- Updated: EuphoriaPatcher-1.6.8-r5.5.1-neoforge
+- Updated: puffish_attributes-0.7.6-1.21-neoforge
+- Updated: CreativeCore_NEOFORGE_v2.13.12_mc1.21.1
+- Updated: create-integrated-farming-1.1.1
+- Updated: create-dragons-plus-1.8.0b
+- Updated: sliceanddice-neoforge-0.0.0-dev
+- Updated: immersive_aircraft-1.4.1+1.21.1-neoforge
+- Updated: bettercombat-neoforge-2.2.5+1.21.1
+- Updated: ftb-teams-neoforge-2101.1.4
+- Updated: ftb-quests-neoforge-2101.1.15
+- Updated: ftb-library-neoforge-2101.1.20
+- Updated: crabbersdelight-1.21.1-1.2.0
+- Updated: kotlinforforge-5.10.0-all
+- Updated: sophisticatedstorage-1.21.1-1.5.4.1280
+- Updated: puffish_skills-0.16.6-1.21-neoforge
+- Updated: friendsandfoes-neoforge-4.0.10+mc1.21.1
+- Updated: letsdo-herbalbrews-neoforge-1.1.2
+- Updated: CreativeCore_NEOFORGE_v2.13.13_mc1.21.1
+- Updated: pufferfish_unofficial_additions-1.21.1-2.2.7
+- Updated: supplementaries-1.21-3.4.16-neoforge
+- Updated: forgified-fabric-api-0.115.6+2.1.3+1.21.1
+- Updated: geckolib-neoforge-1.21.1-4.8
+
+- Removed: l2library-3.0.7
+- Removed: gravestone-neoforge-1.21.1-1.0.33
+- Removed: modmenu-11.0.3
+
+### Resourcepacks
+- Added: Fine Armoury v1.5
+- Added: Fancy Crops v1.2
+- Added: Suren Sophisticated Storage v2.0.0 1.21-1.21.1
+- Added: miles's Enhanced Hud
+- Added: Medieval_Style_Lootr
+
+### Known Issues
+> - 1 // Crash of the game due to the Distant Horizons mod
+> - 2 // No Combat skill tree
+> - 3 // Some random errors in the translation of quests
+
+---
+
 ## v2.2.0 - 2509101
 ### General
 **RU:**
@@ -27,7 +140,7 @@
 > Mandatory resource packs are hidden
 > Added shader system load prefixes (VL, L, M, H, VH)
 > All custom datapacks are combined into one big one
-> Added a skill tree for the Researcher
+> Added a skill tree for the Explorer
 > Removed old config files from Fabric core
 
 ### Mods

@@ -1,0 +1,56 @@
+{
+    "id": "tiered:lightweight_armor_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:armor"
+        }
+    ],
+    "weight": 22,
+    "style": {
+        "color": "white"
+    },
+    "attributes": [
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:lightweight_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        },
+        {
+            "type": "puffish_attributes:jump",
+            "modifier": {
+                "name": "tiered:lightweight_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        },
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:lightweight_armor_1",
+                "operation": "ADD_VALUE",
+                "amount": -1
+            },
+            "optional_equipment_slots": [
+                "HEAD",
+                "CHEST",
+                "LEGS",
+                "FEET"
+            ]
+        }
+    ]
+}

@@ -2,9 +2,9 @@
 	"version": 3,
 
 	"categories": [
-		"mining",
+		"miner",
 		"lumberjack",
-		"farming",
+		"farmer",
 		"explorer"
 	]
 }

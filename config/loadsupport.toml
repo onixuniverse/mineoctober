@@ -1,5 +1,5 @@
 loadFinishSound = "minecraft:ui.toast.challenge_complete"
-minMemory = 4.0
+minMemory = 6.0
 errorTitle = "Error: Not enough Java memory!"
 errorMinMemory = "Please allocate at least {minMemory} GB of Java memory to your Minecraft instance!"
 errorCurrentMemory = "You have currently {currentMemory} GB allocated."

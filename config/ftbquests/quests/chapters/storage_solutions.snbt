@@ -175,18 +175,6 @@
 		{
 			dependencies: ["7226FB66C2B28ACB"]
 			id: "41329FF8F96017A9"
-			rewards: [{
-				count: 2
-				id: "2C3EB0E599C21DF3"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "78DBC9F0420B7F42"
 				item: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
@@ -301,17 +289,6 @@
 			dependencies: ["7226FB66C2B28ACB"]
 			hide_dependency_lines: true
 			id: "2B4E5F59E5625ADF"
-			rewards: [{
-				id: "0DC30E1E095983F8"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "525018A823B3206E"
 				item: { count: 1, id: "sophisticatedstorage:iron_shulker_box" }
@@ -323,17 +300,6 @@
 		{
 			dependencies: ["2B4E5F59E5625ADF"]
 			id: "3E7413B4D1A55B58"
-			rewards: [{
-				id: "364C4B8687857411"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4C800087A502C636"
 				item: { count: 1, id: "sophisticatedstorage:gold_shulker_box" }
@@ -345,17 +311,6 @@
 		{
 			dependencies: ["3E7413B4D1A55B58"]
 			id: "2AA436F021EDDC48"
-			rewards: [{
-				id: "38E353F6E92233D9"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "72F6EE66C5492185"
 				item: { count: 1, id: "sophisticatedstorage:diamond_shulker_box" }
@@ -368,17 +323,6 @@
 			dependencies: ["7226FB66C2B28ACB"]
 			hide_dependency_lines: true
 			id: "32F8B69C66723910"
-			rewards: [{
-				id: "1CC33D8CD8543D4C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "191994DA29D54AE0"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:iron_barrel" }
@@ -390,17 +334,6 @@
 		{
 			dependencies: ["32F8B69C66723910"]
 			id: "7F5DCDCFFD24ABE7"
-			rewards: [{
-				id: "7972F2B74E7D0BE2"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7A607DC8B3E32C8D"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:gold_barrel" }
@@ -412,17 +345,6 @@
 		{
 			dependencies: ["2AA436F021EDDC48"]
 			id: "41E439ED3FAAAA94"
-			rewards: [{
-				id: "331F8CC6D83924F5"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "355D6547403BDFD0"
 				item: { count: 1, id: "sophisticatedstorage:netherite_shulker_box" }
@@ -434,17 +356,6 @@
 		{
 			dependencies: ["7F5DCDCFFD24ABE7"]
 			id: "52092833009BDC49"
-			rewards: [{
-				id: "3E5AF7560F1E311C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7C956487FBED4AB4"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:diamond_barrel" }
@@ -456,17 +367,6 @@
 		{
 			dependencies: ["52092833009BDC49"]
 			id: "4E22392BDC9FF135"
-			rewards: [{
-				id: "0805ACFE7682FF4B"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "4B122F361FF3ABFA"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:netherite_barrel" }
@@ -479,17 +379,6 @@
 			dependencies: ["7226FB66C2B28ACB"]
 			hide_dependency_lines: true
 			id: "34174F45D62D0D6E"
-			rewards: [{
-				id: "2726B757E1C14C26"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7572E487F25E2B42"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
@@ -501,17 +390,6 @@
 		{
 			dependencies: ["34174F45D62D0D6E"]
 			id: "1A2605092B8B7F37"
-			rewards: [{
-				id: "22DEB0095C283275"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5821C6D6A4936CBE"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_chest" }
@@ -523,17 +401,6 @@
 		{
 			dependencies: ["1A2605092B8B7F37"]
 			id: "0562F21AA82B2961"
-			rewards: [{
-				id: "6656F7C53A929FEB"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "237683B8FF2E1ED4"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
@@ -545,17 +412,6 @@
 		{
 			dependencies: ["0562F21AA82B2961"]
 			id: "3488B3847D0D01DC"
-			rewards: [{
-				id: "17ADB4939BC7A62C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "78ADD29B2D690DA6"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:netherite_chest" }
@@ -571,17 +427,6 @@
 			]
 			hide_dependency_lines: true
 			id: "7A36AA33AB12EE37"
-			rewards: [{
-				id: "16D697F28D36DA99"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "2F6801AD268140A2"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:limited_iron_barrel_1" }
@@ -593,17 +438,6 @@
 		{
 			dependencies: ["7A36AA33AB12EE37"]
 			id: "703D0E0BD4F9DC4F"
-			rewards: [{
-				id: "1A3805AF13CF470F"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "3E30B6D52AAE8428"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:limited_gold_barrel_1" }
@@ -615,17 +449,6 @@
 		{
 			dependencies: ["703D0E0BD4F9DC4F"]
 			id: "51ECBE8030E9D801"
-			rewards: [{
-				id: "1ADC0886EAAAD9C9"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7E8DFE82011E60F3"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:limited_diamond_barrel_1" }
@@ -637,17 +460,6 @@
 		{
 			dependencies: ["51ECBE8030E9D801"]
 			id: "46BFA878FE03C07E"
-			rewards: [{
-				id: "6D5D9B72E5A64ACD"
-				item: {
-					components: {
-						"ftbquests:missing_item": "magic_coins:silver_coin"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "1456A0DF239DEC54"
 				item: { components: { "sophisticatedstorage:wood_type": "spruce" }, count: 1, id: "sophisticatedstorage:limited_netherite_barrel_1" }

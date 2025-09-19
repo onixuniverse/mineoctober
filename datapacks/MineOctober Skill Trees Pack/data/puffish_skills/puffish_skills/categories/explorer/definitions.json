@@ -10,8 +10,8 @@
 			{
 				"data": {
 					"attribute": "additionalentityattributes:player.collection_range",
-					"operation": "multiply_base",
-					"value": 0.05
+					"operation": "addition",
+					"value": 0.1
 				},
 				"type": "puffish_skills:attribute"
 			}
@@ -89,12 +89,12 @@
 				"data": {
 					"attribute": "artifacts:generic.sprinting_step_height",
 					"operation": "addition",
-					"value": 1
+					"value": 0.25
 				},
 				"type": "puffish_skills:attribute"
 			}
 		],
-		"title": "+1 Sprinting Step Height",
+		"title": "+0.5 Sprinting Step Height",
 		"metadata": {
 			"icon": "x4fr0mxrfo9x6ldw"
 		}
@@ -116,7 +116,7 @@
 				"type": "puffish_skills:attribute"
 			}
 		],
-		"title": "+1 Sprinting Speed",
+		"title": "+10% Sprinting Speed",
 		"metadata": {
 			"icon": "8kbzi5we1srzb5zl"
 		}
@@ -131,14 +131,14 @@
 		"rewards": [
 			{
 				"data": {
-					"attribute": "minecraft:generic.jump_strength",
+					"attribute": "puffish_attributes:jump",
 					"operation": "addition",
-					"value": 0.5
+					"value": 0.08
 				},
 				"type": "puffish_skills:attribute"
 			}
 		],
-		"title": "+1 Jump Strength",
+		"title": "+0.5 Block Jump",
 		"metadata": {
 			"icon": "vzs4w8vbmuzbr2m0"
 		}

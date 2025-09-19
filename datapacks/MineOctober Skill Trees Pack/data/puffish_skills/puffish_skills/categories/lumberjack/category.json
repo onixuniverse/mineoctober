@@ -5,7 +5,7 @@
     "icon": {
         "type": "item",
         "data": {
-            "item": "minecraft:diamond_axe"
+            "item": "biomeswevegone:aspen_log"
         }
     },
     "background": {

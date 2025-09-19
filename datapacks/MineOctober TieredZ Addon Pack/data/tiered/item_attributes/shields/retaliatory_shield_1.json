@@ -1,0 +1,47 @@
+{
+    "id": "tiered:retaliatory_shield_1",
+    "verifiers": [
+        {
+            "tag": "c:tools/shields"
+        }
+    ],
+    "weight": 10,
+    "style": {
+        "color": "orange"
+    },
+    "attributes": [
+        {
+            "type": "puffish_attributes:melee_resistance_shred",
+            "modifier": {
+                "name": "tiered:retaliatory_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:armor_shred",
+            "modifier": {
+                "name": "tiered:retaliatory_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:retaliatory_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "OFFHAND"
+            ]
+        }
+    ]
+}

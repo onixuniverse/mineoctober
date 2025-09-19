@@ -13,8 +13,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "2651428AF7D72328"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -39,8 +41,10 @@
 			y: 7.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7B09AFE245BA7808"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -53,8 +57,10 @@
 			y: 6.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "20BFB23E1ADDC3DF"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -67,8 +73,10 @@
 			y: 2.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "692D79D601534A2E"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -81,8 +89,10 @@
 			y: 3.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5AA39CCAEED433CA"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -95,8 +105,10 @@
 			y: 4.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "54480115AF9A1DAD"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -109,8 +121,10 @@
 			y: 5.754761904761896d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "47F3B09688DFA1DC"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -123,8 +137,10 @@
 			y: 0.7547619047618959d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "58EE67ECB33D6AE9"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -137,8 +153,10 @@
 			y: -0.24523809523810414d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5D0DCD2B1AB653BB"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -151,8 +169,10 @@
 			y: -1.2452380952381041d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3DD814B346F1B543"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -165,8 +185,10 @@
 			y: 1.7547619047618959d
 		}
 		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "2A844214CE94E140"
-			invisible: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{

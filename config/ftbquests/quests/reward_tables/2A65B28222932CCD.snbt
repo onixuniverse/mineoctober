@@ -194,5 +194,11 @@
 			}
 			weight: 1.1f
 		}
+		{ id: "67BA31FBC5FA5D37", item: { count: 1, id: "plushies:cow_plushie" } }
+		{ id: "5233D660572C0B1C", item: { count: 1, id: "plushies:pig_plushie" } }
+		{ id: "15FFB49D8311F99F", item: { count: 1, id: "plushies:evoker_plushie" } }
+		{ id: "23C27AA80DC6CD24", item: { count: 1, id: "plushies:strider_plushie" } }
+		{ id: "614A8D7960B00202", item: { count: 1, id: "plushies:panda_plushie" } }
+		{ id: "569A6D7DB924F4B3", item: { count: 1, id: "plushies:white_splotched_rabbit_plushie" } }
 	]
 }

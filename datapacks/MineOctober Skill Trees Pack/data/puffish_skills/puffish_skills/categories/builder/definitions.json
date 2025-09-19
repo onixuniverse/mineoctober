@@ -1,0 +1,84 @@
+{
+	"jump_strength+0.5": {
+		"icon": {
+			"data": {
+				"effect": "minecraft:jump_boost"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:jump",
+					"operation": "addition",
+					"value": 0.08
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": "+0.5 Block Jump"
+	},
+	"block_interaction_range+1": {
+		"icon": {
+			"data": {
+				"item": "create:brass_hand"
+			},
+			"type": "item"
+		},
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+		"rewards": [
+			{
+				"data": {
+					"attribute": "player.block_interaction_range",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": "+1 Block Interaction Range"
+	},
+	"mining_speed+3%": {
+		"icon": {
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"operation": "multiply_base",
+					"value": 0.03
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": "+3% Mining Speed"
+	},
+	"fall_reduction+1": {
+		"icon": {
+			"data": {
+				"item": "minecraft:dirt"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": "+1 Safe Block Fall"
+	}
+}

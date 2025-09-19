@@ -5,10 +5,10 @@
 	"posX": 162,
 	"posY": 5,
 	// Used for the nutrition gui
-	"carbohydrateItemId": "minecraft:sugar",
-	"proteinItemId": "minecraft:chicken",
-	"fatItemId": "minecraft:porkchop",
-	"vitaminItemId": "minecraft:apple",
+	"carbohydrateItemId": "supplementaries:candy",
+	"proteinItemId": "expandeddelight:cheese_slice",
+	"fatItemId": "farmersdelight:cooked_bacon",
+	"vitaminItemId": "rusticdelight:roasted_bell_pepper_yellow",
 	"mineralItemId": "minecraft:iron_nugget",
 	// Disable default vanilla & modded datapacks below
 	"vanillaMinecraftDefaultDatapack": true,

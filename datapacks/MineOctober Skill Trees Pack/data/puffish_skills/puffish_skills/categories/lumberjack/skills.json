@@ -35,12 +35,6 @@
 		"y": 0,
 		"root": false
 	},
-	"wp7gtx2nvq8f4b3c": {
-		"definition": "fortune+0.3",
-		"x": 0,
-		"y": -128,
-		"root": false
-	},
 	"o2gfvq6nkznn2vyf": {
 		"definition": "axe_speed+3%",
 		"x": 0,
@@ -77,12 +71,6 @@
 		"y": -64,
 		"root": false
 	},
-	"0lvq30kyl8o22q7n": {
-		"definition": "fortune+0.3",
-		"x": -192,
-		"y": 64,
-		"root": false
-	},
 	"2zhuk80b47dmegq7": {
 		"definition": "block_interaction_range+1",
 		"x": -64,
@@ -101,12 +89,6 @@
 		"y": 192,
 		"root": false
 	},
-	"89nq432ft9utb409": {
-		"definition": "fortune+0.3",
-		"x": 192,
-		"y": -192,
-		"root": false
-	},
 	"s1yfikm7vffviope": {
 		"definition": "fortune+0.1",
 		"x": 192,
@@ -117,12 +99,6 @@
 		"definition": "mining_speed+3%",
 		"x": -192,
 		"y": -192,
-		"root": false
-	},
-	"en8jvilktw6krofv": {
-		"definition": "fortune+0.3",
-		"x": -128,
-		"y": 128,
 		"root": false
 	},
 	"nbjay9fbrzjljv43": {
@@ -149,12 +125,6 @@
 		"y": 0,
 		"root": true
 	},
-	"mdd2m4esvzxz16qn": {
-		"definition": "fortune+0.3",
-		"x": 64,
-		"y": 0,
-		"root": true
-	},
 	"1alebuqwor6izs4t": {
 		"definition": "block_interaction_range+1",
 		"x": 0,
@@ -166,5 +136,35 @@
 		"x": 0,
 		"y": 64,
 		"root": true
+	},
+	"xnujzad6wor9381d": {
+		"definition": "bonus_tree_loot+0.3",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"o9x52a8ifo5lf87d": {
+		"definition": "bonus_tree_loot+0.3",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"tqej2h3o4niiigyt": {
+		"definition": "bonus_tree_loot+0.3",
+		"x": 0,
+		"y": -128,
+		"root": false
+	},
+	"3g0mmkafmnml6ail": {
+		"definition": "bonus_tree_loot+0.3",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"plrb018u00vetun7": {
+		"definition": "bonus_tree_loot+0.3",
+		"x": -192,
+		"y": 64,
+		"root": false
 	}
 }
