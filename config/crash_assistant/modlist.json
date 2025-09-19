@@ -572,20 +572,20 @@
     "modId": "ferritecore",
     "version": "7.0.2"
   },
-  "foolproof-neoforge-1.0.2-1.21.1.jar": {
-    "jarName": "foolproof-neoforge-1.0.2-1.21.1.jar",
+  "foolproof-neoforge-1.0.3-1.21.1.jar": {
+    "jarName": "foolproof-neoforge-1.0.3-1.21.1.jar",
     "modId": "foolproof",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar": {
     "jarName": "ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar",
     "modId": "forgeconfigapiport",
     "version": "21.1.4"
   },
-  "forgified-fabric-api-0.115.6+2.1.2+1.21.1.jar": {
-    "jarName": "forgified-fabric-api-0.115.6+2.1.2+1.21.1.jar",
+  "forgified-fabric-api-0.115.6+2.1.1+1.21.1.jar": {
+    "jarName": "forgified-fabric-api-0.115.6+2.1.1+1.21.1.jar",
     "modId": "fabric_api",
-    "version": "0.115.6+2.1.2+1.21.1"
+    "version": "0.115.6+2.1.1+1.21.1"
   },
   "friendsandfoes-neoforge-4.0.10+mc1.21.1.jar": {
     "jarName": "friendsandfoes-neoforge-4.0.10+mc1.21.1.jar",
@@ -627,10 +627,10 @@
     "modId": "fzzy_config",
     "version": "0.7.2+1.21+neoforge"
   },
-  "geckolib-neoforge-1.21.1-4.7.7.jar": {
-    "jarName": "geckolib-neoforge-1.21.1-4.7.7.jar",
+  "geckolib-neoforge-1.21.1-4.8.jar": {
+    "jarName": "geckolib-neoforge-1.21.1-4.8.jar",
     "modId": "geckolib",
-    "version": "4.7.7"
+    "version": "4.8"
   },
   "getittogetherdrops-neoforge-1.21.5-1.4.jar": {
     "jarName": "getittogetherdrops-neoforge-1.21.5-1.4.jar",

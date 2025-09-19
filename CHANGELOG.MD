@@ -2,6 +2,15 @@
 
 ---
 
+## v2.2.1 - 2509191.hotfix.1
+### General
+> Fixed game crash
+
+### Mods
+- Downgraded: forgified-fabric-api-0.115.6+2.1.1+1.21.1
+
+---
+
 ## v2.2.1 - 2509191
 ### General
 **RU:**
@@ -20,6 +29,7 @@
 > Удалены некоторые читерные рецепты крафтов
 > Некоторые квесты переведены на русский и английский языки
 > Могилы заменены на трупы (`Corpse`)
+
 **EN:**
 > Added new decorative items
 > Added quests
@@ -39,7 +49,6 @@
 
 ### Core
 - Updated: Neoforge 21.1.209
-
 
 ### Mods
 - Added: ApothicAttributes-1.21.1-2.9.0
@@ -64,7 +73,6 @@
 - Added: satisfying_buttons-neoforge-1.1.2-1.21.1
 - Added: distraction_free_recipes-neoforge-1.2.1-1.21.1
 - Added: chunkactivitytracker-neoforge-1.0.1-1.21.1
-
 - Updated: sophisticatedstorage-1.21.1-1.5.5.1293
 - Updated: sophisticatedcore-1.21.1-1.3.73.1154
 - Updated: sophisticatedbackpacks-1.21.1-3.25.6.1367
@@ -96,7 +104,6 @@
 - Updated: supplementaries-1.21-3.4.16-neoforge
 - Updated: forgified-fabric-api-0.115.6+2.1.3+1.21.1
 - Updated: geckolib-neoforge-1.21.1-4.8
-
 - Removed: l2library-3.0.7
 - Removed: gravestone-neoforge-1.21.1-1.0.33
 - Removed: modmenu-11.0.3
