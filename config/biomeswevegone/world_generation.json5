@@ -16,7 +16,7 @@
 		"biomeswevegone:coniferous_forest": true,
 		"biomeswevegone:rainbow_beach": true,
 		"biomeswevegone:sakura_grove": true,
-		"biomeswevegone:allium_shrubland": true,
+		"biomeswevegone:allium_shrubland": false,
 		"biomeswevegone:tropical_rainforest": true,
 		"biomeswevegone:dacite_ridges": true,
 		"biomeswevegone:orchard": true,

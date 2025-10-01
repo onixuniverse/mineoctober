@@ -78,3 +78,9 @@ net.minecraft.client.gui.screens.WinScreen {
 net.minecraft.client.gui.screens.ConfirmLinkScreen {
 }
 
+com.terraformersmc.mod_menu.gui.ModsScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+

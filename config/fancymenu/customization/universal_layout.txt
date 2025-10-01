@@ -3,24 +3,25 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1757068130503
+  last_edited_time = 1759058887016
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d008ef67-cd28-44c8-ac9a-1df9ef16e352-1757068033077] = [groups:][instances:]
+  universal_layout_blacklist = title_screen;pause_screen;
+  [loading_requirement_container_meta:6cfc1a2d-c595-41ec-a5ef-7d6a4348f854-1759058881424] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/mineoctober_background_1_blur.jpg
+  image_path = [source:local]/config/fancymenu/assets/bg_menu/bg_images/mineoctober_background_1_blur.jpg
   slide = false
   repeat_texture = false
   parallax = false
   parallax_intensity = 0.02
   invert_parallax = false
   restart_animated_on_menu_load = false
-  instance_identifier = f194e424-40ba-4739-a19d-455793f8a293-1756936182906
+  instance_identifier = 7b682001-f833-4bb1-994e-df7717f36c3b-1759007829721
   background_type = image
 }
 

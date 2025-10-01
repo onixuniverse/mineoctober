@@ -36,6 +36,19 @@
 							}
 						]
 					},
+					"chest_looted": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:lootr.looted_stat"
+								}
+							}
+						]
+					},
 					"amount": {
 						"operations": [
 							{
@@ -52,6 +65,10 @@
 					{
 						"condition": "is_jump",
 						"expression": "1"
+					},
+					{
+						"condition": "chest_looted",
+						"expression": "100"
 					}
 				]
 			}

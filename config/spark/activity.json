@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "onixuniverse",
+      "uniqueId": "31945a2b-2e35-4284-b852-95abc2836347"
+    },
+    "time": 1758361223920,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/q1DCsmaqR0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "onixuniverse",
+      "uniqueId": "31945a2b-2e35-4284-b852-95abc2836347"
+    },
+    "time": 1758361108804,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YlQ6r2m3nv"
+    }
+  }
+]

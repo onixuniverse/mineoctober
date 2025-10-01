@@ -21,6 +21,9 @@ sdlinkstorage/
 saves/
 shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.8/
 Distant_Horizons_server_data/
+mods/mcef-cache/
+mods/mcef-libraries/
+ESM/
 command_history.txt
 fabricloader.log
 immersivetips.json

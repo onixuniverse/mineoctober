@@ -1,13 +1,5 @@
 // priority: 100
 
-LootJS.modifiers(event => {
-    event
-        .addTableModifier("/^lootr:lootr_chests\/.*/")
-        .removeLoot('artifacts:everlasting_beef')
-        .removeLoot('artifacts:eternal_steak')
-        .removeLoot('relics:infinity_ham')
-})
-
 LootJS.lootTables(event => {
     // warden
     event.getEntityTable('minecraft:warden')
@@ -23,4 +15,17 @@ LootJS.lootTables(event => {
     event.getEntityTable('minecraft:ender_dragon')
         .createPool()
         .addEntry(LootEntry.of('plushies:dragon_plushie'))
+    
+    // squid
+    event.getEntityTable('minecraft:squid')
+        .firstPool()
+        .addEntry(LootEntry.of('minecraft:ink_sac')
+                .withWeight(8)
+                .setCount([0, 3]))
+
+    // evoker
+    event.getEntityTable('minecraft:evoker')
+        .createPool()
+        .addEntry(
+            LootEntry.of('endrem:magical_eye'))
 })

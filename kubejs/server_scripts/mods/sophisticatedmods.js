@@ -1,9 +1,7 @@
 //priority: 10
 
 ServerEvents.recipes(event => {
-    function backpackCrafting(output,
-	prev_backpack,
-	item)  {
+    function backpackCrafting(output, prev_backpack, item)  {
         event.shaped(output,
 	[
             'III',
@@ -113,6 +111,57 @@ ServerEvents.recipes(event => {
             C: '#c:chests/wooden'
         }
     );
+    
+    event.replaceInput(
+        { input: 'minecraft:chest' },
+        'minecraft:chest',
+        '#c:chests/wooden'
+    )
+
+    event.remove({ id: 'minecraft:chest' })
+
+    event.shapeless(
+        'minecraft:chest',
+        [
+            '#c:chests/wooden'
+        ]
+    )
+
+    event.shaped('sophisticatedstorage:chest[sophisticatedstorage:wood_type="oak"]',
+        [
+            'PPP',
+            'P P',
+            'PPP'
+        ],
+        {
+            P: "#minecraft:planks"
+        }
+    )
+
+    function craftWoodChest(output_chest, planks_type) {
+        event.shaped(output_chest,
+            [
+                'PPP',
+                'P P',
+                'PPP'
+            ],
+            {
+                P: planks_type+"_planks"
+            }
+        )
+    }
+
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="acacia"]', 'acacia')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="birch"]', 'birch')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="crimson"]', 'crimson')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="dark_oak"]', 'dark_oak')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="jungle"]', 'jungle')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="oak"]', 'oak')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="spruce"]', 'spruce')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="warped"]', 'warped')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="mangrove"]', 'mangrove')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="cherry"]', 'cherry')
+    craftWoodChest('sophisticatedstorage:chest[sophisticatedstorage:wood_type="bamboo"]', 'bamboo')
 });
 
 
@@ -174,6 +223,5 @@ ItemEvents.modifyTooltips(event => {
 
 	woodenItems.forEach(element => {
 		event.add(element, Text.darkRed(Text.translate('mineoctober.sophisticated.tooltip.any_wood_crafting')))
-	});
-	
+	});	
 });

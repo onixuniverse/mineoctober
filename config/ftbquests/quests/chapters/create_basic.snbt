@@ -1,5 +1,5 @@
 {
-	autofocus_id: "40270C32F09AD402"
+	autofocus_id: "3FF93EB2C771B747"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_basic"
@@ -8,22 +8,31 @@
 		id: "create:wrench"
 	}
 	id: "53732D728CE0A308"
-	order_index: 3
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "462639C0EBA1209F"
-			rewards: [{
-				count: 5
-				id: "0E7CB1A3DB6467C7"
-				item: {
-					count: 1
-					id: "create:experience_nugget"
+			rewards: [
+				{
+					count: 5
+					id: "0E7CB1A3DB6467C7"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "776E58454BF07DE7"
+					table_id: 4682836084073725053L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [{
@@ -31,11 +40,12 @@
 				item: { count: 1, id: "create:goggles" }
 				type: "item"
 			}]
-			x: 1.9500000000000002d
+			x: -6.05d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["1FDE0EA030EC5D9B"]
+			hide_until_deps_complete: true
 			id: "3BA810FF52DA9982"
 			rewards: [
 				{
@@ -91,12 +101,14 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: 8.450000000000001d
-			y: -7.800000000000001d
+			x: -3.5d
+			y: -11.05d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "66CF9B7A1C500A4E"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -108,15 +120,10 @@
 					type: "item"
 				}
 				{
-					id: "3E5C83904E87F63D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "558F1F0631EA3FF5"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -131,32 +138,22 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -9.5d
+			x: -16.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["40270C32F09AD402"]
+			hide_until_deps_complete: true
 			id: "3FF93EB2C771B747"
-			rewards: [
-				{
-					count: 10
-					id: "130B9F56F19F52EE"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "188D2A41C04E54B5"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
 				}
-				{
-					count: 5
-					id: "188D2A41C04E54B5"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [{
@@ -164,11 +161,12 @@
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: -23.55d
-			y: -7.800000000000001d
+			x: -22.40714285714286d
+			y: -7.823809523809523d
 		}
 		{
 			dependencies: ["462639C0EBA1209F"]
+			hide_until_deps_complete: true
 			id: "1FDE0EA030EC5D9B"
 			rewards: [
 				{
@@ -181,15 +179,10 @@
 					type: "item"
 				}
 				{
-					id: "691DBA6D928E1E29"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "01E1AE9113C52FA3"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -199,11 +192,12 @@
 				item: { count: 1, id: "create:empty_blaze_burner" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: -3.5d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "7495FD1A88E6A10B"
 			rewards: [
 				{
@@ -224,15 +218,10 @@
 					type: "item"
 				}
 				{
-					id: "62A7C4A07808A176"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "493996C0E7A17EBE"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -240,11 +229,12 @@
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.5d
+			x: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["02E09ED80689775A"]
+			hide_until_deps_complete: true
 			id: "6C7DDDC1123E208A"
 			rewards: [
 				{
@@ -271,12 +261,13 @@
 				item: { count: 1, id: "create:belt_connector" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -10.5d
+			x: -14.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["0420DAF362EE2B37"]
 			id: "0D02CCFCDC80B85B"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -288,15 +279,10 @@
 					type: "item"
 				}
 				{
-					id: "1CD428D1F2FEAD0B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2A6370E7CDF085EA"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -304,11 +290,12 @@
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
-			x: -20.0d
-			y: -3.5d
+			x: -16.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "0DBA2118C58A9676"
 			rewards: [
 				{
@@ -329,15 +316,10 @@
 					type: "item"
 				}
 				{
-					id: "39D1C798259CEE32"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7F3FD216AEF0D953"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -345,11 +327,12 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -11.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "6A93F7AD37EEAAC5"
 			rewards: [
 				{
@@ -370,15 +353,10 @@
 					type: "item"
 				}
 				{
-					id: "1A20B26DC644D0E5"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "594292F6AC257242"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -386,12 +364,14 @@
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "3BDFBBEFD0FB0B77"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -411,15 +391,10 @@
 					type: "item"
 				}
 				{
-					id: "773FDB24D06C94BF"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5073BE29F170BB66"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -427,12 +402,13 @@
 				item: { count: 1, id: "create:portable_storage_interface" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
 			id: "2843021F7F41ED01"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -444,15 +420,10 @@
 					type: "item"
 				}
 				{
-					id: "0C852A0BD2ED1CC7"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2F4C51009CDA3672"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -467,11 +438,12 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: -10.5d
+			x: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "30FDAAAA8784A842"
 			rewards: [
 				{
@@ -492,15 +464,10 @@
 					type: "item"
 				}
 				{
-					id: "37A67D2B629D251E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "045B1FA7D0CF7143"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -508,11 +475,12 @@
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.5d
+			x: -11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "045A217971DF1258"
 			rewards: [
 				{
@@ -525,26 +493,10 @@
 					type: "item"
 				}
 				{
-					id: "62A054F0F25F7C98"
-					item: {
-						components: {
-							"ftbquests:missing_item": "copycats:copycat_large_cogwheel"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "3172791A78820792"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "08B1E5EE388440CF"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			size: 1.2d
@@ -553,12 +505,13 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["0420DAF362EE2B37"]
 			id: "0513DE018AA2BB84"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -570,15 +523,10 @@
 					type: "item"
 				}
 				{
-					id: "2894932D2A2C7A9C"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "650FA1BA1037F908"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -586,12 +534,13 @@
 				item: { count: 1, id: "create:cart_assembler" }
 				type: "item"
 			}]
-			x: -18.0d
-			y: -3.5d
+			x: -16.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["0420DAF362EE2B37"]
 			id: "05C4FF888D75423E"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -603,15 +552,10 @@
 					type: "item"
 				}
 				{
-					id: "0744C0A38C15F28A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5D74651747A4BCE9"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -619,11 +563,12 @@
 				item: { count: 1, id: "create:mechanical_bearing" }
 				type: "item"
 			}]
-			x: -20.5d
-			y: -4.5d
+			x: -17.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "4C4D1E34867B4AB7"
 			rewards: [
 				{
@@ -644,15 +589,10 @@
 					type: "item"
 				}
 				{
-					id: "7070BA74D186BA32"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5C105614224AC6E8"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -660,8 +600,8 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.5d
+			x: -9.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
@@ -685,15 +625,10 @@
 					type: "item"
 				}
 				{
-					id: "57E5C62E45B8B940"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "25218B958F8CFC12"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -701,12 +636,13 @@
 				item: { count: 1, id: "create:depot" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -11.5d
+			x: -12.216666666666647d
+			y: -13.20476190476191d
 		}
 		{
 			dependencies: ["0420DAF362EE2B37"]
 			id: "1AC154CB94B7A0EA"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -718,15 +654,10 @@
 					type: "item"
 				}
 				{
-					id: "691FD5BF32FB8BB8"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "106DEF191CE1FA76"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -734,11 +665,12 @@
 				item: { count: 1, id: "create:mechanical_drill" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: -4.5d
+			x: -16.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "05F67DDB916F8D32"
 			rewards: [
 				{
@@ -781,12 +713,13 @@
 					type: "item"
 				}
 			]
-			x: -19.5d
+			x: -20.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["0420DAF362EE2B37"]
 			id: "10D6A1B9E23878A7"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -798,15 +731,10 @@
 					type: "item"
 				}
 				{
-					id: "0274CB98E5047132"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "66A90E7633E02B14"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -814,11 +742,12 @@
 				item: { count: 1, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
-			x: -19.0d
-			y: -3.0d
+			x: -17.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3BA810FF52DA9982"]
+			hide_until_deps_complete: true
 			id: "7946F9753F14977C"
 			rewards: [
 				{
@@ -831,15 +760,10 @@
 					type: "item"
 				}
 				{
-					id: "7C8AF6E03E9BD567"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "418728D6C184D978"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -847,11 +771,12 @@
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: -4.692857142857115d
+			y: -12.44285714285715d
 		}
 		{
 			dependencies: ["3BA810FF52DA9982"]
+			hide_until_deps_complete: true
 			id: "7124A562FDF1A9A5"
 			rewards: [
 				{
@@ -873,15 +798,10 @@
 					type: "item"
 				}
 				{
-					id: "524C18310DE1A459"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "30BBF75713C46C78"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -896,11 +816,12 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -9.0d
+			x: -3.21666666666664d
+			y: -13.061904761904763d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "5D2B02B408E67C99"
 			rewards: [
 				{
@@ -913,15 +834,10 @@
 					type: "item"
 				}
 				{
-					id: "0B2B215A014F78BC"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "519FD207F26269A3"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -929,11 +845,12 @@
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -9.5d
+			x: -8.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "7EDA18B8420473E8"
 			rewards: [
 				{
@@ -954,15 +871,10 @@
 					type: "item"
 				}
 				{
-					id: "7EE1A29712E74B51"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7631A65C3AADC52A"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -970,11 +882,12 @@
 				item: { count: 1, id: "create:fluid_tank" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "0F7EFE6F208D4123"
 			rewards: [
 				{
@@ -996,15 +909,10 @@
 					type: "item"
 				}
 				{
-					id: "2DEEAA7CFEB9DD97"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0670B7A5B43B677B"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1012,11 +920,12 @@
 				item: { count: 1, id: "create:fluid_pipe" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -9.5d
+			x: -10.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "193B6128E25C5FE5"
 			rewards: [
 				{
@@ -1060,12 +969,13 @@
 					type: "item"
 				}
 			]
-			x: -17.5d
+			x: -18.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
 			id: "6E691464A1D6FEEC"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1077,15 +987,10 @@
 					type: "item"
 				}
 				{
-					id: "5AEF7B12D3EEDF58"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "512850FDB694FDE2"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1100,11 +1005,12 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: -12.0d
+			x: -14.216666666666647d
+			y: -14.347619047619048d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "5F9BEF8918186325"
 			rewards: [
 				{
@@ -1117,15 +1023,10 @@
 					type: "item"
 				}
 				{
-					id: "5BAAE740ABF2DEF9"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "541E787F7E7C3D11"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1133,12 +1034,14 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.5d
+			x: -9.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "77A0F8AC2BF086C5"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1150,15 +1053,10 @@
 					type: "item"
 				}
 				{
-					id: "3C3D833E5427DF9A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "766572A9953A8E52"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1166,11 +1064,12 @@
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.5d
+			x: -10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3BA810FF52DA9982"]
+			hide_until_deps_complete: true
 			id: "0E36BE756DB549DE"
 			rewards: [
 				{
@@ -1183,15 +1082,10 @@
 					type: "item"
 				}
 				{
-					id: "54718B44E7BDEEB3"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "680742955A53C4CE"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1199,12 +1093,14 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: -2.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "3764CCC84F88A7B6"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1235,7 +1131,9 @@
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "08AA3590E20B7629"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1247,15 +1145,10 @@
 					type: "item"
 				}
 				{
-					id: "091C84EFE97CC4CD"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4C16E6169DE87DE4"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1263,12 +1156,14 @@
 				item: { count: 1, id: "create:gearshift" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -10.0d
+			x: -17.121428571428538d
+			y: -13.20476190476191d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "58D9CE68661256C8"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1280,15 +1175,10 @@
 					type: "item"
 				}
 				{
-					id: "3319B1247F0C4E62"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4FEB81669C23EA55"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1296,12 +1186,13 @@
 				item: { count: 1, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
-			x: -14.0d
-			y: -9.0d
+			x: -18.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["3764CCC84F88A7B6"]
 			id: "0420DAF362EE2B37"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -1334,12 +1225,13 @@
 					type: "item"
 				}
 			]
-			x: -19.0d
-			y: -4.5d
+			x: -17.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
 			id: "40EFE5B89FE6DBA1"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1351,15 +1243,10 @@
 					type: "item"
 				}
 				{
-					id: "00793A64A7923FD8"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3D52447E4827FDDC"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1374,8 +1261,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -11.0d
+			x: -12.978571428571414d
+			y: -13.966666666666669d
 		}
 		{
 			dependencies: ["462639C0EBA1209F"]
@@ -1391,15 +1278,10 @@
 					type: "item"
 				}
 				{
-					id: "25B65A0496C9155A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "51865CF9F3E09711"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1407,7 +1289,7 @@
 				item: { count: 1, id: "create:speedometer" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -5.5d
 			y: -6.5d
 		}
 		{
@@ -1424,15 +1306,10 @@
 					type: "item"
 				}
 				{
-					id: "706B7FD5A3E39282"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7694965621FEB209"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1440,11 +1317,12 @@
 				item: { count: 1, id: "create:stressometer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: -6.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "6FEBA486156AA0CA"
 			rewards: [
 				{
@@ -1471,8 +1349,8 @@
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
-			x: -20.5d
-			y: -9.0d
+			x: -20.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["632E2AD859CE0BDE"]
@@ -1509,11 +1387,12 @@
 					type: "item"
 				}
 			]
-			x: -18.5d
-			y: -10.5d
+			x: -19.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "632E2AD859CE0BDE"
 			rewards: [
 				{
@@ -1526,15 +1405,10 @@
 					type: "item"
 				}
 				{
-					id: "293EC4CD355F00C7"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "491E5663EBFBBE4E"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1542,22 +1416,14 @@
 				item: { count: 1, id: "create:windmill_bearing" }
 				type: "item"
 			}]
-			x: -18.5d
+			x: -19.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["48FBEA846EE420D7"]
+			hide_until_deps_complete: true
 			id: "2D412FE8D78F46FE"
 			rewards: [
-				{
-					count: 5
-					id: "2DC1892B6E653433"
-					item: {
-						count: 1
-						id: "create:zinc_ingot"
-					}
-					type: "item"
-				}
 				{
 					count: 5
 					id: "3442B88367DF5E6B"
@@ -1577,6 +1443,12 @@
 					random_bonus: 3
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "068F4C8F71E8FAE9"
+					table_id: 4682836084073725053L
+					type: "random"
+				}
 			]
 			shape: "rsquare"
 			size: 1.3d
@@ -1585,11 +1457,12 @@
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
-			x: -11.600000000000001d
-			y: -7.800000000000001d
+			x: -15.600000000000001d
+			y: -11.05d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "6D46BA0F714FB56B"
 			rewards: [
 				{
@@ -1602,15 +1475,10 @@
 					type: "item"
 				}
 				{
-					id: "6B81925E4A65B6E9"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "47229A40F0578073"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -1627,11 +1495,12 @@
 					type: "item"
 				}
 			]
-			x: -8.4d
-			y: -7.800000000000001d
+			x: -13.000000000000002d
+			y: -11.05d
 		}
 		{
-			dependencies: ["1B5625F7E4626EEE"]
+			dependencies: ["63BA37F707747719"]
+			hide_until_deps_complete: true
 			id: "1883DF46FCE478C7"
 			rewards: [
 				{
@@ -1660,12 +1529,14 @@
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: -1.4500000000000002d
+			x: -9.45d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "1605A9755E36BD61"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1677,15 +1548,10 @@
 					type: "item"
 				}
 				{
-					id: "186DE4F2DAB9C2FC"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6CA4DEECD59570EA"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1693,12 +1559,14 @@
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.5d
+			x: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]
+			hide_until_deps_complete: true
 			id: "0FD95744FAD04B92"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1710,15 +1578,10 @@
 					type: "item"
 				}
 				{
-					id: "052260D12B02C006"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2F485B0E4267E5AB"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1726,12 +1589,14 @@
 				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -9.5d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "0811D99C4EE2E116"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "0341972E89DDDA81"
@@ -1750,7 +1615,9 @@
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "3301CEA39477F779"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "7CB8492FCE2CCE2E"
@@ -1769,7 +1636,9 @@
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "263AD6F95DF0632D"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1781,15 +1650,10 @@
 					type: "item"
 				}
 				{
-					id: "16C894F0F8A55A8E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5F9A64E54DF848BC"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1797,8 +1661,8 @@
 				item: { count: 1, id: "create:sequenced_gearshift" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -9.0d
+			x: -17.597619047619027d
+			y: -12.347619047619034d
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
@@ -1810,38 +1674,37 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "40270C32F09AD402"
+			rewards: [{
+				count: 2
+				id: "3F9CB931896698B5"
+				item: {
+					count: 1
+					id: "create:builders_tea"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [{
 				id: "53FF188E9FBDDB27"
 				type: "checkmark"
 			}]
-			x: -25.5d
+			x: -24.05d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "231D1BD8D2A930CF"
-			rewards: [
-				{
-					count: 5
-					id: "23AF77037A53A837"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
-					type: "item"
+			rewards: [{
+				count: 5
+				id: "27D2BD9C5A53E5B0"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
 				}
-				{
-					count: 5
-					id: "27D2BD9C5A53E5B0"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.3d
 			tasks: [{
@@ -1853,7 +1716,9 @@
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "2C4242CB2934DC57"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1865,15 +1730,10 @@
 					type: "item"
 				}
 				{
-					id: "1830C708EBBCB78F"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1C20C1531E401BC1"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1881,12 +1741,13 @@
 				item: { count: 1, id: "create:brown_toolbox" }
 				type: "item"
 			}]
-			x: -22.5d
-			y: -6.5d
+			x: -21.169047619047618d
+			y: -6.490476190476194d
 		}
 		{
 			dependencies: ["462639C0EBA1209F"]
 			id: "6144BAFB1269A066"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1898,15 +1759,10 @@
 					type: "item"
 				}
 				{
-					id: "6BB2461EA49B52FD"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "25FF25B4F9C76AAF"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1926,12 +1782,13 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: -5.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["462639C0EBA1209F"]
 			id: "389858EF7FA936DC"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1943,15 +1800,10 @@
 					type: "item"
 				}
 				{
-					id: "0ACE712AF632A89B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2156E4273679F306"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1976,12 +1828,14 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: -7.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "322078F5AA954906"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1993,15 +1847,10 @@
 					type: "item"
 				}
 				{
-					id: "540653C8C12C11B2"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1553632E3DC4679B"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2016,12 +1865,13 @@
 					type: "item"
 				}
 			]
-			x: -23.5d
-			y: -5.5d
+			x: -22.359523809523807d
+			y: -6.300000000000004d
 		}
 		{
 			dependencies: ["322078F5AA954906"]
 			id: "5BB1EAC4730AD978"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2033,15 +1883,10 @@
 					type: "item"
 				}
 				{
-					id: "7FB8415C928C3212"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5C443C00047EAC2E"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2049,12 +1894,14 @@
 				item: { count: 1, id: "create:schematicannon" }
 				type: "item"
 			}]
-			x: -23.5d
-			y: -4.0d
+			x: -22.359523809523807d
+			y: -4.633333333333333d
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "2D8A98F91CDD4318"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2066,15 +1913,10 @@
 					type: "item"
 				}
 				{
-					id: "05A046FFA0870A8F"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6E995C06B9F10F93"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2082,12 +1924,14 @@
 				item: { count: 1, id: "create:crafting_blueprint" }
 				type: "item"
 			}]
-			x: -24.5d
+			x: -23.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3FF93EB2C771B747"]
+			hide_until_deps_complete: true
 			id: "4AF21A7894A9F73A"
+			optional: true
 			rewards: [{
 				count: 5
 				id: "56F3E6F536DF5517"
@@ -2102,11 +1946,12 @@
 				item: { count: 1, id: "create:clipboard" }
 				type: "item"
 			}]
-			x: -24.5d
+			x: -21.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["3BA810FF52DA9982"]
+			hide_until_deps_complete: true
 			id: "7936CCA5490F1C60"
 			rewards: [
 				{
@@ -2129,15 +1974,10 @@
 					type: "item"
 				}
 				{
-					id: "5F35ABC80651A045"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "325939BF0AE839AC"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2147,11 +1987,12 @@
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: 11.05d
-			y: -7.800000000000001d
+			x: -0.5d
+			y: -11.05d
 		}
 		{
 			dependencies: ["7936CCA5490F1C60"]
+			hide_until_deps_complete: true
 			id: "73866AF524F9F82F"
 			rewards: [
 				{
@@ -2164,15 +2005,10 @@
 					type: "item"
 				}
 				{
-					id: "653A6F1AD9C31056"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0B88CA69CE9760F5"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2182,11 +2018,12 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 13.000000000000002d
+			x: -0.5d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["30C9759AD5ED60C9"]
+			hide_until_deps_complete: true
 			id: "0A6B65C5893B9BD4"
 			rewards: [
 				{
@@ -2199,15 +2036,10 @@
 					type: "item"
 				}
 				{
-					id: "2BEB4DC7FD086DF2"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "503FBDB3D94A3FB8"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2217,12 +2049,13 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: 16.900000000000002d
-			y: -7.800000000000001d
+			x: 1.9500000000000002d
+			y: -11.05d
 		}
 		{
 			dependencies: ["0A6B65C5893B9BD4"]
 			id: "785CEB5E417A45EF"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2234,15 +2067,10 @@
 					type: "item"
 				}
 				{
-					id: "15CD19ED1EE3BC3C"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4144BF60B03741DC"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2250,11 +2078,12 @@
 				item: { count: 1, id: "create:steam_whistle" }
 				type: "item"
 			}]
-			x: 16.9d
-			y: -9.0d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["73866AF524F9F82F"]
+			hide_until_deps_complete: true
 			id: "30C9759AD5ED60C9"
 			rewards: [
 				{
@@ -2267,15 +2096,10 @@
 					type: "item"
 				}
 				{
-					id: "35D25DDC7A386BA9"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0B4ADAD659A86DB0"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2288,11 +2112,12 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:seats))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 1.9500000000000002d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["0A6B65C5893B9BD4"]
+			hide_until_deps_complete: true
 			id: "07297B0121A2DCF0"
 			rewards: [
 				{
@@ -2305,15 +2130,10 @@
 					type: "item"
 				}
 				{
-					id: "002B529312EF7093"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "36C753B0E72930C6"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2322,12 +2142,13 @@
 				id: "141132EF055F405F"
 				type: "checkmark"
 			}]
-			x: 18.85d
-			y: -7.800000000000001d
+			x: 4.550000000000001d
+			y: -11.05d
 		}
 		{
 			dependencies: ["178F6215923BB915"]
 			id: "4BB82F98EE45B740"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2339,15 +2160,10 @@
 					type: "item"
 				}
 				{
-					id: "78DF0B66E43E48D6"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2A2831321673489E"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2355,12 +2171,13 @@
 				item: { count: 1, id: "create:track_observer" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: -7.5d
+			x: 3.2595238095238557d
+			y: -9.061904761904799d
 		}
 		{
 			dependencies: ["178F6215923BB915"]
 			id: "357AADC47C38165A"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -2381,15 +2198,10 @@
 					type: "item"
 				}
 				{
-					id: "263B745B43CC605D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4B1D4480B6CCF0B1"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2397,11 +2209,12 @@
 				item: { count: 1, id: "create:track_signal" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: -6.5d
+			x: 3.2595238095238557d
+			y: -8.061904761904799d
 		}
 		{
 			dependencies: ["07297B0121A2DCF0"]
+			hide_until_deps_complete: true
 			id: "178F6215923BB915"
 			rewards: [
 				{
@@ -2414,15 +2227,10 @@
 					type: "item"
 				}
 				{
-					id: "466952228797636E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "24056D64B9E8BB23"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2432,12 +2240,13 @@
 				item: { count: 1, id: "create:schedule" }
 				type: "item"
 			}]
-			x: 20.8d
+			x: 4.550000000000001d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["178F6215923BB915"]
 			id: "21E5B83843A2DA2A"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2449,15 +2258,10 @@
 					type: "item"
 				}
 				{
-					id: "15F863F4441DFBD4"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3692A2DCAD48A59B"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2465,12 +2269,14 @@
 				item: { count: 1, id: "create_things_and_misc:train_buffer" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: -8.5d
+			x: 3.2595238095238557d
+			y: -10.061904761904799d
 		}
 		{
 			dependencies: ["0A88B9EAAA2A5B7D"]
+			hide_until_deps_complete: true
 			id: "618CDE98123F2697"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2489,29 +2295,20 @@
 					}
 					type: "item"
 				}
-				{
-					id: "5E60C904DAF619A3"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "4480A4FA3C99A96A"
 				item: { count: 1, id: "create:package_frogport" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -15.5d
+			x: -16.02619047619045d
+			y: -16.96666666666667d
 		}
 		{
 			dependencies: ["239660F260DB37EA"]
+			hide_until_deps_complete: true
 			id: "440CB7D81AEBB293"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2523,15 +2320,10 @@
 					type: "item"
 				}
 				{
-					id: "161F737EE4C6D784"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0CCC62225BF3E641"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2539,12 +2331,13 @@
 				item: { count: 1, id: "create:packager" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -14.5d
+			x: -18.02619047619045d
+			y: -15.442857142857136d
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
 			id: "2BA2400B5F877FF7"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2556,15 +2349,10 @@
 					type: "item"
 				}
 				{
-					id: "54A1851794CB25CB"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "28CBE7B69EE61F35"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2572,12 +2360,14 @@
 				item: { count: 1, id: "create:stock_link" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: -14.5d
+			x: -18.454761904761874d
+			y: -14.347619047619048d
 		}
 		{
 			dependencies: ["2BA2400B5F877FF7"]
+			hide_until_deps_complete: true
 			id: "51780FDDA226D4B7"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2589,15 +2379,10 @@
 					type: "item"
 				}
 				{
-					id: "4F66A5E58F90A9FB"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "761AD93C62C2CCE4"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2605,12 +2390,13 @@
 				item: { count: 1, id: "create:stock_ticker" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: -13.5d
+			x: -19.311904761904728d
+			y: -15.109523809523814d
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
 			id: "4E86A025FBE306CE"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2622,15 +2408,10 @@
 					type: "item"
 				}
 				{
-					id: "1760660D1BDE5781"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6D9636B845F796BD"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2638,12 +2419,13 @@
 				item: { count: 1, id: "create:redstone_requester" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -15.5d
+			x: -17.645238095238057d
+			y: -16.72857142857143d
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
 			id: "23A74B3AD73B9E08"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2655,15 +2437,10 @@
 					type: "item"
 				}
 				{
-					id: "2F2539E08A86AF0D"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "00D9DD0E50A5E14E"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2671,12 +2448,13 @@
 				item: { count: 1, id: "create:factory_gauge" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -16.0d
+			x: -18.883333333333297d
+			y: -16.157142857142862d
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
 			id: "0A88B9EAAA2A5B7D"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2698,15 +2476,10 @@
 					type: "item"
 				}
 				{
-					id: "5B85C3300542094F"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3CF686EB2AC1352A"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2714,12 +2487,14 @@
 				item: { count: 1, id: "create:chain_conveyor" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -14.5d
+			x: -16.64523809523807d
+			y: -15.82380952380953d
 		}
 		{
 			dependencies: ["0A88B9EAAA2A5B7D"]
+			hide_until_deps_complete: true
 			id: "350D1EDD54ABC16F"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2731,15 +2506,10 @@
 					type: "item"
 				}
 				{
-					id: "78E2C186D205EBE4"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5F2EB1D51C8A0B61"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2750,12 +2520,13 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:postboxes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -13.5d
+			x: -15.264285714285684d
+			y: -15.966666666666669d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
 			id: "3EA662C8DE5BF536"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2767,16 +2538,10 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "3AC305B27EB21900"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "54AF354033E0B565"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2784,12 +2549,16 @@
 				item: { count: 1, id: "create_integrated_farming:fishing_net" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -6.0d
+			x: -17.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			icon: {
+				id: "create_integrated_farming:chicken_roost"
+			}
 			id: "478E5BBB9F9592E1"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -2801,28 +2570,23 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "6B4AF263D78C820B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "05B03B0BDD03B532"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
 				id: "1DD134B4E41818D6"
-				item: { count: 1, id: "create_integrated_farming:chicken_roost" }
+				item: { count: 1, id: "create_integrated_farming:roost" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: -6.0d
+			x: -16.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
+			hide_until_deps_complete: true
 			id: "239660F260DB37EA"
 			rewards: [
 				{
@@ -2843,15 +2607,10 @@
 					type: "item"
 				}
 				{
-					id: "5D0F54B42D2CD212"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0A4BAB4F412266AA"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2859,12 +2618,13 @@
 				item: { count: 1, id: "create:item_vault" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: -12.0d
+			x: -15.788095238095224d
+			y: -14.680952380952384d
 		}
 		{
 			dependencies: ["73866AF524F9F82F"]
 			id: "4B59C0C20AC60DF6"
+			optional: true
 			rewards: [
 				{
 					id: "67FC0C58A685DE93"
@@ -2916,15 +2676,10 @@
 					type: "item"
 				}
 				{
-					id: "48C98D266E3E182E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0C9EE24130624164"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2932,12 +2687,14 @@
 				item: { count: 1, id: "create_things_and_misc:brass_speaker" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: -6.5d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3BA810FF52DA9982"]
+			hide_until_deps_complete: true
 			id: "550AE537ED3CD72E"
+			optional: true
 			rewards: [
 				{
 					id: "68005C0AA28D09BC"
@@ -2957,15 +2714,10 @@
 					type: "item"
 				}
 				{
-					id: "50E1ABF5D8B55523"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3F40429141BF4335"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2990,8 +2742,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -6.5d
+			x: -4.169047619047596d
+			y: -13.347619047619055d
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
@@ -3007,15 +2759,10 @@
 					type: "item"
 				}
 				{
-					id: "3D832E25A5940D63"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5FA21016B40CB0F8"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3023,11 +2770,12 @@
 				item: { count: 1, id: "create:repackager" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -13.5d
+			x: -17.16904761904759d
+			y: -14.252380952380953d
 		}
 		{
 			dependencies: ["1FDE0EA030EC5D9B"]
+			hide_until_deps_complete: true
 			id: "5495DCB070D4777A"
 			rewards: [
 				{
@@ -3061,12 +2809,13 @@
 				id: "4D2D4C22E0AD7245"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5495DCB070D4777A"]
 			id: "32D8BF8E11599EA2"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -3078,15 +2827,10 @@
 					type: "item"
 				}
 				{
-					id: "2397BCFC39534F0F"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4D1FB45F5EC24D41"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3094,12 +2838,13 @@
 				item: { count: 1, id: "create_connected:empty_fan_catalyst" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5495DCB070D4777A"]
 			id: "07886230AFA12159"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -3111,15 +2856,10 @@
 					type: "item"
 				}
 				{
-					id: "234B6E152FF99C72"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "607C1147865F6A26"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3127,12 +2867,13 @@
 				item: { count: 1, id: "create_connected:item_silo" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5495DCB070D4777A"]
 			id: "2B98A8677B8CFE18"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -3144,15 +2885,10 @@
 					type: "item"
 				}
 				{
-					id: "5B1A9E41C7B84113"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2AE26E30B229FC31"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3160,12 +2896,13 @@
 				item: { count: 1, id: "create_connected:fluid_vessel" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.0d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5495DCB070D4777A"]
 			id: "1F4C29D48D135BE2"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -3177,15 +2914,10 @@
 					type: "item"
 				}
 				{
-					id: "226D16C972FBDE22"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "581B182690B61759"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3193,15 +2925,17 @@
 				item: { count: 1, id: "create_connected:six_way_gearbox" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
 				"40EFE5B89FE6DBA1"
 				"6E691464A1D6FEEC"
 			]
+			hide_until_deps_complete: true
 			id: "523A0A0240B9DE66"
+			optional: true
 			rewards: [
 				{
 					id: "49743949BFCA96A6"
@@ -3230,17 +2964,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "189A9FE096C43C52"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
@@ -3254,12 +2977,13 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
-			y: -12.0d
+			x: -13.264285714285698d
+			y: -15.252380952380953d
 		}
 		{
 			dependencies: ["462639C0EBA1209F"]
 			id: "2F6A074C1F506CC3"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -3271,15 +2995,10 @@
 					type: "item"
 				}
 				{
-					id: "550C3D2414D75081"
-					item: {
-						components: {
-							"ftbquests:missing_item": "magic_coins:silver_coin"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7E6DBB6167D68B8B"
+					table_id: 4682836084073725053L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -3299,12 +3018,13 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -6.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["6C7DDDC1123E208A"]
 			id: "3A227C6AE5CB2F32"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -3330,11 +3050,12 @@
 				item: { count: 1, id: "dndecor:belt_connector" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -9.5d
+			x: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D46BA0F714FB56B"]
+			hide_until_deps_complete: true
 			id: "63BA37F707747719"
 			rewards: [{
 				count: 5
@@ -3351,20 +3072,18 @@
 				id: "7D9CFAEA8B454FC4"
 				type: "checkmark"
 			}]
-			x: -5.8500000000000005d
+			x: -13.000000000000002d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["231D1BD8D2A930CF"]
+			hide_until_deps_complete: true
 			id: "48FBEA846EE420D7"
 			rewards: [{
-				count: 5
-				id: "68A55611871AA21E"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2BC0F0D6AE41ECF4"
+				table_id: 4682836084073725053L
+				type: "random"
 			}]
 			shape: "rsquare"
 			size: 1.3d
@@ -3373,34 +3092,33 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -15.700000000000001d
+			x: -15.600000000000001d
 			y: -7.800000000000001d
 		}
 		{
 			dependencies: ["2D412FE8D78F46FE"]
+			hide_until_deps_complete: true
 			id: "02E09ED80689775A"
 			rewards: [{
-				count: 4
-				id: "0E0A39E898EF96F6"
-				item: {
-					components: {
-						"ftbquests:missing_item": "createmechanisms:rubber"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "429461619740FD63"
+				table_id: 4682836084073725053L
+				type: "random"
 			}]
 			tasks: [{
 				id: "44B2D5F304CE310F"
 				item: { count: 1, id: "minecraft:kelp" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: -9.5d
+			x: -15.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["63BA37F707747719"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
 			id: "1B5625F7E4626EEE"
 			rewards: [
 				{
@@ -3437,34 +3155,50 @@
 				id: "347B329CDA9457CA"
 				type: "checkmark"
 			}]
-			x: -3.9000000000000004d
-			y: -7.800000000000001d
+			x: -14.3d
+			y: -9.100000000000001d
 		}
 		{
 			dependencies: ["045A217971DF1258"]
-			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "62C28A0614EBC5F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38217D68852C9A72"
+				table_id: 4682836084073725053L
+				type: "random"
+			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "4AA5B362ACB17E19"
 				item: { count: 1, id: "mineoctober:aluminum_nugget" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: -10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: [
 				"62C28A0614EBC5F8"
 				"3BA810FF52DA9982"
 			]
+			hide_until_deps_complete: true
 			id: "1FAA9DCE9915E8C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CD14B8AFB533E4E"
+				table_id: 4682836084073725053L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.1d
 			tasks: [{
 				id: "42335E29426537F5"
 				item: { count: 1, id: "mineoctober:duralumin_nugget" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -9.0d
+			x: -5.5d
+			y: -11.5d
 		}
 	]
 }

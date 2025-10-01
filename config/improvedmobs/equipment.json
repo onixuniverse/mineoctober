@@ -8,11 +8,6 @@
   ],
   "MAINHAND": [
     {
-      "value": "create:cardboard_sword",
-      "weight": 11616,
-      "quality": 39.868282
-    },
-    {
       "value": "create_things_and_misc:brass_knife",
       "weight": 59029,
       "quality": 6.853305

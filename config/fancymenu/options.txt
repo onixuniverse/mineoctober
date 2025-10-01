@@ -7,14 +7,14 @@ B:force_fullscreen = 'false';
 
 ##[customization]
 
-B:modpack_mode = 'false';
+B:modpack_mode = 'true';
 B:show_customization_overlay = 'true';
 B:advanced_customization_mode = 'false';
 
 
 ##[loading]
 
-S:preload_resources = '[source:local]config/fancymenu/assets/mineoctober_background_1.jpg%!source_end!%[source:local]config/fancymenu/assets/mineoctober_background_1_blur.jpg%!source_end!%[source:local]config/fancymenu/assets/mineoctober_title_en_3.png%!source_end!%[source:local]config/fancymenu/assets/mineoctober_icon_16.png%!source_end!%[source:local]config/fancymenu/assets/mineoctober_icon_32.png%!source_end!%';
+S:preload_resources = '[source:local]config/fancymenu/assets/mineoctober_title_en_3.png%!source_end!%[source:local]config/fancymenu/assets/mineoctober_icon_16.png%!source_end!%[source:local]config/fancymenu/assets/mineoctober_icon_32.png%!source_end!%[source:local]config/fancymenu/assets/lena_raine_rubedo.ogg%!source_end!%[source:local]config/fancymenu/assets/gui/button.png%!source_end!%[source:local]config/fancymenu/assets/gui/button_hover.png%!source_end!%[source:local]config/fancymenu/assets/gui/button_hover_exit.png%!source_end!%[source:local]config/fancymenu/assets/gui/fox.png%!source_end!%[source:local]config/fancymenu/assets/gui/witch_hat_1.png%!source_end!%[source:local]config/fancymenu/assets/mineoctober_title_ru.png%!source_end!%[source:local]config/fancymenu/assets/gui/spider.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/blue_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/brown_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/green_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/orange_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/purple_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/gui/candles/yellow_pixel_candle.png%!source_end!%[source:local]config/fancymenu/assets/bg_menu/bg_night.mp4%!source_end!%[source:local]config/fancymenu/assets/bg_menu/bg_morning.mp4%!source_end!%[source:local]config/fancymenu/assets/bg_menu/bg_evening.mp4%!source_end!%[source:local]config/fancymenu/assets/bg_menu/bg_day.mp4%!source_end!%[source:local]config/fancymenu/assets/bg_menu/bg_images/mineoctober_background_1_blur.jpg%!source_end!%[source:local]config/fancymenu/assets/gui/button_simple.png%!source_end!%[source:local]config/fancymenu/assets/gui/button_simple_hover.png%!source_end!%[source:local]config/fancymenu/assets/gui/button_simple_inactive.png%!source_end!%';
 S:custom_game_intro_skip_text = '';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';

@@ -1,5 +1,15 @@
 {
 	id: "2A65B28222932CCD"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Common Box"
+		string_id: "iron"
+	}
 	loot_size: 1
 	order_index: 1
 	rewards: [
@@ -200,5 +210,197 @@
 		{ id: "23C27AA80DC6CD24", item: { count: 1, id: "plushies:strider_plushie" } }
 		{ id: "614A8D7960B00202", item: { count: 1, id: "plushies:panda_plushie" } }
 		{ id: "569A6D7DB924F4B3", item: { count: 1, id: "plushies:white_splotched_rabbit_plushie" } }
+		{ id: "7C82D8DBD36E8BE9", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "5C6A86933BB50896", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "1E7FF1BD23FA9080", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "2D39773E2FE74CAA", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "2634D9243B0C4853", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "052D15CE73B0E4FD", item: { count: 1, id: "minecraft:lava_bucket" } }
+		{
+			count: 16
+			id: "7E0B4176E8BD0013"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 16
+			id: "7B1E6FE30F047E3A"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{ id: "1D9D459B529F1501", item: { count: 1, id: "pastel:myceylon_pumpkin_pie" } }
+		{
+			count: 8
+			id: "53BD9ED448EE1647"
+			item: {
+				count: 1
+				id: "minecraft:bone"
+			}
+		}
+		{
+			count: 16
+			id: "2C4B1D8F3D2FD2B9"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+		}
+		{
+			count: 16
+			id: "518E2FE6BABB2077"
+			item: {
+				count: 1
+				id: "minecraft:iron_nugget"
+			}
+		}
+		{
+			count: 16
+			id: "2F5FE531057311FA"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+		}
+		{
+			count: 8
+			id: "057750147823C24D"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+		}
+		{
+			count: 4
+			id: "55B0A78AEDB0C4CA"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+		}
+		{
+			count: 4
+			id: "2070E16246311846"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+		}
+		{
+			count: 16
+			id: "5066B860B1B2C908"
+			item: {
+				count: 1
+				id: "minecraft:raw_copper"
+			}
+		}
+		{
+			count: 12
+			id: "36D69738C5EE0502"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 16
+			id: "7A042CB94E95E8EB"
+			item: {
+				count: 1
+				id: "minecraft:raw_gold"
+			}
+		}
+		{
+			count: 16
+			id: "6F1009EAB5A09299"
+			item: {
+				count: 1
+				id: "minecraft:glass_bottle"
+			}
+		}
+		{
+			count: 16
+			id: "0A8DFD79D9B4E2B8"
+			item: {
+				count: 1
+				id: "minecraft:stick"
+			}
+		}
+		{
+			count: 64
+			id: "394832EA91DA1CA2"
+			item: {
+				count: 1
+				id: "minecraft:oak_planks"
+			}
+		}
+		{
+			count: 64
+			id: "1991A1783A73E6E5"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+		}
+		{
+			count: 64
+			id: "5283782F64F56AD3"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 64
+			id: "4DA58E8CD110E6DE"
+			item: {
+				count: 1
+				id: "minecraft:diorite"
+			}
+		}
+		{
+			count: 64
+			id: "45450BEE623A8F6F"
+			item: {
+				count: 1
+				id: "minecraft:granite"
+			}
+		}
+		{
+			count: 16
+			id: "3F72E54975BC429B"
+			item: {
+				count: 1
+				id: "minecraft:flint"
+			}
+		}
+		{
+			count: 16
+			id: "1B3BFB5655424703"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+		}
+		{
+			count: 16
+			id: "1E0CF4F695C7BD3E"
+			item: {
+				count: 1
+				id: "minecraft:paper"
+			}
+		}
+		{
+			count: 8
+			id: "2C0B7170C6ECEB3A"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+		}
 	]
+	use_title: true
 }

@@ -1,5 +1,15 @@
 {
 	id: "7969EFC16E9D6F8D"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Rare Box"
+		string_id: "gold"
+	}
 	loot_size: 1
 	order_index: 0
 	rewards: [
@@ -179,5 +189,117 @@
 		{ id: "122759B04B56B47F", item: { count: 1, id: "plushies:hoglin_plushie" } }
 		{ id: "4CA4CBB07776B4EB", item: { count: 1, id: "plushies:blaze_plushie" } }
 		{ id: "1FED4A94A875F90E", item: { count: 1, id: "plushies:dolphin_plushie" } }
+		{ id: "6326EBB3197B1C24", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "6C2641BD4673152D", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "7A755CC4CC2FC3D2", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "7C8699AB483E8FE2", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "1F7238515A6B49C3", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "33C64079F8604B90", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "61664BE8E0CEFF8B", item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" } }
+		{ id: "4DDCCFB89E3B4F5D", item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" } }
+		{ id: "02C2B7D55D383C61", item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" } }
+		{ id: "754FD0AF8F5712B8", item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" } }
+		{ id: "6F197BEB7F844352", item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" } }
+		{ id: "52172A53CE18FFB6", item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" } }
+		{ id: "05859B1BACA7727C", item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" } }
+		{ id: "120EAC465CC4B7C0", item: { count: 1, id: "trims_on_tools:glow_tool_trim_smithing_template" } }
+		{ id: "38B8BEF2A9FC40B2", item: { count: 1, id: "create:goggles" } }
+		{
+			count: 4
+			id: "6F3F6F65D701149B"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 2
+			id: "0E50EE5E868BD350"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			count: 4
+			id: "71ED5AAF0AA0D93E"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+		}
+		{
+			count: 16
+			id: "50817D65F91C2B46"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+		}
+		{
+			count: 4
+			id: "3AC3D8E84EACD1B4"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			count: 16
+			id: "624358AF525B9F46"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 16
+			id: "337A8B25E40B8B8C"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+		{
+			count: 8
+			id: "1D722904F9AD72CE"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{
+			count: 4
+			id: "50283D0E7A582E93"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+		{
+			count: 4
+			id: "2DA94EF58893C4A0"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "0252D6078C91E6D6"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "56578EB686666883"
+			item: {
+				count: 1
+				id: "mynethersdelight:hot_cream_cone"
+			}
+		}
 	]
+	use_title: true
 }

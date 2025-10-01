@@ -2,16 +2,142 @@
 
 ---
 
-## v2.2.1 - 2509191.hotfix.1
+## v2.2.3.251001.1
+### General
+**RU:**
+> Улучшена стабильность
+> Исправлены некоторые ошибки
+> Обновлены некоторые рецепты
+
+**EN:**
+> Improved stability
+> Fixed some bugs
+> Updated some recipes
+
+### Mods
+- Added: letsdo-brewery-neoforge-2.1.5
+- Added: letsdo-farm_and_charm-neoforge-1.1.11
+- Added: letsdo-bakery-neoforge-2.1.2
+- Added: letsdo-lilis_lucky_lures-neoforge-1.1.1
+- Added: farmingforblockheads-neoforge-1.21.1-21.1.8
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.1
+- Updated: sophisticatedcore-1.21.1-1.3.80.1195
+- Updated: sophisticatedstorage-1.21.1-1.5.10.1336
+- Updated: sophisticatedbackpacks-1.21.1-3.25.8.1385
+- Updated: chat_heads-0.13.22-neoforge-1.21
+- Updated: amendments-1.21-2.0.6-neoforge
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.2
+- Updated: balm-neoforge-1.21.1-21.0.52
+- Updated: dawnoftimebuilder-neoforge-1.21.1-1.6.4
+- Updated: moonlight-1.21-2.23.11-neoforge
+- Updated: lithostitched-1.5.0-beta6-neoforge-1.21.1
+- Updated: amendments-1.21-2.0.7-neoforge
+- Removed: dinobriks-rum-2.0
+- Removed: CutThrough-v21.1.0-1.21.1-NeoForge
+- Removed: TipTheScales-neoforge-1.21.1-16.0.0.1
+- Removed: carryon-neoforge-1.21.1-2.2.2.11
+- Removed: foolproof-neoforge-1.0.4-1.21.1
+
+### Known Issues
+> - 1 // Crash of the game due to the Distant Horizons mod
+
+---
+
+## v2.2.2.250926.1
+### General
+**RU:**
+> Добавлены квесты по моду `Pastel`
+> Добавлены квесты по моду `Enchanted`
+> Добавлены награды за квесты `Create`, `Pastel`, `Artifacts`
+> Добавлены переводы некоторых модов
+> Добавлены материалы перековки
+> Добавлены новые текстуры кнопок интерфейса
+> Добавлены анимированные фоны для главного меню интерфейса (зависимость от времени дня)
+> Добавлена поддержка нутриентов некоторой еды
+> Добавлен способ начисления опыта в древо навыков Исследователя
+> Исправлена ошибка с чернильными мешками
+> Исправлены ошибки перевода квестов (`Create` by Лиса <3)
+> Исправлены ошибки с наборами ресурсов
+> Увеличен шанс выпадения ока с Призывателя
+> Улучшен интерфейс меню
+
+**EN:**
+> Added quests based on the `Pastel`
+> Added quests based on the `Enchanted`
+> Added rewards for quests `Create`, `Pastel`, `Artifacts`
+> Translations of some mods have been added
+> Added forging materials
+> Added new interface button textures
+> Added animated backgrounds for the main interface menu (depending on the time of day)
+> Added support for some food nutrients
+> Added a way to add experience to the Researcher's skill tree
+> Fixed the bug with ink bags
+> Fixed quest translation errors (`Create` by Лиса <3)
+> Fixed bugs with resource sets
+> Increased chance of Summoner's eye drop
+> Improved menu interface
+
+### Mods
+- Added: OverflowingBars-v21.1.1-1.21.1-NeoForge
+- Added: StylishEffects-v21.1.1-1.21.1-NeoForge
+- Added: letsdo-beachparty-neoforge-2.1.1
+- Added: dynamiccrosshair-9.8+1.21.1-neoforge
+- Added: mcef-neoforge-2.1.6-1.21.1
+- Updated: sliceanddice-forge-4.1.1
+- Updated: sound-physics-remastered-neoforge-1.21.1-1.5.0
+- Updated: voicechat-neoforge-1.21.1-2.6.4
+- Updated: clientsort-neoforge-2.0.0-beta.20+1.21.1
+- Updated: jei-1.21.1-neoforge-19.24.0.317
+- Updated: sophisticatedstorage-1.21.1-1.5.6.1301
+- Updated: moonlight-1.21-2.23.9-neoforge
+- Updated: sophisticatedcore-1.21.1-1.3.74.1158
+- Updated: geckolib-neoforge-1.21.1-4.8.2
+- Updated: foolproof-neoforge-1.0.4-1.21.1
+- Updated: cratedelight-25.09.22-1.21-neoforge
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.0
+- Updated: sophisticatedstoragecreateintegration-1.21.1-0.1.12.47
+- Updated: sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23
+- Updated: puffish_skills-0.16.7-1.21-neoforge
+- Updated: fusion-1.2.11a-neoforge-mc1.21
+- Updated: dawnoftimebuilder-neoforge-1.21.1-1.6.3
+- Updated: mcw-mcwpaths-1.1.1-mc1.21.1neoforge
+- Updated: tenshilib-1.21.1-2.2.0-neoforge
+- Updated: sound-physics-remastered-neoforge-1.21.1-1.5.1
+- Updated: ImmediatelyFast-NeoForge-1.6.7+1.21.1
+- Updated: create-dragons-plus-1.8.1
+- Updated: exposure-neoforge-1.21.1-1.9.11
+- Updated: ubesdelight-neoforge-1.21.1-0.4.5
+- Updated: lithostitched-1.5.0+beta5-neoforge-1.21.1
+- Updated: sophisticatedstorage-1.21.1-1.5.10.1325
+- Updated: sophisticatedcore-1.21.1-1.3.77.1173
+- Updated: polytone-1.21-3.5.9
+- Updated: jei-1.21.1-neoforge-19.25.0.321
+- Updated: yet_another_config_lib_v3-3.8.0+1.21.1-neoforge
+- Updated: sophisticatedbackpacks-1.21.1-3.25.8.1380
+- Updated: puffish_skills-0.16.8-1.21-neoforge
+- Updated: Oh-The-Biomes-Weve-Gone-NeoForge-2.4.8
+- Updated: enchdesc-neoforge-1.21.1-21.1.9
+- Updated: vegandelight-neoforge-1.21.1-2.0.0-beta2
+- Removed: colorfulhearts-neoforge-1.21.1-10.5.9
+- Removed: jeed-1.21-2.2.19
+- Removed: satisfying_buttons-neoforge-1.1.2-1.21.1
+
+### Known Issues
+> - 1 // Crash of the game due to the Distant Horizons mod
+
+---
+
+## v2.2.1.250919.1.hotfix.1
 ### General
 > Fixed game crash
+> Removed old temp files
 
 ### Mods
 - Downgraded: forgified-fabric-api-0.115.6+2.1.1+1.21.1
 
 ---
 
-## v2.2.1 - 2509191
+## v2.2.1.250919.1
 ### General
 **RU:**
 > Добавлены новые декоративные предметы

@@ -26,14 +26,14 @@
 	   So enchanted books that exceed the enchantments natural max level get capped
 	   If true the bedrock anvil will not cap the enchantments level to it's natural max level
 	*/
-	"BedrockAnvilCanExceedMaxVanillaEnchantmentLevel": false,
+	"BedrockAnvilCanExceedMaxVanillaEnchantmentLevel": true,
 	/* The chance that an Enderman is holding a special treasure block on spawn
 	   Separate value for Endermen spawning in the end, since there are LOTS of them there
 	   Those blocks do not gate progression, so it is not that drastic not finding any right away.
 	   Better to let players stumble about them organically instead of forcing it.
 	*/
-	"EndermanHoldingEnderTreasureChance": 0.10000000149011612,
-	"EndermanHoldingEnderTreasureInEndChance": 0.007499999832361937,
+	"EndermanHoldingEnderTreasureChance": 0.44999998807907104,
+	"EndermanHoldingEnderTreasureInEndChance": 0.75,
 	// Worlds where shooting stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod
 	"ShootingStarWorlds": [
 		"minecraft:overworld",
@@ -58,7 +58,7 @@
 	   By default, there is a 0.0075 ^= 0.75 % chance at each of those check times. Making it ~1 shooting star spawn
 	   per night per player that unlocked the required progression.
 	*/
-	"ShootingStarChance": 0.007499999832361937,
+	"ShootingStarChance": 0.009999999776482582,
 	/* The time in ticks it takes a Pigment Pedestal to craft a vanilla Crafting Table recipe without upgrades
 	   Setting this to <=0 will make the Pedestal not able to be used for crafting Crafting Table recipes.
 	*/

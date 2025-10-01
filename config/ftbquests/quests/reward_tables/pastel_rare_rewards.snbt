@@ -1,0 +1,183 @@
+{
+	id: "60BC5D10BF817F97"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Pastel (Rare Box)"
+		string_id: "pastel_rare_"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 16
+			id: "2EDF5B393944098B"
+			item: {
+				count: 1
+				id: "pastel:orange_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "7E77E9477346E044"
+			item: {
+				count: 1
+				id: "pastel:magenta_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "6453FDD07D88941A"
+			item: {
+				count: 1
+				id: "pastel:light_blue_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "5739EE09FC62A486"
+			item: {
+				count: 1
+				id: "pastel:yellow_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "36FD38E2E9F69EA8"
+			item: {
+				count: 1
+				id: "pastel:lime_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "59B17019E969E7A1"
+			item: {
+				count: 1
+				id: "pastel:pink_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "6BA6D3D3E45F7F71"
+			item: {
+				count: 1
+				id: "pastel:cyan_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "43AFE7FDF7DB15D9"
+			item: {
+				count: 1
+				id: "pastel:purple_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "3B1BA12A76A051B5"
+			item: {
+				count: 1
+				id: "pastel:blue_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "3595CFA04FB91D3E"
+			item: {
+				count: 1
+				id: "pastel:green_pigment"
+			}
+		}
+		{
+			count: 16
+			id: "011EC7E13C792E99"
+			item: {
+				count: 1
+				id: "pastel:red_pigment"
+			}
+		}
+		{
+			count: 64
+			id: "11169202950462E5"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 64
+			id: "1F47439A8CA26BF7"
+			item: {
+				count: 1
+				id: "pastel:topaz_shard"
+			}
+		}
+		{
+			count: 64
+			id: "45F165E02370747F"
+			item: {
+				count: 1
+				id: "pastel:citrine_shard"
+			}
+		}
+		{
+			count: 4
+			id: "054CC424541B863F"
+			item: {
+				count: 1
+				id: "pastel:onyx_shard"
+			}
+		}
+		{ id: "00E3ED1AC0AD0817", item: { count: 1, id: "pastel:seven_league_boots" } }
+		{ id: "300E8791343437D9", item: { count: 1, id: "pastel:ink_flask" } }
+		{ id: "4A3DA587DE10BA04", item: { count: 1, id: "pastel:ink_assortment" } }
+		{
+			count: 4
+			id: "157574B3277D334E"
+			item: {
+				count: 1
+				id: "pastel:stardust"
+			}
+		}
+		{ id: "294807B065E2DAD5", item: { count: 1, id: "pastel:color_picker" } }
+		{ id: "47678BD1B020D114", item: { count: 1, id: "pastel:amethyst_chime" } }
+		{ id: "4387DE787FEAEF91", item: { count: 1, id: "pastel:upgrade_speed" } }
+		{
+			count: 16
+			id: "497B436009BFC4E6"
+			item: {
+				count: 1
+				id: "pastel:radiant_semi_permeable_glass"
+			}
+		}
+		{ id: "09E7A679E71D7F0A", item: { count: 1, id: "pastel:natures_staff" } }
+		{ id: "61381A14AD84FF32", item: { count: 1, id: "pastel:constructors_staff" } }
+		{ id: "0BC9C772481E5976", item: { count: 1, id: "pastel:fabrication_chest" } }
+		{
+			count: 3
+			id: "2BAE2017C9389173"
+			item: {
+				count: 1
+				id: "pastel:stratine_fragments"
+			}
+		}
+		{ id: "684580250618BAC3", item: { count: 1, id: "pastel:tender_pickaxe" } }
+		{ id: "53D60DA250F98CDA", item: { count: 1, id: "pastel:lagoon_rod" } }
+		{
+			count: 4
+			id: "29E266D95B6C2513"
+			item: {
+				count: 1
+				id: "pastel:redstone_transceiver"
+			}
+		}
+		{ id: "17B77D77E235D455", item: { count: 1, id: "pastel:jeopardant" } }
+		{ id: "6C8FD55C4F9F038D", item: { count: 1, id: "pastel:knowledge_gem" } }
+	]
+	use_title: true
+}

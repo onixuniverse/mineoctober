@@ -127,7 +127,7 @@
 		/* Shows a preview of the painting in its tooltip.
 		   (default: true)
 		*/
-		"enabled": true
+		"enabled": false
 	},
 	"durability": {
 		/* Shows the durability of an item in its tooltip.
@@ -151,7 +151,7 @@
 		/* Defines the line limit for the held item tooltip.
 		   (default: 10)
 		*/
-		"maxLines": 10,
+		"maxLines": 5,
 		/* Shows a dynamic tilt animation for the held item tooltip when scrolling the hotbar.
 		   (default: true)
 		*/

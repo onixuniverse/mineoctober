@@ -1,0 +1,48 @@
+{
+	"attribute.name.generic.dig_speed": "Скорость копания",
+  	"attribute.name.generic.crit_chance": "Шанс критического удара",
+  	"attribute.name.generic.durable": "Прочность",
+  	"attribute.name.generic.range_attack_damage": "Урон атаки дальнего боя",
+
+	"tiered:balanced_melee_1.label": "Сбалансированный",
+	"tiered:celestial_melee_1.label": "Небесный",
+	"tiered:clumsy_melee_1.label": "Неуклюжий",
+	"tiered:cursed_melee_1.label": "Проклятый",
+	"tiered:divine_melee_1.label": "Божественный",
+	"tiered:elemental_melee_1.label": "Стихийный",
+	"tiered:eternal_melee_1.label": "Вечный",
+	"tiered:shadowstrike_melee_1.label": "Теневой удар",
+	"tiered:titan_grip_melee_1.label": "Хватка титана",
+	"tiered:vampiric_melee_1.label": "Вампирский",
+
+	"tiered:mining_expert_pickaxe_1.label": "Горного мастера",
+	"tiered:lumberjack_axe_1.label": "Лесоруба",
+	"tiered:excavator_shovel_1.label": "Землекопа",
+	"tiered:farmer_hoe_1.label": "Фермера",
+	"tiered:cursed_tools_1.label": "Проклятый",
+	"tiered:master_miner_pickaxe_1.label": "Мастера-шахтёра",
+
+	"tiered:agile_armor_1.label": "Проворный",
+	"tiered:cursed_armor_1.label": "Проклятый",
+	"tiered:elemental_resistance_armor_1.label": "Сопротивление стихиям",
+	"tiered:guardian_armor_1.label": "Стража",
+	"tiered:regenerative_armor_1.label": "Регенеративный",
+	"tiered:reinforced_armor_1.label": "Усиленный",
+	"tiered:lightweight_armor_1.label": "Облегчённый",
+	
+	"tiered:sniper_bow_1.label": "Снайперский",
+	"tiered:rapid_fire_bow_1.label": "Скорострельный",
+	"tiered:heavy_crossbow_1.label": "Тяжёлый арбалет",
+	"tiered:hunter_bow_1.label": "Охотничий",
+	"tiered:piercing_crossbow_1.label": "Проникающий",
+	"tiered:cursed_ranged_1.label": "Проклятый",
+	"tiered:elemental_bow_1.label": "Стихийный",
+	
+	"tiered:reinforced_shield_1.label": "Усиленный",
+	"tiered:spiked_shield_1.label": "Шипастый",
+	"tiered:reflective_shield_1.label": "Отражающий",
+	"tiered:cursed_shield_1.label": "Проклятый",
+	"tiered:guardian_shield_1.label": "Стража",
+	"tiered:retaliatory_shield_1.label": "Карающий",
+	"tiered:lightweight_shield_1.label": "Облегчённый"
+}

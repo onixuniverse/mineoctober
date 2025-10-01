@@ -1,7 +1,18 @@
 {
 	id: "2A0F95A56EEAA352"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Epic Box"
+		string_id: "diamond"
+	}
 	loot_size: 1
-	order_index: 2
+	order_index: 3
 	rewards: [
 		{
 			count: 4
@@ -159,5 +170,156 @@
 		{ id: "7B2CB8518584AB6D", item: { count: 1, id: "plushies:camel_plushie" } }
 		{ id: "4857B1B697EF85CF", item: { count: 1, id: "plushies:parrot_plushie" } }
 		{ id: "5AE58A92CA23ECDE", item: { count: 1, id: "plushies:panda_plushie" } }
+		{ id: "502266A3E5E5182D", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "35F58D7EAE791579", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "6E52D290FD95B98D", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "56469C4CA161B0B7", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "6079C149A1677A10", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "4D99602D2D0E922B", item: { count: 1, id: "minecraft:eye_armor_trim_smithing_template" } }
+		{ id: "40B6E20A400EC902", item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" } }
+		{ id: "322D2780BF1B03EF", item: { count: 1, id: "minecraft:bolt_armor_trim_smithing_template" } }
+		{ id: "199EFDFF8968D441", item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" } }
+		{ id: "296058096BDB6F24", item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" } }
+		{ id: "3426D6FE8D4C368C", item: { count: 1, id: "minecraft:dune_armor_trim_smithing_template" } }
+		{ id: "557137E66644FAB5", item: { count: 1, id: "minecraft:rib_armor_trim_smithing_template" } }
+		{ id: "0BD12F0F872F90F5", item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" } }
+		{ id: "3C440E0189015AFD", item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" } }
+		{ id: "02E5D7E7CDB2D0FA", item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" } }
+		{ id: "487978AC72E9A3AD", item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" } }
+		{ id: "2C02A53041477D34", item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" } }
+		{ id: "032E0A2E501266F2", item: { count: 1, id: "minecraft:flow_armor_trim_smithing_template" } }
+		{ id: "5C2B1668D27CC7D3", item: { count: 1, id: "trims_on_tools:glow_tool_trim_smithing_template" } }
+		{ id: "4C951D35BD437676", item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{ id: "0EC13C8B57BC0DC8", item: { count: 1, id: "minecraft:music_disc_13" } }
+		{ id: "6EA38D86023C69E4", item: { count: 1, id: "minecraft:music_disc_cat" } }
+		{ id: "00241E9275A300CB", item: { count: 1, id: "minecraft:music_disc_blocks" } }
+		{ id: "5B41FF68B1E605F3", item: { count: 1, id: "minecraft:music_disc_chirp" } }
+		{ id: "76CD74327B14FECF", item: { count: 1, id: "minecraft:music_disc_far" } }
+		{ id: "6D978D373E2FC99D", item: { count: 1, id: "minecraft:music_disc_mall" } }
+		{ id: "37224B6EBA2DB4E3", item: { count: 1, id: "minecraft:music_disc_mellohi" } }
+		{ id: "336D55315E4795BD", item: { count: 1, id: "minecraft:music_disc_stal" } }
+		{ id: "7053C0F8951F514F", item: { count: 1, id: "minecraft:music_disc_strad" } }
+		{ id: "060F9076127003EF", item: { count: 1, id: "minecraft:music_disc_ward" } }
+		{ id: "1EB9A4AF03507E47", item: { count: 1, id: "minecraft:music_disc_11" } }
+		{ id: "56CC263CEA7B86E3", item: { count: 1, id: "minecraft:music_disc_creator_music_box" } }
+		{ id: "5CDB034922AAC0AD", item: { count: 1, id: "minecraft:music_disc_wait" } }
+		{ id: "72F8DB874FBD39C0", item: { count: 1, id: "minecraft:music_disc_creator" } }
+		{ id: "369CDFFF12BB252B", item: { count: 1, id: "minecraft:music_disc_precipice" } }
+		{ id: "4C3FADF309FA8B7A", item: { count: 1, id: "minecraft:music_disc_otherside" } }
+		{ id: "576ABED6FECFE6BF", item: { count: 1, id: "minecraft:music_disc_relic" } }
+		{ id: "42C1DB30D8426A99", item: { count: 1, id: "minecraft:music_disc_5" } }
+		{ id: "6EA8BD2AEE9F618E", item: { count: 1, id: "minecraft:music_disc_pigstep" } }
+		{ id: "0669EB651A888C6D", item: { count: 1, id: "create_connected:music_disc_interlude" } }
+		{ id: "058526CA2BB2B3EC", item: { count: 1, id: "create_connected:music_disc_elevator" } }
+		{ id: "4B7734647BE0BA4A", item: { count: 1, id: "beachparty:overgrown_disc" } }
+		{ id: "07F4E349445A6D16", item: { count: 1, id: "supplementaries:music_disc_heave_ho" } }
+		{ id: "4EBA96C9B14FAEA5", item: { count: 1, id: "pastel:music_disc_divinity" } }
+		{ id: "52BEC426EFE32A85", item: { count: 1, id: "pastel:music_disc_credits" } }
+		{ id: "711C254DD574732D", item: { count: 1, id: "pastel:music_disc_discovery" } }
+		{ id: "7E6B1131D2E63686", item: { count: 1, id: "biomeswevegone:music_disc_better_days" } }
+		{ id: "2F0D907CF000CD09", item: { count: 1, id: "biomeswevegone:music_disc_pixie_club" } }
+		{ id: "248B08D87F1303F6", item: { count: 1, id: "irons_spellbooks:music_disc_dead_king_lullaby" } }
+		{ id: "08AA0F29D2993456", item: { count: 1, id: "friendsandfoes:music_disc_around_the_corner" } }
+		{ id: "362E43604B489C46", item: { count: 1, id: "create:blaze_cake" } }
+		{ id: "689AA51D3FF95543", item: { count: 1, id: "dndesires:gatling_breaker" } }
+		{
+			count: 6
+			id: "37441ED58B1D91B2"
+			item: {
+				count: 1
+				id: "wildernature:cooked_cassowary_meat"
+			}
+		}
+		{
+			count: 12
+			id: "7636C5DDBC5D244B"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			count: 2
+			id: "0611754B17525FE1"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+		}
+		{
+			count: 4
+			id: "16AB9B45AC4DB1B8"
+			item: {
+				count: 1
+				id: "minecraft:dragon_breath"
+			}
+		}
+		{
+			count: 2
+			id: "1A848916D3C02316"
+			item: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								vampire: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										amount: {
+											initialValue: 0.11586d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				count: 1
+				id: "artifacts:vampiric_glove"
+			}
+		}
+		{
+			count: 2
+			id: "5EB67FA5C981BE54"
+			item: {
+				count: 1
+				id: "supplementaries:present"
+			}
+		}
+		{
+			count: 32
+			id: "7E65748F1102840C"
+			item: {
+				count: 1
+				id: "biomeswevegone:spirit_planks"
+			}
+		}
+		{
+			count: 8
+			id: "257CEC42BCD0C78C"
+			item: {
+				count: 1
+				id: "create:polished_cut_veridium"
+			}
+		}
 	]
+	use_title: true
 }

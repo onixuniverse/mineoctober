@@ -1,5 +1,16 @@
 {
 	id: "2615352A9451AD30"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 1
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Legendary Box"
+		string_id: "netherite"
+	}
 	loot_size: 1
 	order_index: 4
 	rewards: [
@@ -100,5 +111,113 @@
 			}
 			weight: 0.1f
 		}
+		{
+			count: 2
+			id: "07920A7993EAC31E"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "15112EF75620E4CC"
+			item: {
+				count: 1
+				id: "betterarcheology:growth_totem"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 16
+			id: "66FD983A11D65943"
+			item: {
+				count: 1
+				id: "herbalbrews:hibiscus_tea"
+			}
+		}
+		{
+			count: 16
+			id: "048A2934EDC02F34"
+			item: {
+				count: 1
+				id: "create:honeyed_apple"
+			}
+		}
+		{
+			id: "4D42F9ECDA9AA085"
+			item: {
+				count: 1
+				id: "minecraft:heart_of_the_sea"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 64
+			id: "35AAF8003CD9AEC2"
+			item: {
+				count: 1
+				id: "minersdelight:cave_carrot"
+			}
+		}
+		{
+			count: 64
+			id: "7E3C6DEE19560412"
+			item: {
+				count: 1
+				id: "pineapple_delight:pineapple_ice_cream"
+			}
+		}
+		{
+			id: "343F0BE16CB278A3"
+			item: {
+				count: 1
+				id: "moretotems:rotting_totem_of_undying"
+			}
+			weight: 0.7f
+		}
+		{
+			count: 16
+			id: "7D2C1497E1806D32"
+			item: {
+				count: 1
+				id: "betterarcheology:bomb"
+			}
+		}
+		{
+			id: "79645A772F5FC017"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "03FF8C1855D65B91"
+			item: {
+				count: 1
+				id: "minecraft:netherite_sword"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "1297298108EB3A47"
+			item: {
+				count: 1
+				id: "minecraft:dragon_egg"
+			}
+			weight: 0.1f
+		}
+		{ id: "1F7709D17E9EE4EB", item: { count: 1, id: "minecraft:music_disc_otherside" } }
+		{
+			id: "06B17E8B48268B6A"
+			item: {
+				count: 1
+				id: "pastel:bedrock_hoe"
+			}
+			weight: 0.1f
+		}
+		{ id: "20E4482B407AA6F6", item: { count: 1, id: "pastel:bedrock_anvil" } }
 	]
+	use_title: true
 }

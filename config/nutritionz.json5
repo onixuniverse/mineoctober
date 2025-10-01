@@ -1,5 +1,5 @@
 {
-	"maxNutrition": 100,
+	"maxNutrition": 150,
 	"negativeNutrition": 10,
 	"positiveNutrition": 90,
 	"posX": 162,

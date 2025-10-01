@@ -1,15 +1,18 @@
 {
-	chapter.09B56D111668F538.title: "&6&nGetting Started!&r"
-	chapter.139369A26CED6377.title: "&2Skills"
-	chapter.19BE083ACF488E0F.title: "&5Iron's Spells 'n Spellbooks&r"
+	chapter.09B56D111668F538.title: "&6&nTraveling"
+	chapter.139369A26CED6377.title: "&2Skill Tree"
+	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
 	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
-	chapter.2385B4F2FA029016.title: "&5Alshanex's Familiars&r"
+	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
+	chapter.2E34C4AF7759F54F.title: "&5Enchanted"
 	chapter.3067D17055C9C5A7.title: "&6Small Ships&r"
+	chapter.4296CFFF158C9365.title: "&aPastel"
 	chapter.464FB437D5DF7824.title: "&eArtifacts"
 	chapter.49288E5813B8C913.title: "&3AstikorCarts Redux"
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.576F6A1E4D30F4F2.title: "&aThe Endventure"
 	chapter.734C4C2CDBC52F6C.title: "&3Sophisticated Storage&r"
+	chapter_group.1386914329D4D3B7.title: "Misc"
 	chapter_group.58AC0983F019A24B.title: "Magic"
 	chapter_group.6B341B8F1D0CFE88.title: "Industry"
 	file.0000000000000001.title: "&7Mine&r&6&lOctober&r"
@@ -43,8 +46,35 @@
 		"The recipe will be automatically transferred to the crafting grid. If any items are missing, they will be highlighted in red."
 	]
 	quest.009A6AA7EEEC1F17.title: "&2&lJust Enough Items (JEI)&r"
+	quest.00FC26B4CA8F9C0D.quest_desc: [
+		"Carrying around enough &bInk&r with you to maintain your &dmagical equipment&r has become both a chore and a space hog in your inventory."
+		""
+		"It's time for a new creation: the &aPigment Palette&r. It is capable of storing sizable amounts of &bInk&r to supply all your &dmagical devices&r and equipment."
+	]
+	quest.010E868EE13FAAEC.quest_desc: [
+		"You very much took a liking to the &arotating roundels&r in those &bancient structures&r. So much, that you copied their design yourself. Definitely a nice way to present your items, or keep them ready."
+		""
+		"The &eBasalt&r and &dCalcite&r version you cobbled together hold &esignificantly more items&r, up to 6 whole stacks!"
+	]
 	quest.01219DEB95032DC7.title: "&dShadow-Walker Outfit"
 	quest.016C498DFB704536.quest_subtitle: "Allows you to trade with villagers for much cheaper"
+	quest.016C5422152ED3A2.quest_desc: [
+		"Placed in &dGeodes&r, the &aCrystal Apothecary&r automatically harvests fully grown &dGemstone Clusters&r."
+		""
+		"Normally all your other constructions and even crops do pretty much freeze in time when you are away, but this construct &eseems to continue working even when you're away&r. Weird..."
+		""
+		"While it is not as efficient as breaking the clusters with a &bPickaxe&r, the ease of use surely comes in handy!"
+	]
+	quest.01963B54FBC1B9BC.quest_desc: [
+		"The most interesting thing about the &dEndermen&r is, without question, their &eteleportation&r ability. You were pretty successful replicating it! However, to determine the destination of the teleport, you must first take a snapshot of the position. &o&dEndermen&f don't have to do that - why?&r "
+		""
+		"A &climitation&r of the &aEnder Splice&r is that it can only be used in the &bsame dimension it is bound to&r."
+		""
+		"&l&eUsage&r"
+		"By charging it with a long right-click, you bind it to your current position. The second use will teleport you back to that original location. &eIt can even be used on other players&r."
+		""
+		"&dEnchanting&r an &aEnder Splice&r with &5Unbreaking&r by using the &bEnchanter&r decreases the chance of it breaking on use."
+	]
 	quest.01B1F88F57961B10.quest_desc: [
 		"If you want to make a base outside Earth, you'll need &4Oxygen.&r&l"
 		""
@@ -115,7 +145,53 @@
 	]
 	quest.02E09ED80689775A.quest_subtitle: "Step by step 101 - Kelp can be found on the ocean"
 	quest.02E09ED80689775A.title: "&l&aHow to make a kelp farm&r&r"
+	quest.02FF55D076CC56D6.quest_desc: [
+		"In your search for the perfect tool, you've found that the &5Enchanting Table&r often doesn't do your bidding. Using this highly modified &5Enchanting Table&r should resolve most of the issue you had with your original one."
+		""
+		"It allows you to:"
+		"- create new &dEnchanted Books&r"
+		"- upgrade those &dBooks&r"
+		"- enchant items &cwithout consuming&r &dEnchanted Books&r"
+		""
+		"&l&eThe &aEnchanter&e needs a &bFocus Structure&e to work.&r"
+		"{image:kubejs:textures/item/pastel_enchanter.png width:240 height:135 align:1}"
+		""
+		"The &aEnchanter&r's abilities can be enhanced via &eUpgrades&r. Place them on top of the four &dGemstone Blocks&r."
+		""
+		"If you need help building the structure, remember you can &5Visualize&r it by placing the &aEnchanter&r block down then right clicking it!"
+		""
+		"Once you right-click the &aEnchanter&r with a fully built structure, you will unlock the recipes for books you can create. There's a lot you can do with this structure, make sure to check out the &dEnchantming&r section in the &eColorful World&r book."
+	]
+	quest.02FF55D076CC56D6.title: "The Enchanter"
+	quest.03588E4E9DA2A1F1.quest_desc: [
+		"&bTorches&r have one &ccrucial weakness&r: you can only place them when you're already standing in the &ddark&r. In contract the &aRadiance Staff&r can place lights far away and in the air, &eilluminating&r large caverns at a distance. As a final goodie, these lights are &dinvisible&r, making them great for illuminating your &astructures&r atmospherically."
+		""
+		"You can right-click placed lights with the &aStaff&r to adjust the &eemitted&r light level. They can even be summoned under &9water&r."
+		""
+		"Left click to place &dlights&r."
+	]
+	quest.0361236BF20549B5.quest_desc: [
+		"A skeleton skull gives +1x base power and recharge speed"
+		""
+		"A wither skeleton skull +2x base power and recharge speed"
+		""
+		"A player head gives +2.5x base power and 3x recharge speed"
+	]
+	quest.0361236BF20549B5.title: "&fSkulls"
 	quest.03A09B606040AD2E.quest_subtitle: "Rare random drop from Blazes."
+	quest.03E9573240625A6B.quest_desc: [
+		"You've finally managed to mix colors properly. What could be more natural than to try out the properties of your new &dpigments&r right away? You've had enough of the normal &cRedstone Lamps&r by now. Time to add a splash of color!"
+		""
+		"&aColored Lamps&r are surrounded by vibrant light, when &cactivated by redstone&r. Besides that, &aColored Lamps&r function similar to their boring &credstone&r counterpart."
+	]
+	quest.03E9573240625A6B.title: "Colored Lamps"
+	quest.03FBCDDEF854A0E3.quest_desc: [
+		"&bQuitoxic Reeds&r grow exclusively in &7swamps&r and seem to devour &7clay&r as a form of nutrient. "
+		""
+		"&eQuitoxic Powder&r can be extracted from the stems of the alien-looking plant by &ecrushing&r it with an anvil or using a &6macerator&r. Smell and consistency are very unusual when rubbed between your fingers."
+	]
+	quest.041556DA42FDC137.quest_desc: ["To advance, you must get acquainted with the &acrafting process&r. Pick an item you can craft with the &bPedestal&r, input the required &eitems and powders&r and then right-click with a &dPaintbrush&r or apply a &credstone signal&r to start the craft."]
+	quest.041556DA42FDC137.title: "Your First Craft"
 	quest.041F56989D342C26.quest_desc: [
 		"&6Speed Upgrade&r boosts how fast a device processes or transfers items each tick."
 		""
@@ -143,6 +219,11 @@
 		"The &6&lCrushing Wheels&r&r are an advanced alternative to the Millstone, used to process items using crushing recipes."
 		""
 		"To function, two Crushing Wheels must be placed one block apart, either horizontally or vertically, and powered with opposite rotational directions. "
+	]
+	quest.04778F1077A6A8D1.quest_desc: [
+		"These leaves seem to belong to a flower you don't know. Did it once bloom here? Was it once grown by those who came before you? Perhaps a souvenir from a world you yourself have never entered? yet it looks like it was plucked just &e5 minutes ago&r."
+		""
+		"You feel something whenever you touch the petal: &crestlessness&r"
 	]
 	quest.04A995BBF67D6395.quest_desc: [
 		"&cHatchets&r have higher attack speed and damage than swords, but lower than axes. They can break the same blocks as axes, plus cobwebs."
@@ -224,6 +305,7 @@
 		""
 		"&oTip: Combining smaller Water Wheels with a Large Water Wheel in the same power network can increase overall SU generation and boost rotational speed.&r"
 	]
+	quest.05FBAB1D703CCB28.quest_desc: ["The &eBedrock Axe&r comes &dpre-enchanted&r with &2Efficiency VI&r."]
 	quest.06252C87B61A19F3.quest_desc: [
 		"Before you can carry out an auto-crafting job, you need a device to actually store the request itself along with any interim items for multi-step crafts. This device is known as a &ecrafting CPU&f."
 		""
@@ -264,6 +346,12 @@
 		""
 		"You can rotate the Encased Mirror to choose the direction you wish the Light Ray to be redirected to. "
 	]
+	quest.0730F5C57F80CC0B.quest_desc: [
+		"Using the &eWitch's Oven&r to cook saplings, logs, and foods allows for the collection of &avarious fumes&r in jars for magical use, mostly saplings."
+		""
+		"Oak, Birch, and &eRowan&r saplings have fumes that are key to progression, but others will be wanted later."
+	]
+	quest.0730F5C57F80CC0B.title: "&aSupernatural Scents"
 	quest.07655CF543C452F8.quest_subtitle: "Collect Dragon's Breath in a Glass Bottle."
 	quest.078C4BD0C9D079E3.quest_subtitle: "+3% Stabilizing, -100% wind effect."
 	quest.078DF329C409A210.quest_desc: [
@@ -356,17 +444,15 @@
 		""
 		"To explore all available upgrades, use JEI and type `&d@sophisticatedstorage upgrade&r`."
 	]
-	quest.089899282C7F87E4.quest_desc: [
-		"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjuction with the main network to perform some specialised function or process."
-		""
-		"What separates a subnetwork from a completely detached separate network is usually the use of the &bQuartz Fiber&f as a cable part. When placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels between the two whatsoever, instead only transmitting power."
-		""
-		"Thus, a subnetwork on the other side of the Fiber can be powered wholly by the main network's power source, without requiring any extra dedicated powergen."
-	]
 	quest.089899282C7F87E4.title: "Forgot to Mention"
 	quest.08AA3590E20B7629.quest_desc: ["The &l&6Gearshift&r&r reverses the direction of rotational force output when it receives a Redstone signal."]
 	quest.08B2F767BB0AB1AA.quest_subtitle: "Tusk can be dropped by Hoglins when using the Ravaging enchantment on a hatchet. Additionally, it can be dropped by Pigs when using the Salvaging enchantment on a hatchet."
 	quest.08C8160CED1EFF08.title: "Cogs"
+	quest.08D0CC69D9F44D99.quest_desc: [
+		"&cIncandescent Essence&r can be obtained by crushing &4Blazing Crystals&r (and less efficiently, &cMagma Blocks&r)."
+		""
+		"It will be a useful crafting material in the future."
+	]
 	quest.091D25B58FD2D1A3.quest_desc: [
 		"There are three types of connectors:"
 		""
@@ -380,6 +466,11 @@
 		"&dUse a wrench to cycle each connector between Push, Pull, and None modes.&r"
 	]
 	quest.091D25B58FD2D1A3.title: "&e🔌 Connectors Overview"
+	quest.093508D0AF9EEB98.quest_desc: [
+		"The &bNature's Staff&r uses the magics of the &eNature&r and &aFertility&r elements to increase the &dnatural growth of plants&r."
+		""
+		"Hold right-click to start the process. Consumes &2Vegetal&r to function."
+	]
 	quest.093BE9C3E8D400D3.quest_subtitle: "Link one familiar to the bed. It will sleep and recover its health when near its bed."
 	quest.0964C5C4D8D33E5F.quest_subtitle: "+25% Engine Power, +50% fuel requirement."
 	quest.098A7DE12CAFAE30.quest_subtitle: "Preliminary Nucleus can be dropped by Endermites when using the Ravaging enchantment on a Hatchet."
@@ -390,6 +481,17 @@
 		""
 		"It supports different placement modes (default, round-robin, random), can launch fireworks, and works with redstone signals."
 	]
+	quest.09B39497A71F5777.quest_desc: ["Brau Bier, beiss in a Bretzn – willkomme zum Braufescht!"]
+	quest.09B39497A71F5777.quest_subtitle: "Ozapft is!"
+	quest.09B39497A71F5777.title: "Brewery"
+	quest.09B6F6758B0EEEC5.quest_desc: [
+		"With a bit of luck and maybe more than a bit of &eMutandis&r, you'll be able to get your hands on some of the &aunique saplings&r for this mod using &7oak, birch, or acacia&r. While &aRowan&r is the key interest to make a &eWhiff of Magic&r, the other two tree types have their own uses as well."
+		""
+		"Be sure to grow these into proper trees for farming once you obtain a sapling, as it could take even more mutandis to get them again."
+		""
+		"&oNote: bonemeal and similar effects work &6against&r &omutandis and grow the saplings before they mutate, don't force the change."
+	]
+	quest.09B6F6758B0EEEC5.title: "&fWitcher-Trees"
 	quest.09C33BB3342632B4.quest_desc: [
 		"In &eThe End&r, you'll find the final boss of Vanilla Minecraft: The &5Ender Dragon&r."
 		""
@@ -430,6 +532,8 @@
 		""
 		"&6Chain Conveyors&r will automatically sort packages by their Address, directing them to &bFrogports&r with matching destinations."
 	]
+	quest.0A97002C0AAB4075.quest_desc: ["Bright white shone towards me, almost dazzling down there. I knew right away where I was. Did fate bring me here? It can hardly be coincidence, can it?"]
+	quest.0A97002C0AAB4075.title: "Moonstone Geodes"
 	quest.0AB740B18E5FA805.quest_desc: [
 		"&6The Blast Furnace&r is a multi block machine. Make sure to use the ponder function (pressing W) to see how to build the Blast Furnace."
 		""
@@ -461,6 +565,25 @@
 		""
 		"{image:mineoctober:item/acr_animal_cart width:150 height:150 align:center}"
 	]
+	quest.0ADCD45B9716659B.title: "Animal Wagon"
+	quest.0B03023E3D249F86.quest_desc: [
+		"The &astrongest material&r you could make so far was &bNetherite&r. However, repairing &bNetherite&r armor had the disadvantage that it was more expensive than making the armor itself. In addition, the protection decreased with every scratch. All this is less problematic when the armor &ocannot&r be damaged. "
+		""
+		"&e&lBedrock Helmet&r"
+		"The &eBedrock Helmet&r comes &dpre-enchanted&r with &2Projectile Protection V&r."
+		""
+		"&e&lBedrock Chestplate&r"
+		"The &eBedrock Chestplate&r comes &dpre-enchanted&r with &3Protection V&r."
+		""
+		"&e&lBedrock Leggings&r"
+		"The &eBedrock Leggings&r come &dpre-enchanted&r with &5Blast Protection V&r."
+		""
+		"&e&lBedrock Boots&r"
+		"The &eBedrock Boots&r come &dpre-enchanted&r with &cFire Protection V&r."
+	]
+	quest.0B03023E3D249F86.quest_subtitle: "The Ultimate Drip"
+	quest.0B03023E3D249F86.title: "Bedrock Armor"
+	quest.0B38BDF3DF8F3235.quest_desc: ["The &bRedstone Calculator&r allows you to perform &eaddition&r, &asubtraction&r, &dmultiplication&r, &bdivision&r, &9modulo&r, &2min&r, and &3max&r. The first input is the back, the  second input is the highest single on the sides."]
 	quest.0BACFFF65E1C4F48.quest_desc: [
 		"The &e&nNutrition&r mod adds a system of five nutritional parameters (nutrients): Carbohydrates, Proteins, Fats, Minerals, Vitamins."
 		""
@@ -468,9 +591,9 @@
 		""
 		"It is important to keep each nutrient level above 10%:"
 		""
-		"📈 If the level is above 90% — you get permanent &2buffs&r (positive effects)."
+		"📈 If the level is above 90 — you get permanent &2buffs&r (positive effects)."
 		""
-		"📉 If the level drops below 10% — you get &cdebuffs&r (negative effects)."
+		"📉 If the level drops below 10 — you get &cdebuffs&r (negative effects)."
 	]
 	quest.0BACFFF65E1C4F48.title: "&eNutrients"
 	quest.0BD070E54EF86FDA.quest_desc: [
@@ -493,8 +616,21 @@
 		"And yes — through archaeology, you can even discover rare and powerful &6Artifacts&r hidden beneath the sands of time."
 	]
 	quest.0C4974DE21CEDF4B.title: "&6Archaeology!&r"
+	quest.0C4A66580A9534CE.quest_desc: [
+		"It is natural enough that Nightdew can flower. I did not, however, expect its flower to be... like &othis&r. The soothing essence of the plant's sprigs has blossomed into a bouquet of sleep magic, deep alike a sea of which I may well be diving too deep."
+		""
+		"The rarity of these burgeons has proved to be a problem. There is a solution to that though. The plants are a lot more eager to bloom when sleeping creatures are near..."
+		"This is wrong right? Not the sleep but... something like this *cannot* come by on its own. The roots of this magic run too deep, unto things hidden beneath the water's surface."
+	]
 	quest.0C61389C18B4A2B4.quest_desc: ["A holy talisman said to protect its owner from bad luck"]
 	quest.0C61389C18B4A2B4.quest_subtitle: "Buy it from a master cleric"
+	quest.0C9FB8ACA6735D41.quest_desc: [
+		"In the meantime, you have come into possession of many &anew materials&r. It's time to take a close look at each of them to see what effect they have on your &dpotions&r."
+		""
+		"Instead of &eBlaze Powder&r the &aPotion Workshop&r runs on &6Mermaid Gems&r. Main advantage is that you don't have to fill your bottles with water before."
+		""
+		"There's a lot to unpack here, so I suggest checking out the corresponding sections in the &eColorful World&r book (under the &dMagical Blocks&r section)"
+	]
 	quest.0CFFF58986CE7733.quest_subtitle: "you know how to make coal don't you? "
 	quest.0D02CCFCDC80B85B.quest_desc: [
 		"The &l&6Mechanical Saw&r&r uses rotational power to chop wood blocks directly in front of it."
@@ -504,10 +640,12 @@
 		"On a moving Contraption, Mechanical Saws are automatically powered. They can break blocks and damage entities, with their effectiveness scaling based on the Contraption speed."
 	]
 	quest.0D0A907FD6B9A21F.quest_subtitle: "Not repeatable"
+	quest.0D0D32A87957E243.quest_desc: ["Crystallized speckles of blood from &6&nKindling Feathers&r, shining in stunning scarlet and bleeding with willful magic!"]
 	quest.0D35D58CB7CA7580.quest_desc: [
 		"- Has 9 slots for seeds"
 		"- Plants seeds on farmland when pulled"
 	]
+	quest.0D35D58CB7CA7580.title: "Seeder"
 	quest.0D3C1E0336120843.quest_desc: [
 		"&nThree&r new buttons have appeared in your inventory:"
 		""
@@ -529,6 +667,7 @@
 		"- Harvest crops"
 		"- Use seat on the reaper to operate"
 	]
+	quest.0D5008376CBEFC71.title: "Harvester"
 	quest.0DBA2118C58A9676.quest_desc: [
 		"The &6&lMechanical Press&r&r is used for Pressing, Packing, and Compacting recipes."
 		""
@@ -542,7 +681,6 @@
 	quest.0E0532BA6E3FFEF9.quest_subtitle: "Allows you to drink items faster, but now with style!"
 	quest.0E10A137480D309E.quest_desc: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
 	quest.0E10A137480D309E.quest_subtitle: "Insane storage on the go"
-	quest.0E2DD647FACCEE2A.quest_desc: ["&6Storage I/O&r combines the functionalities of both Storage Input and Storage Output into a single block. This allows items to be both inserted into and extracted from the network seamlessly."]
 	quest.0E36BE756DB549DE.quest_desc: [
 		"The &l&6Rotation Speed Controller&r&r allows for precise control of rotational speed (RPM)."
 		""
@@ -551,10 +689,16 @@
 		"Speed and rotation direction (clockwise or counter-clockwise) can be configured via the Value Settings Screen located on the front or back of the controller."
 	]
 	quest.0E5216DF2717D1DC.quest_subtitle: "Not repeatable"
-	quest.0E59F678E2ED340F.quest_desc: [
-		"&6The Wrench&r lets you rotate or dismantle Refined Storage blocks. "
+	quest.0EB9D10AAC86F6A2.quest_desc: [
+		"The &aMermaids Brush&r is an inconspicuous plant that grows in the &9deepest&r depths of the oceans, forever untouched by human influence. They grow a &bsingle blossom&r, which slowly develops into a &efiligree shaped seed&r. They can only be harvested with &cshears&r."
 		""
-		"&eSneak + right-click&r to break the block and keep its settings, or just &eright-click&r to rotate it. "
+		"The &5Mermaids Gem&r once fully grown, will float to the surface of the sea to be carried away by the soft waves. &dMermaids&r have a strong bond with the &9water&r - obviously..."
+	]
+	quest.0EB9D10AAC86F6A2.title: "Under the Sea"
+	quest.0EE47705DA36E06C.quest_desc: [
+		"As the first drop touched your lips, it already filled your body with &cimmense might&r. Just the memory of it makes your hand &otremble&r of tension. That's no good. And yet you have &enever felt more powerful and alive than you did at this very moment&r."
+		""
+		"However, is it really worth emptying the &avial&r? Should you die against all odds, the price will &cbe immense&r."
 	]
 	quest.0F38D68C1DDEEEB3.quest_desc: [
 		"&6The Configuration Card&r is a useful tool that allows you to copy and paste the settings and upgrades of a network device."
@@ -578,6 +722,17 @@
 		""
 		"Unlike brackets or transparent sections, Copper Casing can also be applied to pipe corners, locking them in place and stopping automatic connections with adjacent pipes."
 	]
+	quest.0F98D6E41DFECDB7.quest_desc: [
+		"It always has been the dream of people to create &aartifical life&r. Since you are now dealing with &dmagical gems&r yourself, which seem to have &dmagical powers&r, this should be a piece of cake."
+		""
+		"The raw &dmagical powers&r, which are bundled by the gems, are the best starting point for such research. "
+		""
+		"It did not take long for an idea to come to you. The &6organism&r you came up with is weak, but it seems that your plans to create new life were successful, at least in principle. Admittedly, it is only a clump of &dmicroorganisms&r, but they are alive!"
+		""
+		"Every living being has basically the same goals: &eeat&r \\& &areproduce&r. So what do these creatures eat? Other &eblocks&r? Definitely something easy to digest. Perhaps &a&osomething organic&r?"
+	]
+	quest.0F98D6E41DFECDB7.quest_subtitle: "Creating Life"
+	quest.0F99FE552649A976.quest_desc: ["The &dOblivion Pickaxe&r has a large amount of &edurability&r and &6mining speed&r. However, &call mined blocks are destroyed&r."]
 	quest.0FD0F0F442972293.quest_desc: [
 		"A special type of tree can be found in the &l&6Plains biome&r&r, featuring distinctive leaves and light green logs, offering both aesthetic building materials and a source of nuts."
 		""
@@ -591,6 +746,13 @@
 	quest.0FD0F0F442972293.title: "&6Create Garnished"
 	quest.0FD95744FAD04B92.quest_desc: ["&6&lSmart Fluid Pipes&r&r allow only a specific fluid to pass through. To set the filter, insert a bucket or bottle of the desired liquid into the pipe’s Filter slot."]
 	quest.0FF69526C1DC1593.quest_desc: ["Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "]
+	quest.0FFD788283204691.quest_desc: [
+		"This is it: the &eperfection of your recipe&r. A little failure definitely couldn't stop you. This may be the one thing &caggressive enough&r to destroy even some materials previously deemed &6&ounbreakable&r. If you are not careful, you may &cruin the world&r. A necessary sacrifice really."
+		""
+		"You won't even make it subtle. This stuff is &4&l&oNASTY&r by design, you didn't call it a &aBottle of Ruin&r for nothing."
+		""
+		"&4&lWARNING!!! The corruption does not stop until it is cleansed. Do not leave corruption unattended! It destroys ALL blocks!&r"
+	]
 	quest.0FFFB592D103B2BF.quest_subtitle: "Not repeatable"
 	quest.1045FB828F50B457.quest_desc: ["What could you do with this tools?"]
 	quest.1045FB828F50B457.title: "Let's Get Cooking"
@@ -605,17 +767,16 @@
 		"Lava + Liquefied Red Mastic Resin"
 		"→ Interaction in-world → &c&lRed Zultanite&r&r"
 	]
-	quest.108EA49E8421CCC7.quest_desc: [""]
-	quest.109FBFA37FF99341.quest_desc: [
-		"AE2 provides devices to manage ME data and move stored items around the world. "
+	quest.106FB249D0B77D0E.quest_desc: [
+		"Placing &eLiquid Crystal&r above &cLava&r in the &4Nether&r will produce &aBlazing Crystal&r."
 		""
-		"&bThe ME Interface&r serves as both an input and output device. "
-		""
-		"As an input, it pipes items/fluids into the ME Network. "
-		""
-		"As an output, it can be configured to keep a specified amount of an item in stock, allowing external sources to receive items from the ME Network."
+		"Perhaps you can &dcrush it&r? "
 	]
+	quest.108EA49E8421CCC7.quest_desc: [""]
 	quest.109FBFA37FF99341.title: "The IO"
+	quest.10A74CA791E06A80.quest_desc: ["In Herbal Brews, it's all about tea and brewing: lavender tea, black tea, green tea, as well as coffee and potions, along with vials of long-lasting strengthening effects."]
+	quest.10A74CA791E06A80.quest_subtitle: "Tea Time!"
+	quest.10A74CA791E06A80.title: "Herbal Brews"
 	quest.10B6AE2CDC48D574.quest_subtitle: "A beast of copper and steel, built to conquer the skies! Four seats, moving turret, 6 weapon mounts and bigger than Minecraft physics would like it to be."
 	quest.10CDACBCA03AEDF7.quest_subtitle: "Attracts dropped items to the wearer"
 	quest.10D6A1B9E23878A7.quest_desc: [
@@ -687,15 +848,9 @@
 		""
 		"Just connect it to a valid inventory block and the network will treat it like internal storage. You can set filters and priorities to control what goes in or out. Higher priority means it will be used before other storages."
 	]
-	quest.130A80D8B3E4EA98.quest_desc: [
-		"AE2’s &eauto-crafting&r system starts with the &6ME Pattern Provider&r, which holds up to 9 &bpatterns&r for recipes. "
-		""
-		"These &bpatterns&r automate crafting by turning input items into output items. "
-		""
-		"You'll use multiple &3Pattern Providers&r across your base, and the &cPattern Access Terminal&r lets you access all providers on your ME network remotely."
-	]
 	quest.130A80D8B3E4EA98.quest_subtitle: "Order up"
 	quest.130A80D8B3E4EA98.title: "Auto-Crafting"
+	quest.132AEA7C9C0A85F6.quest_desc: ["The &cStratine Gem&r you set into this &aCirclet&r, itself a creation of the &cNether&r, can absorb high temperatures on you with ease. It even protects you from the &cblazing heat of lava&r - &bif only for a short time&r, until it has had a chance to cool down again. Pair it with something that grants you &dFire Resistance&r, you are able to swim in &clava&r almost as if it were &9water&r."]
 	quest.13449219998C54E1.quest_subtitle: "Causes the wearer's attacks to set the target on fire"
 	quest.135A70D16AC6511D.quest_desc: [
 		"Used to awaken the &cEcho of Tyros, First Flamebearer&r in the &6Citadel Arena&6, located in the Nether."
@@ -707,6 +862,46 @@
 	quest.135A70D16AC6511D.quest_subtitle: "Bought from market"
 	quest.136F140D9A3ED036.quest_subtitle: "Increases knockback from attacks"
 	quest.137CC533B864B25F.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
+	quest.1385135551DA36AB.quest_desc: [
+		"&bCircle magic&r is performed by using &aGolden Chalk&r to place a central glyph as the 'heart' of the circle, and using &aRitual Chalk&r to form circles around it."
+		"To perform a rite or ritual, drop all relevant items onto the center glyph and activate it with right click. Some of these may require &6altar power&r, or a charged Attuned Stone to ignore the power requirement."
+		""
+		"See the \"&5Attuned Stone Charged&r\" quest for details on that."
+		"{@pagebreak}"
+		"Most rituals only require a single &bcircle&r, formed in a 7x7 ring (one diagonal) around the heart."
+		"&7A representation of this is shown below."
+		""
+		"A few advanced rituals may require a second &bcircle&r with a gap from the first, forming a 11x11 ring around the heart (two diagonal)."
+		"&7A representation of this is not shown below."
+		""
+		""
+		"    XXX"
+		"  X     X"
+		"X         X"
+		"X    &6X&r    X"
+		"X         X"
+		"  X     X"
+		"    XXX"
+		""
+		"{@pagebreak}"
+		"If you would like to pick up a circle and move it somewhere else, you can do so with a rite."
+		""
+		"A &aCircle Talisman&r, redstone dust, and some &6altar power&r will condense the circle into the Talisman. Without an altar, a Talisman, glowstone dust, and an Attuned Stone Charged can be used."
+		""
+		"To put this circle back down, simply right click the inscribed Talisman on the ground in a properly cleared area."
+		""
+		""
+		"...what's the &aBroom&r for? Neatly sweeping up misplaced chalk, obviously. No other reason..."
+	]
+	quest.1385135551DA36AB.title: "Circle Magic"
+	quest.13C6DDDCD6676BBD.quest_desc: [
+		"So &lthere is&r intelligent life down there! Or... was."
+		"Although the city looks like it's absolutely inhabited, I haven't found a single sign of the inhabitants."
+		""
+		"Where are they?"
+		"Where did they go?"
+	]
+	quest.13C6DDDCD6676BBD.title: "Forgotten Cities"
 	quest.140ABE41794E9C33.quest_desc: [
 		"The &6Photo Album&r can hold up to 16 pages, each featuring a photograph and a short caption beneath it. "
 		"&a"
@@ -714,6 +909,12 @@
 		""
 		"Once signed, the album gets a custom name and becomes uneditable, preserving your memories just the way you captured them."
 	]
+	quest.1416BED5BCB49E7A.quest_desc: [
+		"You must be careful when freeing the &dmicroorganisms&r in the &aBottle of Failing&r as they are ravenous. They will spread to connecting blocks over time and consume the block entirely. "
+		""
+		"They have a &especial interest&r in eating &5a certain black block that was once &clava&r."
+	]
+	quest.1416BED5BCB49E7A.title: "A New Material"
 	quest.144A3346C18A992F.quest_desc: ["Flap with your bee, and avoid the pipes&e"]
 	quest.144A3346C18A992F.quest_subtitle: "Flap with SPACE or ENTER"
 	quest.144A3346C18A992F.title: "&eFlappy Bee"
@@ -724,21 +925,24 @@
 	]
 	quest.1456C26C92A56C10.quest_subtitle: "Change direction with W, S, A and D"
 	quest.1456C26C92A56C10.title: "&2Slime"
-	quest.14B60AA1D014540A.quest_desc: [
-		"&6The Security Manager &rcontrols who can access and interact with your storage network. Once placed, the network becomes locked—only players with a valid &aSecurity Card&r can use it."
-		""
-		"&eRight-click a Security Card &rto bind it to a player and configure permissions. Sneak + right-click to clear its configuration."
-		""
-		"You can assign permissions such as insert, extract, autocrafting, GUI access, building, and security management. If no matching&a Security Card&r is found, a &aFallback Security Card&r defines default access rules."
-		""
-		"Multiple &6Security Managers&r can exist in the same network. For an action to be allowed, it must pass all active security checks."
-		""
-		"The &6Security Manager&r also supports redstone control, colored connections, and can be recolored with dyes."
-	]
 	quest.14CB47511F2D0E01.quest_subtitle: "Allows you to drink items faster"
 	quest.14CC69CF9016CD4F.quest_desc: ["You can set it to speak a message or show it in chat."]
 	quest.14E9C287665C6AD4.quest_subtitle: "When used for Upgrade: &6+5% Blood Spell Power"
 	quest.153FB224571B339A.quest_subtitle: "&6+15% Cast Time Reduction"
+	quest.15615777888AF057.quest_desc: [
+		"You always spend a lot of &ctime placing blocks&r. You could almost think that this is the main reason for your existence. Placing a lot of similar blocks is &ctedious&r. Or more like: &owas&r tedious."
+		""
+		"Crouch click to get a &dselection&r of all available &eplacement modi&r."
+	]
+	quest.15956817DCDAD8C3.quest_desc: [
+		"Enchanted is a mod heavily inspired by the old mod Witchery."
+		""
+		"While the &aWitch's Oven&r is the iconic block of the mod, to really get started you'll need to take a dip into&e herbology&r off to the side."
+		""
+		"You can rarely get these seeds to drop from grass, but here's a few boxes with magical seeds to help get your green thumb going."
+	]
+	quest.15956817DCDAD8C3.quest_subtitle: "The Way of Witchery"
+	quest.15956817DCDAD8C3.title: "&fEntering Enchanted"
 	quest.15B4189EFAD4B6E2.quest_desc: [
 		"The &bCrafting Co-Processing Unit&f helps speed up crafting jobs by allowing pattern providers to either send items out to their connected devices faster or to work concurrently to make multiple required ingredients."
 		""
@@ -762,24 +966,16 @@
 		""
 		"The current length of the rope can be monitored using a Threshold Switch for automation or signaling."
 	]
+	quest.160B8316AAD40B2E.quest_desc: ["&aStratine Gems&r can rarely be dropped from &bStratine Ores&r. Once you find one, you will &eunlock a recipe to make them&r."]
 	quest.162F3E589083CA60.quest_subtitle: "Irate Tusk can be dropped by Hoglins when using the Ravaging enchantment on a hatchet."
-	quest.16BF82CCB4624E9C.quest_desc: [
-		"Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed."
-		""
-		"This behavour can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."
-	]
 	quest.16BF82CCB4624E9C.title: "Redstone-Controlled ME"
+	quest.16E8B253BE2B80BB.quest_desc: ["&cTNT&r can be produced using &dQuitoxic Dust&r, however any &cTNT&r produced this way is &6unstable&r. What does that mean exactly? Well, let's just say you're certain &awhere you want to place your &cTNT&r..."]
+	quest.16F48CE9D5FB369A.quest_desc: ["Socketing &n&2Malachite Tools&r with &7&nMoonstone Cores&r grants them powerful new abilities."]
+	quest.16F48CE9D5FB369A.title: "Glass Crest Tools"
 	quest.16FE44DE7D93172C.quest_desc: [
 		"The &a&lExperience Lantern&r&r absorbs experience from nearby players as well as experience orbs and it glows accordingly to the amount of experience it has stored."
 		""
 		"The &a&lExperience Lantern&r&r works &6&lon contraptions&r&r."
-	]
-	quest.171DB69D600EBD90.quest_desc: [
-		"Arguably the most important aspect of Applied Energistics 2 is its storage system, making use of digital &eStorage Cells&f. These cells are accessible through either an &eME Chest&r for single cells, or an &eME Drive&r for multiple cells."
-		""
-		"The &bME Chest&f holds a single Cell at a time, which can then be read from and written to from any other terminal on the same network. The ME Chest itself also provides its own terminal screen on the top with specific access only to the cell it contains."
-		""
-		"The &bME Drive&f can hold up to 10 assorted Storage Cells in the space of a single block and a single ME channel. However, it does not provide its own terminal screen, requiring some external terminal elsewhere on the network for storage access."
 	]
 	quest.171DB69D600EBD90.quest_subtitle: "Items as a file system"
 	quest.171DB69D600EBD90.title: "The Storage"
@@ -834,6 +1030,12 @@
 		""
 		"&bTrain Casings&r – used in locomotive and rail systems."
 	]
+	quest.189BF9932FBFCF62.quest_desc: [
+		"The &bInk Flask&r is able to hold a sizable amount of &aInk&r of a single color."
+		""
+		"You can use your &ePaintbrush&r to launch &dmagical&r balls of &aInk&r at your foes. Doing so costs &c100 mB worth of &aInk&r from your &bFlask&r."
+	]
+	quest.189BF9932FBFCF62.title: "Ink Flasks"
 	quest.18E0360F9A93DD58.quest_subtitle: "+100% Durability"
 	quest.1912B53794E7EB02.quest_desc: ["These doors can be opened with hand but NOT redstone signals."]
 	quest.192EE909C57F390A.quest_subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
@@ -897,11 +1099,13 @@
 		""
 		"{image:mineoctober:item/acr_hand_cart width:150 height:150 align:center}"
 	]
+	quest.1ABB0B317DB25015.title: "Hand Cart"
 	quest.1AC154CB94B7A0EA.quest_desc: [
 		"The &6&lMechanical Drill&r&r breaks blocks directly in front of it when powered by rotational power. When mounted on a moving Contraption, it can break blocks and damage entities it collides with—without needing a direct rotational power source."
 		""
 		"Block-breaking speed depends on the Contraption’s movement speed and the block’s hardness. Similarly, the damage dealt to entities is determined by the Contraption's speed."
 	]
+	quest.1AC510ACD580FA67.quest_desc: ["This collection of &esmall vials&r is able to store &ball kinds of Ink&r, albeit &cjust small amounts of it&r."]
 	quest.1B5625F7E4626EEE.quest_desc: [
 		"There are various ways to obtain large quantities of &cLava,&r such as going into the Nether to collect or using Trains to do so."
 		""
@@ -934,6 +1138,14 @@
 		"Carpet can be placed over Campfires to prevent fire damage."
 	]
 	quest.1B78054E61C50110.title: "Find a Bee Nest"
+	quest.1BA5F737C2C6356F.quest_desc: [
+		"&aKettles&r function in much the same way that a &eWitch's Cauldron&r does, but typically makes potions instead of solid products. Some of these are for drinking, most of them are not. Anything called '&aBrew&r' is safe enough."
+		""
+		"Follow the recipe's &border&r to drop in the ingredients, wait for the color to change and the particles to spritz out of the kettle rather than drift down into it. Simply interact with the Kettle once it's finished to extract a dose of the brew."
+		""
+		"&7Don't worry about where the bottle comes from, you don't keep it either."
+	]
+	quest.1BA5F737C2C6356F.title: "&fPut the Kettle On"
 	quest.1BED7E4A786ED5ED.title: "Miner"
 	quest.1C051DC0D07AF588.quest_subtitle: "Not repeatable"
 	quest.1C267CC53FD04C88.title: "&4Cultist Outfit"
@@ -947,6 +1159,14 @@
 	quest.1C89D285F0501472.quest_desc: ["No information about this eye"]
 	quest.1C89D285F0501472.quest_subtitle: "small chance to get it when enchanting"
 	quest.1D82BDEB070E5EC4.title: "Combat"
+	quest.1D932100A7A0EDEE.quest_desc: [
+		"- New food items! Bread, Cupcakes, Cakes, Tarts - Everything to satisfy your sweet cravings."
+		"- New crafting stations: Glazing, Baking, Caking."
+		"- New Effects: Saturated food will provide increased satiation and prevent hunger loss. Sweets will grant a short but powerful effect that boosts your speed and strength - stackable up to 10 times. Enjoy in moderation!"
+		"- New decorative blocks - Cakestands, Breadbaskets, outdoor furniture, and of course: most bread can be both: eaten and placed."
+	]
+	quest.1D932100A7A0EDEE.quest_subtitle: "Satisfy your sweet cravings, craft delicious treats, and create a delightful bakery."
+	quest.1D932100A7A0EDEE.title: "Bakery "
 	quest.1D9D2E1FF9BD8A91.quest_desc: ["{ \"text\": \"☞ Click here for more information about beams visit Chapter V at the end.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"265960CE3104527E\" } }"]
 	quest.1D9D2E1FF9BD8A91.quest_subtitle: "It uses a &6Beam Focuser&r"
 	quest.1DB59AA0F0D77623.quest_subtitle: "Not repeatable"
@@ -1004,6 +1224,11 @@
 	]
 	quest.1F6BC8C2A5B8F9B2.quest_subtitle: "&bYour imagination is the only blueprint you need...."
 	quest.1F6BC8C2A5B8F9B2.title: "Welcome to &7Mine&r&6&lOctober&r"
+	quest.1F919EBE1EF59F4E.quest_desc: [
+		"This powerhouse of an item is capable of channeling huge amounts of &7&nInk&r with ease. Can be used to enhance the capabilities of equipment and devices."
+		""
+		"&oA relic of times long past.&r"
+	]
 	quest.1FBE9C78798263F3.quest_desc: [
 		"When crafted, a respawn anchor has no (zero) charge and can't yet be used until charged. Using a glowstone block (not glowstone dust) on it adds a charge. The anchor accepts up to 4 charges, and the charge level is indicated by a dial on the side of the block"
 		""
@@ -1069,6 +1294,13 @@
 	]
 	quest.1FF26858DB8E88F8.quest_subtitle: "Obtain loot by breaking a vase."
 	quest.203CEDAC6E1CAB91.quest_subtitle: "&6+100 Max Mana"
+	quest.2042DB84897AC123.quest_desc: [
+		"Whenever you pick up one of those &alittle green orbs&r that appear whenever you &ckill&r an enemy, you get smarter &osupposedly&r."
+		""
+		"However, the inevitable death by &cclumsiness&r means that you always lose this &aexperience&r quickly. Crystallized and safely stored in your chests, however, they will be as safe as can be."
+		""
+		"A &bKnowledge Gem&r can hold up to &a10,000 experience&r. &dEnchanting&r it with &eEfficiency&r increases that limit, &6Quick Charge&r boosts the pushing / pulling of &axp&r."
+	]
 	quest.20BFB23E1ADDC3DF.quest_desc: [
 		"{image:kubejs:textures/familiars/necromancer.png width:100 height:88 align:center}"
 		"&l&6Battle:&r&r specialized in blood magic, including necromancy abilities to summon undeads."
@@ -1127,6 +1359,7 @@
 		"When a Spool is fully used, it will return to an Empty Spool, ready to be refilled or reused."
 	]
 	quest.2192D2F22A2C17FD.title: "&e🧵 Spools and Wire Types"
+	quest.21DA194C6F634DA6.quest_desc: ["This strange blocks let your &evision penetrate ground and rock&r. Placed directly on a wall or on the ground, it allows you to glimpse the other side."]
 	quest.21E5B83843A2DA2A.quest_desc: ["Useful for separating trains or carts that bump into each other, or simply to add extra flair to your train."]
 	quest.221AD10D242035D1.quest_subtitle: "A heavy crossbow with a powerful punch, which requires Arrows, is kept in the aircraft inventory and uses 2 arrows per use."
 	quest.223E243BADB0CFAA.quest_subtitle: "Not repeatable"
@@ -1213,6 +1446,8 @@
 	quest.23D7FCA6FD1D3EA5.quest_desc: ["Fit the pieces into small space, and fill lines to get points&9"]
 	quest.23D7FCA6FD1D3EA5.quest_subtitle: "Move with A and D, rotate with W, move down with S, hard drop with SPACE, and hold with ENTER"
 	quest.23D7FCA6FD1D3EA5.title: "&9Blocktris"
+	quest.241243142B547B6C.quest_desc: ["Your &aprowess&r has unlocked more &bancient knowledge&r. You hear the cries of the &cNether&r reach out to you, \"&o&dThere's ore under the lava, tear it out&r\"."]
+	quest.241243142B547B6C.title: "The New Hotness"
 	quest.243C8B57999BDD8B.quest_desc: [
 		"&6Small Ships&r allows players to create and operate their own ships in Minecraft: cog, brig, galley, longship."
 		""
@@ -1225,8 +1460,7 @@
 		"With it, you conquer &8obsidian&r for a portal to &5the End&r and mine &6redstone&r and &elapis lazuli&r for the most complex mechanisms. It is a symbol of progress, strength, and true &3&omastery&r of a survivor."
 	]
 	quest.246D731F4FE2AEED.quest_desc: [
-		"&6Netherite&r is not just a metal, it is a legacy of an ancient era."
-		"Those who don armor made from it will not merely be survivors, but true &nmasters&r of the most &4infernal&r corners of this world."
+		"Those who don armor made of &6Netherite&r will not merely be survivors, but true &nmasters&r of the most &4infernal&r corners of this world."
 		"Prove your strength by collecting the full set."
 	]
 	quest.246D731F4FE2AEED.quest_subtitle: "Your skin will become stronger than obsidian"
@@ -1268,11 +1502,38 @@
 		"Each Assembler has a slot for a crafting pattern and can operate standalone when powered."
 	]
 	quest.250E32D632A506B2.quest_subtitle: "A Cushion that makes you let out a loud fart. Totally useless... or is it?"
-	quest.25F281C3D8849819.quest_desc: [
-		"By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block. For large enough networks, this can be insufficient and may cause a network to power off intermittently when trying to recoup power for any connected devices."
+	quest.2515D5F085C2C2ED.quest_desc: [
+		"&2&nMalachite&r as a material seems perfect for tools, best compared to &bDiamond&r, but much easier to combine with other materials."
 		""
-		"The &bEnergy Cell&f allows for an ME network to hold significantly more energy, adding another 200kAE per regular Energy Cell and 1.6MAE per &bDense&f Energy Cell. These can also be placed anywhere in the network to provide the increased energy buffer."
+		"These combinations are where the fun begins, allowing for some uniquely intricate tools."
 	]
+	quest.2563B78CFC661CCB.quest_desc: [
+		"{image:kubejs:textures/item/pastel_pedestal.png width:240 height:135 align:1}"
+		""
+		"To make use of the &bPigment Pedestals&r' advanced abilities, you will need a structure to focus &dgemstone&r energy into it. It's known as the &l&2Pastel Focus&r"
+		""
+		"You can switch the &bBasalt Blocks&r with &aCalcite Blocks&r and choose the &dgemstone&r blocks as you like it best. Feel free to be creative! &cPlease note&r there is a difference between &aPolished Amethyst&r between the &dBlockus&r and &bPastel&r mods. Only the &bPastel&r amethyst-related blocks will work within the mod!"
+		""
+		"&oIf you need an in-world diagram of how to build this structure, check the page in your &eColorful World&f book!"
+	]
+	quest.2563B78CFC661CCB.title: "The Pedestal Multiblock"
+	quest.2582831347BB970D.quest_desc: [
+		"Made from the fumes of oak and birch saplings and &eRowan&r wood, the &aAltar&r is a 2x3 structure &benhanced&r by items placed on it and buffed by nature in the surrounding &716 blocks&r."
+		""
+		"There are three categories of enhancing items, which each have different tiers. Only the highest tier of a category will count for determining an Altar's &6power&r."
+		""
+		"This &6power&r is used by other witchy preparation equipment in the Altar's area, such as the &eDistillery&r or &eKettle&r, which may require certain power levels to be met."
+	]
+	quest.2582831347BB970D.title: "&dThe Altar"
+	quest.25F95E67C39CDCBC.quest_desc: [
+		"Created with all the knowledge you have gathered, you have created the &aSpirit Instiller&r. It serves to be able to connect the &eenergies&r of two items, with the help of a third object to &bbind&r them. An almost spiritual process."
+		""
+		"The &aSpirit Instiller&r needs a &5Focus Structure&r to work. To &5Visualize&r and rotate the structure hologram in the direction you want it to, click on the placed &aSpirit Instiller&r itself."
+		"{image:kubejs:textures/item/pastel_spirit_instiller.png width:240 height:135 align:1}"
+		""
+		"The &aSpirit Instiller&r's abilities can be enhanced via &eUpgrades&r. Place them on the two &dOnyx Chiseled Blocks&r."
+	]
+	quest.25F95E67C39CDCBC.title: "The Spirit Instiller"
 	quest.261651FB7B600587.quest_desc: [
 		"Before your adventure even begins, it's good to be prepared."
 		""
@@ -1316,38 +1577,8 @@
 		"&o&eNote: Press U on the Beam Focuser to see all the recipes allowed.&r&r"
 	]
 	quest.266448538B44953C.quest_subtitle: "Not repeatable"
-	quest.268C2A63C8ADA1CD.quest_desc: [
-		"&aSome spells are exclusive to the market and &r&ccannot be crafted or found in the world&r &aby any means. These are only obtainable by purchasing them in market:&r"
-		""
-		"* Echoing Strikes"
-		"* Heartstop"
-		"* Recall"
-		"* Cleanse"
-		"* Ender Chest"
-		"* Counterspell"
-		"* Greater Heal"
-		""
-		"&aThe following spells can be purchased from the market, and while &r&cthey cannot be crafted, they may still be found in chests&r &athroughout the world:&r"
-		""
-		"* &7Fortify"
-		"* &7Blessing of life"
-		"* &7Healing Circle"
-		"* &7Heal"
-		"* &7Lightning Bolt"
-		"* Angel Wings"
-		"* Blight"
-		"* Charge"
-		"* Haste"
-		"* Oaskin"
-		"* Celestial Chant"
-		"* &eAbyssal Shroud"
-		"* &ePocket Dimension"
-		"* &eEvasion"
-		"* &eSummon Swords&r"
-	]
-	quest.268C2A63C8ADA1CD.quest_subtitle: "Limited-availability Spells"
-	quest.268C2A63C8ADA1CD.title: "&l&cSpells in Market 101&r&r"
 	quest.2699917C42D48985.quest_subtitle: "where it leads?"
+	quest.26A04A375B71024D.quest_desc: ["Now through all your hard work, you can finally make &6Brown Saplings&r. This means you now have access to &eBrown Pigments&r!"]
 	quest.26BEA55560AE0368.quest_desc: [
 		"&6The Optical Sensor&r transforms the Light rays that receive from the Optical Source into RedStone Signal outputting Redstone Signal from all 4 sides and also emits light. "
 		""
@@ -1356,6 +1587,27 @@
 		"&eNote: I recommend checking the Ponder menu for further information on each mode.&r"
 	]
 	quest.26FB758B3706B935.quest_subtitle: "Slain creatures drop &6+25% experience."
+	quest.2756277E0B589F3E.quest_desc: ["There is a new Ore to be found in the &aOverworld&r in all biomes. It's a rich &1blue ore&r that generates &cvery deep down&r under the surface, and is fairly rare. No, it is not &bDiamonds&r..."]
+	quest.2756277E0B589F3E.title: "A New Ore"
+	quest.27870531E5DB2434.quest_desc: [
+		"&aInfused Beverages&r can be made in a variety of ways. Make sure to check &dREI&r to make exactly what you want. "
+		""
+		"If you're not seeing most recipes, make sure to confirm your age in the &eColorful World&r book. (There's also &bhelpful info in there about the beverages you can make there too&r)"
+	]
+	quest.279B9340FED331B8.quest_desc: [
+		"{image:kubejs:item/pastel_fusion_shrine width:240 height:135 align:center}"
+		""
+		"The &aFusion Shrine&r is key in the process of producing &bBlack Shards&r. "
+		""
+		"You can either click or throw items and buckets onto it. You are even able to process &dentire stacks&r of fusion ingredients at once, making fusing much more efficient than with a &csingle item per cycle&r."
+		""
+		"The &aShrine&r can be made from either &eBasalt&r or &2Calcite&r. The &aShrine&r requires a &dfocus structure&r and &9clear view of the sky&r."
+		""
+		"You have designed the structure of  the &aFusion Shrine&r to bundle the &dmagical energies&r of &aMatter&r, &dTime&r, and &eEnergy&r and focus them on a single central point, the &aFusion Shrine&r itself."
+		""
+		"These powerful bundled energies seem to even have enough power to &cchange the weather&r. Placing &9water&r and a &esunflower&r will change the weather to clear."
+	]
+	quest.279B9340FED331B8.title: "The Fusion Shrine"
 	quest.27A2D421D6C98CC6.quest_subtitle: "Not repeatable"
 	quest.27E86BC510D04D45.quest_desc: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
 	quest.2807106C369DF042.quest_subtitle: "Get your hands on a Sculk Transmitter."
@@ -1403,7 +1655,22 @@
 		"&e&lHappy Compacting!"
 	]
 	quest.29491A4A65DEDCDC.quest_subtitle: "Grants +5 Hearts"
+	quest.29714DA3D453B509.quest_desc: [
+		"Manifestations of a &acreature&r in &eblock form&r. "
+		""
+		"Using them, walking on them, or hitting them with a projectile &ctriggers&r an action that is &bspecifically associated with that creature&r."
+		""
+		"There's a lot of them, so I recommend checking your &eColorful World&r book or &dREI&r for a breakdown of what each of them do!"
+	]
+	quest.29714DA3D453B509.title: "Idols"
 	quest.297641409C94B9FB.title: "Drakkars"
+	quest.29A3A67ACFBCD72E.quest_desc: [
+		"&5Attuned Stones (Charged)&r are a key point of progression in &bcircle magic&r, as they allow a witch to perform certain rituals and rites without setting up a new &eAltar&r at the circle's location. This remote ritual will deplete the &dAttuned Stone's&r charge rather than consuming the item entirely, acting as a reusable 'battery' in a way."
+		"The charging rite itself does consume the other items in the rite however so the storage is not entirely free."
+		""
+		"Charging the &dAttuned Stone&r requires an advanced rite (2 circles) and an Altar nearby with at least 2000 &6power&r. This is easily enough achieved with upgraded &benhancements&r and a few nice trees in the area."
+	]
+	quest.29A3A67ACFBCD72E.title: "&5Attuned Stone (Charged)"
 	quest.29A64A556C101D83.quest_desc: [
 		"The&b Water Pump&r is essential for keeping the &aOxygen Distributor&r running indefinitely. "
 		""
@@ -1412,6 +1679,14 @@
 		"Make sure to supply both the &bWater Pump&r and the &aOxygen Distributor&r with enough power."
 	]
 	quest.2A0B07555EC8D47E.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
+	quest.2A288CED3919A8F1.quest_desc: ["The &aMolten Rod&r is a &bFishing Rod&r tough enough to withstand the &cheat of lava&r. Results may vary...."]
+	quest.2A481A47E62799DD.quest_desc: [
+		"Throwing an anvil onto gems to break it will get old after the first time."
+		""
+		"To simplify this process, you can use &7&nCrushing Wheels&r from the &6&nCreate&r mod."
+	]
+	quest.2A481A47E62799DD.title: "Crushing Wheel"
+	quest.2A60C877BB963D23.title: "Reset skill tree points of Lumberjack"
 	quest.2A844214CE94E140.quest_desc: [
 		"{image:kubejs:textures/familiars/bard.png width:100 height:130 align:center}"
 		"&l&6Battle:&r&r specialized in sound magic, attacking his enemies with powerful melodies, but also supporting his friends with supporting melodies."
@@ -1454,6 +1729,29 @@
 	quest.2AEF1BFD3C4C0F7A.quest_subtitle: "+5% spell resist, when equipped tamed familiars that fall below half health will get oakskin effect, crafted."
 	quest.2B4E5F59E5625ADF.quest_subtitle: "Craft any Iron Shulker Box type."
 	quest.2B619746DAF80A5E.quest_subtitle: "Gives a movement speed boost when taking damage"
+	quest.2B6663972DD4C563.quest_desc: [
+		"Extracts of the &dBlood Orchid&r have an intense effect when consumed: they may put you into a &dFrenzy&r. &eDamage, attack speed, speed, and knockback resistance are buffed&r the more you kill. But if you do not score a kill within &215 seconds&r you get &cdebuffs instead&r. The higher the effects level, the higher the amplitude."
+		""
+		"&e&lFrenzy Stacking&r"
+		"Instead of resetting the duration, &bapplying another &dFrenzy&b effect will increase its potency instead&r."
+		""
+		"To get teh most out of the effect getting one with long duration first and then stacking up on that seems to be most effective."
+	]
+	quest.2B82C5F0AAD5CAF1.quest_desc: [
+		"Those pesky &5Endermen&r! They always show up at night and &csteal blocks&r off the ground right from under your nose. You have the feeling that the whole area here will be nothing but a single crater landscape in a month."
+		""
+		"The &5Endermen&r come to this world to place these blocks, but what is it? And &oWHY&r do they leave it here?"
+		""
+		"Now that you hold one in your hands... they are &ceverywhere&r! How didn't you notice earlier? Anyways, you are sure that you can take advantage of this interesting material."
+		""
+		"&cNote this is exceptionally rare, and you might want to make a good farm for &5Endermen&c to get one&r."
+	]
+	quest.2B82C5F0AAD5CAF1.title: "Enderman Secrets"
+	quest.2B872739CB58F0CE.quest_desc: [
+		"You've already used your anvil (lots of anvils, to be precise) plenty. However, both &aItem Crushing&r, &erepairing&r, and &denchanting tools&r always damage them so quickly that they become irreparably damaged. To make the anvil more durable - or even &dindestructable&r - &aBedrock&r seems like the perfect choice."
+		""
+		"The &aBedrock Anvil&r allows you to &crename items for free&r and has &bno maximum repair limit&r. In addition, you can also &eadd descriptions to your items&r. &oTip: type a newline to split your text into multiple lines.( backslash n if you didn't know)&r"
+	]
 	quest.2BA2400B5F877FF7.quest_desc: [
 		"The &6Stock Link&r is used to create a Logistics Network and to connect &cPackagers&r, &cthe Stock Tinker&r, &cFactory Gauge&r and the &cRedstone Requester&r to that network."
 		""
@@ -1469,6 +1767,14 @@
 		""
 		"&bHeart Container&r"
 	]
+	quest.2BD62007FC53BA59.quest_desc: [
+		"You need something &aorganic&r to mix your &dpigments&r. In your experiments, you could see that the &aroots&r of saplings absorb the &bcolor&r of the &dpigments&r with ease and develop accordingly. The energy of the &dgems&r pulses through the stem and their first few leaves already."
+		""
+		"Each &aColored Sapling&r will need a different combination of &5Gemstone Powder&r, corresponding t o the amount needed to mix its color. Check &dREI&r for recipes. "
+		""
+		"&oHow will they look once fully grown?"
+	]
+	quest.2BD62007FC53BA59.title: "Colored Saplings"
 	quest.2C0A86D7F9D1A0D8.quest_desc: [
 		"Don’t confuse &bstripped logs&r with &dstripped wood&r—they are two different things. "
 		""
@@ -1502,6 +1808,8 @@
 		"&6https://discord.gg/Dm4B7UfhXd&r"
 	]
 	quest.2CBF8CC3EB107804.title: "&l&6Better Energy Production"
+	quest.2D1439DDE82F3122.quest_desc: ["Your new fancy, and &cdangerous&r, &dmicroorganisms&r are ready to feast. Able to tear through anything, where will &eyou set them free&r?"]
+	quest.2D1439DDE82F3122.title: "Groundbreaking"
 	quest.2D412FE8D78F46FE.quest_desc: ["The &6&lShaft&r&r is fundamental to transmit rotation between connected machines. It also serves as the exclusive base for placing Mechanical Belts."]
 	quest.2D430D14A2F6C60A.quest_subtitle: "Not repeatable"
 	quest.2D69922251E3D2CB.quest_subtitle: "&6Allows visible creatures to be seen"
@@ -1513,6 +1821,13 @@
 		"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
 	]
 	quest.2E156E1D6BA5517A.quest_subtitle: "-75% air friction"
+	quest.2E2A53652BFFF4FC.quest_desc: [
+		"A pristine material that sparkles in a deep &2&ngreen&r hue. It seems to have strong magical properties, almost like a abyssal analogue of &1&nAzurite&r."
+		"In another similarity to &1&nAzurite&r, &2&nMalachite&r also needs to be refined."
+		"I first have to grow the small fragments I found into full, usable crystals - though I'm not sure I'll see them fully grown in my lifetime, since I didn't find a budding block for them."
+		"{@pagebreak}"
+		"The &b&nCrystallarieum&r seems to be the only way to grow it, serving as a budding block alternative. I found &7&nMoonstone&r to be a prerequisite, as it creates an environment that mimics Imbrifer."
+	]
 	quest.2E45ADC6AA01F787.quest_desc: [
 		"&5&lNetherite Rip&r— this is not just an upgrade. It is the &6absolute pinnacle&r of tool evolution."
 		""
@@ -1534,13 +1849,81 @@
 		""
 		"Grab your mighty pickaxe and go do some digging! Or build a Drill Machine that works too. You’ll find the Fireclay Block in caves and such in the Overworld."
 	]
+	quest.2EAC02B57A95690D.quest_desc: [
+		"The &bPigment Pedestal&r and the &aFusion Shrine&r have already proven their worth. But there is still plenty of room for &dimprovement&r. You can choose to upgrade them as you progress. Each &eupgrade&r improves the properties of your structures in different ways, depending on what's most important you personally. Additional ones of the same type have a decreased effect."
+		""
+		"The first &eupgrade&r you can make now is the &bAcceleration Upgrade&r. This &eupgrade&r will decrease the crafting time of the &bPigment Pedestal&r and the &aFusion Shrine&r. Consult the &6Colorful World&r book for the exact placement within the multiblocks."
+	]
+	quest.2EAC02B57A95690D.title: "Structure Upgrades"
+	quest.2EBBE17461F3CDCE.quest_desc: [
+		"You had more than enough time to develop your own individual fighting style. To best support this style, you've designed a range of &ematching gear&r out of &dinteresting materials&r."
+		""
+		"&cDisadvantage&r: The shards used in the production are kind of brittle. Therefore, this equipment has a comparatively low durability. They can be &erepaired&r in &aAnvils&r by using &dGemstone Shards&r."
+		""
+		"To take advantage of their unique properties, you will need some unique materials:"
+		"- &aHelmet&r: &oWhen nothingness meets &cHell&r"
+		"- &aChestplate&r: &oThe &eGolden Ratio&r"
+		"- &aLeggings&r: &oThe source of &5nightmares&r"
+		"- &aBoots&r: Mourning of the &cNether&r"
+		""
+		"Once you have obtained those materials, you can make the &ecorresponding piece of armor&r"
+		""
+		"&l&bFetchling Helmet&r"
+		"Gives attackers &dWeakness&r and &aSlowness&r when they hit you, letting you slip through their claws like a shadow."
+		""
+		"&l&bFerocious Chestplate&r"
+		"Grants &eAbsorption&r and &6Resistance&r when you get hit, making you a massive wall for a short duration."
+		""
+		"&l&bSylph Leggings&r"
+		"Gives you a short burst of &cRegeneration&r on hit, making you get right back up after each hit."
+		""
+		"&l&bOread Boots&r"
+		"Gives a short burst of &aSpeed&r and &dInvisiblity&r when you get hit, giving you an opportunity to retreat. Perfect for ranged combat."
+	]
+	quest.2EBBE17461F3CDCE.title: "Gemstone Armor"
+	quest.2ECCF6173374E910.quest_desc: [
+		"A state-of-the-art &aBlast Furnace&r, which consumes &6Orange Ink&r to smelt ores and the like."
+		""
+		"Supplying a &aKnowledge Gem&r allows you to automatically collect XP while smelting. The &bCinderhearth&r's abilities can be enhanced via &eUpgrades&r. Place them on the two chiseled blocks."
+		""
+		"&e&lUpgrades&r"
+		"Upgrades placed on the &aChiseled Blocks&r do not work automatically, but require you to supply an additional type of Ink to the &bCinderhearth&r. The higher the upgrades, the higher the consumption."
+		"- &dSpeed (Magenta Ink)&r: Faster smelt times"
+		"- &bYield (Light Blue Ink)&r: Chance to multiply the output for most blocks"
+		"- &5Experience (Purple Ink)&r: Vastly increases experience gain"
+		"- &2Efficiency (Black Ink)&r: Greatly decreases &dInk Consumption&r of the other types, including &6Orange&r."
+		"{image:kubejs:textures/item/pastel_cinderharth.png width:240 height:135 align:1}"
+	]
 	quest.2ED49410115A9FDC.quest_subtitle: "Increases wearer's jump height and negates some fall damage"
+	quest.2F2CCBE02F25FA4A.quest_desc: [
+		"This abomination of a &dGemstone&r radiates an eerie aura."
+		""
+		"It looks closely connected at best. No wonder it &cfalls apart in your hands&r in no time. Total failure."
+		""
+		"While the chaos that ensued &odefinitely&r was not the outcome you craved for, the result still does hold immense power. So much in fact, that if not used quick it crumbles into dust. And then there is that &eaggressive blackish fluid&r that manifested in the process. Because of its color you named it &aMidnight Solution&r."
+	]
 	quest.2F40B3F9E34F9B1F.quest_desc: [
 		"&bPatterns&f are what hold an encoded recipe to be fulfilled by a Pattern Provider. To encode a recipe onto a Pattern, the &bME Pattern Encoding Terminal&f must be used."
 		""
 		"Patterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general \"&eprocessing&f\" recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant."
 	]
 	quest.2F40B3F9E34F9B1F.title: "Patterns"
+	quest.2F573191E628806B.quest_desc: ["Kill an animal with a weapon &denchanted&r with &aTreasure Hunter&r to collect its &bhead&r!"]
+	quest.2F573191E628806B.title: "Don't Lose Your Head"
+	quest.2F5ACCEAE15AC931.quest_desc: [
+		"I was not expecting to find a mansion down here, much less deep within nooks of the gardens."
+		""
+		"It is clear that this place held some status in its time, what with its lofty standing and stained glass... I am left to wonder why it is here, sequestered deep within the overgrowth."
+		""
+		"I was not expecting to find a person here, much less a sleeping woman."
+		""
+		"At first I thought she was dead, but I quickly realized that she is breathing. They are just... very soft, very shallow, very quiet breaths."
+		""
+		"&oThis place is falling apart... she must have been here for decades if not centuries.&r"
+		""
+		"&o...I don't think she is going to wake up.&r"
+	]
+	quest.2F5ACCEAE15AC931.title: "Undergrowth Manor"
 	quest.2F622A7B13D36360.quest_subtitle: "Not repeatable"
 	quest.2F6A074C1F506CC3.quest_desc: [
 		"Backtank must be filled with Air Pressure to function."
@@ -1554,6 +1937,11 @@
 		"Boots also grant immunity to Mechanical Belts, Escalators, and Walkways."
 	]
 	quest.2F6A074C1F506CC3.title: "Copper Diving Set"
+	quest.2F730917882858ED.quest_desc: [
+		"Your pickaxe, which was sinfully expensive to &denchant&r, almost broken and each additional broken blocks hurts your nerves more than the tool itself? May the tool not be able to be rescued, at least the &dEnchantments&r will! This &aCanvas&r can not only capture color: Used on a tool, the &dEnchantments&r are exchanged."
+		""
+		"Once used, an image of the item you used it on will be drawn on the &aCanvas&r. You can then apply those &dEnchantments&r on another tool."
+	]
 	quest.2F8EAC597AB7E760.quest_subtitle: "Increases the wearer's swim speed"
 	quest.2F957F552CB5A245.quest_subtitle: "x16"
 	quest.3026C7FFA3B230FA.quest_desc: ["&3Processors&r are essential crafting ingredients used to make the majority of ME-connected devices."]
@@ -1617,7 +2005,19 @@
 		"&6Seats&r come in a variety of colors and can be used as decoration."
 	]
 	quest.30C9759AD5ED60C9.title: "Seats"
+	quest.30CDAD044D94659A.quest_desc: [
+		"The &aArthana&r is a magical dagger that is proficent in obtaining arcane materials from slain creatures."
+		""
+		"In addition to providing the &ochance&r for &aspecial drops&r from bats, creepers, and wolves, it gives skeletons both regular and withered an additional chance to drop their skulls intact."
+	]
+	quest.30CDAD044D94659A.title: "&dArthana"
 	quest.30D5BC1EFA23D92E.quest_subtitle: "Not repeatable"
+	quest.30FCBD442D86EABB.quest_desc: ["The &bRazor Falchion&r is a razor-sharp short blade with &clow durability&r that comes &dpre-enchanted&r with &5Looting III&r."]
+	quest.30FD991CD31EDF1D.quest_desc: [
+		"By adding &credstone&r and a bit of &dmagic&r to sand, it gains an interesting property: like other blocks, it stays in the &bair&r until the &dGemstone Powder&r inside it starts vibrating."
+		""
+		"&aRedstone Sand&r behaves like a solid block until it gets a &credstone signal&r. The &credstone&r trigger propagates through &eall connected blocks&r, destabilizing them and causing them to fall."
+	]
 	quest.30FDAAAA8784A842.quest_desc: ["The &6&lMillstone&r&r is a simpler alternative to &6&lCrushing Wheels&r&r, used to process items. Valid items must be inserted from above and processing speed depends not only on the rotational speed (RPM) but also on the specific recipe being used."]
 	quest.3121D591D3807584.quest_subtitle: "Allows you to double jump"
 	quest.312D4E8EBE475538.quest_desc: [
@@ -1648,11 +2048,7 @@
 		""
 		"Saved schematics (stored in the 'schematics' folder) can be copied to &eEmpty Schematics&r for deployment and construction by a &3Schematicannon&r."
 	]
-	quest.323963AAF0375942.quest_desc: [
-		"The &bME Storage Bus&f, when facing some external storage container, will allow the container to be used as though it were part of the ME network, allowing items to be taken out from the container or inserted into it purely via ME."
-		""
-		"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
-	]
+	quest.32504A5361DEC4C7.quest_desc: ["&aJade Petals&r can be collected from grown &bJade Vines&r"]
 	quest.325C7701BB3E3F73.quest_desc: [
 		"The &6Starlight Golem&r can be found in the underground forge known as &bThe Golem Forge.&r"
 		""
@@ -1685,20 +2081,14 @@
 		"These fragments work much like Eyes of Ender, guiding you to the hidden &eOrigin Island.&r"
 	]
 	quest.32A6059C63E5BFC3.title: "&l&eOrigin Island and Rituals&r&r"
-	quest.32C2BC17EFCBDAB5.quest_desc: [
-		"&6The Disk Drive&r holds storage disks that increase your Refined Storage system’s capacity. "
-		""
-		"&eInsert item or fluid disks&r to store resources. "
-		""
-		"Disks can be removed and reinserted without losing data."
-		""
-		"Configure filters (blocklist or allowlist), access modes (insert/extract), and priorities to control behavior. In allowlist mode, excess items can be voided if storage is full."
-		""
-		"Requires connection to a powered Controller to function."
-		""
-		"&eStorage disks&r can be upgraded by crafting them with the next-tier part. This keeps all stored items and returns the previous part in the process."
-	]
 	quest.32C2BC17EFCBDAB5.title: "💾 Disk Drive – Expands Network Storage"
+	quest.32C2C0ED967ABE95.quest_desc: [
+		"The &nhardest&r mineral is &8Bedrock&r?"
+		""
+		"What if I use a Bottle of Ruin on it? Will it break? Can I take the enchantment back?"
+		""
+		"&oWhat if I collect corrupted Bedrock in a bottle?&r"
+	]
 	quest.32CEB5F5DA7E08E5.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.32E0EEC3834F9846.quest_desc: ["&6Straw&r is an item which is made by either cutting plants with a &6knife&r on a Cutting Board, or harvesting plants with a &6knife&r."]
 	quest.32F8B69C66723910.quest_subtitle: "Craft any Iron Barrel type."
@@ -1712,6 +2102,16 @@
 		"You can monitor stress levels using a &eStressometer&r or by wearing &eEngineer’s Goggles.&r"
 	]
 	quest.3301CEA39477F779.title: "Kinetic Stress"
+	quest.330CFCABB75098C8.quest_desc: [
+		"Colors are such curious things. Their vibrance, their meanings, the way they make up the world around us."
+		""
+		"Don't they make you want to grasp out at them - at the color itself - to understand their essence?"
+		""
+		"It can be done, but the path is long if not endless."
+		"{@pagebreak}"
+		"Pastel is a full-feature magic mod centered around the exploration of color as resonance, as natural energy. It is a long, expansive journey through the path of the artist that sees you not just learning, but discovering more about the land; explore the world and see it grow alongside you and see things that were not there before. Pursue the meaning of the rainbow, of nature, and create new and powerful tools as your newfound comprehension allows you to make yet finer works. Make striking machines and from them assemble contraptions fit to support your march towards the heart of magic. And once you begin to believe you understand the lands and their essence, descend past the earth's false floor."
+	]
+	quest.330CFCABB75098C8.title: "A World of Magic"
 	quest.334AF33B87A48816.quest_desc: [
 		"&bP2P&f (peer-to-peer) is a powerful system within AE2, allowing for the transfer of items, fluids and even more without the need for any intermediary ME storage."
 		""
@@ -1725,8 +2125,19 @@
 		""
 		"&6Packing Tape&r is the solution! It lets you safely break chests without dropping their contents, making storage and relocation a breeze."
 	]
+	quest.335C906466E23E12.quest_desc: [
+		"Ambition has taken hold of you. This is your first steps towards changing the world. &dEmpowered&r by the potent energy of your &aOnyx&r and &cStratine&r, this second &aorganism&r you created is clearly... more active than your last creation."
+		""
+		"&l&cAnd DEFINITELY hungrier. WAY hungrier.&r"
+		""
+		"Maybe one of the &esturdiest materials&r you know can satisfy their hunger? What has to be done has to be done."
+	]
 	quest.33628061006314AB.quest_desc: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
 	quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
+	quest.33981AF71D789EF7.quest_desc: ["Whenever you enter a new world, you go about the mindless, days-long task of gathering &evillagers&r around you, turning them into &azombies&r, and healing them again, only for one of them to eventually hand you a book of &dMending&r. All this, just so you don't have to &bfix your tools&r. Now that you can process &2Bedrock&r, you have a much more convenient solution anyways."]
+	quest.33981AF71D789EF7.title: "Bedrock Tools"
+	quest.33B0B5607BDA0A0C.quest_desc: ["Your next goal is to find a &anew material&r in the &bswamp&r. It's &dpurple&r and grows from &7clay&r."]
+	quest.33B0B5607BDA0A0C.title: "A New Material"
 	quest.33D99402578E84FE.quest_desc: [
 		"&6The Detector&r monitors a specific resource in your storage network and emits a redstone signal based on its quantity. "
 		""
@@ -1758,6 +2169,43 @@
 	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
 	quest.34AB7EB1F6BF5457.quest_subtitle: "Move the paddle with W and S"
 	quest.34AB7EB1F6BF5457.title: "&f Pong"
+	quest.34B2F8375323A66D.quest_desc: [
+		"A torch gives +0.5 recharge speed"
+		""
+		"A candle gives +1 recharge speed"
+		""
+		"A &eCandelabra&r gives +2 recharge speed"
+	]
+	quest.34B2F8375323A66D.title: "Light"
+	quest.34CFC7EDD658BB56.quest_desc: [
+		"As you wandered through a &aleafy cave&r, you noticed the many petals sailing through the air. You were so enchanted by this sight that you set out to design your own, colorful, variations."
+		""
+		"By using &edifferent&r pigment you can color the &dpetals&r in a wide variety of colors."
+	]
+	quest.34CFC7EDD658BB56.title: "Colored Spore Blossoms"
+	quest.34D9947BA1B6AADF.quest_desc: [
+		"You already thought that the moment you put the recipe on paper that this creation will be something special."
+		""
+		"The combination of the power of the &5End&r, &credstone&r, and &dmagic&r gives it &cvery strange&r properties."
+		""
+		"Depending on the strength of the applied &credstone signal&r, this block takes on &edifferent properties&r. Without &credstone&r, it is completely solid; when a &credstone signal&r reaches it, it becomes transparent, almost like glass. "
+		""
+		"However, it reaches its most curious state when a &credstone&r signal of &6full strength&r is applied..."
+		""
+		"To make it even stranger, &aEnder Glass&r seems to respond to the last applied signal alone, not the strongest."
+		""
+		"Truly a curiosity from the &5End&r."
+	]
+	quest.34F1028EEADD4A2D.quest_desc: [
+		"With the &aSpirit Instiller&r you are able to breathe new life into a once dead creature. It will materialize in the form of a &bMemory&r."
+		""
+		"To remember the &bmemories&r about a creature, you need its &dHead&r, as well as its most beloved item and &aVegetal&r as a bonding agent. Using &dNeolith&r seems to completely overpower the &denergies&r of the creature, making the resulting &bmemory&r unrecognizable, until it manifests."
+		""
+		"&5&lManifesting&r"
+		"&dMemories&r need a certain &eamount of time&r to manifest, almost like an &begg&r. You have to place them down and wait. Depending on the creature, it may be &reasonably quick&r, or &ctake forever&r."
+		""
+		"Placing them on top of &ecertain blocks&r seems to &aspeed up that process&r or &cstop it entirely&r."
+	]
 	quest.34FC687BC6B1EEDD.quest_subtitle: "Defeat the Dead King to become able to revive Familiars upon death"
 	quest.35029D28522C7A28.quest_desc: [
 		"Each individual cell has a certain capacity dictated by the &ecomponent&f that the cell has been crafted with."
@@ -1781,6 +2229,12 @@
 		"In its UI, the &6Postbox&r can be set to send-only mode, preventing it from receiving packages."
 	]
 	quest.350D1EDD54ABC16F.title: "Postbox"
+	quest.352D2FF3E6003244.quest_desc: [
+		"Most recipes in your &aPedestal&r require &dGemstone Powders&r as a source of magical energy. "
+		""
+		"&dGemstone Powder&r comes in various colors and can be acquired by pulverizing &dGemstone Shards&r via &bItem Crushing&r. You can place the &dGemstone Shards&r on the ground and have an &canvil drop on them&r. "
+	]
+	quest.352D2FF3E6003244.title: "Gemstone Powders"
 	quest.354794C26084872F.quest_desc: [
 		"&6Expure &rlets you take photos in a realistic and immersive way or even upload your own custom images!"
 		""
@@ -1915,9 +2369,44 @@
 		"This will, however, make the &enetherite golem&r vulnerable to water damage."
 	]
 	quest.362C70E45443B57C.title: "Netherite golem"
+	quest.364F8795045AA737.quest_desc: [
+		"With your proficiency in using the &aFusion Shrine&r, you can now produce &eEnchanted Golden Apples&r. These &dmagically&r infused &capples&r are the rarest and most powerful food in the game. "
+		""
+		"Eating one provides you with &5insanely strong status effects and extra hearts&r."
+	]
 	quest.36512D1073448D61.quest_subtitle: "Lets you see invisible entities."
 	quest.36695D68ED0854A6.title: "&6Tame all the Familiars"
+	quest.36715EA3C3B3BA4A.quest_desc: ["The &bCompacting Chest&r will try to craft all the things you put into it in a &e3x3, 2x2, or 1x1 pattern&r. This can be toggled in its &dGUI&r."]
+	quest.36834667489122F6.quest_desc: [
+		"The people around you have already helped you in one way or another, so here's something to &egive back&r. The bit of &eShimmerstone&r allows you to explode the package in a &dcolorful shower of particles&r."
+		""
+		"Click the &aPresent&r onto the items you want to gift. Then all you have to do is place it down for the recipient to open it."
+		""
+		"Place a filled &aPresent&r in a crafting grid to &2wrap it&r."
+		""
+		"You can additionally add:"
+		"- &5Pigments&r for a colorful particle shower in those pigment colors."
+		"- Special ingredients to choose from a variety of wrapping papers:"
+		"    - &cRed Dye&r: Red"
+		"    - &1Blue Dye&r: Blue"
+		"    - &3Cyan Dye&r: Cyan"
+		"    - &aGreen Dye&r: Green"
+		"    - &dPurple Dye&r: Purple"
+		"    - &cCake&r: Cake"
+		"    - &6Flower&r: Stripes"
+		"    - &7Firework Star&r: Starry"
+		"    - &2Sapling&r: Winter"
+		"    - &aSpore Blossom&r: Rainbow"
+	]
 	quest.36883441EF93976F.quest_subtitle: "Better Elytra!"
+	quest.36F19B05F3EF16DD.quest_desc: [
+		"The &aleaves&r of colorful trees have a chance to drop a &bPure Pigment&r. You may notice that there are lots of &enew colors of trees that once looked the same&r. The &6world of color&r has opened up to you."
+		""
+		"The color of &bPigment&r you receive from breaking &aleaves&r depends on the color of the &2tree&r. The &aleaves&r must be broken by you to &creceive anything&r."
+		""
+		"&o&eYou should aim to collect as many variants as you can. Some are not available to you at this time. You will need &call&e the ones you can make at this time to unlock the recipe for the next quest&r."
+	]
+	quest.36F19B05F3EF16DD.title: "Pigments"
 	quest.36FB336313E5E377.quest_subtitle: "Can be used to slowfall and as a shield"
 	quest.3714D5CA2A2A69EC.title: "&6Priest Outfit"
 	quest.372B31F3D301684A.quest_desc: [
@@ -1949,6 +2438,16 @@
 		""
 		"While holding Super Glue in your main hand, glued areas are visible, making it easy to confirm connections and clicking Left-Click with the Super Glue will unglue those connections."
 	]
+	quest.37737912E7C994D5.quest_desc: [
+		"- A bunch of new functional Blocks: Water Sprinkler, Scarecrow, Feeding Trough and much more!"
+		"- Several tools and implements for simplified agriculture: Improved Farmland, Fertilized Soil, Fertilizer - each with various possible uses."
+		"- A meat grinder! Make tasks like stripping logs and processing food items easier."
+		"- Feeling hungry? Treat yourself to various farmer-style dishes or drink some tea. Do you have chickens, wolves, and cats as pets? There's food for them too."
+		""
+		"... and of course, a few decorative elements."
+	]
+	quest.37737912E7C994D5.quest_subtitle: "Cook, farm, have fun!"
+	quest.37737912E7C994D5.title: "Farm \\& Charm"
 	quest.3786CEBDF1D138A3.quest_desc: [
 		"&6The Coke Oven&r is a multi block machine. "
 		""
@@ -1975,7 +2474,32 @@
 	quest.37D5E493E9DB64D4.quest_subtitle: "Slowly replenishes hunger while walking on grass and grow plants after eating on grass"
 	quest.37F39A63C0C2934F.quest_desc: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
 	quest.37F39A63C0C2934F.quest_subtitle: "Found in Igloos"
+	quest.37F47D35BDC365DD.quest_desc: [
+		"In a painting you have seen a fantastic creature that seems to be made of &eSoul Sand&r and &dWither Skeleton Skulls&r. For hours you waited in a &cNether Fortress&r, only to almost lose your head yourself while searching for a &dWither Skeleton&r with a spine loose enough to drop its skull. "
+		""
+		"But then there were the &aCreepers&r! Once struck by &elightning&r, they explode so hefty that &ctheir explosion blow the heads off his opponents right off their necks&r. As if struck by &elightning&r you thought out this new &denchantment&r using &bStorm Stones&r. And so &aTreasure Hunter&r was born, allowing you to &ecollect heads from all kinds of mobs&r."
+		""
+		"&5&lCharacteristics&r"
+		"- Max level: 3"
+		"- Applicable to melee weapons"
+		"- Mutually exclusive with &dLooting&r"
+		""
+		"Upgrading &aTreasure Hunter&r from level 1 to level 2 is fairly cheap at first. This price will quickly increase to more and more &dPigment&r and &aExperience&r for each additional level."
+	]
+	quest.37F47D35BDC365DD.title: "Treasure Hunter"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15% Mana Regeneration"
+	quest.3876E98B8F77544F.quest_desc: [
+		"In your search for a block that is passable for you, but doesn't destroy the look of your buildings, &aShooting Stars&r were a great help."
+		""
+		"With the intensifying power of &dOnyx&r, you were able to strengthen the particles to such an extend that they became a solid."
+		""
+		"Another practical feature of &5Ethereal Platforms&r is that the platform reacts only to living creatures. Objects, such as items, &esimply pass through it&r."
+	]
+	quest.387FADE23CEE5FA7.quest_desc: [
+		"Your last experiment was not only &cdangerous&r, but also quite a pain to get rid of. Just in case anything ever gets out of hand again, you created this &emodified variant&r. This time, though, to heal instead of flooding your base. &oYeah that's probably better&r."
+		""
+		"&aDecay Away&r gets rid of &e99% of all self-replicating microorganisms&r."
+	]
 	quest.389858EF7FA936DC.quest_desc: [
 		"When wearing a full set, sneaking transforms you into a Cardboard Package, shrinking your hitbox to just one block tall. "
 		""
@@ -1999,6 +2523,16 @@
 	]
 	quest.3A227C6AE5CB2F32.quest_subtitle: "&l&eA fancy new-looking belt? Cool!&r&r"
 	quest.3A227C6AE5CB2F32.title: "Design and Decor"
+	quest.3A6FEA4C08B27D0C.quest_desc: [
+		"Well, maybe the &eBroom&r can be used for something else too."
+		""
+		"By using an advanced Rite, &dFlying Ointment&r made in a &eKettle&r can be infused into a broom to make the &dEnchanted Broomstick&r!"
+		""
+		"This Broomstick when set in the world can be &bmounted&r like a boat or horse, and can be used to fly around the world at a steady reliable rate. 'Jump' to ascend, 'sprint' to descend, and 'sneak' to dismount is its default handling method."
+		""
+		"&7A Broomstick dismounted in the air will support its user until they're no longer on top, in which case it will descend on its own."
+	]
+	quest.3A6FEA4C08B27D0C.title: "Broom Flight!"
 	quest.3AB3B4308FA14C9E.quest_desc: [
 		"To make Bauxite you must use &a5 Mechanical Crafters&r. There’s various ways you can do this such as using a Mechanical Arm to place the items in their correct slots. "
 		""
@@ -2019,19 +2553,18 @@
 		""
 		"{image:kubejs:textures/crafter_fig_3.png width:100 height:100 align:1}"
 	]
-	quest.3B06C0FF8E28AC91.quest_desc: [
-		"The &bQuantum Entangled Singularities&f are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f."
+	quest.3AB6083CCDD1B74A.quest_desc: [
+		"To obtain a &aWitch's Cauldron&r, use anointing paste on the vanilla version. It will need some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
 		""
-		"When two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power, an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."
+		"You'll know it's working if a bucket of water put into it begins to boil."
+		""
+		"Ingredients need to be dropped into the cauldron in a &especific order&r as shown by the recipe. Once the particles stop swirling, right click to extract the product of your brew."
+		""
+		"&7If you do mess up a recipe, you can clear out the Cauldron using an empty bucket."
 	]
-	quest.3B06C0FF8E28AC91.title: "Quantum Network Bridge"
-	quest.3B867B59524B97A5.quest_desc: [
-		"&aCables connect network devices in Refined Storage.&r"
-		""
-		"&eCable blocks&r only connect to others with the same color."
-		""
-		"&eFluid cable blocks &rconnect to any adjacent blocks, regardless of color."
-	]
+	quest.3AB6083CCDD1B74A.title: "&fToil and Trouble"
+	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechancs such as &bPoppets&r and &bCircle Magic&r."]
+	quest.3B3CE4B6B25CB8DB.title: "&dAttuned Stones"
 	quest.3B9ECAF48D8F47A1.quest_subtitle: "Not repeatable"
 	quest.3BA810FF52DA9982.quest_desc: [
 		"The &l&6Blaze Burner&r&r provides Heat and Super-Heat for Mixing recipes in Basins, and are especially important for crafting Brass. They also serve as heat sources for Boilers, which generate power for the Steam Engines."
@@ -2058,7 +2591,26 @@
 		"Additionally, the &6Storage Controller&r can connect wireless to any storage link within a &n&crange of 15 blocks.&r&r"
 	]
 	quest.3CA4542BF17DB864.quest_subtitle: "Enflamed Mandible can be dropped by Blazes when using the Ravaging enchantment on a hatchet."
+	quest.3CAB5264F3C33205.quest_desc: [
+		"Now that you have access to &dAttuned Stones&r, the &aDistillery&r can expand your available resources both by creating new kinds and by obtaining &eWitch's Oven&r fumes through alternate methods. As with the Oven, this process takes quite a few clay jars."
+		""
+		"&7Note that a Distillery needs to be within the area of an &eAltar's&r &7power to function."
+	]
+	quest.3CAB5264F3C33205.title: "&fDistillery"
 	quest.3CBDB45D65737212.quest_subtitle: "Found by stepping on Infested Sculk"
+	quest.3CC88B6ACDC68D5F.quest_desc: [
+		"&aPoppets&r are a form of protection, &bredirecting misfortune&r to help or sometimes harm the target person."
+		""
+		"Once a Poppet is made, it must be bound in a &aSpinning Wheel&r to set what sort of misfortune will be redirected, or upgraded into a better form before receiving these binds."
+		""
+		"Once the type of misfortune is set, Poppets are bound to their target by holding the Poppet in the main hand, a filled Taglock Kit in the other, and using them together until the bond is made."
+		""
+		"A basic poppet has a 30% chance for the trigger to &cfail&r, but upgrades negate this."
+		"&aSturdy Poppets&r can trigger twice, while &aInfused Poppets&r will have enhanced effects."
+		""
+		"Poppets can be held onto or placed in a &aPoppet Shelf&r to function wherever a target is."
+	]
+	quest.3CC88B6ACDC68D5F.title: "Poppetry"
 	quest.3CE1281049B4B14B.quest_subtitle: "x16"
 	quest.3D0F9F9B2B945E7A.quest_subtitle: "Harness the power of &bfrost&r. Increased &bfrost spell power&r or &barmor&r."
 	quest.3D0F9F9B2B945E7A.title: "&b&lSchool of Ice"
@@ -2067,23 +2619,12 @@
 		""
 		"There are tons of different sets you can choose from across various mods."
 	]
-	quest.3D2DDC65DED45F4A.quest_desc: [
-		"The last piece of the puzzle for any large ME network is the &bME Controller&f."
+	quest.3D298F4F967B58C9.quest_desc: [
+		"Creatures that die in &aMidnight Solution&r drop &bMidnight Chips&r. These resemble the &eMidnight Aberration&r you failed to create before, just way, way smaller. "
 		""
-		"A controller supplies an ME Network with a far larger number of channels than the standard 8 channels for ad-hoc networks, providing 32 channels out of each face of the block for a total of 216 channels."
-		""
-		"That's only for a single-block controller, however, since the ME Controller is in fact a multi-block structure. The controller can be up to 7x7x7 blocks in size and can come in any freeform arrangement within that maximum size. Each individual block can then provide its own separate set of channels, so long as no single controller block is surrounded by 4 other blocks along the same plane."
-		""
-		"An ME Network may only contain one multiblock controller at any given time. Attempting to connect more than one controller on separate parts of the network will cause a conflict, shutting down the whole network."
+		"Creatures killed by this process also seem to &edrop items as if they were killed by a player&r."
 	]
 	quest.3D470D57CC2E7A9E.quest_desc: ["The &bOverflow Destruction Card&f is a cell upgrade that allows storage cells to delete (void) any items of a type already contained within them, when try to move into the cell and the cell is already full."]
-	quest.3D4ED245E498E765.quest_desc: [
-		"The &bME Annihilation Plane&f can be used to automatically break any blocks in front of it and return anything dropped by the block directly to the ME network."
-		""
-		"As an added bonus, the Annihilation Plane can be enchanted in the same way as a regular digging tool, affecting block drops in the same way as that enchanted tool would. This makes it ideal for processing ore blocks when enchanted with Fortune, for example."
-		""
-		"Any added enchantments significantly increase the amount of energy used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall energy use incurred by all other enchantments, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to Unbreaking on regular tools."
-	]
 	quest.3D6259FBCAA99583.quest_desc: [
 		"In &eThe End&r, you'll fight the &5Ender Dragon&r."
 		""
@@ -2092,6 +2633,12 @@
 	quest.3D6259FBCAA99583.quest_subtitle: "It is time to face the mighty Ender Dragon"
 	quest.3D6259FBCAA99583.title: "&4Enter the portal to the End"
 	quest.3D93780758BA7194.quest_desc: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+	quest.3DA421126DDA645F.quest_desc: [
+		"The idea of &bfermenting&r &afood&r and &cdrinks&r in &eColored Wood&r was not a far away. Over time, the properties of the &ewood&r influences contents. The results are sometimes more, sometimes less, delicious, but &aalways interesting&r. "
+		""
+		"The &aTitration Barrel&r holds up to a stack of items and 1 bucket of liquid."
+	]
+	quest.3DCAFF0B0A60BFFD.quest_desc: ["With all &dPigments&r available to you, the &bnight sky&r becomes clearer to you. You're able to notice &eShooting Stars&r with your &aSpyglass&r. Find where they land to collect your own &5Stardust&r!"]
 	quest.3DD814B346F1B543.quest_desc: [
 		"{image:kubejs:textures/familiars/cleric.png width:96 height:100 align:center}"
 		"&l&6Battle:&r&r specialized in holy magic, his main role is supporting but he can also cast powerful holy spells to purify enemies."
@@ -2114,6 +2661,7 @@
 		"A cactus will increase the golems attack from 4 to 6, while a dead bush will give it a ranged attack."
 	]
 	quest.3DEAE2A5E71AEF5A.title: "Terracotta golem"
+	quest.3DF4F625DAB8C66C.quest_desc: ["The &bBlock Placer&r allows you to automate the placing of blocks (&oduh?) when powered by a &credstone signal&r.E"]
 	quest.3E42FEEFBC22F7D3.quest_desc: ["You can also automate this with &n&cnetherack&r&r if you prefer."]
 	quest.3E6E9C53FBE836FB.quest_desc: [
 		"&6The Scroll Forge&r is a new crafting station that allows the player to &ecraft scrolls&r by using &bink, paper, and a focus. &r"
@@ -2139,8 +2687,17 @@
 	quest.3F0E651F191CD81F.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.3F565733F3E8BEBD.quest_subtitle: "x4"
 	quest.3F7E6AE9B71BCE7E.quest_subtitle: "x8"
-	quest.3F83272A3D958DAB.quest_desc: ["Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network."]
 	quest.3F83272A3D958DAB.title: "Fluix Crystal"
+	quest.3FA127045152B703.quest_desc: [
+		"- New Collectibles \\& Trinkets: Trunks, bikinis, sunglasses, and more to collect! Many items come with bonuses to make beach life even better."
+		"- Decorative Blocks: Beach chairs in various styles, tables, a palm bar, and more! Perfect for building with bamboo."
+		"- Cocktails: Refreshing treats to craft and enjoy."
+		"- Radio: Now works seamlessly without disconnecting everyone. Hopefully!"
+		""
+		"… and more"
+	]
+	quest.3FA127045152B703.quest_subtitle: "Get your suncream out, we're going to the beach!"
+	quest.3FA127045152B703.title: "Beachparty"
 	quest.3FF5FC2753094A27.quest_desc: [
 		"- Double Chest worth of inventory space"
 		"- One seat in the back"
@@ -2148,6 +2705,7 @@
 		""
 		"{image:mineoctober:item/acr_supply_cart width:150 height:112 align:center}"
 	]
+	quest.3FF5FC2753094A27.title: "Cargo Wagon"
 	quest.3FF93EB2C771B747.quest_desc: [
 		"The &l&6Wrench&r&r is a versatile tool used to rotate, dismantle, and configure &6&lCreate items&r&r."
 		""
@@ -2168,6 +2726,7 @@
 	quest.401AFF46C83AAEB8.title: "You Need a Mint!"
 	quest.401C9B25D2B7B49F.quest_desc: ["Remembrance of the past lives of those who live in death"]
 	quest.401C9B25D2B7B49F.quest_subtitle: " Craft it using an Undead Soul"
+	quest.402490AFDE1758ED.quest_desc: ["The &eBedrock Pickaxe&r comes &dpre-enchanted&r with &2Silk Touch&r."]
 	quest.40270C32F09AD402.quest_desc: [
 		"&6&lWelcome to Create!"
 		""
@@ -2239,24 +2798,6 @@
 		"Cells can also be given a higher or lower \"priority\" via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
 	]
 	quest.4322A3731757CC6D.quest_subtitle: "Drops TNT, does not destroy blocks but deals heavy damage to targets. Uses 2 TNT per use."
-	quest.4322D11BB4FED38C.quest_desc: [
-		"&6Refined Storage 2&r is a powerful mod that lets you store items, fluids, and craft automatically, all in a single digital system."
-		""
-		"To get started, you’ll need three core components:"
-		""
-		"* &6Controller&r – powers the system."
-		""
-		"* &6Grid&r – lets you access stored items."
-		""
-		"* &6Disk Drive&r – holds your storage disks."
-		""
-		"Once you’ve powered your &6Controller&r (using FE), connect it to a &6Disk Drive&r with storage disks inside and access everything from the &6Grid.&r"
-		""
-		"You’ll need Quartz Enriched Iron, Silicon, and Processors to craft most RS parts."
-		""
-		"&d@refined&r"
-	]
-	quest.4322D11BB4FED38C.title: "&6Welcome to Refined Storage 2!"
 	quest.438AFB85E4605DF6.quest_desc: ["It's not recommended to use &bIndustrial Fan&r to make this as it doesn't work on belts and depots for some reason, but you can use a smart chute to make it work if you want."]
 	quest.439A7468E448EAE1.quest_desc: [
 		"The &6Photograph Frame&r is a fancy way to display your pictures, available in three sizes: 1x1, 2x2, and 3x3. "
@@ -2267,6 +2808,8 @@
 	]
 	quest.43B06E3FFE5FE8EB.quest_subtitle: "Harness the power of the &dshadows&r. Increased &dshadow magic spell power&r or &darmor&r."
 	quest.43B06E3FFE5FE8EB.title: "&d&lSchool of Ender"
+	quest.43DA718D7DDB90BF.quest_desc: ["The &eBedrock Hoe&r comes &dpre-enchanted&r with &2Fortune IV&r."]
+	quest.43DC868711DDAAD4.title: "The Pastel Complex"
 	quest.43E5907E27844D18.quest_desc: [
 		"These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees."
 		""
@@ -2292,6 +2835,7 @@
 		""
 		"This allows it to receive item requests, create packages with a set address, and include specific items in specified amounts."
 	]
+	quest.440F13C141F7E692.quest_desc: ["The &eBedrock Shovel&r comes &dpre-enchanted&r with &2Efficiency VI&r."]
 	quest.444431F6FE74B252.quest_desc: [
 		"&l&6Grid&r&r"
 		"The Grid allows you to interact with the storage network in different ways: you can view, insert, and extract items directly from the system."
@@ -2328,11 +2872,30 @@
 	]
 	quest.453F0E5926BA4AB1.quest_desc: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7739373308A83503\" } }"]
 	quest.453F0E5926BA4AB1.quest_subtitle: "This can be found in blue skies dimension"
+	quest.4547FDC9F22D826B.quest_desc: [
+		"&dFermentation&r is a natural process - things take time and care. Since there never is a fully controlled environment, there are a lot of &avariables&r:"
+		""
+		"- &aTime&r: It takes time for the barrel to influence the contents. The longer you give the process, the &estronger&r the changes will be. Most beverages get more intense and even additional effects, when given more time than strictly required."
+		""
+		"- &cTemperature&r: The hotter it is, the more of your precious content simply evaporates over time. This is called the &6Angel's Share&r."
+		""
+		"- &9Humidity&r: The more humid the air, the more water evaporates in comparison to alcohol, making the drink &estronger&r."
+		""
+		"- &bWater Share&r: An increased rate of ingredients to water is a fine balance, but one to be played with. More thickness makes the drink &dferment faster&r, albeit at the cost of shorter status effect durations."
+		""
+		"The &aTriation Barrel&r is capable of brewing &ealcoholic drinks&r. The &ePastel&r devs request you confirm your age is &cgreater&r than the legal drinking age in your country before revealing the &6recipes&r. This can be done in the &eColorful World&r book under the &2Infused Beverages&r section."
+	]
+	quest.4547FDC9F22D826B.title: "Infused Beverages"
 	quest.45BE2DE3977F53E9.quest_subtitle: "You can repeat as many times you want!"
 	quest.462639C0EBA1209F.quest_desc: [
 		"The &l&6Engineer’s Goggles&r&r allows you to see information about your contraptions, such as the stress impact and rotational speed."
 		""
 		"It also allows you to see how full the Fuild Tank is and its total capacity."
+	]
+	quest.4669E140C0FDDB89.quest_desc: [
+		"&aFresh Chocolate&r is a great snack! Pleasantly sweet and fruity. "
+		""
+		"&bTakes four real-life hours to ferment&r."
 	]
 	quest.466F43B18F0D1B7E.quest_desc: [
 		"You will need a special furnace to convert the block into an ingot: a &4Clibano Furnace&r from &6Forbidden Arcanus.&r"
@@ -2343,6 +2906,7 @@
 	quest.46BFA878FE03C07E.quest_subtitle: "Craft any Iron Limited Barrel I type."
 	quest.4706B7F09A2BFC25.quest_subtitle: "nipa farm"
 	quest.474856183F5F8BE8.quest_desc: ["Rotates blocks and mobs standing on it"]
+	quest.4775934D01F0D2AD.quest_desc: ["There seems to be something &dmagical&r about the &eflow of time&r. This clock, formed from witnesses of &etime&r, is to show you a way in this &dnever-ending stream&r of beginning and passing - &omoon phases&r."]
 	quest.478E5BBB9F9592E1.quest_desc: [
 		"The &6Chicken Roost&r automates egg farming by housing a Chicken."
 		""
@@ -2368,6 +2932,7 @@
 	quest.47F3B09688DFA1DC.quest_subtitle: "Tame one Illusionist Familiar"
 	quest.47F3B09688DFA1DC.title: "Illusionist Familiar"
 	quest.48042EA601D85309.quest_subtitle: "x++"
+	quest.480F404D4D9627C1.quest_desc: ["The remaining &denergy&r of this plant form aeons ago is barely still perceptible. So light and vulnerable that you think &cany wrong move could breathe the last bit of life out of your fragile bulb&r."]
 	quest.4841CC6210CD8413.quest_desc: [
 		"&6Tape measure&r can measure the distance between positions."
 		""
@@ -2376,6 +2941,18 @@
 		"Then moving to the second position and &dright-clicking&r the block on that position."
 		" "
 		"If you want to get rid of the measurements you &dshift-right click&r the ground."
+	]
+	quest.484F2708933663B2.quest_desc: [
+		"The sun in the palm of your hand sounded far better in theory."
+		""
+		"Now that it sits there... well it burns. The simple fact that it exists is almost a miracle -- really, it should have &cexploded&r in the barrel - an unstable, shimmering amalgam of ethanol blended with a cocktail of accelerants that hates existing."
+		""
+		"A single wrong move could easily &ccause it to detonate&r, taking everything nearby with it, &cincluding yourself&r. And yet, for all those reasons, and yet more, the &esoft, warm glow&r of the gel elicits endless curiosity, all things are drawn to the &cflame&r. There is no question that what is effectively a high yield &dmagical&r explosive bears endless potential. All you need is a little care, a small mountain of it, and a hint of &6reckless abandon&r."
+	]
+	quest.487475F7A6127B57.quest_desc: [
+		"Placing an &5Ender Chest&r, opening it, and mining it with an &denchanted pickaxe&r is not what you think of as fun. That's why you invented this thing."
+		""
+		"You can open the &aBag of Holding&r to get access to your personal &5Ender Chest&r wherever you are!"
 	]
 	quest.488055D85AD88A2C.quest_desc: [
 		"&nCrafting Process to get the block:&r"
@@ -2410,6 +2987,16 @@
 	quest.4919AEB1300D63B7.quest_subtitle: "From previous chapter"
 	quest.496C8280CF77787E.quest_subtitle: "Use coarse dirt to make mud."
 	quest.4980B1E559CB90C6.quest_subtitle: "Upgrades a Diamond tier to netherite tier."
+	quest.49960F1AC80AB931.quest_desc: [
+		"The beginning of your adventure will require you to find the &aprimary shards&r for &ePastel&r. Each gemstone represents an &delemental color&r and a different kind of &anatural force&r."
+		""
+		"&5Amethyst Shards&r - Magenta light reflects in this gemstone. Formed over eons in &dgeodes&r, this gemstone radiates awe. It is a symbol of permanence and found in the deepest layers of the world. &5Amethyst&r represents &dTIME&r."
+		""
+		"&eCitrine Shards&r - This yellow gemstone is found close to surface level where the suns light dissipates into warmth. Its bright yellow luster radiates pure &6ENERGY&r and makes it slightly warm to the touch at all times."
+		""
+		"&bTopaz Shards&r - This gemstone is a surprisingly robust material, which is found in &dgeodes&r at the very top of &asteep hills&r and on the tops of &asky-high mountains&r. The &bTopaz&r represents &9MATTER&r."
+	]
+	quest.49960F1AC80AB931.title: "Gemstone Shards"
 	quest.4A1D33BF381320FD.quest_subtitle: "Affinity Rings are randomly generated as loot, and will boost the level of a select spell by one. This effect can stack. Spell can be set in the Arcane Anvil using a scroll."
 	quest.4A23A110747B9775.quest_subtitle: "Not repeatable"
 	quest.4A4514326874FFB4.quest_desc: ["Captures small mobs like chickens"]
@@ -2426,6 +3013,17 @@
 		"Fragments and manuscripts can be found in Ancient Cities."
 	]
 	quest.4A905C23B855B8C3.title: "&3&lSchool of Eldritch"
+	quest.4AB3FD2B686C1F10.quest_desc: [
+		"A standard chalice gives +1x base power"
+		""
+		"A filled chalice gives +2x base power, and is made by using &eRedstone Soup&r on a standard chalice"
+	]
+	quest.4AB3FD2B686C1F10.title: "Chalice"
+	quest.4AC9357C15BC7097.quest_desc: [
+		"On quiet days on your patio, you could observe that the &5Mermaid Gems&r have a very special attraction to &bmarine&r life. Add to that they naturally float on &9water&r you used one as a bobber."
+		""
+		"And lo and behold, not only does it &aincrease your success&r, but it also has quite a few other interesting &dside effects&r. "
+	]
 	quest.4ACC788E6E79B711.quest_desc: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
 	quest.4AF21A7894A9F73A.quest_desc: [
 		"&7When right-clicked:&r"
@@ -2435,6 +3033,19 @@
 		"Some blocks' &6settings,&r such as filters, can be &bcopied (right-click)&r and &6applied (left-click)&r elsewhere."
 	]
 	quest.4AF21A7894A9F73A.quest_subtitle: "Keep track of what you want to do"
+	quest.4AFA3F0208AA8ABB.quest_desc: [
+		"The &eWitch's Oven&r is capable of collecting fumes from its processing, but this chance is not ideal."
+		""
+		"Using &aFume Funnels&r on either side of the oven will drastically raise this chance. A third one can be added on top, but this is just decorative."
+		""
+		"As a final upgrade, &dFume Filters&r can be placed on the two Funnels to get these fumes every time."
+	]
+	quest.4AFA3F0208AA8ABB.title: "&fFumes"
+	quest.4B19ADAD68F0C567.quest_desc: [
+		"The &bMultitool&r is a &euniversal tool&r that combines the abilities of a &bpickaxe&r, &daxe&r, &5shovel&r, and &ahoe&r. "
+		""
+		"It's &cnot as efficient&r in the individual tasks, but its much better than having to change tools every three seconds."
+	]
 	quest.4B24345FE8791647.title: "Galleys"
 	quest.4B3E500121857046.quest_desc: [
 		"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
@@ -2483,6 +3094,11 @@
 		"The &6train observer&r will look at a specific part of the train track and detect when a train is crossing that specific section of track. It will give out a redstone signal when it detects a train going over that piece of track"
 		""
 		"The &6train observer&r can also only detect when a specific cargo is being held within the train."
+	]
+	quest.4BBB975D039AFCC9.quest_desc: [
+		"Dug into the ground by &dlightning strikes&r, you found these stones vibrating in your hand due to the inherent static. Used in the &aFusion Shrine&r, you can use them to summon &dthunderstorms&r yourself. "
+		""
+		"Because of their &evolatile nature&r, they do not react too nicely to explosions..."
 	]
 	quest.4BC65D4005C17D9F.title: "&5Electromancer Outfit"
 	quest.4BC707D6FBE8FF09.quest_desc: [
@@ -2583,6 +3199,7 @@
 	]
 	quest.4E22392BDC9FF135.quest_subtitle: "Craft any Netherite Barrel type."
 	quest.4E256AAA75ECF41E.quest_desc: ["After defeating the &0Wither&r, use the &eNether Star&r to craft a &cBeacon&r and place it to claim your reward."]
+	quest.4E5EFF72EF9394A7.quest_desc: ["The &bPigment Pedestal&r devours vast amounts of &dGemstone Powder&r. Now you should be able to cushion the consumption of your structures a little..."]
 	quest.4E86A025FBE306CE.quest_desc: [
 		"The &6Redstone Requester&r is used to request &bCardboard Packages from connected Packagers.&r"
 		""
@@ -2595,6 +3212,19 @@
 		"3) In its UI, you can configure the request to include up to 9 item types, with a maximum of 256 units each, and assign a delivery Address."
 		""
 		"4) When the &6Redstone Requester&r receives a redstone signal, it attempts to submit the configured request. If the requested items aren’t available on the network, no request is made."
+	]
+	quest.4E86F1220392F9B2.quest_desc: [
+		"Climbing mountains or misshapen caves is always very time-consuming. If you don't see an option to scramble up over misshapen ledges, you have no choice but to carve a path into the rock."
+		""
+		"Using your new &aTake-Off Belt&r you are able to put great vertical distances behind you, saving time and sparing your beautiful nature from destruction."
+		""
+		"Sneak to charge a &ehigh jump&r, getting more powerful the longer you charge."
+		""
+		"&e&lPower&r "
+		"The &ePower&r &denchantment&r increases the jump height even further."
+		""
+		"&e&lFeather Falling&r"
+		"&eFeather Falling&r will grant a short slow fall effect, allowing you to better navigate to where you want to land. A high level of &eFeather Falling&r may be a very viable way to safely descend down those cliffs again, actually."
 	]
 	quest.4E8C513048CB4D01.quest_desc: [
 		"Make it all the way home with all five frogs"
@@ -2618,9 +3248,24 @@
 		""
 		"Photographs can be stacked by right-clicking a Photograph or Stacked Photographs with another Photograph."
 	]
+	quest.4F4496330FB45B35.quest_desc: [
+		"&bAzurite&r is a rich blue ore, which at a distance, can almost be mistaken for &bLapis&r. In its natural form, it contains many impurities, which must first be removed, before it can be used."
+		""
+		"It is found deep underground and seems to be able to intensify any &dPigments&r energy."
+	]
+	quest.4F488BE406264C75.quest_desc: [
+		"Though there are lots of ways to &acalculate time&r, most seem relatively... &crustic&r. "
+		""
+		"The &aRedstone Timer&r is a new solution to an old issue. You can toggle the durations for both  &eactive time&r (Right Button) and &6inactive time&r (Left Shift + RIght Button with empty hand)."
+	]
 	quest.4F734FC470276106.quest_subtitle: "Applies a temporary haste effect after eating food"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Increases experience dropped by mobs"
 	quest.4FE2B38F21E965E8.quest_subtitle: "x3"
+	quest.506AD9F4CD125619.quest_desc: [
+		"&bClotted Cream&r is a slightly &afermented&r version of &dMilk&r. It keeps its properties and &cwill remove current active status effects&r."
+		""
+		"&aTakes one real-hour life to ferment&r."
+	]
 	quest.509BB6BF39848F5B.quest_desc: [
 		"Once you've explored the Moon and gathered enough Desh, you will be able to create &dSpace Stations&r around planets!"
 		""
@@ -2630,6 +3275,8 @@
 	quest.50A74C04350493E0.quest_subtitle: "&6+15% Cooldown Reduction"
 	quest.50B4EEBAF5CF3122.quest_desc: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 	quest.50B4EEBAF5CF3122.quest_subtitle: "Found in Jungle Pyramids"
+	quest.50CB097911D2B369.quest_desc: ["You're next goal is to find a &aspecial new ore&r. It's a &eshiny yellow&r and can be found above &9sea-level&r."]
+	quest.50CB097911D2B369.title: "A New Ore"
 	quest.50CDAAB5AECA6B27.quest_subtitle: "opcional"
 	quest.50E7A4D14F2C485A.quest_subtitle: "Not repeatable"
 	quest.5114FEE11E7030C9.quest_subtitle: "-20% Fuel requirement. "
@@ -2664,6 +3311,8 @@
 	quest.51E19ACD3F0994BE.quest_desc: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
 	quest.51ECBE8030E9D801.quest_subtitle: "Craft any Diamond Limited Barrel I type."
 	quest.52092833009BDC49.quest_subtitle: "Craft any Diamond Barrel type."
+	quest.5216CF235E55D02A.title: "Reset skill tree points of Farmer"
+	quest.522E772BE3BA6548.quest_desc: ["The &eBedrock Sword&r comes &dpre-enchanted&r with &2Sharpness VI&r."]
 	quest.5236164BE64893D2.quest_desc: [
 		"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space."
 		""
@@ -2688,17 +3337,6 @@
 	]
 	quest.52C5644D8C7CB5CC.title: "Kelp golem"
 	quest.52E5DCC3089180F3.quest_subtitle: "Use to reduce the cooldown"
-	quest.52E7496E0A9118F6.quest_desc: [
-		"To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable."
-		""
-		"Both glass cables and their &ecovered&f counterpart can carry up to 8 channels along a single section of cabling. Unlike glass cables, covered cables can subsequently be crafted into &edense&f covered cables, capable of carrying up to 32 channels. However, most \"multipart\" devices such as buses and terminals cannot be directly attached to dense cables, requiring normal-width cables to form a connection instead."
-		""
-		"All cables can also be crafted with dye to colour them. Uncoloured (\"Fluix\") cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."
-		""
-		"In Applied Energistics 2, every ME network has a certain number of &echannels&f available, which simply means how many networked devices can fit on the whole network."
-		""
-		"As a rule of thumb, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually components that are only concerned with the internal power storage of the network, like &eEnergy Cells&f do &onot&r take up channels."
-	]
 	quest.52E7496E0A9118F6.title: "Basic Cabling"
 	quest.53084CB2BEA9253E.quest_desc: [
 		"The Storage Tool is an essential core tool of the Sophisticated Storage mod, designed to streamline your storage management."
@@ -2716,6 +3354,7 @@
 		""
 		"&aToggling Visibility:&r Right-click a storage or Controller to toggle the visibility of locks and item counts."
 	]
+	quest.534FDA2A12212007.quest_desc: ["As &9water&r tried to flow to a full block of &aLiquid Crystal&r the crystal turned solid. Since even a light touch is enough to give you a &bcold shiver&r, you call it &bFrostbite Crystal&r."]
 	quest.5391C1240C677127.quest_subtitle: "When used for Upgrade: &6+5% Cooldown Reduction"
 	quest.53C9B66BEC667ED0.quest_desc: [
 		"&bIron's Spells 'n Spellbooks&r is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. "
@@ -2805,7 +3444,13 @@
 		"&6Magnifying Glass:&r Use this to view the key of the Unique Card."
 	]
 	quest.5534C553D15CD96B.quest_desc: ["The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."]
+	quest.556AED22B4E4D5DD.quest_desc: [
+		"The &aCrafting Tablet&r is so much more than a portable &eCrafting Table&r. It can save an inserted recipe and lets you craft it on demand."
+		""
+		"&bPedestal Automation&r - There may come a time when you feel you need a certain material so often you want to &dautomate&r it. The &aPigment Pedestal&r has a dedicated slot for a &aCrafting Tablet&r. When you add items with &choppers&r or similar to the &bPedestal&r, they will be placed appropriately and evenly as specified in the &esaved recipe&r."
+	]
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
+	quest.55EEED5C3584131C.quest_desc: ["&bRadiant Glass&r is pretty much the opposite of &9Tinted Glass&r. The &eShimmerstone&r used in its manufacture ensures that the glass glows from within."]
 	quest.560A7878C34E5FCC.quest_desc: [
 		"You have been through fire, water, and copper pipes."
 		""
@@ -2818,6 +3463,13 @@
 	]
 	quest.560A7878C34E5FCC.quest_subtitle: "Are you sure you are ready to summon it?"
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
+	quest.567A66B23D17B584.quest_desc: [
+		"The rather resplendent feathers of &6&nKindlings&r are quite remarkable, so much so that I'm forced to give the little bumpkins coat trimmings on a regular basis?"
+		""
+		"&oHowever, I've noticed that the feathers are often accompanied by drops of blood.?&r"
+		""
+		"Dipped in &d&nLiquid Crystal&r, the feathers leave a glittering, crystalline residue."
+	]
 	quest.5690FCED46349207.quest_desc: [
 		"Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"
 		""
@@ -2833,13 +3485,15 @@
 		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
 	]
 	quest.57FCF653EDA81DE0.quest_subtitle: "use a beacon to convert it"
-	quest.580F889F027A87FE.quest_desc: [
-		"The &bME IO Port&f allows for the contents of an ME network's storage to be quickly rearranged between different storage media such as ME cells and external containers connected to storage buses."
+	quest.58029A4EF02A1FBD.quest_desc: [
+		"While most Enchanted herbs are important for brewing purposes, Belladona, Snowbell, Water Artichoke, and Mandrake seeds are needed to make this &aAnointing Paste&r."
 		""
-		"When a cell is inserted in an input slot on the left, the IO Port can be toggled to either empty the cell out into other ME storages or fill the (ideally, partitioned) cell with certain items spread out across other storages."
+		"This will be used to craft Poppets later, but for now it's needed to make the Witch's Cauldron."
 	]
+	quest.58029A4EF02A1FBD.title: "&fAnointing Paste"
 	quest.582E68291A96A9E7.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.5841D16B410B3D41.quest_subtitle: "Ghast Tendril can be dropped by Ghasts when using the Ravaging enchantment on a hatchet."
+	quest.5883AD6C322BB079.quest_desc: ["For the most part the experience &dPigment Pedestal&r crafting rewards is pretty much negligible. But by using this &aKnowledge Focus&r you could dramatically increase the amount gained."]
 	quest.58D9CE68661256C8.quest_desc: [
 		"The &l&6Encased Chain Drive&r&r is a block used to transfer rotational power, similar to a Mechanical Belt, but with more flexibility in layout."
 		""
@@ -2870,6 +3524,11 @@
 	quest.594A8459AD944A3B.quest_subtitle: "Your first Spellbook"
 	quest.594C7C998C98F2EC.quest_subtitle: "used to make disguised illusionist familiars reveal themselves, can be obtained via ritual."
 	quest.594EDA0BA8DFB743.quest_subtitle: "The Priest mob will trade one for a written book that can be found in the Evoker Fort. The written book must be translated by a captive wandering trader from the Evoker Fort first."
+	quest.59550D06A062F224.quest_desc: [
+		"More soup than redstone, &aRedstone Soup&r serves as an advanced ingredient for other key recipes. Not useful for much else on its own."
+		""
+		"This one is safe to drink, and can provide a small buffer of &bextra health&r for a short time when drunk, but might be a little expensive for such utility."
+	]
 	quest.59753336427A57A6.quest_desc: ["Let's get the basic parts ready to head to space."]
 	quest.59753336427A57A6.quest_subtitle: "Craft a rocket nose cone."
 	quest.597BBC9933D7BC9E.quest_desc: [
@@ -2889,6 +3548,11 @@
 	quest.59BCE0313DEEC492.quest_subtitle: "Not repeatable"
 	quest.59E937483DE3A78D.quest_subtitle: "Upgrades a Basic storage to iron tier."
 	quest.59F5E3351D772A63.quest_subtitle: "&6+10% Eldritch Spell Power&r, Passive Ability (5s cooldown):Deal extra damage to creatures based on their maximum mana"
+	quest.59FD9AE95823DE89.quest_desc: [
+		"Getting from point A to point B is tedious. Especially in the case of &dGeodes&r, they are usually far away, so the journey there takes quite some time. With these &aSeven League Boots&r you are are much more mobile than before."
+		""
+		"They &eincrease both &5Movement Speed&e and &bStep Height&r. &dEnchanting&r them with the &6Power&r &denchant&r further increases the &5Movement Speed&r bonus."
+	]
 	quest.5A27BA1E5C692EB1.quest_desc: [
 		"The &bWireless Terminal&f functions identically to a regular terminal, but wirelessly."
 		""
@@ -2899,6 +3563,7 @@
 	quest.5A2F0B2712D9C667.quest_subtitle: "Applies fortune to mined blocks"
 	quest.5A52E77204B42646.quest_desc: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
 	quest.5A52E77204B42646.quest_subtitle: "Even bigger storage on the go"
+	quest.5A84E23F3EDE5A64.quest_subtitle: "{count:1,id:\"astikorcartsredux:acacia_animal_cart\"}"
 	quest.5AA39CCAEED433CA.quest_desc: [
 		"{image:kubejs:textures/familiars/hunter.png width:100 height:127 align:center}"
 		"&l&6Battle:&r&r specialized in attacking enemies with arrows, combined with swift moves."
@@ -2952,6 +3617,7 @@
 	quest.5BAE6CD47D4ABF2D.quest_subtitle: "Create with style"
 	quest.5BAE6CD47D4ABF2D.title: "Decoration and Building Options."
 	quest.5BB1EAC4730AD978.quest_desc: ["The &n&6Schematicannon&r&r will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
+	quest.5BB45847D0AEA0A1.title: "Manor"
 	quest.5BC526ACC0046B20.quest_desc: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]
 	quest.5BC526ACC0046B20.quest_subtitle: "Backs on Backs on Backs"
 	quest.5BCF209E014D37E6.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
@@ -2991,6 +3657,7 @@
 		""
 		"The brown arrows on the pump show the current flow direction. Use a Wrench to reverse it."
 	]
+	quest.5D30A11F9CDD6B03.quest_desc: ["The &eBedrock Bow&r comes &dpre-enchanted&r with &2Power VI&r."]
 	quest.5D396BE9BA075E66.quest_subtitle: "Craftable"
 	quest.5D3EA637C19E26F4.quest_desc: [
 		"The &bQuartz Wrench&f does what any regular tech mod wrench would do. It rotates blocks and devices along the face you right-click on and dismantles them when right-clicked while sneaking."
@@ -3006,6 +3673,8 @@
 	quest.5D6271AF25237B2E.title: "Weapons"
 	quest.5D6FDF6682B47167.quest_subtitle: "Dimmed Scale can be dropped by Endermen, Endermites, and the Ender Dragon when using the Ravaging enchantment on a hatchet."
 	quest.5D859F65BB6BA3E0.quest_desc: ["Uses &dTelejuice&r to toggle a custom portal in the area on and off"]
+	quest.5DDD25BF16AA9D1F.quest_desc: ["The liquid which was created during the creation of the &aMidnight Aberration&r... it &cdamages&r everything it touches. It seems to have varying effects depending on what lands in it. Enchanted items lose their &dmagical powers&r, and some items change altogether. However, most interesting is that &bcreatures killed by it&r drop a &emysterious fragment&r."]
+	quest.5DDD25BF16AA9D1F.title: "It's not Oil"
 	quest.5E08A9D0D45010CE.quest_desc: [
 		"&6Regulator Upgrade&r maintains a specific amount of a resource in the connected inventory by regulating imports or exports."
 		""
@@ -3025,6 +3694,19 @@
 		"To craf the &l&bBlock of Super Experience&r&r, you first have to craft the &l&aBlock of Experience&r&r, then you place it on the overworld, place a &l&6Lightning Rod&r&r on top of the &l&aBlock of Experience&r&r and wait for a &l&eLightning Strike&r&r. "
 		""
 		"When the &e&lLightning Strikes&r&r the&l &aBlock of Experience&r&r it will change into &b&lBlock of Super Experience&r&r."
+	]
+	quest.5E1D1748352CFF40.quest_desc: [
+		"On your journeys through the &aunderground&r you collect a whole lot of &aidentical blocks&r, which you will never need again. But they are too good to throw away, you think. "
+		""
+		"Time to develop a &estorage solution&r that takes care of your little problem."
+		""
+		"The &5Bottomless Bundle&r stores a virtually unlimited amount of items, but of only one type. Right-click it on stacks or empty slots in your inventory to fill/empty it."
+		""
+		"&l&6Automation&r"
+		""
+		"Crouching places it down, making it able to be &aautomatically&r filled / emptied. A placed &5Bundle&r will always remember the last item you put into it, even if it is emptied. It will only accept &enew&r items that it was holding before, making it also usable as a &dfilter&r."
+		""
+		"&o&cNote&f: If it was placed empty, it will accept the first item pumped into it and get locked to that."
 	]
 	quest.5EC30214D9EE2A0C.quest_subtitle: "Harness the power of &2nature&r. Increased &2nature spell power&r or &2armor&r."
 	quest.5EC30214D9EE2A0C.title: "&2&lSchool of Nature"
@@ -3071,6 +3753,7 @@
 	quest.5FA9D6B1B66399AC.quest_subtitle: "Crafting... on the go!"
 	quest.5FA9D6B1B66399AC.title: "Workstation Upgrades"
 	quest.5FE710403BE1AAF5.quest_subtitle: "right click into a tamed familiar to boost his armor permanently, limit 10 per familiar, dropped from Ancient Knights."
+	quest.5FEE4AF0159B2EFB.quest_desc: ["Adrenaline does not have to be the only thing racing through your veins in state of emergency. With every &cheart lost&r, the &cStratine Gem&r in this ring shines brighter and brighter, pulsating in the same rhythm as your racing heart - &egranting you an exponential damage boost&r."]
 	quest.607047A3D380D423.quest_subtitle: "Shrinks the wearer to half their size."
 	quest.6073AB1A816E845F.quest_subtitle: "Harness the power of &cfire&r. Increased &cfire spell power&r or &carmor&r."
 	quest.6073AB1A816E845F.title: "&c&lSchool of Fire"
@@ -3084,6 +3767,7 @@
 		"If a cell is empty, it can be repurposed by disassembling it into its respective component and housing. This is done by sneaking and right-clicking in the air with the cell in your hand."
 	]
 	quest.607E3A4AEEA46A98.title: "Item Storage"
+	quest.60995BB6BFD9B5EC.quest_desc: ["With how &cdark&r the world gets at night and in caves, it might be worth investing in the &aGlow Vision Goggles&r. These provide the &dNight Vision&r effect if you have &9Glow Ink Sacs&r in your inventory."]
 	quest.60A94E3337A26181.quest_desc: [
 		"When the Casting Spout fills the Mold in the Casting Basin, it takes a few seconds to generate an Ingot/Block."
 		""
@@ -3094,6 +3778,20 @@
 	]
 	quest.60B9F9AD8F49371D.quest_subtitle: "Grants temporary fire resistance when touching lava/fire"
 	quest.60FC4ADEFBA29C6D.quest_desc: [""]
+	quest.612A181814F656B1.quest_desc: [
+		"Another possibility with &emutandis&r is the creation of non-sapling Enchanted plants."
+		""
+		"These plants are herbs in their own rights, and can be farmed by letting them spread over time similar to mushrooms."
+		""
+		"&aSpanish Moss&r plays a key role in creating Poppets, so any interested witch should keep their eye out for it hen rolling the mutation dice."
+		""
+		"&aEmber Moss&r contains large amounts of heat, and sets fire to any creature that steps in it."
+		""
+		"&aGlintweed&r...well, it glows."
+		""
+		"&aBlood Poppies&r are mostly decorative, but using an empty taglock on one that someone has passed through will collect a sample of the blood."
+	]
+	quest.612A181814F656B1.title: "Witchy Plants"
 	quest.6139EF0E79D14AF4.quest_desc: [
 		"&6Disk Interface &rallows you to transfers items between storage disks and the network."
 		"Previously called Disk Manipulator."
@@ -3133,6 +3831,13 @@
 		""
 		"These collected addresses can then be used to auto-complete address fields in other UIs."
 	]
+	quest.6231CBE19EFB5E0A.quest_desc: [
+		"The &bPigment Pedestal&r is wonderful for &dautomatically crafting items&r. But if you need the same few items over and over again, you'll have to &crearrange&r your whole construction."
+		""
+		"Of course, you have found a more than adequate &asolution&r for that."
+		""
+		"The &aFabrication Chest&r has four slots for crafting tablets. The recipes you have defined in these are always kept in stock - as long as the ingredients in the chest allow it."
+	]
 	quest.624E99A4E08167EA.quest_desc: ["Hold the relic in your hand and get hit by the &6Warden's Sonic Boom.&r"]
 	quest.627A25524F94FB34.quest_desc: [
 		"&aAlshanex's Familiars&r adds magical creatures called &eFamiliars&r that can be found scattered around the world and &n&lthey can be tamed with &dArcane Essence.&r&r&r They follow you and fight using powerful spells.&m"
@@ -3168,6 +3873,11 @@
 		"While in this mode, make sure to place a block on top of the Blaze Forger and place a Lightning Rod on a block beside it. Super Enchanting Mode attracts Lightning Strikes."
 	]
 	quest.630BDF564F7516D7.quest_desc: ["To enable wireless network access, create the &eME Wireless Access Point&r. It allows access to the network via a wireless terminal, with range determined by the number of &aWireless Boosters&r inserted."]
+	quest.632A51E19F6B2B66.quest_desc: [
+		"The &aHeartbound Chest&r can only be opened by its &dplacer&r and provides the same space as &etwo normal chests&r."
+		""
+		"&cRedstone Component&r - Similar to a &bTrapped Chest&r it also outputs a &credstone signal&r. If you as the owner open it, the signal strength will be &afull&r, if a stranger wants to tamper with your belongings, then it outputs &bhalf signal strength&r."
+	]
 	quest.632E2AD859CE0BDE.quest_desc: [
 		"The &6&lWindmill Bearing&r&r is a block used for passive power generation."
 		""
@@ -3185,6 +3895,25 @@
 	]
 	quest.63547815413BB12A.title: "Ancient City"
 	quest.636178B57E7A9E86.quest_subtitle: "Molten Remnant can be dropped by Magma Cubes when using the Ravaging enchantment on a hatchet."
+	quest.637750B4CEC5FC5C.quest_desc: [
+		"You have &ecolor&r as pure as can be. So why not create blocks with color as &dpure&r as can be!"
+		""
+		"You thought if you should call them &5Antiblocks&r, but since they are indeed blocks, that would be silly, &oright&r?"
+		""
+		"&aGlowblocks&r come in all colors and always look the same, no matter how much light falls on their surface."
+	]
+	quest.637750B4CEC5FC5C.quest_subtitle: "They glow in the dark"
+	quest.637750B4CEC5FC5C.title: "Glowblocks"
+	quest.639C6C4B13203B5B.quest_desc: [
+		"The &bPigment Pedestal&r is the block where you will craft most of the recipes in &ePastel&r and other magic mods."
+		""
+		"To start crafting, trigger it with a &aPaintbrush&r or supply a &credstone signal&r. The &bPedestal&r requires &9air&r or an &dinventory&r above it. "
+		""
+		"Most recipes require &aGemstone Powder&r as an ingredient. The &bPedestal&r also acts as a normal crafting table and can therefore also be used to craft vanilla recipes. "
+		""
+		"The &bPigment Pedestal&r can be built with your &dgemstone&r of choice. While they do look different they are the same functionally. For now you have the &athree variants&r based on the &athree gemstones&r you just collected."
+	]
+	quest.639C6C4B13203B5B.title: "The Pigment Pedestal"
 	quest.63A35C0C01372EB6.quest_desc: ["Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"]
 	quest.63A35C0C01372EB6.quest_subtitle: "Craft it using aquatic items"
 	quest.63BA37F707747719.quest_desc: [
@@ -3207,7 +3936,30 @@
 	]
 	quest.63BA37F707747719.quest_subtitle: "Image below"
 	quest.63BA37F707747719.title: "&l&aIncrease/Reduce Speed Using Cogs&r&r"
+	quest.63D1F9A9465CC28F.quest_desc: [
+		"Growing a little bit of everything is important as you progress deeper into Enchanted."
+		""
+		"Mostly herbs are standard crops, but there are a few notes:"
+		""
+		"&bSnowbell&r can often be harvested for snowballs, even in warm climates. "
+		""
+		"&3Water Artichoke&r needs to be planted on still water."
+		""
+		"&dMandrakes&r are occasionally be harvested without incident, but &aEarmuffs&r are heavily suggested as they tend to sprout up out of the ground when plucked, and will run around with a dizzying scream until slain."
+		""
+		"&7Wolfsbane and Garlic have no current uses, but more utility may come from them in the future."
+	]
+	quest.63D1F9A9465CC28F.title: "Essential Herbs"
+	quest.64227AF7157BBF43.quest_desc: ["Crushing &bFrostbite Crystal&r with an anvil yields this ice cold essence, which almost makes your hand freeze just by holding it. Crushing &9Ice&r seems to work too, albeit with much less yield."]
+	quest.6422E4C08274C040.quest_desc: [
+		"Like a caveman, you've always run around manually &eilluminating&r, or closing unsightly looking cave exits in your immediate vicinity. To relieve you of this work you took the self-replicating abilities of &dFading&r as an inspiration to develop the &aBlock Flooder&r."
+		""
+		"Thrown into a cave entrance, pond, or ravine, they are filled - in 5% of the cases, the result even looks acceptable!"
+		""
+		"To fill the gaps it pulls matching blocks directly from your &cinventory&r. If you don't have any matching blocks it will fall back on &7cobblestone&r."
+	]
 	quest.6423F47740F77C70.quest_subtitle: "Grants &6poison immunity."
+	quest.645BA3F09C087441.quest_desc: ["&eGilded Books&r serve as an alternative to mundane &aBooks&r for enchanting in the &bEnchanter&r. Being much more receptive for &dmagic&r, the &5enchanting process&r will be both &2faster and cheaper&r. More than that, they can even be used to &ecopy enchantments&r from all kinds of items in the &3Item Bowls&r around the &bEnchanter&r onto itself."]
 	quest.645D4EA80D808371.quest_desc: [
 		"A small early-game shulker box that can only hold 5 items. "
 		""
@@ -3223,7 +3975,24 @@
 	]
 	quest.64A2A85357384A51.title: "Spatial IO"
 	quest.64D7956A3E6681A5.quest_subtitle: "You already know how to make sulfur don't you?"
+	quest.65397110B48EC4A1.quest_desc: [
+		"Designed resembling an ordinary &ehopper&r in form and function, the &5Ender Hopper&r has the special ability to put all items above it and from inventories directly into your &dEnder Chest&r."
+		""
+		"The &5Ender Hopper&r only works while you are online."
+	]
 	quest.65663D9E051280F2.quest_subtitle: "Increases the speed of ridden mounts"
+	quest.6587B145151746EC.quest_desc: ["The &eDistillery&r unlocks a lot of new products. Some of the key ingredients for progression are &aGypsum&r and &aTear of the Goddess&r, which are required for &bCircle Magic&r."]
+	quest.6587B145151746EC.title: "Distillery Products"
+	quest.65A1336AF50B1E2D.quest_subtitle: "New food - new horizonts!"
+	quest.65F3ED29B9F72371.quest_desc: [
+		"&7Smithing Template&r is an item required for decorating armor, &nand now weapons and tools&r, on the smithing table."
+		"Smithing templates are consumed when used, but they can be duplicated using an existing smithing template, the &7required material&r, and &bdiamonds&r."
+		""
+		"All trim elements are purely decorative and do not affect gameplay in any way."
+		""
+		"In addition, there is a new smithing template - &n&eGlow&r. To apply this trim, you need to use a &n&eGlow Ink Sac&r."
+	]
+	quest.65F3ED29B9F72371.title: "Smithing Template"
 	quest.660C3D5CB407247F.quest_desc: [
 		"&l&cCheck Your Key Bindings!&r&r"
 		"Sometimes a function may not work because the key is not bound or conflicts with another function. Be sure to check your key bindings and change them if necessary."
@@ -3247,6 +4016,7 @@
 		"If something doesn't work, always check if the key is bound correctly or if it conflicts with a key from another mod!"
 	]
 	quest.660C3D5CB407247F.title: "&6Key Bindings"
+	quest.664ECF9F096A75B6.quest_desc: ["The &eLucky Pickaxe&r is infused with the power of &6energy&r, it allows you to carve out every last bit of ore from &aevery&r vein. The &eLucky Pickaxe&r comes pre-enchanted with &dFortune III&r."]
 	quest.6659EBA759E55BD5.quest_desc: [
 		"When the &6Eating Upgrade&r is in your backpack, it will automatically feed you when you start to get hungry!"
 		""
@@ -3259,7 +4029,6 @@
 	quest.669470AF4A543CB7.quest_desc: ["Upgrades can be applied to aircraft to further improve their functionality."]
 	quest.669470AF4A543CB7.title: "Upgrades"
 	quest.66A8B9C4C4AC291A.quest_subtitle: "Strikes attackers with lightning. Grants immunity to lightning strikes."
-	quest.66AEBB4916DEF011.quest_desc: [""]
 	quest.66AEBB4916DEF011.title: "Farmer"
 	quest.66CF9B7A1C500A4E.quest_desc: [
 		"The &6&lGearbox&r&r transmits rotational power in four directions. "
@@ -3281,7 +4050,26 @@
 	quest.66EA4FE46D64E00B.quest_subtitle: "Not repeatable"
 	quest.671D0A62B7171DBB.quest_subtitle: "&6Long Casts become uninterruptible"
 	quest.6767C398AD003D14.quest_subtitle: "Not repeatable"
+	quest.6780A1BF19D7CEA3.quest_desc: ["Freeing your &dmicroorganisms&r near &aorganic&r matter will have them spread into those blocks. Breaking the block that was spread into will provide you a new resource!"]
+	quest.6780A1BF19D7CEA3.title: "An Organic Material"
+	quest.67B26D6E4C9CA284.quest_desc: [
+		"Once almost a &clost cause&r you now have an ace up your sleeve:"
+		"With the help of the &aSpirit Instiller&r you are sure that you can breathe life back into the little bulb."
+		""
+		"To &agrow&r them, place them on the &eunderside&r of a fence and ensure they only are exposed to &7Moonlight&r."
+	]
 	quest.67E92583977D7775.quest_subtitle: "Can also be found in market "
+	quest.67E96C454733329E.quest_desc: [
+		"A metal shimmering with various colors — mesmerizing to behold."
+		""
+		"To make its buds grow, place a metal block nearby, such as iron. This process takes time — patience is required."
+		"The bud will grow, but to form a cluster, try using gold."
+		"{image:kubejs:textures/item/bismuth_iron.png width:150 height:200 align:1}"
+		"{image:kubejs:textures/item/bismuth_gold.png width:150 height:200 align:1}"
+		""
+		"Once the cluster matures, you can mine it with a pickaxe."
+	]
+	quest.67E96C454733329E.title: "Growing Bismuth"
 	quest.67FA8896AD563A77.quest_desc: [
 		"&eWaystones&r can be found scattered throughout the world, but &cthey do not spawn in villages&r, as the mod doesn't currently support that feature. They offer a fast and convenient way to travel across vast distances."
 		""
@@ -3294,8 +4082,15 @@
 		"Additionally, there are other ways to create teleportation points throughout the world!"
 	]
 	quest.67FA8896AD563A77.title: "&eWaystones"
+	quest.67FFABA54C58A939.quest_desc: [
+		"The &aFour-Leaved Clover&r is an rare variant to that of the normal &aClover&r. With its inherent luckiness comes some &dmagical properties&r you can utilize!"
+		""
+		"You can replicate them by using &eBonemeal&r!"
+	]
 	quest.681E258AB577FF73.quest_subtitle: " Increases Lure and Luck of the Sea by 1 level"
 	quest.6831FF0CBA2E0FD2.quest_subtitle: "Not repeatable"
+	quest.68951CC5CE4F3221.quest_desc: ["In the &aPlains&r biome you have found regular &aClovers&r before. Usually they only have &ethree&r leaves, perhaps you'll get lucky and find one with &dfour&r?"]
+	quest.68951CC5CE4F3221.title: "Feelin' Lucky Punk?"
 	quest.692451647E98D133.quest_subtitle: "Not repeatable"
 	quest.692D79D601534A2E.quest_desc: [
 		"{image:kubejs:textures/familiars/summoner.png width:100 height:105 align:center}"
@@ -3313,9 +4108,20 @@
 	quest.692D79D601534A2E.quest_subtitle: "Tame one Summoner Familiar"
 	quest.692D79D601534A2E.title: "Summoner Familiar"
 	quest.694646586C18C609.quest_desc: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
+	quest.69A71D4197F983DC.title: "Reset skill tree points of Combat"
+	quest.69D153E6D7F2C335.quest_desc: [
+		"To create &cbrown pigment&r, you needed a way to darken an &6orange&r tone. And then it occurred to you. It's so logical when you think about it! The &dthree gems&r you found correspond to the &5three basic colors&r of color theory. By mixing all three colors you can create a &dshard&r that is so dark it almost looks unreal."
+		""
+		"The creation of this '&ablackest of blacks&r' in the &bFusion Shrine&r has to be performed in a way that absolutely &cno unregulated light can pollute the crystal&r. So midnight on a new moon it is. Best to bring a &eclock&r with you."
+	]
 	quest.69DCCD0BB312EF6D.title: "Lumberjack"
 	quest.69E26E48222CEC01.quest_subtitle: "Rolling"
 	quest.6A0982B3EC12BAF2.quest_desc: ["&eDecoration Table&r allows you to customize the Chest with any block."]
+	quest.6A36CD98289D9C05.quest_desc: [
+		"The &5Ender Dropper&r is the counterpart to the &5Ender Hopper&r. With every &credstone pulse&r it ejects an item from your personal &dEnder Chest&r."
+		""
+		"&cBeware&r: The &5Ender Dropper&r only works as long as you are online. And who is stopping anyone from placing a button next to it and emptying your &dEnder Chest&r?"
+	]
 	quest.6A7C0604FA1E82BB.quest_desc: [
 		"Can be found naturally in villages. When attacked, the &ebarrel golem&r will close its lid and hide as a barrel, reducing damage taken by 90%. "
 		""
@@ -3342,6 +4148,18 @@
 		"Depending on your enchantment level, you may need to use&b Super Enchanting&r to reapply it."
 	]
 	quest.6B2BB3A3AAC179FE.title: "&l&6Disenchanting Your Equipment"
+	quest.6B419998589E17A8.quest_desc: [
+		"Deep underground you may find &eoutlandish structures&r, which seem to be built from &aimmensly sturdy stone&r. Whoever constructed them seemed to have knowledge way beyond your understanding. There has to be a way to get in there! If not now, then later... better keep the location in mind."
+		""
+		"The only &dRuin&r you can enter at this stage is the one that has two &bSpore Blossoms&r at the entrance. Heavily consult the &eColor Mixing&r section of the &eColorful World&r book. "
+		""
+		"&o&cHint&f: Use the &dGemstone Powders&f you just created!"
+		""
+		""
+		"&cNote&r: The Gray Spore Blossom is currently not solvable until a future update."
+	]
+	quest.6B419998589E17A8.title: "The Mixing Ruins"
+	quest.6B46181AB163E890.quest_desc: ["Not just t he bags under your eyes that are evidence of your lack of sleep. There are those &dcreatures&r that come haunt you straight out of your missed nightmares when you don't regularly lie down to sleep - almost like they feel cheated. This here is the manifestation of &erelaxation&r, no sleep necessary. After just a few minutes of wear, you feel physically and mentally refreshed. You also recover from &cnegative effects&r more quickly."]
 	quest.6B95EF7446936BCD.quest_subtitle: "You can repeat as many times you want!"
 	quest.6B9E13665837ECA1.quest_desc: [
 		"&6The item teleporter&r can teleport a stack of items to an&e item teleporter receiver&r. It uses &dtelejuice&r as fuel. "
@@ -3375,6 +4193,7 @@
 		"Recolor with dye (crouch + right-click or craft)."
 	]
 	quest.6C6589020C2F2E70.quest_subtitle: "Vex Wing can be dropped by Vexes or, very rarely, Allays when using the Ravaging enchantment on a Hatchet."
+	quest.6C6C6B98EC394D86.quest_desc: ["By infusing &dNeolith&r with a glove you've been able to produce the &aGloves of Dawn's Grasp&r. These &aGloves&r &eincrease your reach&r. You can further extend your reach by infusing it with even more &bBlue Ink&r."]
 	quest.6C71E2ABAA99C005.title: "&6Collect All the Simply Swords"
 	quest.6C7C101DFE4E67F3.quest_subtitle: "+5% mana regen, constantly heals tamed familiars at the cost of your own mana, found in Priest Towers."
 	quest.6C7DDDC1123E208A.quest_desc: [
@@ -3398,6 +4217,13 @@
 	]
 	quest.6CE8C3410296E977.title: "&aPreparing Some&r &bOxygen&r"
 	quest.6D08330CFC144654.quest_subtitle: "+10% engine power."
+	quest.6D24FBE1A1BB0488.quest_desc: [
+		"The pure energy of &dgemstones&r in their liquid form. It is said to have a healing effect."
+		""
+		"It has special &dtransformative properties&r, what happens when &ayou&r step in it though?"
+		""
+		"Combining it with various &eother liquids&r results in all kinds of weird looking materials to form. Best to try in the &cnether&r too!"
+	]
 	quest.6D40B0012EBC27AA.quest_desc: [
 		"&6The Interplanar Projector&r is a special filter for the Camera that lets you&d project custom images onto film using either a local file or a URL.&r"
 		""
@@ -3448,11 +4274,28 @@
 		"&d@teleport&r"
 	]
 	quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+	quest.6E009D4747E3E485.quest_desc: [
+		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six products to clear out the cauldron, or there will be mixed ingredients next time."
+		""
+		"Mutandis is used on various small plants like saplings to &bmutate&r them into different forms. The process is &2based on one or more surrounding plants&r, so you may need to set up a proper space to mutate them. Check the 'Mutated Plants' section of the Herbology chapter in your &eguidebook&r for more details."
+		""
+		"&oNote: bonemeal and similar effects work &6against&r &omutandis, don't force the change."
+	]
+	quest.6E009D4747E3E485.title: "&fMutandis"
 	quest.6E03028499F40E70.quest_desc: [
 		"&6The Relay &racts as a smart connection point in your storage network. "
 		""
 		"It controls what passes through—like energy, storage, security, and autocrafting—from its input sides to the output. When pass-through is off, you can fine-tune what gets shared."
 	]
+	quest.6E21A61FDCAC98CF.quest_desc: [
+		"For a long time now, those annoying monsters that always &aappear at night&r are no longer a threat to you and only serve as a &bresource supplier&r, if at all. But that doesn't stop them from pursuing you further. You spend more time keeping those pesky monsters out of your base than you care to admit. "
+		""
+		"Then you remember the &egemstone glass&r recipe you thought up earlier. With a a bit of &dmagical energy&r, it should be no problem to make it not only &ctransparent&r for you, but also &o&2passable&r (and not for them!)."
+		""
+		"&aSemi-permeable Glass&r comes in all gemstone colors, common, tinted, and glowing variants. It looks exactly like its &bmundane counterpart&r but has the special property that &eplayers can pass through it without problems&r, while all other creatures will bounce off it like a fly off a window."
+	]
+	quest.6E21A61FDCAC98CF.title: "Semi-permeable Glass"
+	quest.6E3627858A50BF2A.quest_desc: ["Instead of sacrificing entire blocks of metal, the &b&nCrystallarieum&r provides a controlled substrate that serves as a more efficient way to deliver nutrients."]
 	quest.6E691464A1D6FEEC.quest_desc: [
 		"The &l&6Andesite Funnel&r&r is used to move items in and out of inventories."
 		""
@@ -3482,6 +4325,15 @@
 	]
 	quest.6E8031A380EB37C8.quest_subtitle: "Inscribing spells"
 	quest.6E98473128936047.quest_subtitle: "Lets you move freely in water. You’ll sink and can take fall damage."
+	quest.6EBA5C455937F53F.quest_desc: [
+		"- Floating Debris, Fish Pools and other rubble can be found while exploring Rivers and Oceans - throw your Fishing Bobber in and get some nice Loot from them!"
+		"- New Tools for Fishing: Bamboo Fishing Rod, a Spear, Dynamite or even some Redstone powered Blocks"
+		"- Fish Traps - fill them with Seeds, Sweetberries or other Baits and wait until you catch a few Fishes"
+		"- Some Decorative Blocks: A Hanging Frame for Fishes, a Trophy Frame, Fish Nets and more!"
+	]
+	quest.6EBA5C455937F53F.quest_subtitle: "Let's go fishing!"
+	quest.6EBA5C455937F53F.title: "Lili's Lucky Lures"
+	quest.6EBE0A34CCFA8E5B.quest_desc: ["The ends of this pickaxe are studded with &bTopaz&r to cut even the most delicate material from stone. The &aTender Pickaxe&r comes pre-enchanted with &dSilk Touch&r."]
 	quest.6F8A1655E91E7E89.quest_desc: [
 		"The &bQuartz Cutting Knife&f, like the wrench, comes in both nether and certus quartz flavours and is a useful crafting tool to have on hand."
 		""
@@ -3507,6 +4359,11 @@
 		"&bExplorer Maps&r are a core part of find scturures acting as an expansion of the mapping functionalities provided by the base game. There are maps that can take you to specific biomes or structures. "
 		""
 		"Look in the &eShopping&r tab on the left menu to see the &bExplorer Maps&r available for you to buy. Some maps cannot be bought and must be obtained through quests."
+	]
+	quest.7014D92425B9A412.quest_desc: [
+		"Even &aBedrock&r was not strong enough to withstand your newly created \"&alife&r\". It broke through the &aBedrock&r like &edandelions&r through &7concrete&r."
+		""
+		"Should you be reading this while &csome of that stuff is still roaming around free, you should change that as soon as possible&r. Otherwise you &lWILL&r regret it. Luckily, you already invented a &asuitable counteragent&r."
 	]
 	quest.703D0E0BD4F9DC4F.quest_subtitle: "Craft any Gold Limited Barrel I type."
 	quest.704435187B4BD245.quest_desc: [
@@ -3566,6 +4423,12 @@
 	quest.7195C5282BA6B067.quest_desc: [""]
 	quest.7195C5282BA6B067.title: "cast iron ingot"
 	quest.71CC0C32A62A110C.quest_subtitle: "A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."
+	quest.71DCCEF26234CA68.quest_desc: [
+		"This dainty ring has it all: with the help of a little (or a lot of) &dPink Ink&r, it strengthens you from the inside out and grants you &eadditional hearts&r."
+		""
+		"&5Infuse&r it with &eadditional&r &dPink Ink&r to increase the amount of &eextra hearts&r provided."
+	]
+	quest.71F0082A37B7A610.quest_desc: ["Though seemingly left behind for quite some time now, these &aseeds&r still look very much &2alive&r. Once grown, they become &bAmaranth Bushels&r. These &bBushels&r can be used in various foods, and &eit's also the favorite food of a certain creature down the path of progression&r."]
 	quest.7220794AE44350FA.quest_subtitle: "+15% cast time reduction, when equipped familiars that fall below 25% health will get evasion effect on intervals, found in End Cities."
 	quest.7226FB66C2B28ACB.quest_desc: [
 		"&dSophisticated Storage&r upgrades your chests and barrels, increasing their capacity and adding functionalities like magnets, built-in smelting, compacting, and more."
@@ -3583,7 +4446,7 @@
 		"If you use the &badvanced&r upgrade, you can filter to match contents of the storage!"
 	]
 	quest.723F98AC017A4F8C.quest_subtitle: "Drop 'n Go!"
-	quest.72426A0FB41CD542.quest_desc: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
+	quest.7241F5138C0BF394.quest_desc: ["&aCobweb&r can be crafted using &dQuitoxic Dust&r. Useful if you can't find any &bnaturally generated around your world&r."]
 	quest.72564111D0768098.quest_subtitle: "Increases the damage dealt by the wearer"
 	quest.725685829EF53BA4.quest_desc: ["The &bME Export Bus&r periodically transfers items from its whitelist filter to external storage. Unlike the Import Bus, the Export Bus requires a filter to function."]
 	quest.7261FED43BDDEFA8.quest_desc: [
@@ -3604,12 +4467,23 @@
 		"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
 	]
 	quest.7261FED43BDDEFA8.title: "Portable Inventory"
+	quest.72A0F9EDC836DDCF.quest_desc: ["Now that you're familiar with the &dcrafting process&r, it's time to upgrade your basic &bPedestal&r into the &aCMY Variant&r. To upgrade the &bPedestal&r, place a &bTopaz&r, &5Amethyst&r, and &eCitrine&r (in that order) in your &bPedestal&r and then start the craft."]
+	quest.72A0F9EDC836DDCF.title: "CMY Pedestal Variant"
 	quest.72A5DEFDD0F3470D.quest_desc: [
 		"With a &bDiamond tier pickaxe&r, you'll be able to mine &dObsidian&r. &dObsidian&r can be used to create a portal to the &cNether&r."
 		""
 		"The portal frame can be many different sizes, but most go with the basic \"Door\" shape. This is a hollow 4x5 shape using a minimum of 10 Obsidian. You don't have to use Obsidian for the corners, just the portal frame itself!"
 	]
 	quest.72A5DEFDD0F3470D.title: "&cTo The Nether!&r"
+	quest.72E6A9F7DBBC7DC9.quest_desc: [
+		"The results of combining &bAzurite&r and the protective properties of &bBlue Pigment&r really sparked your interest. The material seemed to surround itself with a transparent aura, which took some effort to penetrate when you reached for the lump."
+		""
+		"&b&lAzure Dike&r"
+		"A &dmagical aura&r surrounding your body, &eshielding&r you from incoming damage. Slowly, but steadily recharges up to a specific amount."
+		""
+		"&cEach piece&r of &bAzure Dike Equipment&r increases the &amaximum amount of protection&r."
+	]
+	quest.72E6A9F7DBBC7DC9.title: "Azure Dike Equipment"
 	quest.731C3214BB61FDAE.quest_desc: ["Found underground in the &aOverworld&r."]
 	quest.731C3214BB61FDAE.quest_subtitle: "Kill the warden"
 	quest.732543EAB9ADB411.quest_desc: [
@@ -3674,7 +4548,16 @@
 		""
 		"To create a Train, the Train Tracks need to be 3 blocks long on a straight line to be able to place a Bogey."
 	]
+	quest.7388F834D83B886E.quest_desc: ["&dManifest&r the &aEgg Laying Wooly Pig&r."]
+	quest.7388F834D83B886E.title: "Once only a Tale"
 	quest.738C5CDEA3283099.quest_desc: ["The &bEnergy Card&r can be applied to most chargeable devices like Portable Cells and Wireless Terminals to increase their energy buffer."]
+	quest.73AA2CF77878D66D.quest_desc: [
+		"Your whole \"&ecreating life&r\" thing has worked rather mixed so far. But slowly you feel you are able to move something. "
+		""
+		"Creating life from nothing is a &cdifficult thing&r, but combining &aexisting knowledge&r? You feel a bit like &dFrankenstein&r himself. &oIs that a good thing? Bad? You are not sure at all..."
+		""
+		"Now. What would your &acreation&r like to &ceat&r?"
+	]
 	quest.73ABE2ADC83069D8.quest_desc: [
 		"&a&nImporter&r&r"
 		"Pulls items from connected inventories into the storage network."
@@ -3714,6 +4597,7 @@
 		""
 		"A Redstone Comparator can read the Speedometer’s signal and output a Redstone signal strength based on the absolute RPM—meaning positive and negative speeds produce the same output."
 	]
+	quest.74339E62DBCE4A7F.quest_desc: ["The &eBedrock Shears&r comes &dpre-enchanted&r with &2Silk Touch&r."]
 	quest.74370B84A072E947.quest_desc: [
 		"The &6Arcane Anvil&r lets you upgrade your spells. Place a &bspell scroll&r and an &cink&r of matching rarity to level it up."
 		""
@@ -3741,6 +4625,11 @@
 		""
 		"&nYou can make a copy&r with dragon scale."
 	]
+	quest.7478E4BA8E84755E.quest_desc: [
+		"The &dObsidian&r was literally pulverized. This is what you call &cpower&r!"
+		""
+		"The result was this sturdy &areagent&r. Very powerful!"
+	]
 	quest.7495FD1A88E6A10B.quest_desc: [
 		"&n&6The Deployer&r&r is essential for automation, used in multi-step crafts and contraptions. "
 		""
@@ -3765,6 +4654,12 @@
 	]
 	quest.75813E7A5E88D3B8.quest_subtitle: "When used for Upgrade: &6+5% Spell Resistance"
 	quest.7587516549657E55.title: "teste1"
+	quest.75AB88DBDE2147E2.quest_desc: [
+		"&dThunderstorms&r are a powerful display of &anature&r. There are &etremendous energies at hand&r."
+		""
+		"Sometimes, you are able to find &bweird shards&r at places where &dlightning struck&r. There even is a way to &cfocus&r &dlightning&r at a specific position, to make gathering them even more efficient."
+	]
+	quest.75AB88DBDE2147E2.title: "Ride the Lightning"
 	quest.75BD9E93A6143DC7.quest_desc: [
 		"A Rocket needs something to launch off of, so we'll need to make a &aLaunch Pad&r."
 		""
@@ -3774,6 +4669,13 @@
 	quest.761D029F52BA267B.quest_subtitle: "x2"
 	quest.763F1FB0C55F702F.quest_desc: ["It has seen many warriors drown into the depths of the sea"]
 	quest.763F1FB0C55F702F.quest_subtitle: "Get it by Killing Elder Guardian"
+	quest.76C17AECFEBFA7E3.quest_desc: ["&aVegetal&r is a curious by-product of your &dmicroorganisms&r feasting on &2organic matter&r. It consists of the &2raw energy of nature&r."]
+	quest.76C95D1636ACFBE8.quest_desc: [
+		"Gentle resonances are amplified by &aOnyx&r to such an extent that they can even be measured &bthrough walls&r, given a suitable receiver. Based on your previous experiments with &dgemstone shards&r it was easy for you to devise such transmitter and receiver systems. These relays do not react well to &cfast changing signals&r though."
+		""
+		"Click the &bWireless Redstone&r with empty hands to toggle sending/receiving. Change the &efrequency&r of transmissions by using &ddye/pigment&r, so signals do not overlap. &oRange: 16 Blocks&r"
+	]
+	quest.7727033102C53F5B.title: "Reset skill tree points of Miner"
 	quest.779E68DD0A0F8483.quest_subtitle: "Can be crafted in the Alchemist Cauldron using an Echo Shard and a Mundane Potion."
 	quest.77A0F8AC2BF086C5.quest_desc: [
 		"The &6&lHose Pulley&r&r lowers a hose to drain or fill large bodies of fluid."
@@ -3826,8 +4728,19 @@
 		""
 		"However, None-player Conductors can play every Whistle."
 	]
+	quest.78893EE17272B594.quest_desc: [
+		"The latest findings from your last experiment make you strive for more and more. Squeeze every last ounce of energy out of your &dgemstones&r."
+		""
+		"&5Neolith&r is the key! Yes, it is must be! If you combine all the gems you have collected so far with it, something must be created that holds &eincredible power&r. Alone for you and ONLY for you, master of &dpigment&r!"
+		""
+		"Fusing those &dmagical energies&r must result in an incredible source of power - with a display to match. Best to make sure your &aShrine&r and everything around it is fortified. &o&lI'm not kidding, make sure nothing important is near your &aShrine&f, expect a &ccleanup&r. You can use &3Polished Calcite&r / &ePolished Basalt&r to protect the area."
+		""
+		"&cRequires daytime and a clear sky&r."
+	]
+	quest.78893EE17272B594.title: "Unstable and Dangerous"
 	quest.78CCC3928AD94E59.quest_subtitle: "Not repeatable"
 	quest.78E34F3F9A19F275.quest_subtitle: "Gives you water breathing"
+	quest.791C2898ADBEFEED.quest_desc: ["&cStratine&r is a very &4heavy&r ore is scattered around the depths of the &cNether&r. It's probably &enot the best idea to carry &llarge&r&e amounts of it home at once."]
 	quest.7936CCA5490F1C60.quest_desc: [
 		"&6Train tracks&r are a new type of rails designed specifically for Trains."
 		""
@@ -3849,6 +4762,7 @@
 		""
 		"Note: Adding a Note Block with a Disk makes the Mechanical Arm Dance and the Mechanicle Arm can algo wear the Engineer Goggles."
 	]
+	quest.7964F17F21FC30DA.title: "Reset skill tree points of Explorer"
 	quest.797410E5DF1F96E5.quest_subtitle: "Not repeatable"
 	quest.7977B91DAF6112DB.quest_desc: [
 		"- Has space for 3 tools (hoes, shovels, axes)"
@@ -3856,25 +4770,15 @@
 		""
 		"{image:mineoctober:item/acr_plow width:150 height:144 align:center}"
 	]
-	quest.79A7417475A593C6.quest_desc: [
-		"Most of an ME network uses its own dedicated power system called AE. "
-		""
-		"RF/FE can be converted into AE at a 2:1 ratio through an &6ME Controller&r or an &eEnergy Acceptor&r, which can connect to any part of the network. "
-		""
-		"You can also use an &cEnergy Provider&r to convert rotational power from Create into AE."
-	]
+	quest.7977B91DAF6112DB.title: "Plow"
 	quest.79A7417475A593C6.quest_subtitle: "Plug in"
-	quest.79C7674B90B4B862.quest_desc: [
-		"&6The Controller&r is the brain of your Refined Storage system. "
+	quest.79D0A62E07C283FF.quest_desc: [
+		"Your &aPigment Pedestal&r can be upgraded with your newly created &bOnyx Shards&r to further increase its magical powers."
 		""
-		"It powers the entire network but needs an external energy source. "
-		""
-		"Energy use scales with the number of connected devices. Without power, the network shuts down—unless a backup Controller exists."
-		""
-		"You can recolor it with dye and use redstone to control when it’s active."
-		""
-		"&7&oCheck the Create Electricity chapter. You’ll need a connector — place it on the controller and wire it up to supply power.&r&r"
+		"Alongside the upgrade to the &aPedestal&r itself, you will need to upgrade your &ePastel Focus&r into a &5&lPastel Temple&r. The requirements for this quest are if you are upgrading your current setup into the &5Temple&r. If you plan to make a new setup, consult the &eColorful World&r book for the complete checklist. Additionally, you might find it useful to use the &dVisualize&r functionality to help you build this multiblock&r."
+		"{image:kubejs:textures/item/pastel_temple.png width:240 height:135 align:1}"
 	]
+	quest.79D0A62E07C283FF.title: "The Pastel Temple"
 	quest.79D7109441F5540F.quest_subtitle: "x32"
 	quest.7A36AA33AB12EE37.quest_subtitle: "Craft any Iron Limited Barrel I type."
 	quest.7A47716BA89E7B06.quest_desc: [
@@ -3898,8 +4802,6 @@
 		"All carts can be attached and detached by pressing &6[R]&r once while riding an entity with a cart nearby. Toggle slow mode - &6[Z]&r."
 		""
 		"If the cart is going too fast, try toggling the slow mode by pressing sprint once while riding. "
-		""
-		"&9&nVideo Guide:&r youtu.be/suTj01lAFOk"
 	]
 	quest.7AB06ED1F7F16FBE.title: "&3AstikorCarts Redux"
 	quest.7B09AFE245BA7808.quest_desc: [
@@ -3966,6 +4868,18 @@
 		"&eThe Tangled Heart&r is a mini-boss that assists the &6Lunar Monstrosity&r. While not very strong, it can be annoying—its attacks inflict poison."
 	]
 	quest.7D080D777F9AADCA.title: "&6Lunar Monstrosity"
+	quest.7D119AD86EC808A8.quest_desc: [
+		"With the &dmagic&r inherent in &6gemstone dusts&r you have already managed to change seedlings. What's stopping you from trying it on other plants? "
+		""
+		"&aGlistering Melon Plants&r are like &2Melons&r but produce &aGlistering Melons&r instead of normal &2Melons&r."
+	]
+	quest.7D4FC7C4EE540298.quest_desc: [
+		"Curiously, the combination of &emushrooms&r and &9water&r is a perfect receptor for all forms of other bloomy notes, either rounding the taste, or creating... very peculiar ones."
+		""
+		"Each &aflower&r has a specific effect, as if you would feed it to a &5Brown Mooshroom&r."
+		""
+		"The &dfermentation&r process takes &cfour real-life hours&r. Fermenting in &dcolored wood&r makes the effect last quite a bit longer than &aSuspicious Stew&r."
+	]
 	quest.7DA8BD4034753FBD.quest_desc: [
 		"In order to locate the bosses in this dimension, you'll need a &6Seeking Eye&r. They work similarly to Ender Pearls."
 		""
@@ -3979,6 +4893,19 @@
 	quest.7DE83E440B507868.quest_subtitle: "x1.5"
 	quest.7DFCA72EC274F3D9.quest_subtitle: "Not repeatable"
 	quest.7E2CA676B730A7C4.quest_desc: ["&6&lPeanut Oil&r&r can be used on a Blaze Burner to get &l&bSuper Heated.&r&r"]
+	quest.7E51043487053BA7.quest_desc: [
+		"Now that you're familiar with &dpigment&r, you see no reason to lug it around like you did in the &eMiddle Ages&r. You have found a way to convert &dpigment&r into a higher form of energy. "
+		""
+		"You called it &aink&r."
+		""
+		"&dPigment&r can be converted to &aInk&r using the &bColor Picker&r and then extracted into containers, like &eInk Flasks&r."
+		""
+		"Only &cdrawback&r: deprived of its physical form, there is &cno way to transform &aInk &cback into &dPigment&r."
+		""
+		"&l&6Transfer&r"
+		""
+		"&aInk&r behaves very much like a liquid. It flows from where it is &babundant&r to where is &clittle&r. When two objects that store &aInk&r are connected, such as a &bColor Picker&r and an &eInk Flask&r - the &aInk&r between the two containers slowly &cevens out&r. The &2greater&r the difference, the &9faster&r the &eFlask&r is getting filled."
+	]
 	quest.7E735829C70E829F.quest_desc: [
 		"«In your dream, you saw &4&khim&r — a colossal &2&ktree&r, whose root&k s&r go deep into the very heart of the world, and whose branches pierce the &9&ksk&ry. Its &6&kfru&rits shone like stars, and you instinctively reached for one of them... upon waking, you found a strange &7&ksym&rbol on your palm."
 		""
@@ -4058,73 +4985,136 @@
 		"With an &6Iron Pickaxe&r, you can finally mine &bDiamonds.&r"
 	]
 	quest.7FA5CDC0F616D2C5.title: " A Sharp Upgrade"
+	quest.7FBD4054F14DDB35.quest_desc: ["The &eBedrock Fishing Rod&r comes &dpre-enchanted&r with &2Luck of the Sea IV&r."]
 	quest.7FCABCC6BDF8A4EB.quest_desc: ["&6The pocket dimension remote&r sends players to a small room in a custom dimension made for testing or storing machines or blocks."]
-	reward_table.0C66BB0E42692876.title: "Create Mod"
-	reward_table.173F5B7A61A12D48.title: "teste"
-	reward_table.2615352A9451AD30.title: "Netherite"
-	reward_table.2A0F95A56EEAA352.title: "Diamond"
-	reward_table.2A65B28222932CCD.title: "Iron"
-	reward_table.7969EFC16E9D6F8D.title: "Gold"
+	reward_table.05106487E7BF290E.title: "Artifacts (Common Box)"
+	reward_table.16091DEE4F0A8D27.title: "Iron's Spells 'n Spellbooks (Common Box)"
+	reward_table.173F5B7A61A12D48.title: "тест"
+	reward_table.24F42CBFD50CD271.title: "Pastel (Legendary Box)"
+	reward_table.2615352A9451AD30.title: "Legendary Box"
+	reward_table.2A0F95A56EEAA352.title: "Epic Box"
+	reward_table.2A65B28222932CCD.title: "Common Box"
+	reward_table.40FCC69B94987C7D.title: "Create (Common Box)"
+	reward_table.51E4C44F603E1117.title: "Pastel (Common Box)"
+	reward_table.60BC5D10BF817F97.title: "Pastel (Rare Box)"
+	reward_table.7969EFC16E9D6F8D.title: "Rare Box"
+	reward_table.7ABB9360CEE9F4AE.title: "Sophisticated Storage (Common Box)"
+	task.023CC719D3269423.title: "4x Polished Gemstone Blocks"
 	task.02603EEC37FE0012.title: "Glass Cable"
+	task.03501B1E1C263404.title: "Any Runic Claymore"
+	task.0678CC4CC5D8D28B.title: "Any Glowblock"
 	task.071621FAD0117C3E.title: "Click to Acknowledge"
+	task.07F4B1CEF908DF48.title: "4x Notched Polished Blocks"
 	task.08AE22415C646CCE.title: "Crafting Table"
+	task.093A55E553A3C2BD.title: "Any Pastel Pedestal"
+	task.096095D280DF4DA5.title: "Any Runic Orb"
 	task.0A88BBBA01BD37FD.title: "Click to Acknowledge"
+	task.0AE90B6F93D43E78.title: "Any Gemstone Rune"
 	task.0B18DCF021EC9073.title: "ME Interface"
 	task.0BEEDF43E748F047.title: "Dense Covered Cable"
+	task.0E49F79E7E70D235.title: "4x Polished Gemstone Blocks"
 	task.0F3183766102B3CA.title: "Click to Acknowledge"
+	task.10A20CF34D904B6E.title: "Any Colored Sapling"
+	task.1377546BDB236CF2.title: "8x Polished Pillars"
+	task.147A7CCB25D3F747.title: "159x Polished Blocks"
+	task.15B392AE3B65481E.title: "Any Basic Wand"
+	task.1760536D483EA89E.title: "Any Rune Ingots"
+	task.1798316FBC33C7C4.title: "2x Gemstone Chiseled Blocks"
 	task.184D02801FC28C38.title: "&6I'm so excited to play the pack"
 	task.186E974B0E4A0EF6.title: "Smart Cable"
+	task.189BBEB3109D8EC5.title: "Any Basic Netherite Staff"
+	task.18C2FE983DC6D996.title: "8x Either Item Bowl"
+	task.1980C03D7233D789.title: "Any Inquisitor Helmet"
+	task.19B57FFC87475869.title: "Sugar Sticks"
 	task.19DD66B81146FD5B.title: "Any #smallships:briggs"
+	task.1B20F133B8F9C3E2.title: "Rock Candies"
+	task.1BA1F80CFC203924.title: "Elytra"
 	task.1C2E3C609A8DFD6D.title: "Covered Cable"
+	task.1D517B02F0448CEA.title: "2x Chiseled Polished Blocks"
 	task.1D986DC9FFE37C6A.title: "Click to Acknowledge"
+	task.212805468C2ACB82.title: "Click to Acknowledge"
+	task.21983C88538FAB05.title: "12x Polished Pillars"
+	task.21D065C3333A9356.title: "Click to Acknowledge"
 	task.2253937F3806BE3D.title: "Are you sure? Don't be stupid."
+	task.23928F71A1DF57CD.title: "2x Gemstone Chimes"
 	task.25CF2279A5441A33.title: "Memory Card"
+	task.284F7FA0D9A22093.title: "2x Chiseled Blocks"
+	task.2A1BBCBA0C45866C.title: "6x Crest Blocks"
 	task.2C451A484DE8CB1B.title: "Quartz Cutting Knife"
+	task.2D28565C24ACC2E1.title: "24x Polished Slabs"
+	task.2DEC4B84E5B092C8.title: "Any Runic Leggings"
 	task.2E11C158DD5E8E3E.title: "Click to Acknowledge"
+	task.2E2C7F5F076068F3.title: "41x Polished Blocks"
+	task.2EFE35A5F4181F40.title: "Basic Runes"
+	task.326781AC5DF798FB.title: "17x Polished Slabs"
+	task.336B85DC10B9D956.title: "Any Runic Boots"
 	task.3510DC60CCF2EE48.title: "Chest"
 	task.356C92DD277FF662.title: "ME Portable Cell"
 	task.39A7322A01246F48.title: "Click to Acknowledge"
+	task.3AA9F6C394B75906.title: "8x Polished Pillars"
 	task.3AD4F43742EABEE7.title: "Click to Acknowledge"
+	task.3C7783942E2E2887.title: "12x Polished Slabs"
+	task.3D10F4A50CA6F431.title: "Any Runic Chestplate"
 	task.3D5C2226F8539904.title: "Dense Smart Cable"
 	task.3DB26C03AA267EC0.title: "Click to Acknowledge"
 	task.3DC2851D386057E8.title: "ME Fluid Storage Cell"
 	task.3F589B3AFCC9EE03.title: "Any #smallships:drakkars"
 	task.3F5AC72562569158.title: "Stress Unit"
+	task.408E9FCB4DC6C34D.title: "Any Colored Lamp"
+	task.4126249455C290EB.title: "4x Chiseled Polished Blocks"
 	task.413699776BB0AF8C.title: "ewww :("
+	task.413C55BD00BC3152.title: "Any Runic Helmet"
+	task.42A323867D3F1620.title: "4x Chiseled Polished Blocks"
+	task.42E7AEE28F9E337D.title: "68x Polished Blocks"
+	task.42ED9B8699959459.title: "Any Inquisitor Boots"
+	task.43285C19DC5FC9AB.title: "5x Glass-like Blocks"
 	task.432F4520E99A0F94.title: "Kill The Ender Dragon"
+	task.440842ED4AB18144.title: "Any Inquisitor Chestplate"
 	task.451EC360A3F38231.title: "Craft a &cRover"
+	task.45425DE150290CEB.title: "Any Semi-permeable Glasses"
 	task.4556BCEDA60FD43A.title: "Crafting Co-Processor"
+	task.488CB74113AFA0A1.title: "Either Fusion Shrine"
 	task.499D737E23F4843B.title: "&6Ascend"
+	task.4CDC1D47BA49BE77.title: "4x Polished Gemstones"
+	task.4CF0DB944436494F.title: "77x Polished Blocks"
 	task.4F1EDAE24CB6CE36.title: "Click to Acknowledge"
 	task.4F8C0625674B4C26.title: "Quartz Wrench"
 	task.509D5321A4F9841D.title: "&6I'm Ready"
+	task.50D55CFFADA15149.title: "Click to Acknowledge"
 	task.51283863B9D3D286.title: "Any #smallships:cogs"
 	task.51AA3BC3AFF2FEDA.title: "Click to Acknowledge"
+	task.5238AF1BC3F550D1.title: "Any Inquisitor Leggings"
 	task.53C18716A59B10AC.title: "aa"
+	task.544827C736EC35B9.title: "2x Notched Polished Blocks"
+	task.54AADD811AFC5E57.title: "Any Idol"
 	task.554F69A27BBC5A76.title: "Craft a &bWater Pump"
+	task.56FFF0F4FCE94B9C.title: "Any War Tome"
 	task.57548A938223AAF1.title: "&l&cClick to Acknowledge"
+	task.577946C36493BF4C.title: "2x Item Bowls"
 	task.585856CE2186DE81.title: "Crafting Storage"
 	task.58CC3A8EEF79C291.title: "Click to Acknowledge"
 	task.59B37915ED9CA935.title: "&3Sounds interesting...."
 	task.5A0FD6D40314D526.title: "Click to Acknowledge"
+	task.5A5D79F7F5CD9BD9.title: "8x Gemstone Lamps"
 	task.5AEF67BE7BA61DB9.title: "Click to Acknowledge"
 	task.5C3C1B05DB934DC4.title: "Click to Acknowledge"
 	task.5E8BAFC4CC8E2FC7.title: "Crafting Monitor"
 	task.611993D53E1538E9.title: "Spatial Cell Component"
+	task.615F3F51A2F3B534.title: "Any Staff"
 	task.61C84449F23CB3D1.title: "Any #smallships:galleys"
 	task.61EA641A131178A3.title: "d"
 	task.62FE40FB89D4E82D.title: "Click to Acknowledge"
 	task.650AD081A386407A.title: "Click to Acknowledge"
 	task.657AA1244E52A5D5.title: "Spatial Storage Cell"
 	task.65A099F8209103AE.title: "&aI will be the richest person"
+	task.66BF01AE1EF2010B.title: "6x Polished Pillars"
+	task.6954407381BEDE79.title: "Any Netherite Basic Wand"
 	task.6EAF9118DB909B9B.title: "ME Pattern Provider"
 	task.6FD0241035AC0F91.title: "Click to Acknowledge"
 	task.714DADB6776DEE49.title: "ME Item Storage Cell"
-	quest.3FF5FC2753094A27.title: "Cargo Wagon"
-	quest.0D5008376CBEFC71.title: "Harvester"
-	quest.7977B91DAF6112DB.title: "Plow"
-	quest.0ADCD45B9716659B.title: "Animal Wagon"
-	quest.0D35D58CB7CA7580.title: "Seeder"
-	quest.1ABB0B317DB25015.title: "Hand Cart"
+	task.71F933980C0150B9.title: "Any Colored Spore Blossom"
+	task.7314EE10703FF51C.title: "Click to Acknowledge"
+	task.738DB52AC636ED24.title: "Any Spellblade"
+	task.7869409871A6217C.title: "23x Polished Blocks"
 	task.797924159D5342B4.title: "&l&cAre you sure you read everything? This part is really important to the pack."
 }
