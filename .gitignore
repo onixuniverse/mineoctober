@@ -19,10 +19,10 @@ schematics/
 screenshots/
 sdlinkstorage/
 saves/
-shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.8/
 Distant_Horizons_server_data/
 mods/mcef-cache/
 mods/mcef-libraries/
+mods/.connector/
 ESM/
 command_history.txt
 fabricloader.log
@@ -31,4 +31,3 @@ servers.dat
 supportercache.json
 usercache.json
 usernamecache.json
-foolproof.json
