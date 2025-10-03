@@ -9,10 +9,10 @@ spawnHazelnutBush = true
 pelicanSpawnWeight = 5
 # Default: 3
 # Range: 1 ~ 10
-pelicanMinGroupSize = 3
+pelicanMinGroupSize = 2
 # Default: 5
 # Range: 1 ~ 10
-pelicanMaxGroupSize = 5
+pelicanMaxGroupSize = 3
 # Default: 12
 # Range: 0 ~ 1000
 deerSpawnWeight = 12
@@ -21,7 +21,7 @@ deerSpawnWeight = 12
 deerMinGroupSize = 2
 # Default: 4
 # Range: 1 ~ 10
-deerMaxGroupSize = 4
+deerMaxGroupSize = 3
 # Default: 8
 # Range: 0 ~ 1000
 raccoonSpawnWeight = 8
@@ -39,7 +39,7 @@ squirrelSpawnWeight = 8
 squirrelMinGroupSize = 2
 # Default: 2
 # Range: 1 ~ 10
-squirrelMaxGroupSize = 2
+squirrelMaxGroupSize = 3
 # Default: 10
 # Range: 0 ~ 1000
 redWolfSpawnWeight = 10
@@ -48,13 +48,13 @@ redWolfSpawnWeight = 10
 redWolfMinGroupSize = 2
 # Default: 4
 # Range: 1 ~ 10
-redWolfMaxGroupSize = 4
+redWolfMaxGroupSize = 3
 # Default: 12
 # Range: 0 ~ 1000
 owlSpawnWeight = 12
 # Default: 3
 # Range: 1 ~ 10
-owlMinGroupSize = 3
+owlMinGroupSize = 2
 # Default: 3
 # Range: 1 ~ 10
 owlMaxGroupSize = 3
@@ -63,7 +63,7 @@ owlMaxGroupSize = 3
 boarSpawnWeight = 14
 # Default: 4
 # Range: 1 ~ 10
-boarMinGroupSize = 4
+boarMinGroupSize = 3
 # Default: 5
 # Range: 1 ~ 10
 boarMaxGroupSize = 5
@@ -72,7 +72,7 @@ boarMaxGroupSize = 5
 bisonSpawnWeight = 10
 # Default: 3
 # Range: 1 ~ 10
-bisonMinGroupSize = 3
+bisonMinGroupSize = 2
 # Default: 5
 # Range: 1 ~ 10
 bisonMaxGroupSize = 5
@@ -81,10 +81,10 @@ bisonMaxGroupSize = 5
 turkeySpawnWeight = 12
 # Default: 3
 # Range: 1 ~ 10
-turkeyMinGroupSize = 3
+turkeyMinGroupSize = 2
 # Default: 5
 # Range: 1 ~ 10
-turkeyMaxGroupSize = 5
+turkeyMaxGroupSize = 4
 # Default: 2
 # Range: 0 ~ 1000
 dogSpawnWeight = 2
@@ -93,16 +93,16 @@ dogSpawnWeight = 2
 dogMinGroupSize = 1
 # Default: 1
 # Range: 1 ~ 10
-dogMaxGroupSize = 1
+dogMaxGroupSize = 2
 # Default: 8
 # Range: 0 ~ 1000
 minisheepSpawnWeight = 8
 # Default: 2
 # Range: 1 ~ 10
-minisheepMinGroupSize = 2
+minisheepMinGroupSize = 1
 # Default: 4
 # Range: 1 ~ 10
-minisheepMaxGroupSize = 4
+minisheepMaxGroupSize = 3
 # Default: 10
 # Range: 0 ~ 1000
 penguinSpawnWeight = 10
@@ -117,25 +117,25 @@ penguinMaxGroupSize = 5
 cassowarySpawnWeight = 12
 # Default: 3
 # Range: 1 ~ 10
-cassowaryMinGroupSize = 3
+cassowaryMinGroupSize = 2
 # Default: 4
 # Range: 1 ~ 10
-cassowaryMaxGroupSize = 4
+cassowaryMaxGroupSize = 3
 # Default: 9
 # Range: 0 ~ 1000
 flamingoSpawnWeight = 9
 # Default: 3
 # Range: 1 ~ 10
-flamingoMinGroupSize = 3
+flamingoMinGroupSize = 2
 # Default: 6
 # Range: 1 ~ 10
-flamingoMaxGroupSize = 6
+flamingoMaxGroupSize = 5
 # Default: 10
 # Range: 0 ~ 1000
 hedgehogSpawnWeight = 10
 # Default: 2
 # Range: 1 ~ 10
-hedgehogMinGroupSize = 2
+hedgehogMinGroupSize = 1
 # Default: 4
 # Range: 1 ~ 10
 hedgehogMaxGroupSize = 4
