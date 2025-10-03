@@ -1,0 +1,130 @@
+{
+	autofocus_id: "7AB06ED1F7F16FBE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "astikorcartsredux"
+	group: "6B341B8F1D0CFE88"
+	icon: {
+		id: "astikorcartsredux:wheel"
+	}
+	id: "49288E5813B8C913"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			hide_until_deps_complete: true
+			id: "7AB06ED1F7F16FBE"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "75A76AABEB49B9B5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "0D35D58CB7CA7580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A1D2F578A4222E5"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "174C851B9E29BF94"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_seed_drill)item(astikorcartsredux:spruce_seed_drill)item(astikorcartsredux:birch_seed_drill)item(astikorcartsredux:acacia_seed_drill)item(astikorcartsredux:cherry_seed_drill)item(astikorcartsredux:jungle_seed_drill)item(astikorcartsredux:dark_oak_seed_drill)item(astikorcartsredux:crimson_seed_drill)item(astikorcartsredux:warped_seed_drill)item(astikorcartsredux:mangrove_seed_drill)item(astikorcartsredux:bamboo_seed_drill))", "minecraft:custom_name": "\"Seed Drills\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "0ADCD45B9716659B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCABA4643E0C8CF"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40979DF2B5C73E7F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_animal_cart)item(astikorcartsredux:spruce_animal_cart)item(astikorcartsredux:birch_animal_cart)item(astikorcartsredux:acacia_animal_cart)item(astikorcartsredux:cherry_animal_cart)item(astikorcartsredux:jungle_animal_cart)item(astikorcartsredux:dark_oak_animal_cart)item(astikorcartsredux:crimson_animal_cart)item(astikorcartsredux:warped_animal_cart)item(astikorcartsredux:mangrove_animal_cart)item(astikorcartsredux:bamboo_animal_cart))", "minecraft:custom_name": "\"Animal Carts\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "0D5008376CBEFC71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "318883CAEFFB764B"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68D8DB6298AF7761"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_reaper)item(astikorcartsredux:spruce_reaper)item(astikorcartsredux:birch_reaper)item(astikorcartsredux:acacia_reaper)item(astikorcartsredux:cherry_reaper)item(astikorcartsredux:jungle_reaper)item(astikorcartsredux:dark_oak_reaper)item(astikorcartsredux:crimson_reaper)item(astikorcartsredux:warped_reaper)item(astikorcartsredux:mangrove_reaper)item(astikorcartsredux:bamboo_reaper))", "minecraft:custom_name": "\"Reapers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "1ABB0B317DB25015"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B3737DBFC7AD371"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29094DBED54D9C6D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_hand_cart)item(astikorcartsredux:spruce_hand_cart)item(astikorcartsredux:birch_hand_cart)item(astikorcartsredux:acacia_hand_cart)item(astikorcartsredux:cherry_hand_cart)item(astikorcartsredux:jungle_hand_cart)item(astikorcartsredux:dark_oak_hand_cart)item(astikorcartsredux:crimson_hand_cart)item(astikorcartsredux:warped_hand_cart)item(astikorcartsredux:mangrove_hand_cart)item(astikorcartsredux:bamboo_hand_cart))", "minecraft:custom_name": "\"Hand Carts\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "3FF5FC2753094A27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F347AEC15E366A5"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D3351BE13F716B4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:bamboo_supply_cart))", "minecraft:custom_name": "\"Supply Carts\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AB06ED1F7F16FBE"]
+			id: "7977B91DAF6112DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1656466158BA8B9D"
+				table_id: 3055044194236312781L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6A5ACB66D1F49223"
+				item: { components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_plow)item(astikorcartsredux:spruce_plow)item(astikorcartsredux:birch_plow)item(astikorcartsredux:acacia_plow)item(astikorcartsredux:cherry_plow)item(astikorcartsredux:jungle_plow)item(astikorcartsredux:dark_oak_plow)item(astikorcartsredux:crimson_plow)item(astikorcartsredux:warped_plow)item(astikorcartsredux:mangrove_plow)item(astikorcartsredux:bamboo_plow))", "minecraft:custom_name": "\"Plows\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+}

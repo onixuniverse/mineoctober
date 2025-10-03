@@ -1,0 +1,204 @@
+{
+	id: "51E4C44F603E1117"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Pastel (Common Box)"
+		string_id: "pastel_common_"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 16
+			id: "724A468A05527A3D"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 16
+			id: "0E8CD6B5065F4765"
+			item: {
+				count: 1
+				id: "pastel:topaz_shard"
+			}
+		}
+		{
+			count: 16
+			id: "59B3DA93F44F7853"
+			item: {
+				count: 1
+				id: "pastel:citrine_shard"
+			}
+		}
+		{
+			count: 16
+			id: "7D813BBDA4902872"
+			item: {
+				count: 1
+				id: "pastel:amethyst_powder"
+			}
+		}
+		{
+			count: 16
+			id: "3925B7E960EC5042"
+			item: {
+				count: 1
+				id: "pastel:topaz_powder"
+			}
+		}
+		{
+			count: 16
+			id: "568B4DBD255347DE"
+			item: {
+				count: 1
+				id: "pastel:citrine_powder"
+			}
+		}
+		{
+			count: 8
+			id: "4ACD718A641B0A4A"
+			item: {
+				count: 1
+				id: "minecraft:glow_ink_sac"
+			}
+		}
+		{ id: "10CE7D6869AB76D2", item: { count: 1, id: "pastel:razor_falchion" } }
+		{ id: "04BDA58D2E982063", item: { count: 1, id: "pastel:multitool" } }
+		{
+			count: 4
+			id: "552A0F9F42779148"
+			item: {
+				count: 1
+				id: "pastel:block_placer"
+			}
+		}
+		{
+			count: 8
+			id: "69C67E9622C0FF7A"
+			item: {
+				count: 1
+				id: "pastel:redstone_sand"
+			}
+		}
+		{ id: "3F99EA41CA92DBFB", item: { count: 1, id: "pastel:oblivion_pickaxe" } }
+		{ id: "38548946CFF0D67F", item: { count: 1, id: "pastel:bottomless_bundle" } }
+		{
+			count: 4
+			id: "4888DC3ED215FC64"
+			item: {
+				count: 1
+				id: "pastel:vegetal"
+			}
+		}
+		{ id: "2C450A91D6769E84", item: { count: 1, id: "pastel:radiance_staff" } }
+		{ id: "78856305DFBFEDF5", item: { count: 1, id: "pastel:lucky_pickaxe" } }
+		{ id: "2614C221B42C3A86", item: { count: 1, id: "pastel:enchantment_canvas" } }
+		{
+			count: 32
+			id: "003322EF9E1E0D04"
+			item: {
+				count: 1
+				id: "pastel:polished_calcite"
+			}
+		}
+		{
+			count: 32
+			id: "3A33409B11B708C9"
+			item: {
+				count: 1
+				id: "pastel:polished_basalt"
+			}
+		}
+		{
+			count: 4
+			id: "4395E5FF16F912EF"
+			item: {
+				count: 1
+				id: "pastel:topaz_basalt_light"
+			}
+		}
+		{
+			count: 4
+			id: "461799C57AB7EC05"
+			item: {
+				count: 1
+				id: "pastel:amethyst_basalt_light"
+			}
+		}
+		{
+			count: 4
+			id: "3804D040A5A425A4"
+			item: {
+				count: 1
+				id: "pastel:citrine_basalt_light"
+			}
+		}
+		{
+			count: 3
+			id: "46AC37626AF282FC"
+			item: {
+				count: 1
+				id: "pastel:topaz_block"
+			}
+		}
+		{
+			count: 3
+			id: "062D3B5F07AF71DC"
+			item: {
+				count: 1
+				id: "pastel:citrine_block"
+			}
+		}
+		{
+			count: 3
+			id: "09DDD49690D4861F"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_block"
+			}
+		}
+		{
+			count: 8
+			id: "7F5633674FDC8EB7"
+			item: {
+				count: 1
+				id: "pastel:topaz_ore"
+			}
+		}
+		{
+			count: 8
+			id: "3C1511A7CA6367C7"
+			item: {
+				count: 1
+				id: "pastel:amethyst_ore"
+			}
+		}
+		{
+			count: 8
+			id: "2B5049BE14D11856"
+			item: {
+				count: 1
+				id: "pastel:citrine_ore"
+			}
+		}
+		{ id: "40C073848B452A88", item: { count: 1, id: "pastel:heartbound_chest" } }
+		{ id: "1CE367943B24D956", item: { count: 1, id: "pastel:compacting_chest" } }
+		{ id: "722FF9F4E78B9403", item: { count: 1, id: "pastel:titration_barrel" } }
+		{
+			count: 16
+			id: "70273D0CD2EB1755"
+			item: {
+				count: 1
+				id: "pastel:radiant_glass"
+			}
+		}
+	]
+	use_title: true
+}

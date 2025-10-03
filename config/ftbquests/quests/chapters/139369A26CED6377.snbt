@@ -1,0 +1,381 @@
+{
+	autofocus_id: "1BED7E4A786ED5ED"
+	default_hide_dependency_lines: false
+	default_min_width: 1
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "139369A26CED6377"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "biomeswevegone:white_sakura_sapling"
+	}
+	id: "139369A26CED6377"
+	images: [{
+		height: 2.0d
+		image: "mineoctober:item/quests_skills"
+		rotation: 0.0d
+		width: 6.989761092150171d
+		x: -5.5d
+		y: -6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:deepslate_emerald_ore"
+			}
+			id: "1BED7E4A786ED5ED"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s puffish_skills:miner"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "354731815003866B"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "5E1B6122CDD52414"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "biomeswevegone:aspen_log"
+			}
+			id: "69DCCD0BB312EF6D"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s puffish_skills:lumberjack"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "531E0EDA88E95A53"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "47C71D22C7EA5EFB"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:rich_soil_farmland"
+			}
+			id: "66AEBB4916DEF011"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s puffish_skills:farmer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "4D93CA08FBA51A44"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "19B187197F9D7BBB"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gills: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										chance: {
+											initialValue: 0.07325d
+										}
+									}
+								}
+								slipping: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 20.13525d
+										}
+										speed: {
+											initialValue: 0.00719d
+										}
+									}
+								}
+								swimming: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 30.47706d
+										}
+										speed: {
+											initialValue: 0.00798d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:amphibian_boot"
+			}
+			id: "709A20CEDA1459D6"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s puffish_skills:explorer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "09C22B95D47ED65D"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "6346882B00DBB2C9"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "1D82BDEB070E5EC4"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s puffish_skills:combat"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "4D5B50F9D01388FE"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "01FE8D5882FB1D59"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["709A20CEDA1459D6"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7964F17F21FC30DA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s puffish_skills:explorer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "14E8346391367663"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1215EAB260D3827B"
+				item: { count: 4, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AEBB4916DEF011"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "5216CF235E55D02A"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s puffish_skills:farmer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "0258A2F4E51A3AF0"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6EE22A600CC84276"
+				item: { count: 1, id: "minecraft:carved_pumpkin" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BED7E4A786ED5ED"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "7727033102C53F5B"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s puffish_skills:miner"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "569C0476A6BFB444"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "59E686DFF7E4477C"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["69DCCD0BB312EF6D"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "2A60C877BB963D23"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s puffish_skills:lumberjack"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "0E01D63CFE21B927"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "10AF61CA722AB333"
+				item: { count: 16, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D82BDEB070E5EC4"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "69A71D4197F983DC"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s puffish_skills:combat"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "37A67FFA9BAA4E0E"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "533A7FB1A1700FA3"
+				item: { count: 16, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+	]
+}

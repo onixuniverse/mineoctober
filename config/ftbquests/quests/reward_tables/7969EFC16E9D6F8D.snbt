@@ -1,0 +1,326 @@
+{
+	id: "7969EFC16E9D6F8D"
+	loot_crate: {
+		color: 5592575
+		drops: {
+			boss: 20
+			monster: 0
+			passive: 0
+		}
+		item_name: "Rare Box"
+		string_id: "gold"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "1B5CBDC90D9455B3"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 0.9f
+		}
+		{
+			count: 4
+			id: "27F25D51F045754B"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "53AB031DA37E4534"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+		}
+		{
+			count: 2
+			id: "37D214A286A0D3E3"
+			item: {
+				count: 1
+				id: "minecraft:gold_block"
+			}
+			weight: 0.7f
+		}
+		{
+			id: "228B1656563798C9"
+			item: {
+				count: 1
+				id: "minecraft:iron_block"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "2968AE5CF3EA939D"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 2
+			id: "21489957355403ED"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 0.6f
+		}
+		{
+			count: 16
+			id: "2B1BED8D83A295D3"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 16
+			id: "28A6846D908F1D00"
+			item: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+		}
+		{ id: "0FBE7A169C67DBBD", item: { count: 1, id: "crabbersdelight:clam_chowder" } }
+		{
+			id: "5335AA5973E9AF53"
+			item: {
+				count: 1
+				id: "pastel:enchanted_golden_carrot"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 8
+			id: "437C0E4D0022A2D9"
+			item: {
+				count: 1
+				id: "irons_spellbooks:common_ink"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "1AEE9C4C3D3B3B0C"
+			type: "xp"
+			weight: 1.1f
+			xp: 100
+		}
+		{
+			count: 4
+			id: "1A726963DFE0E9A3"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 1.1f
+		}
+		{
+			count: 4
+			id: "24802A18EAE1E9FF"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{ id: "2A4DD6E3A69020BA", item: { components: { "minecraft:potion_contents": { potion: "minecraft:night_vision" } }, count: 1, id: "minecraft:potion" } }
+		{ id: "14EF3C705D1B5A82", item: { components: { "minecraft:potion_contents": { potion: "minersdelight:haste" } }, count: 1, id: "minecraft:splash_potion" } }
+		{
+			count: 2
+			id: "7B840A9FCE265B1B"
+			item: {
+				count: 1
+				id: "minecraft:sea_lantern"
+			}
+		}
+		{ id: "24FC35654EC7E11F", item: { count: 1, id: "comforts:sleeping_bag_white" } }
+		{ id: "4F8E38125DD9DE37", item: { count: 1, id: "pastel:lucky_roll" } }
+		{ id: "35B3EB275A507C29", item: { count: 1, id: "dndesires:pumpkin_milkshake" } }
+		{
+			count: 2
+			id: "008F5EECFAFEC25D"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			id: "2D1C20FDCB175258"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:backpack"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "0E3E3078FFD49F43"
+			type: "xp"
+			weight: 0.15f
+			xp: 5
+		}
+		{
+			count: 4
+			id: "0896ECE5B1A87291"
+			item: {
+				components: {
+					"sophisticatedstorage:wood_type": "oak"
+				}
+				count: 1
+				id: "sophisticatedstorage:chest"
+			}
+		}
+		{ id: "3AA61674D1CD2ED3", item: { count: 1, id: "plushies:red_fox_plushie" } }
+		{ id: "48B5FC3B247DF108", item: { count: 1, id: "plushies:goat_plushie" } }
+		{ id: "35F1EE90ED779AF5", item: { count: 1, id: "plushies:skeleton_horse_plushie" } }
+		{ id: "27C76C1A84324F60", item: { count: 1, id: "plushies:small_tropical_fish_plushie" } }
+		{ id: "4B9AFBCF510E761E", item: { count: 1, id: "plushies:strider_plushie" } }
+		{ id: "3D33A00E3DEB62B3", item: { count: 1, id: "plushies:white_rabbit_plushie" } }
+		{ id: "0DDD44B6ADCEA60E", item: { count: 1, id: "plushies:sniffer_plushie" } }
+		{ id: "4A3CD9F3FC934B56", item: { count: 1, id: "plushies:armadillo_plushie" } }
+		{ id: "2519851DA1FADB48", item: { count: 1, id: "plushies:ocelot_plushie" } }
+		{ id: "2CD900A80E6EEA0F", item: { count: 1, id: "plushies:bat_plushie" } }
+		{ id: "1DCBA4EA0AF30FB4", item: { count: 1, id: "plushies:silverfish_plushie" } }
+		{ id: "1FED4A94A875F90E", item: { count: 1, id: "plushies:dolphin_plushie" } }
+		{ id: "6326EBB3197B1C24", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "6C2641BD4673152D", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "7A755CC4CC2FC3D2", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "7C8699AB483E8FE2", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "1F7238515A6B49C3", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "33C64079F8604B90", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "61664BE8E0CEFF8B", item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" } }
+		{ id: "4DDCCFB89E3B4F5D", item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" } }
+		{ id: "02C2B7D55D383C61", item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" } }
+		{ id: "754FD0AF8F5712B8", item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" } }
+		{ id: "6F197BEB7F844352", item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" } }
+		{ id: "52172A53CE18FFB6", item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" } }
+		{ id: "05859B1BACA7727C", item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" } }
+		{ id: "120EAC465CC4B7C0", item: { count: 1, id: "trims_on_tools:glow_tool_trim_smithing_template" } }
+		{ id: "38B8BEF2A9FC40B2", item: { count: 1, id: "create:goggles" } }
+		{
+			count: 4
+			id: "6F3F6F65D701149B"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 2
+			id: "0E50EE5E868BD350"
+			item: {
+				count: 1
+				id: "minecraft:ghast_tear"
+			}
+		}
+		{
+			count: 4
+			id: "71ED5AAF0AA0D93E"
+			item: {
+				count: 1
+				id: "minecraft:magma_cream"
+			}
+		}
+		{
+			count: 16
+			id: "50817D65F91C2B46"
+			item: {
+				count: 1
+				id: "minecraft:prismarine_shard"
+			}
+		}
+		{
+			count: 4
+			id: "3AC3D8E84EACD1B4"
+			item: {
+				count: 1
+				id: "minecraft:nautilus_shell"
+			}
+		}
+		{
+			count: 16
+			id: "624358AF525B9F46"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 16
+			id: "337A8B25E40B8B8C"
+			item: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
+		}
+		{
+			count: 8
+			id: "1D722904F9AD72CE"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{
+			count: 4
+			id: "50283D0E7A582E93"
+			item: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+		}
+		{
+			count: 4
+			id: "2DA94EF58893C4A0"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "0252D6078C91E6D6"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "56578EB686666883"
+			item: {
+				count: 1
+				id: "mynethersdelight:hot_cream_cone"
+			}
+		}
+		{ id: "66D32EAC0B117513", item: { count: 1, id: "plushies:llama_plushie" } }
+		{ id: "5F4812E1877961A7", item: { count: 1, id: "plushies:mooshroom_plushie" } }
+		{ id: "14314CEEBB10424D", item: { count: 1, id: "plushies:horse_plushie" } }
+		{ id: "4B6F555AC3F63BDC", item: { count: 1, id: "plushies:chicken_plushie" } }
+		{ id: "10E6D5EE9EB967A4", item: { count: 1, id: "plushies:brown_rabbit_plushie" } }
+		{ id: "6028F5B81B1ADB2E", item: { count: 1, id: "plushies:yellow_rabbit_plushie" } }
+		{ id: "2DFF6D82F2812B99", item: { count: 1, id: "plushies:salt_rabbit_plushie" } }
+		{ id: "64293B84A180FAB6", item: { count: 1, id: "plushies:toast_rabbit_plushie" } }
+		{ id: "341BE0D2C9AB1F0C", item: { count: 1, id: "plushies:killer_bunny_plushie" } }
+		{ id: "60F88625A1F7F668", item: { count: 1, id: "plushies:iron_golem_plushie" } }
+		{ id: "44AA009CC908E40D", item: { count: 1, id: "plushies:wandering_trader_plushie" } }
+		{ id: "49786559548E7E1A", item: { count: 1, id: "plushies:villager_plushie" } }
+		{ id: "379A804EA592FB46", item: { count: 1, id: "plushies:illusioner_plushie" } }
+		{ id: "5CC1BCE6301F165B", item: { count: 1, id: "plushies:breeze_plushie" } }
+		{ id: "2A6577D8259D363D", item: { count: 1, id: "plushies:ravager_plushie" } }
+		{ id: "280CBE49ED6582E9", item: { count: 1, id: "plushies:vex_plushie" } }
+		{ id: "116DDEE2246C1943", item: { count: 1, id: "plushies:zombie_horse_plushie" } }
+		{ id: "3807292374566355", item: { count: 1, id: "plushies:bogged_plushie" } }
+		{ id: "26B7002E97CEDB0F", item: { count: 1, id: "plushies:allay_plushie" } }
+		{ id: "27039A5140997DC5", item: { count: 1, id: "plushies:snow_golem_plushie" } }
+		{ id: "096C5FBFBE254F2E", item: { count: 1, id: "plushies:polar_bear_plushie" } }
+		{ id: "55742BDA2370C7A5", item: { count: 1, id: "plushies:wolf_plushie" } }
+		{ id: "235A8DC72989D4CD", item: { count: 1, id: "plushies:zoglin_plushie" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,300 @@
+{
+	id: "24F42CBFD50CD271"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Pastel (Legendary Box)"
+		string_id: "pastel_legendary_"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 64
+			id: "3D714CE1D92B8D21"
+			item: {
+				count: 1
+				id: "pastel:topaz_shard"
+			}
+		}
+		{
+			count: 64
+			id: "2C122801F8CC3869"
+			item: {
+				count: 1
+				id: "pastel:citrine_shard"
+			}
+		}
+		{
+			count: 64
+			id: "21D598F563B27E66"
+			item: {
+				count: 1
+				id: "minecraft:amethyst_shard"
+			}
+		}
+		{
+			count: 32
+			id: "0876A645ED6CBC17"
+			item: {
+				count: 1
+				id: "pastel:onyx_shard"
+			}
+		}
+		{
+			count: 16
+			id: "6091627833AE4802"
+			item: {
+				count: 1
+				id: "pastel:mermaids_gem"
+			}
+		}
+		{
+			count: 8
+			id: "72626F9FF34D73B1"
+			item: {
+				count: 1
+				id: "pastel:neolith"
+			}
+		}
+		{
+			count: 4
+			id: "1E16879AE8F3263F"
+			item: {
+				count: 1
+				id: "pastel:radiating_ender"
+			}
+		}
+		{
+			count: 16
+			id: "7C17FAC612ECDFD7"
+			item: {
+				count: 1
+				id: "pastel:stratine_fragments"
+			}
+		}
+		{
+			count: 16
+			id: "3A36E8598E6CB789"
+			item: {
+				count: 1
+				id: "pastel:brown_pigment"
+			}
+		}
+		{ id: "491C50730C97BFC8", item: { count: 1, id: "pastel:bag_of_holding" } }
+		{
+			count: 4
+			id: "0F0E5743DA0560DB"
+			item: {
+				count: 1
+				id: "pastel:ender_glass"
+			}
+		}
+		{
+			count: 2
+			id: "214EEEE223082FC4"
+			item: {
+				count: 1
+				id: "pastel:ender_hopper"
+			}
+		}
+		{
+			count: 2
+			id: "14D3B6DA16A9B5A0"
+			item: {
+				count: 1
+				id: "pastel:ender_dropper"
+			}
+		}
+		{
+			count: 2
+			id: "34554016FE0F0750"
+			item: {
+				count: 1
+				id: "pastel:ender_splice"
+			}
+		}
+		{ id: "048D7350AA30B5D6", item: { count: 1, id: "pastel:fanciful_gloves" } }
+		{
+			count: 32
+			id: "0F69E9A1DA237EB5"
+			item: {
+				count: 1
+				id: "pastel:orange_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "0E38E0B0A092F447"
+			item: {
+				count: 1
+				id: "pastel:magenta_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "347F14D65F4FC712"
+			item: {
+				count: 1
+				id: "pastel:light_blue_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "359057A004EAB3D2"
+			item: {
+				count: 1
+				id: "pastel:yellow_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "1A41489AB0C67000"
+			item: {
+				count: 1
+				id: "pastel:lime_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "27C209BE65EC49D1"
+			item: {
+				count: 1
+				id: "pastel:pink_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "7C2A11249AB8AC0A"
+			item: {
+				count: 1
+				id: "pastel:cyan_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "268B178A30F2261B"
+			item: {
+				count: 1
+				id: "pastel:purple_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "118CC215E7CF085B"
+			item: {
+				count: 1
+				id: "pastel:blue_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "1E00E78365886767"
+			item: {
+				count: 1
+				id: "pastel:green_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "5C83435D45041447"
+			item: {
+				count: 1
+				id: "pastel:red_pigment"
+			}
+		}
+		{
+			count: 32
+			id: "3FDA67ADDA4DC462"
+			item: {
+				count: 1
+				id: "pastel:black_pigment"
+			}
+		}
+		{
+			count: 3
+			id: "5F0F67D7A7F04F4E"
+			item: {
+				count: 1
+				id: "pastel:star_candy"
+			}
+		}
+		{
+			count: 4
+			id: "32D7AE5A744E207D"
+			item: {
+				count: 1
+				id: "pastel:item_roundel"
+			}
+		}
+		{
+			count: 64
+			id: "5B75F84B90BB90EC"
+			item: {
+				count: 1
+				id: "pastel:polished_basalt"
+			}
+		}
+		{
+			count: 64
+			id: "41EC5D5F44BB58B3"
+			item: {
+				count: 1
+				id: "pastel:polished_calcite"
+			}
+		}
+		{ id: "04B586F1314CB75F", item: { count: 1, id: "pastel:light_level_detector" } }
+		{ id: "7B671D8E6CC1838B", item: { count: 1, id: "pastel:weather_detector" } }
+		{ id: "31BBE002727AB2FD", item: { count: 1, id: "pastel:item_detector" } }
+		{ id: "676188BDA7011B2F", item: { count: 1, id: "pastel:player_detector" } }
+		{
+			count: 16
+			id: "2639F1C4A8BA28FD"
+			item: {
+				count: 1
+				id: "pastel:quitoxic_reeds"
+			}
+		}
+		{ id: "29CED8ABF3B9191E", item: { count: 1, id: "pastel:triple_meat_pot_pie" } }
+		{ id: "75D6D866A2985F69", item: { count: 1, id: "pastel:clotted_cream" } }
+		{ id: "0EC08945C22BB64C", item: { count: 1, id: "pastel:fresh_chocolate" } }
+		{ id: "5FBC9EA2254363C1", item: { count: 1, id: "pastel:bodacious_berry_bar" } }
+		{ id: "20210C2E2DEDE905", item: { count: 1, id: "pastel:hot_chocolate" } }
+		{ id: "64A9ADDD9B66AF9A", item: { count: 1, id: "pastel:restoration_tea" } }
+		{ id: "11A282EBCBBF5CB8", item: { count: 1, id: "pastel:glistering_jelly_tea" } }
+		{ id: "4B52D5C6CC58355A", item: { count: 1, id: "pastel:demon_tea" } }
+		{ id: "2AD139C92A1096D4", item: { count: 1, id: "pastel:jade_jelly" } }
+		{ id: "1EB112EC9356EDAD", item: { count: 1, id: "pastel:jaramel" } }
+		{ id: "4C348DB334A3035F", item: { count: 1, id: "pastel:moonstruck_nectar" } }
+		{ id: "76FAAE679A99FCD2", item: { count: 1, id: "pastel:scone" } }
+		{ id: "2BFECD4246C892ED", item: { count: 1, id: "pastel:lucky_roll" } }
+		{ id: "241A542302D6E838", item: { count: 1, id: "pastel:totem_pendant" } }
+		{ id: "4A91DB2DD4AE2D36", item: { count: 1, id: "pastel:take_off_belt" } }
+		{ id: "645F95BF35292A66", item: { count: 1, id: "pastel:block_flooder" } }
+		{
+			count: 3
+			id: "16A32E706D2792DE"
+			item: {
+				count: 1
+				id: "pastel:universe_spyhole"
+			}
+		}
+		{ id: "78D3DDF2638B717A", item: { count: 1, id: "pastel:gilded_book" } }
+		{ id: "10A192541E6587BF", item: { count: 1, id: "pastel:raw_malachite" } }
+		{
+			count: 2
+			id: "3A6C6BFE415E712B"
+			item: {
+				count: 1
+				id: "pastel:raw_bloodstone"
+			}
+		}
+		{ id: "5AB2D6C7D6A3B319", item: { count: 1, id: "pastel:moonstone_core" } }
+	]
+	use_title: true
+}
