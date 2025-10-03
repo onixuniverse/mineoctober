@@ -2,6 +2,7 @@
 	chapter.09B56D111668F538.title: "&6&nTraveling"
 	chapter.139369A26CED6377.title: "&2Skill Tree"
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
+	chapter.19C032D1A8489218.title: "Collections"
 	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
 	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
 	chapter.2E34C4AF7759F54F.title: "&5Enchanted"
@@ -263,6 +264,7 @@
 		""
 		"To \"unmount\" the contraption, place it back at the Cart Assembler and turn off the redstone signal."
 	]
+	quest.051F275D6A9F4679.title: "Aquatic fauna"
 	quest.0562F21AA82B2961.quest_subtitle: "Craft any Diamond Chest type."
 	quest.05A39ED901BC6569.quest_subtitle: "Reduces the time of debuffs"
 	quest.05AE58DC5E4EB37C.quest_desc: [
@@ -641,6 +643,7 @@
 	]
 	quest.0D0A907FD6B9A21F.quest_subtitle: "Not repeatable"
 	quest.0D0D32A87957E243.quest_desc: ["Crystallized speckles of blood from &6&nKindling Feathers&r, shining in stunning scarlet and bleeding with willful magic!"]
+	quest.0D2F3919C8DC3363.title: "\"THEY\""
 	quest.0D35D58CB7CA7580.quest_desc: [
 		"- Has 9 slots for seeds"
 		"- Plants seeds on farmland when pulled"
@@ -689,6 +692,7 @@
 		"Speed and rotation direction (clockwise or counter-clockwise) can be configured via the Value Settings Screen located on the front or back of the controller."
 	]
 	quest.0E5216DF2717D1DC.quest_subtitle: "Not repeatable"
+	quest.0E728F34635D08DD.title: "Draft animals"
 	quest.0EB9D10AAC86F6A2.quest_desc: [
 		"The &aMermaids Brush&r is an inconspicuous plant that grows in the &9deepest&r depths of the oceans, forever untouched by human influence. They grow a &bsingle blossom&r, which slowly develops into a &efiligree shaped seed&r. They can only be harvested with &cshears&r."
 		""
@@ -1589,6 +1593,7 @@
 	quest.26FB758B3706B935.quest_subtitle: "Slain creatures drop &6+25% experience."
 	quest.2756277E0B589F3E.quest_desc: ["There is a new Ore to be found in the &aOverworld&r in all biomes. It's a rich &1blue ore&r that generates &cvery deep down&r under the surface, and is fairly rare. No, it is not &bDiamonds&r..."]
 	quest.2756277E0B589F3E.title: "A New Ore"
+	quest.276E223697D1ED7E.title: "Froggers"
 	quest.27870531E5DB2434.quest_desc: [
 		"&aInfused Beverages&r can be made in a variety of ways. Make sure to check &dREI&r to make exactly what you want. "
 		""
@@ -2590,6 +2595,7 @@
 		""
 		"Additionally, the &6Storage Controller&r can connect wireless to any storage link within a &n&crange of 15 blocks.&r&r"
 	]
+	quest.3C14A457DBFBE918.title: "Livestock farming"
 	quest.3CA4542BF17DB864.quest_subtitle: "Enflamed Mandible can be dropped by Blazes when using the Ravaging enchantment on a hatchet."
 	quest.3CAB5264F3C33205.quest_desc: [
 		"Now that you have access to &dAttuned Stones&r, the &aDistillery&r can expand your available resources both by creating new kinds and by obtaining &eWitch's Oven&r fumes through alternate methods. As with the Oven, this process takes quite a few clay jars."
@@ -2785,6 +2791,7 @@
 		"&aCompatible with:&r"
 		"Exporter, Constructor, Interface (1 per device)"
 	]
+	quest.41BA89D12893009F.title: "The Nether"
 	quest.41E439ED3FAAAA94.quest_subtitle: "Craft any Netherite Shulker Box type."
 	quest.4229C599AF11A4F4.quest_desc: [
 		"&l&6Windmill Sails&r&r generate power when attached to a rotating structure on a Windmill Bearing, offering the same efficiency as Wool blocks. A minimum of 8 sails is required to start rotation."
@@ -2862,6 +2869,7 @@
 	]
 	quest.44A8B31CD719B906.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.44B16905ABBF3A52.quest_subtitle: "Grant &6Fire Immunity"
+	quest.44C2593ABBDAAD4D.title: "Exotics"
 	quest.44CFD2F48C7AA908.quest_desc: ["Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. "]
 	quest.4529E314F97ED3FA.quest_desc: [
 		"&nThe Coke Oven generates a lot of Creosote&r, more than you might actually need. "
@@ -3273,6 +3281,7 @@
 	]
 	quest.509BB6BF39848F5B.title: "Space Stations"
 	quest.50A74C04350493E0.quest_subtitle: "&6+15% Cooldown Reduction"
+	quest.50ACFE7F7CFCCFF0.title: "The End"
 	quest.50B4EEBAF5CF3122.quest_desc: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 	quest.50B4EEBAF5CF3122.quest_subtitle: "Found in Jungle Pyramids"
 	quest.50CB097911D2B369.quest_desc: ["You're next goal is to find a &aspecial new ore&r. It's a &eshiny yellow&r and can be found above &9sea-level&r."]
@@ -3622,6 +3631,7 @@
 	quest.5BC526ACC0046B20.quest_subtitle: "Backs on Backs on Backs"
 	quest.5BCF209E014D37E6.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
 	quest.5BCF209E014D37E6.title: "Advanced Cabling"
+	quest.5BDBD8ED01E12B5D.title: "Friends"
 	quest.5BF082062143531B.title: "&2Plagued Outfit"
 	quest.5C38AF82CEFB8015.quest_subtitle: "Rare random world loot."
 	quest.5C63E2E0D537CF6B.quest_subtitle: "+50 max mana, when equipped tamed familiars that fall below 25% health willl get invisibility effect, crafted."
@@ -4049,6 +4059,7 @@
 	]
 	quest.66EA4FE46D64E00B.quest_subtitle: "Not repeatable"
 	quest.671D0A62B7171DBB.quest_subtitle: "&6Long Casts become uninterruptible"
+	quest.676695FFCE6E97C7.title: "Flying creatures"
 	quest.6767C398AD003D14.quest_subtitle: "Not repeatable"
 	quest.6780A1BF19D7CEA3.quest_desc: ["Freeing your &dmicroorganisms&r near &aorganic&r matter will have them spread into those blocks. Breaking the block that was spread into will provide you a new resource!"]
 	quest.6780A1BF19D7CEA3.title: "An Organic Material"
@@ -4167,6 +4178,7 @@
 		"To link it to an &eitem teleporter receiver&r, use a &aTP link.&r"
 	]
 	quest.6BA1A3DFE41ACB6A.quest_subtitle: "Not repeatable"
+	quest.6BE101F1FAABB05E.title: "The Overworld"
 	quest.6BF73E8BF5844527.quest_desc: [
 		"&6Comforts&r is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base."
 		""
@@ -4334,6 +4346,7 @@
 	quest.6EBA5C455937F53F.quest_subtitle: "Let's go fishing!"
 	quest.6EBA5C455937F53F.title: "Lili's Lucky Lures"
 	quest.6EBE0A34CCFA8E5B.quest_desc: ["The ends of this pickaxe are studded with &bTopaz&r to cut even the most delicate material from stone. The &aTender Pickaxe&r comes pre-enchanted with &dSilk Touch&r."]
+	quest.6F2D669B48700D02.title: "Guardians"
 	quest.6F8A1655E91E7E89.quest_desc: [
 		"The &bQuartz Cutting Knife&f, like the wrench, comes in both nether and certus quartz flavours and is a useful crafting tool to have on hand."
 		""
@@ -4644,6 +4657,7 @@
 		"Both the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."
 	]
 	quest.753831874D7C3BC8.quest_subtitle: "Download more VRAM"
+	quest.754B4448046E36A6.title: "Cuties"
 	quest.7565ADCF5D431FE4.quest_subtitle: "Automatically loads next available projectile while in inventory. Crouch-Click to cancel"
 	quest.75709A3CC301B8A4.quest_desc: [
 		"&cInk&r can be found in magic structures, such as wizard towers, and is the key to crafting scrolls. "
@@ -4771,6 +4785,7 @@
 		"{image:mineoctober:item/acr_plow width:150 height:144 align:center}"
 	]
 	quest.7977B91DAF6112DB.title: "Plow"
+	quest.79A2230C2E24EB09.title: "Bosses"
 	quest.79A7417475A593C6.quest_subtitle: "Plug in"
 	quest.79D0A62E07C283FF.quest_desc: [
 		"Your &aPigment Pedestal&r can be upgraded with your newly created &bOnyx Shards&r to further increase its magical powers."
@@ -4853,6 +4868,13 @@
 		"Warm that new dragon egg by the fire."
 	]
 	quest.7C185DB8566F7E33.quest_subtitle: "Hold the Dragon Egg"
+	quest.7C3076FCF31295C8.quest_desc: [
+		"&8The shadows&r of the past guard &n15&r sealed &6&nartifacts&r."
+		"Only the one who gathers them all shall hear the whisper of a forgotten truth…"
+		""
+		"Begin your search—before the collection claims &2&lyou&r."
+	]
+	quest.7C3076FCF31295C8.title: "Collections"
 	quest.7C8FD4693FE20947.quest_desc: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
 	quest.7CC7FD9C32B77B35.quest_subtitle: "Not repeatable"
 	quest.7D080D777F9AADCA.quest_desc: [
@@ -4873,6 +4895,7 @@
 		""
 		"&aGlistering Melon Plants&r are like &2Melons&r but produce &aGlistering Melons&r instead of normal &2Melons&r."
 	]
+	quest.7D16E13BDB2B06D2.title: "Rabbits"
 	quest.7D4FC7C4EE540298.quest_desc: [
 		"Curiously, the combination of &emushrooms&r and &9water&r is a perfect receptor for all forms of other bloomy notes, either rounding the taste, or creating... very peculiar ones."
 		""

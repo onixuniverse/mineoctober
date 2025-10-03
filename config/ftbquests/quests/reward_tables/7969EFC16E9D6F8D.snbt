@@ -3,7 +3,7 @@
 	loot_crate: {
 		color: 5592575
 		drops: {
-			boss: 0
+			boss: 20
 			monster: 0
 			passive: 0
 		}
@@ -186,8 +186,6 @@
 		{ id: "2519851DA1FADB48", item: { count: 1, id: "plushies:ocelot_plushie" } }
 		{ id: "2CD900A80E6EEA0F", item: { count: 1, id: "plushies:bat_plushie" } }
 		{ id: "1DCBA4EA0AF30FB4", item: { count: 1, id: "plushies:silverfish_plushie" } }
-		{ id: "122759B04B56B47F", item: { count: 1, id: "plushies:hoglin_plushie" } }
-		{ id: "4CA4CBB07776B4EB", item: { count: 1, id: "plushies:blaze_plushie" } }
 		{ id: "1FED4A94A875F90E", item: { count: 1, id: "plushies:dolphin_plushie" } }
 		{ id: "6326EBB3197B1C24", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
 		{ id: "6C2641BD4673152D", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
@@ -300,6 +298,29 @@
 				id: "mynethersdelight:hot_cream_cone"
 			}
 		}
+		{ id: "66D32EAC0B117513", item: { count: 1, id: "plushies:llama_plushie" } }
+		{ id: "5F4812E1877961A7", item: { count: 1, id: "plushies:mooshroom_plushie" } }
+		{ id: "14314CEEBB10424D", item: { count: 1, id: "plushies:horse_plushie" } }
+		{ id: "4B6F555AC3F63BDC", item: { count: 1, id: "plushies:chicken_plushie" } }
+		{ id: "10E6D5EE9EB967A4", item: { count: 1, id: "plushies:brown_rabbit_plushie" } }
+		{ id: "6028F5B81B1ADB2E", item: { count: 1, id: "plushies:yellow_rabbit_plushie" } }
+		{ id: "2DFF6D82F2812B99", item: { count: 1, id: "plushies:salt_rabbit_plushie" } }
+		{ id: "64293B84A180FAB6", item: { count: 1, id: "plushies:toast_rabbit_plushie" } }
+		{ id: "341BE0D2C9AB1F0C", item: { count: 1, id: "plushies:killer_bunny_plushie" } }
+		{ id: "60F88625A1F7F668", item: { count: 1, id: "plushies:iron_golem_plushie" } }
+		{ id: "44AA009CC908E40D", item: { count: 1, id: "plushies:wandering_trader_plushie" } }
+		{ id: "49786559548E7E1A", item: { count: 1, id: "plushies:villager_plushie" } }
+		{ id: "379A804EA592FB46", item: { count: 1, id: "plushies:illusioner_plushie" } }
+		{ id: "5CC1BCE6301F165B", item: { count: 1, id: "plushies:breeze_plushie" } }
+		{ id: "2A6577D8259D363D", item: { count: 1, id: "plushies:ravager_plushie" } }
+		{ id: "280CBE49ED6582E9", item: { count: 1, id: "plushies:vex_plushie" } }
+		{ id: "116DDEE2246C1943", item: { count: 1, id: "plushies:zombie_horse_plushie" } }
+		{ id: "3807292374566355", item: { count: 1, id: "plushies:bogged_plushie" } }
+		{ id: "26B7002E97CEDB0F", item: { count: 1, id: "plushies:allay_plushie" } }
+		{ id: "27039A5140997DC5", item: { count: 1, id: "plushies:snow_golem_plushie" } }
+		{ id: "096C5FBFBE254F2E", item: { count: 1, id: "plushies:polar_bear_plushie" } }
+		{ id: "55742BDA2370C7A5", item: { count: 1, id: "plushies:wolf_plushie" } }
+		{ id: "235A8DC72989D4CD", item: { count: 1, id: "plushies:zoglin_plushie" } }
 	]
 	use_title: true
 }

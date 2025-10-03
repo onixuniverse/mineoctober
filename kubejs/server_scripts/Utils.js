@@ -297,6 +297,7 @@ const recipeIds = [
     'vegandelight:integration/create/compacting/agave_from_compacting',
 	'vegandelight:cooking/agave',
 	'sliceanddice:cooking/vegandelight/cooking/agave_0',
+	'sliceanddice:cooking/rusticdelight/cooking/honey_pancakes_0',
 
     'culturalrecipes:cutting/raw_calamari',
     'culturalrecipes:cutting/raw_calamari_from_glowsquid',

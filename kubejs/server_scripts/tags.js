@@ -10,5 +10,4 @@ ServerEvents.tags('item', event => {
     sugar.forEach(e => {
         event.add("c:sugar", e)  
     });
-    
 })

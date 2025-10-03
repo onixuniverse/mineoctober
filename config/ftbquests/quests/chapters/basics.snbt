@@ -1,7 +1,7 @@
 {
 	autofocus_id: "1F6BC8C2A5B8F9B2"
 	default_hide_dependency_lines: false
-	default_min_width: 2
+	default_min_width: 1
 	default_quest_shape: ""
 	filename: "basics"
 	group: ""
@@ -2292,6 +2292,24 @@
 			}]
 			x: 7.85d
 			y: 4.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			id: "7C3076FCF31295C8"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59F84728599DD20F"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
+			tasks: [{
+				id: "458DACCB415221DA"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(plushies))", "minecraft:custom_name": "\"Plushies\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
 		}
 	]
 }

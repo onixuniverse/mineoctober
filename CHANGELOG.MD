@@ -2,7 +2,47 @@
 
 ---
 
-## v2.2.3.251001.1
+## v2.2.4.251002.1rc
+### General
+**RU:**
+> Улучшена стабильность
+> Исправлены некоторые ошибки
+> Обновлены некоторые рецепты
+
+**EN:**
+> Improved stability
+> Fixed some bugs
+> Updated some recipes
+
+### Mods
+- Added: 
+- Updated: better_modlist-1.1.20
+- Updated: BadOptimizations-2.3.1-1.21.1
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.4
+- Updated: AsyncParticles-3.3.9+1.21.1
+- Updated: jei-1.21.1-neoforge-19.25.0.322
+- Updated: better_modlist-1.1.20
+- Updated: BadOptimizations-2.3.1-1.21.1
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.4
+- Updated: AsyncParticles-3.3.9+1.21.1
+- Updated: jei-1.21.1-neoforge-19.25.0.322
+- Updated: sophisticatedstorage-1.21.1-1.5.11.1340
+- Updated: sophisticatedbackpacks-1.21.1-3.25.9.1390
+- Updated: sophisticatedcore-1.21.1-1.3.84.1214
+- Updated: chat_heads-0.14.0-neoforge-1.21
+- Updated: fusion-1.2.11b-neoforge-mc1.21
+- Updated: tenshilib-1.21.1-2.2.1-neoforge
+- Updated: crabbersdelight-1.21.1-1.2.1
+- Updated: collective-1.21.1-8.5
+- Updated: 
+- Removed: 
+
+### Known Issues
+> - 1 // Crash of the game due to the Distant Horizons mod
+
+---
+
+## v2.2.3.251001.1rc
 ### General
 **RU:**
 > Улучшена стабильность
@@ -21,7 +61,7 @@
 - Added: letsdo-lilis_lucky_lures-neoforge-1.1.1
 - Added: farmingforblockheads-neoforge-1.21.1-21.1.8
 - Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.1
-- Updated: sophisticatedcore-1.21.1-1.3.80.1195
+- Updated: sophisticatedcore-1.21.1-1.3.81.1200
 - Updated: sophisticatedstorage-1.21.1-1.5.10.1336
 - Updated: sophisticatedbackpacks-1.21.1-3.25.8.1385
 - Updated: chat_heads-0.13.22-neoforge-1.21

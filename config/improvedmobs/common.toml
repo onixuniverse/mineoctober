@@ -7,7 +7,7 @@
 	#Example ["0;difficulty + 0.01","10;difficulty + 0.1","30;difficulty + 0"]
 	#The difficulty will increases by 0.01 every 2400 ticks (or 0.1 per mc day) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
-	"Difficulty Increase" = ["0.0;distance_spawn * 0.01"]
+	"Difficulty Increase" = ["0;0", "500;distance_spawn * 0.001"]
 	#Enables increasing the difficulty over time
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldn't increase at the beginning. One full minecraft day is 24000 ticks
@@ -33,7 +33,7 @@
 	#Here the difficulty between 0-500 blocks to spawn will stay at 0. From then on the difficulty increases by 1 every 100 blocks further
 	#Note: the `difficulty` variable in distance based expression is always 0!
 	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN, PLAYERSUM, DISTANCE, DISTANCESPAWN
-	"Difficulty type" = "PLAYERMEAN"
+	"Difficulty type" = "DISTANCESPAWN"
 	#Position used for DISTANCE difficulty type
 	"Center Position" = "0-0"
 	#Disable/Enable friendly fire for owned pets.
@@ -80,24 +80,24 @@
 	"Vanilla Max" = 250.0
 	#Should the power scale mods difficulty system be used instead of this ones. (Requires power scale mod)
 	#Allowed Values: OFF, ON, ADD
-	"Use Power Scale Mod" = "ON"
+	"Use Power Scale Mod" = "OFF"
 	#If true and playerEx is installed will use the level from playerEx as difficulty
 	#Allowed Values: OFF, ON, ADD
-	"Use Player EX Mod" = "ON"
+	"Use Player EX Mod" = "OFF"
 	#Scaling for playerEX integration
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	"PlayerEX Scaling" = 1.0
 	#If true and LevelZ is installed will use the the total skill level from LevelZ as difficulty
 	#Allowed Values: OFF, ON, ADD
-	"Use LevelZ Mod" = "ON"
+	"Use LevelZ Mod" = "OFF"
 	#Scaling for LevelZ integration
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308
 	"LevelZ Scaling" = 1.0
 	#If true and RuneCraftory is installed will use the level from RuneCraftory as difficulty
 	#Allowed Values: OFF, ON, ADD
-	"Use RuneCraftory Mod" = "ON"
+	"Use RuneCraftory Mod" = "OFF"
 	#Scaling for RuneCraftory integration
 	# Default: 1.0
 	# Range: 0.0 ~ 1.7976931348623157E308

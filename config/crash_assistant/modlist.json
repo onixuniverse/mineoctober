@@ -59,10 +59,10 @@
     "modId": "ambientsounds",
     "version": "6.2.1"
   },
-  "amendments-1.21-2.0.7-neoforge.jar": {
-    "jarName": "amendments-1.21-2.0.7-neoforge.jar",
+  "amendments-1.21-2.0.8-neoforge.jar": {
+    "jarName": "amendments-1.21-2.0.8-neoforge.jar",
     "modId": "amendments",
-    "version": "1.21-2.0.7"
+    "version": "1.21-2.0.8"
   },
   "antique-atlas-2.11.2+1.21.jar": {
     "jarName": "antique-atlas-2.11.2+1.21.jar",
@@ -94,10 +94,10 @@
     "modId": "astikorcartsredux",
     "version": "1.2.2"
   },
-  "AsyncParticles-3.3.8+1.21.1.jar": {
-    "jarName": "AsyncParticles-3.3.8+1.21.1.jar",
+  "AsyncParticles-3.3.9+1.21.1.jar": {
+    "jarName": "AsyncParticles-3.3.9+1.21.1.jar",
     "modId": "asyncparticles",
-    "version": "3.3.8"
+    "version": "3.3.9"
   },
   "atlas_api-1.21.1-1.2.0.jar": {
     "jarName": "atlas_api-1.21.1-1.2.0.jar",
@@ -114,10 +114,10 @@
     "modId": "autochefsdelight",
     "version": "2.0.2+neoforge"
   },
-  "BadOptimizations-2.3.0-1.21.1.jar": {
-    "jarName": "BadOptimizations-2.3.0-1.21.1.jar",
+  "BadOptimizations-2.3.1-1.21.1.jar": {
+    "jarName": "BadOptimizations-2.3.1-1.21.1.jar",
     "modId": "badoptimizations",
-    "version": "2.3.0"
+    "version": "2.3.1"
   },
   "balm-neoforge-1.21.1-21.0.52.jar": {
     "jarName": "balm-neoforge-1.21.1-21.0.52.jar",
@@ -139,10 +139,10 @@
     "modId": "bellsandwhistles",
     "version": "0.4.7-1.21.1"
   },
-  "better_modlist-1.1.19.jar": {
-    "jarName": "better_modlist-1.1.19.jar",
+  "better_modlist-1.1.20.jar": {
+    "jarName": "better_modlist-1.1.20.jar",
     "modId": "mod_menu",
-    "version": "1.1.19"
+    "version": "1.1.20"
   },
   "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar": {
     "jarName": "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
@@ -174,10 +174,10 @@
     "modId": "bookshelf",
     "version": "21.1.69"
   },
-  "chat_heads-0.13.22-neoforge-1.21.jar": {
-    "jarName": "chat_heads-0.13.22-neoforge-1.21.jar",
+  "chat_heads-0.14.0-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.14.0-neoforge-1.21.jar",
     "modId": "chat_heads",
-    "version": "0.13.22"
+    "version": "0.14.0"
   },
   "ChatImpressiveAnimation-neoforge-1.4.0+mc1.21.5.jar": {
     "jarName": "ChatImpressiveAnimation-neoforge-1.4.0+mc1.21.5.jar",
@@ -214,10 +214,10 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
-  "collective-1.21.1-8.3.jar": {
-    "jarName": "collective-1.21.1-8.3.jar",
+  "collective-1.21.1-8.5.jar": {
+    "jarName": "collective-1.21.1-8.5.jar",
     "modId": "collective",
-    "version": "8.3"
+    "version": "8.5"
   },
   "comforts-neoforge-9.0.4+1.21.1.jar": {
     "jarName": "comforts-neoforge-9.0.4+1.21.1.jar",
@@ -262,20 +262,20 @@
     "modId": "corpse",
     "version": "1.21.1-1.1.10"
   },
-  "crabbersdelight-1.21.1-1.2.0.jar": {
-    "jarName": "crabbersdelight-1.21.1-1.2.0.jar",
+  "crabbersdelight-1.21.1-1.2.1.jar": {
+    "jarName": "crabbersdelight-1.21.1-1.2.1.jar",
     "modId": "crabbersdelight",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "CraftTweaker-neoforge-1.21.1-21.0.34.jar": {
     "jarName": "CraftTweaker-neoforge-1.21.1-21.0.34.jar",
     "modId": "crafttweaker",
     "version": "21.0.34"
   },
-  "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.2.jar": {
-    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.2.jar",
+  "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.4.jar": {
+    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.4.jar",
     "modId": "crash_assistant",
-    "version": "1.10.2"
+    "version": "1.10.4"
   },
   "crashutilities-9.0.4.jar": {
     "jarName": "crashutilities-9.0.4.jar",
@@ -612,10 +612,10 @@
     "modId": "ftbqopt",
     "version": "3.1.0-1.21.1"
   },
-  "fusion-1.2.11a-neoforge-mc1.21.jar": {
-    "jarName": "fusion-1.2.11a-neoforge-mc1.21.jar",
+  "fusion-1.2.11b-neoforge-mc1.21.jar": {
+    "jarName": "fusion-1.2.11b-neoforge-mc1.21.jar",
     "modId": "fusion",
-    "version": "1.2.11+a"
+    "version": "1.2.11+b"
   },
   "fzzy_config-0.7.2+1.21+neoforge.jar": {
     "jarName": "fzzy_config-0.7.2+1.21+neoforge.jar",
@@ -636,11 +636,6 @@
     "jarName": "ghosts-neoforge-1.21.1-1.2.0.jar",
     "modId": "ghosts",
     "version": "1.2.0"
-  },
-  "globalpacks-neoforge-1.21.1-21.0.6.jar": {
-    "jarName": "globalpacks-neoforge-1.21.1-21.0.6.jar",
-    "modId": "globalpacks",
-    "version": "21.0.6"
   },
   "gml-6.0.2.jar": {
     "jarName": "gml-6.0.2.jar",
@@ -772,10 +767,10 @@
     "modId": "jadeaddons",
     "version": "6.1.0+neoforge"
   },
-  "jei-1.21.1-neoforge-19.25.0.321.jar": {
-    "jarName": "jei-1.21.1-neoforge-19.25.0.321.jar",
+  "jei-1.21.1-neoforge-19.25.0.322.jar": {
+    "jarName": "jei-1.21.1-neoforge-19.25.0.322.jar",
     "modId": "jei",
-    "version": "19.25.0.321"
+    "version": "19.25.0.322"
   },
   "justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar": {
     "jarName": "justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar",
@@ -850,15 +845,15 @@
     "modId": "herbalbrews",
     "version": "1.1.2"
   },
-  "letsdo-lilis_lucky_lures-neoforge-1.1.1.jar": {
-    "jarName": "letsdo-lilis_lucky_lures-neoforge-1.1.1.jar",
+  "letsdo-lilis_lucky_lures-neoforge-1.1.2.jar": {
+    "jarName": "letsdo-lilis_lucky_lures-neoforge-1.1.2.jar",
     "modId": "lilis_lucky_lures",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
-  "letsdo-wildernature-neoforge-1.1.3.jar": {
-    "jarName": "letsdo-wildernature-neoforge-1.1.3.jar",
+  "letsdo-wildernature-neoforge-1.1.4.jar": {
+    "jarName": "letsdo-wildernature-neoforge-1.1.4.jar",
     "modId": "wildernature",
-    "version": "1.1.3"
+    "version": "1.1.4"
   },
   "libIPN-neoforge-1.21-6.5.1.jar": {
     "jarName": "libIPN-neoforge-1.21-6.5.1.jar",
@@ -1320,25 +1315,25 @@
     "modId": "sodiumleafculling",
     "version": "1.0.1"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.8.1385.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.8.1385.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.9.1390.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.9.1390.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.25.8"
+    "version": "3.25.9"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.4.23.jar",
     "modId": "sophisticatedbackpackscreateintegration",
     "version": "0.1.4"
   },
-  "sophisticatedcore-1.21.1-1.3.80.1195.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.3.80.1195.jar",
+  "sophisticatedcore-1.21.1-1.3.84.1214.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.3.84.1214.jar",
     "modId": "sophisticatedcore",
-    "version": "1.3.80"
+    "version": "1.3.84"
   },
-  "sophisticatedstorage-1.21.1-1.5.10.1336.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.10.1336.jar",
+  "sophisticatedstorage-1.21.1-1.5.11.1340.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.11.1340.jar",
     "modId": "sophisticatedstorage",
-    "version": "1.5.10"
+    "version": "1.5.11"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.12.47.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.12.47.jar",
@@ -1395,10 +1390,10 @@
     "modId": "tcdcommons",
     "version": "3.12.7+fabric-1.21"
   },
-  "tenshilib-1.21.1-2.2.0-neoforge.jar": {
-    "jarName": "tenshilib-1.21.1-2.2.0-neoforge.jar",
+  "tenshilib-1.21.1-2.2.1-neoforge.jar": {
+    "jarName": "tenshilib-1.21.1-2.2.1-neoforge.jar",
     "modId": "tenshilib",
-    "version": "1.21.1-2.2.0"
+    "version": "1.21.1-2.2.1"
   },
   "TerraBlender-neoforge-1.21.1-4.1.0.8.jar": {
     "jarName": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",

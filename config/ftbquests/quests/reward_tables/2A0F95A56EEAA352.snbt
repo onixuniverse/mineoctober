@@ -3,7 +3,7 @@
 	loot_crate: {
 		color: 11141290
 		drops: {
-			boss: 0
+			boss: 10
 			monster: 0
 			passive: 0
 		}
@@ -144,27 +144,9 @@
 		{ id: "6C63EFB081B1C6B2", item: { count: 1, id: "plushies:white_fox_plushie" } }
 		{ id: "3A7C65F8F2E5D5E8", item: { count: 1, id: "plushies:black_rabbit_plushie" } }
 		{ id: "4A57AEF5F9DC1203", item: { count: 1, id: "plushies:turtle_plushie" } }
-		{ id: "5D89B36A1F0B7C0B", item: { count: 1, id: "plushies:magma_cube_plushie" } }
-		{ id: "0CD4B1970EC6A2A5", item: { count: 1, id: "plushies:enderman_plushie" } }
-		{
-			id: "2FB6EE1E752FCD27"
-			item: {
-				count: 1
-				id: "plushies:dragon_plushie"
-			}
-			weight: 0.2f
-		}
 		{ id: "213CE67BCB386770", item: { count: 1, id: "plushies:cold_frog_plushie" } }
 		{ id: "23B293889DCE32AB", item: { count: 1, id: "plushies:warm_frog_plushie" } }
 		{ id: "1B8968FDD9E7C8AB", item: { count: 1, id: "plushies:frog_plushie" } }
-		{
-			id: "5722F08163FE7F56"
-			item: {
-				count: 1
-				id: "plushies:warden_plushie"
-			}
-			weight: 0.2f
-		}
 		{ id: "7636862E645C05E1", item: { count: 1, id: "plushies:cat_plushie" } }
 		{ id: "7FE2E4AE860A1A31", item: { count: 1, id: "plushies:bee_plushie" } }
 		{ id: "7B2CB8518584AB6D", item: { count: 1, id: "plushies:camel_plushie" } }
@@ -320,6 +302,14 @@
 				id: "create:polished_cut_veridium"
 			}
 		}
+		{ id: "2A1DB0C076D8CFD8", item: { count: 1, id: "plushies:tadpole_plushie" } }
+		{ id: "01B27089BAADC7A6", item: { count: 1, id: "plushies:axolotl_plushie" } }
+		{ id: "4DC3AC69F1D11C2C", item: { count: 1, id: "plushies:salmon_plushie" } }
+		{ id: "30B69B34B737A5D9", item: { count: 1, id: "plushies:cod_plushie" } }
+		{ id: "56C1324250F48A4F", item: { count: 1, id: "plushies:pufferfish_plushie" } }
+		{ id: "38DC89C914C2661D", item: { count: 1, id: "plushies:large_tropical_fish_plushie" } }
+		{ id: "5BA48F1C0EEE5F51", item: { count: 1, id: "plushies:mule_plushie" } }
+		{ id: "562A483F5E49D09E", item: { count: 1, id: "plushies:donkey_plushie" } }
 	]
 	use_title: true
 }

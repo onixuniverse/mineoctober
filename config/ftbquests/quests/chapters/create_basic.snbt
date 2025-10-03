@@ -3200,5 +3200,22 @@
 			x: -5.5d
 			y: -11.5d
 		}
+		{
+			dependencies: ["1883DF46FCE478C7"]
+			id: "2DC60B85B9F86741"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "391B257114391311"
+				table_id: 4682836084073725053L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75C2F9B05E7C7E13"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
 	]
 }
