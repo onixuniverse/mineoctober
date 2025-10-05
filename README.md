@@ -8,6 +8,7 @@ Features:
 - 4000+ building and decorative blocks
 - New creatures
 - New structures and dungeons
+- Custom player titles
 - Technology and Magic mods ([Create](https://modrinth.com/mod/create), [Pastel](https://modrinth.com/mod/pastel-mod), [Iron's Spells 'n Spellbooks](https://modrinth.com/mod/irons-spells-n-spellbooks) and other)
 - New world generation ([Terralith](https://modrinth.com/datapack/terralith), [Oh The Biomes We've Gone](https://modrinth.com/mod/oh-the-biomes-weve-gone), [Incendium](https://modrinth.com/datapack/incendium))
 - Overhauled Stronghold & Fortresses
@@ -16,7 +17,7 @@ Features:
 - Treasure and useful items ([Artifacts](https://modrinth.com/mod/artifacts), [Relics](https://modrinth.com/mod/relics-mod))
 - Custom skill tree ([Pufferfish's Skills](https://modrinth.com/mod/skills))
 - Nutrition system ([NutritionZ](https://modrinth.com/mod/nutritionz))
-- Tier system ([TieredZ](https://modrinth.com/mod/tieredz))
+- Equipment tier system ([TieredZ](https://modrinth.com/mod/tieredz))
 - Harder mobs ([Improved Mobs](https://modrinth.com/mod/improved-mobs))
 - Carts, ships, planes, *dragons?*
 

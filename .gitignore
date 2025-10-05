@@ -24,6 +24,8 @@ mods/mcef-cache/
 mods/mcef-libraries/
 mods/.connector/
 ESM/
+shaderpacks/ComplementaryReimagined_r5.6 + EuphoriaPatches_1.7.0
+debug.log
 command_history.txt
 fabricloader.log
 immersivetips.json
@@ -31,3 +33,4 @@ servers.dat
 supportercache.json
 usercache.json
 usernamecache.json
+*.bak

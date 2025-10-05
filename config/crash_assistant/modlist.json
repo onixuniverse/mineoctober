@@ -214,10 +214,10 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
-  "collective-1.21.1-8.5.jar": {
-    "jarName": "collective-1.21.1-8.5.jar",
+  "collective-1.21.1-8.7.jar": {
+    "jarName": "collective-1.21.1-8.7.jar",
     "modId": "collective",
-    "version": "8.5"
+    "version": "8.7"
   },
   "comforts-neoforge-9.0.4+1.21.1.jar": {
     "jarName": "comforts-neoforge-9.0.4+1.21.1.jar",
@@ -502,10 +502,10 @@
     "modId": "entityculling",
     "version": "1.8.2"
   },
-  "EuphoriaPatcher-1.6.8-r5.5.1-neoforge.jar": {
-    "jarName": "EuphoriaPatcher-1.6.8-r5.5.1-neoforge.jar",
+  "EuphoriaPatcher-1.7.0-r5.6-neoforge.jar": {
+    "jarName": "EuphoriaPatcher-1.7.0-r5.6-neoforge.jar",
     "modId": "euphoria_patcher",
-    "version": "1.6.8-r5.5.1-neoforge"
+    "version": "1.7.0-r5.6-neoforge"
   },
   "expandeddelight-0.1.3.2.jar": {
     "jarName": "expandeddelight-0.1.3.2.jar",
@@ -587,15 +587,15 @@
     "modId": "ftbfiltersystem",
     "version": "21.1.3"
   },
-  "ftb-library-neoforge-2101.1.20.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.20.jar",
+  "ftb-library-neoforge-2101.1.21.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.21.jar",
     "modId": "ftblibrary",
-    "version": "2101.1.20"
+    "version": "2101.1.21"
   },
-  "ftb-quests-neoforge-2101.1.15.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.15.jar",
+  "ftb-quests-neoforge-2101.1.16.jar": {
+    "jarName": "ftb-quests-neoforge-2101.1.16.jar",
     "modId": "ftbquests",
-    "version": "2101.1.15"
+    "version": "2101.1.16"
   },
   "ftb-teams-neoforge-2101.1.4.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.4.jar",
@@ -875,10 +875,10 @@
     "modId": "lithium",
     "version": "0.15.0+mc1.21.1"
   },
-  "lithostitched-1.5.0-beta6-neoforge-1.21.1.jar": {
-    "jarName": "lithostitched-1.5.0-beta6-neoforge-1.21.1.jar",
+  "lithostitched-1.5.0-neoforge-1.21.1.jar": {
+    "jarName": "lithostitched-1.5.0-neoforge-1.21.1.jar",
     "modId": "lithostitched",
-    "version": "1.5.0-beta6"
+    "version": "1.5.0"
   },
   "loadsupport-neoforge-1.21.1-1.2.1.jar": {
     "jarName": "loadsupport-neoforge-1.21.1-1.2.1.jar",
@@ -990,10 +990,10 @@
     "modId": "modelfix",
     "version": "1.21-1.10"
   },
-  "modonomicon-1.21.1-neoforge-1.115.1.jar": {
-    "jarName": "modonomicon-1.21.1-neoforge-1.115.1.jar",
+  "modonomicon-1.21.1-neoforge-1.117.1.jar": {
+    "jarName": "modonomicon-1.21.1-neoforge-1.117.1.jar",
     "modId": "modonomicon",
-    "version": "1.115.1"
+    "version": "1.117.1"
   },
   "modopedia-neoforge-1.21.1-1.1.5.jar": {
     "jarName": "modopedia-neoforge-1.21.1-1.1.5.jar",
@@ -1005,10 +1005,10 @@
     "modId": "monolib",
     "version": "2.1.0"
   },
-  "moonlight-1.21-2.23.11-neoforge.jar": {
-    "jarName": "moonlight-1.21-2.23.11-neoforge.jar",
+  "moonlight-1.21-2.24.0-neoforge.jar": {
+    "jarName": "moonlight-1.21-2.24.0-neoforge.jar",
     "modId": "moonlight",
-    "version": "1.21-2.23.11"
+    "version": "1.21-2.24.0"
   },
   "moredelight-25.07.28a-1.21-neoforge.jar": {
     "jarName": "moredelight-25.07.28a-1.21-neoforge.jar",
@@ -1325,10 +1325,10 @@
     "modId": "sophisticatedbackpackscreateintegration",
     "version": "0.1.4"
   },
-  "sophisticatedcore-1.21.1-1.3.84.1214.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.3.84.1214.jar",
+  "sophisticatedcore-1.21.1-1.3.85.1219.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.3.85.1219.jar",
     "modId": "sophisticatedcore",
-    "version": "1.3.84"
+    "version": "1.3.85"
   },
   "sophisticatedstorage-1.21.1-1.5.11.1340.jar": {
     "jarName": "sophisticatedstorage-1.21.1-1.5.11.1340.jar",
@@ -1475,10 +1475,10 @@
     "modId": "vcinteraction",
     "version": "1.21.1-1.0.8"
   },
-  "vegandelight-neoforge-1.21.1-2.0.0-beta2.jar": {
-    "jarName": "vegandelight-neoforge-1.21.1-2.0.0-beta2.jar",
+  "vegandelight-neoforge-1.21.1-2.0.0-beta3.jar": {
+    "jarName": "vegandelight-neoforge-1.21.1-2.0.0-beta3.jar",
     "modId": "vegandelight",
-    "version": "2.0.0-beta2"
+    "version": "2.0.0-beta3"
   },
   "visuality-forge-2.1.0.jar": {
     "jarName": "visuality-forge-2.1.0.jar",

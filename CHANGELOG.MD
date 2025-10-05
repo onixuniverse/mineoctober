@@ -2,6 +2,32 @@
 
 ---
 
+## v2.2.4.251005.3rc
+### General
+**RU:**
+> Улучшена стабильность
+> Исправлены некоторые ошибки
+> Обновлены некоторые рецепты
+> Добавлено кастомное уведомление о повышении уровня сложности
+
+**EN:**
+> Improved stability
+> Fixed some bugs
+> Updated some recipes
+
+### Mods
+- Updated: collective-1.21.1-8.7
+- Updated: EuphoriaPatcher-1.7.0-r5.6-neoforge
+- Updated: lithostitched-1.5.0-neoforge-1.21.1
+- Updated: modonomicon-1.21.1-neoforge-1.117.1
+- Updated: sophisticatedcore-1.21.1-1.3.85.1219
+- Updated: ftb-quests-neoforge-2101.1.16
+- Updated: ftb-library-neoforge-2101.1.21
+- Updated: moonlight-1.21-2.24.0-neoforge
+- Updated: vegandelight-neoforge-1.21.1-2.0.0-beta3
+
+---
+
 ## v2.2.4.251002.1rc
 ### General
 **RU:**
@@ -15,7 +41,6 @@
 > Updated some recipes
 
 ### Mods
-- Added: 
 - Updated: better_modlist-1.1.20
 - Updated: BadOptimizations-2.3.1-1.21.1
 - Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.4
@@ -34,8 +59,6 @@
 - Updated: tenshilib-1.21.1-2.2.1-neoforge
 - Updated: crabbersdelight-1.21.1-1.2.1
 - Updated: collective-1.21.1-8.5
-- Updated: 
-- Removed: 
 
 ### Known Issues
 > - 1 // Crash of the game due to the Distant Horizons mod

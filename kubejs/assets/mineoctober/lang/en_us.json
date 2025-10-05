@@ -24,5 +24,8 @@
     "item.mineoctober.tooltip.aluminum_ingot": "It can be obtained by crushing diorite on wheels.",
     "item.mineoctober.tooltip.aluminum_nugget": "It can be obtained by crushing diorite on wheels.",
 	"item.mineoctober.tooltip.steel_ingot": "Steel, just steel.",
-	"item.mineoctober.pumpkin_cookie": "Pumpkin Cookie"
+	"item.mineoctober.pumpkin_cookie": "Pumpkin Cookie",
+
+    "message.mineoctober.difficulty_warning_title": "Increasing difficulty level.",
+    "message.mineoctober.difficulty_warning_subtitle": "Attention! You are approaching a high-risk area. Exercise extreme caution."
 }

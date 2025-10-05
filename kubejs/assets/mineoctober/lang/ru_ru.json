@@ -33,6 +33,8 @@
 	"item.mineoctober.tooltip.steel_ingot": "Сталь, просто сталь.",
 	"item.mineoctober.pumpkin_cookie": "Тыквенное печенье",
 	
-	"attribute.mineoctober.bonus_tree_loot": "Бонус лута с дерева"
+	"attribute.mineoctober.bonus_tree_loot": "Бонус лута с дерева",
 
+    "message.mineoctober.difficulty_warning_title": "Повышение уровня сложности",
+    "message.mineoctober.difficulty_warning_subtitle": "Внимание! Вы приближаетесь к участку повышенной опасности. Соблюдайте предельную осторожность."
 }
