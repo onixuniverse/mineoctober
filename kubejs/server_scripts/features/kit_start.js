@@ -5,6 +5,7 @@ PlayerEvents.loggedIn(event => {
         
         event.player.stages.add('starting_items');
         
+        event.player.give('mineoctober:tin_sword');
         event.player.give('ftbquests:book');
         event.player.give('8x mineoctober:pumpkin_cookie');
     };

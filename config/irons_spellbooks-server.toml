@@ -65,6 +65,8 @@
 	priestHouseWeight = 4
 	#Whether to prevent aquifers from intersecting designated underground structures. May affect performance. Default: true
 	aquiferDetection = true
+	#Whether to enabled Ice Spider patrols in snowy biomes during snowy weather. Default: true
+	iceSpiderPatrols = true
 
 	#Configure Boss Stats
 	["Boss Config".Tyros]
@@ -1329,4 +1331,15 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 150.0
+		AllowCrafting = true
+
+	[Spells."irons_spellbooks:volt_strike"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 10.0
 		AllowCrafting = true

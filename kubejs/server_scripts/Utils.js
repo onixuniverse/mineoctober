@@ -316,10 +316,35 @@ const recipeIds = [
     'sophisticatedstorage:warped_chest',
     'sophisticatedstorage:mangrove_chest',
     'sophisticatedstorage:cherry_chest',
-    'sophisticatedstorage:bamboo_chest'
+    'sophisticatedstorage:bamboo_chest',
+
+	'create:mixing/brass_ingot',
+	'create:crafting/materials/zinc_ingot_from_decompacting',
+	'create:crafting/materials/zinc_ingot_from_compacting',
+	'create:crafting/materials/brass_ingot_from_decompacting',
+	'create:crafting/materials/brass_ingot_from_compacting',
+	'create:crushing/raw_iron',
+	'create:crushing/raw_gold',
+	'create:crushing/raw_copper',
+	'create:crushing/raw_nickel',
+	'create:crushing/raw_aluminum',
+	'create:crushing/raw_zinc',
+	'create:crushing/raw_tin',
+	'create:crushing/raw_silver',
+
+	'dndesires:seething/crushed_raw_zinc',
 ];
 
 const hiddenItems = [
+	// Create
+	'create:zinc_ingot',
+	'create:zinc_nugget',
+	'create:zinc_block',
+	
+	'create:brass_ingot',
+	'create:brass_nugget',
+	'create:brass_block',
+
     // Pastel heads
     'pastel:enderman_head',
 	'pastel:shulker_head',

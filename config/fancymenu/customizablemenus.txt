@@ -84,3 +84,6 @@ com.terraformersmc.mod_menu.gui.ModsScreen {
 net.minecraft.client.gui.screens.PauseScreen {
 }
 
+net.minecraft.client.gui.screens.AccessibilityOnboardingScreen {
+}
+

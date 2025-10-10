@@ -11,14 +11,25 @@
 		id: "biomeswevegone:white_sakura_sapling"
 	}
 	id: "139369A26CED6377"
-	images: [{
-		height: 2.0d
-		image: "mineoctober:item/quests_skills"
-		rotation: 0.0d
-		width: 6.989761092150171d
-		x: -5.5d
-		y: -6.0d
-	}]
+	images: [
+		{
+			height: 2.0d
+			image: "mineoctober:item/quests_skills"
+			rotation: 0.0d
+			width: 6.989761092150171d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 10.0d
+			image: "antique_atlas:textures/gui/book.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: -5.5d
+			y: -4.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -259,7 +270,7 @@
 				consume_items: true
 				count: 4L
 				id: "1215EAB260D3827B"
-				item: { count: 4, id: "minecraft:ender_pearl" }
+				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -343,7 +354,7 @@
 				consume_items: true
 				count: 16L
 				id: "10AF61CA722AB333"
-				item: { count: 16, id: "minecraft:oak_log" }
+				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -371,7 +382,7 @@
 				consume_items: true
 				count: 16L
 				id: "533A7FB1A1700FA3"
-				item: { count: 16, id: "minecraft:rotten_flesh" }
+				item: { count: 1, id: "minecraft:rotten_flesh" }
 				type: "item"
 			}]
 			x: -2.5d

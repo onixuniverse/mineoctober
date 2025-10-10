@@ -279,7 +279,7 @@
 			id: "2DA94EF58893C4A0"
 			item: {
 				count: 1
-				id: "create:brass_ingot"
+				id: "mineoctober:brass_ingot"
 			}
 		}
 		{
@@ -287,7 +287,7 @@
 			id: "0252D6078C91E6D6"
 			item: {
 				count: 1
-				id: "create:zinc_ingot"
+				id: "mineoctober:zinc_ingot"
 			}
 		}
 		{

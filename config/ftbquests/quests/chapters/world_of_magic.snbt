@@ -4106,9 +4106,13 @@
 			}
 			id: "2A481A47E62799DD"
 			rewards: [{
-				id: "7B3D4CE001EE1612"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "576F8DA5117BC944"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
 			}]
 			shape: "pentagon"
 			tasks: [{
@@ -4151,7 +4155,7 @@
 			tasks: [{
 				count: 8L
 				id: "0D046F8824AC0DF4"
-				item: { count: 8, id: "pastel:moonstone_shard" }
+				item: { count: 1, id: "pastel:moonstone_shard" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -4187,25 +4191,25 @@
 				{
 					count: 4L
 					id: "13118460A58ACA6F"
-					item: { count: 4, id: "pastel:onyx_chiseled_basalt" }
+					item: { count: 1, id: "pastel:onyx_chiseled_basalt" }
 					type: "item"
 				}
 				{
 					count: 28L
 					id: "78E8CFAF22D4459D"
-					item: { count: 28, id: "pastel:moonstone_chiseled_basalt" }
+					item: { count: 1, id: "pastel:moonstone_chiseled_basalt" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "41ABFD8A761A7D67"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:notched_polished_calcite)item(pastel:notched_polished_basalt))", "minecraft:custom_name": "\"Notched Polished Block\"" }, count: 4, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:notched_polished_calcite)item(pastel:notched_polished_basalt))", "minecraft:custom_name": "\"Notched Polished Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "4B535FA768A07A99"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:topaz_basalt_light)item(pastel:amethyst_basalt_light)item(pastel:citrine_basalt_light)item(pastel:onyx_basalt_light)item(pastel:moonstone_basalt_light)item(pastel:topaz_calcite_light)item(pastel:amethyst_calcite_light)item(pastel:citrine_calcite_light)item(pastel:onyx_calcite_light)item(pastel:moonstone_calcite_light))", "minecraft:custom_name": "\"Gemstone Light\"" }, count: 8, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:topaz_basalt_light)item(pastel:amethyst_basalt_light)item(pastel:citrine_basalt_light)item(pastel:onyx_basalt_light)item(pastel:moonstone_basalt_light)item(pastel:topaz_calcite_light)item(pastel:amethyst_calcite_light)item(pastel:citrine_calcite_light)item(pastel:onyx_calcite_light)item(pastel:moonstone_calcite_light))", "minecraft:custom_name": "\"Gemstone Light\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -4217,43 +4221,43 @@
 				{
 					count: 12L
 					id: "4B0ADB2260FA0E5E"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_amethyst_block)item(pastel:polished_topaz_block)item(pastel:polished_citrine_block)item(pastel:polished_onyx_block)item(pastel:polished_moonstone_block))", "minecraft:custom_name": "\"Polished Gemstone\"" }, count: 12, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_amethyst_block)item(pastel:polished_topaz_block)item(pastel:polished_citrine_block)item(pastel:polished_onyx_block)item(pastel:polished_moonstone_block))", "minecraft:custom_name": "\"Polished Gemstone\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "3DBA934892D55C65"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:topaz_chiseled_basalt)item(pastel:amethyst_chiseled_basalt)item(pastel:citrine_chiseled_basalt))", "minecraft:custom_name": "\"CMY Gemstone Chiseled Block\"" }, count: 16, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:topaz_chiseled_basalt)item(pastel:amethyst_chiseled_basalt)item(pastel:citrine_chiseled_basalt))", "minecraft:custom_name": "\"CMY Gemstone Chiseled Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "035D5B119DEA58A0"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_calcite_pillar)item(pastel:polished_basalt_pillar))", "minecraft:custom_name": "\"Polished Pillar\"" }, count: 36, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_calcite_pillar)item(pastel:polished_basalt_pillar))", "minecraft:custom_name": "\"Polished Pillar\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 52L
 					id: "32E3CAB8F9D2F629"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt_crest)item(pastel:polished_calcite_crest))", "minecraft:custom_name": "\"Polished Crest Block\"" }, count: 52, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt_crest)item(pastel:polished_calcite_crest))", "minecraft:custom_name": "\"Polished Crest Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "2DB0CB76DAFDDEF9"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 64, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "258839BC67BA822D"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 64, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "438BA14D3DA2B230"
-					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 16, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(pastel:polished_basalt)item(pastel:polished_calcite))", "minecraft:custom_name": "\"Polished Block\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -4277,7 +4281,7 @@
 				}
 				{
 					id: "102E8DB177B01E31"
-					item: { count: 4, id: "pastel:bismuth_crystal" }
+					item: { count: 1, id: "pastel:bismuth_crystal" }
 					type: "item"
 				}
 			]

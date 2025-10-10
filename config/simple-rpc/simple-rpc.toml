@@ -2,7 +2,7 @@
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = "762726289341677668"
+	applicationID = "1425229652409978981"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -21,25 +21,15 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[init.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Minecraft is loading"
-		#The second line of text under the app name
+		description = "MineOctober 2025 is loading"
 		state = "Game Starting..."
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
+		smallImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		smallImageText = "October is here..."
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Main Menu event
@@ -47,25 +37,15 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[main_menu.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is currently lazy"
-		#The second line of text under the app name
 		state = "Chilling in the menu"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Server List event
@@ -73,25 +53,15 @@
 	#Enable/Disable the Server List Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[server_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is looking for a server"
-		#The second line of text under the app name
 		state = "Searching for friends"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Realms Screen event
@@ -99,25 +69,15 @@
 	#Enable/Disable the Realms Screen Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is looking for a Realm"
-		#The second line of text under the app name
 		state = "Browsing Realms"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Join Game Event
@@ -125,25 +85,15 @@
 	#Enable/Disable the Join Game Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[join_game.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is joining a game"
-		#The second line of text under the app name
 		state = "Joining Game"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Single Player Event
@@ -151,25 +101,15 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Currently In {{world.name}}"
-		#The second line of text under the app name
 		state = "Playing lonely mode"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Multi Player Event
@@ -177,25 +117,15 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[multi_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
-		#The second line of text under the app name
 		state = "Playing online"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Realms Game Event
@@ -203,25 +133,15 @@
 	#Enable/Disable the Realms Game Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[realms.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing on {{realm.name}}"
-		#The second line of text under the app name
 		state = "Playing on a Realm"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #The Paused Event
@@ -229,49 +149,29 @@
 	#Enable/Disable the Pause Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[paused.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "In the Pause Menu"
-		#The second line of text under the app name
 		state = "Game Paused"
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		streamingActivityUrl = ""
 		buttons = []
 
 #Fallback event for disabled events
 [generic]
 
-	#List of RPCs that will be displayed at random
 	[[generic.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing Minecraft"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID or URLs of images to randomly use for the large image
-		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
+		largeImageKey = ["https://github.com/onixuniverse/mineoctober/blob/2025/icon.png"]
+		largeImageText = "It's MineOctober 2025"
 		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = ""
 		buttons = []
 
 #Custom Config Variables that you can use
@@ -286,79 +186,45 @@
 	#Allows you to override the displayed values for dimensions
 	enabled = false
 
-	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "overworld"
 
-		#List of RPCs that will be displayed at random
 		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
-			#The first line of text under the app name
 			description = "{{player.name}} is in The Overworld"
-			#The second line of text under the app name
 			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["overworld"]
-			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Overworld"
-			#The Asset ID or URLs of images to randomly use for the small image
 			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
 			buttons = []
 
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_nether"
 
-		#List of RPCs that will be displayed at random
 		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
-			#The first line of text under the app name
 			description = "{{player.name}} is in The Nether"
-			#The second line of text under the app name
 			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["nether"]
-			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the Nether"
-			#The Asset ID or URLs of images to randomly use for the small image
 			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
 			buttons = []
 
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_end"
 
-		#List of RPCs that will be displayed at random
 		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 			type = "PLAYING"
-			#The first line of text under the app name
 			description = "{{player.name}} is in The End"
-			#The second line of text under the app name
 			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
 			largeImageKey = ["end"]
-			#The text to show when someone hovers over the largeImage
 			largeImageText = "In the End"
-			#The Asset ID or URLs of images to randomly use for the small image
 			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
 			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
 			buttons = []
 

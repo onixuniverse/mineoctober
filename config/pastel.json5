@@ -32,8 +32,8 @@
 	   Those blocks do not gate progression, so it is not that drastic not finding any right away.
 	   Better to let players stumble about them organically instead of forcing it.
 	*/
-	"EndermanHoldingEnderTreasureChance": 0.44999998807907104,
-	"EndermanHoldingEnderTreasureInEndChance": 0.75,
+	"EndermanHoldingEnderTreasureChance": 0.10000000149011612,
+	"EndermanHoldingEnderTreasureInEndChance": 0.30000001192092896,
 	// Worlds where shooting stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod
 	"ShootingStarWorlds": [
 		"minecraft:overworld",

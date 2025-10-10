@@ -99,7 +99,7 @@ element {
 
 element {
   button_element_executable_block_identifier = b4cb6026-7200-48a2-942a-da23015dcb22-1756908959080
-  [executable_action_instance:cf5c8cc5-e64f-4cf9-a34f-262e03cb1adf-1756911684949][action_type:joinserver] = exampleserver.com:25565
+  [executable_action_instance:cf5c8cc5-e64f-4cf9-a34f-262e03cb1adf-1756911684949][action_type:joinserver] = MineOctober2025.exaroton.me:40796
   [executable_block:b4cb6026-7200-48a2-942a-da23015dcb22-1756908959080][type:generic] = [executables:cf5c8cc5-e64f-4cf9-a34f-262e03cb1adf-1756911684949;]
   backgroundnormal = [source:local]/config/fancymenu/assets/gui/button.png
   backgroundhovered = [source:local]/config/fancymenu/assets/gui/button_hover.png
@@ -107,7 +107,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  hoverlabel = {"placeholder":"serverstatus","values":{"ip":"someserver.com:25565"}} - {"placeholder":"serverplayercount","values":{"ip":"someserver.com:25565"}}
+  hoverlabel = {"placeholder":"serverstatus","values":{"ip":"MineOctober2025.exaroton.me:40796"}} - {"placeholder":"serverplayercount","values":{"ip":"MineOctober2025.exaroton.me:40796"}}
   label = {"placeholder":"local","values":{"key":"menu.mineoctober.server_connect_button"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 328fca17-e1b4-46fb-b25a-1d2af9abe051-1756908959080

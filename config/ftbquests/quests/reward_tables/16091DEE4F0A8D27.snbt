@@ -456,6 +456,86 @@
 			}
 			weight: 0.75f
 		}
+		{
+			count: 4
+			id: "0AB9CC1E5675D985"
+			item: {
+				count: 1
+				id: "minecraft:note_block"
+			}
+		}
+		{
+			count: 4
+			id: "19BE6A13404CEE30"
+			item: {
+				count: 1
+				id: "irons_spellbooks:divine_pearl"
+			}
+		}
+		{
+			count: 4
+			id: "5F6AA618581443CB"
+			item: {
+				count: 1
+				id: "irons_spellbooks:blood_vial"
+			}
+		}
+		{
+			count: 4
+			id: "34E26A4AF3484BE4"
+			item: {
+				count: 1
+				id: "irons_spellbooks:frozen_bone"
+			}
+		}
+		{
+			count: 4
+			id: "56424ABCB993654C"
+			item: {
+				count: 1
+				id: "irons_spellbooks:lightning_bottle"
+			}
+		}
+		{
+			count: 4
+			id: "1B22E01F4077B430"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 4
+			id: "247D3E434ACCE630"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+		{
+			count: 4
+			id: "5863B4F31955E3AA"
+			item: {
+				count: 1
+				id: "minecraft:poisonous_potato"
+			}
+		}
+		{
+			count: 4
+			id: "15B691BDFD0366CB"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 4
+			id: "03288F56F4FCD539"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+		}
 	]
 	use_title: true
 }

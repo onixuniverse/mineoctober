@@ -19,7 +19,7 @@ PlayerEvents.tick(event => {
             let titleText = $Component.translatable("message.mineoctober.difficulty_warning_title").getString();
             let subtitleText = $Component.translatable("message.mineoctober.difficulty_warning_subtitle").getString();
             
-            sendImmersiveToast(player, 8.0, $ChatFormatting.RED, titleText, subtitleText);
+            sendImmersiveToast(player, 8.0, $ChatFormatting.RED, titleText, subtitleText, new $ImmersiveColor(224, 145, 121), new $ImmersiveColor(118, 48, 83), new $ImmersiveColor(118, 48, 83));
             
             persistentData.putBoolean('high_difficulty_warned', true);
         }

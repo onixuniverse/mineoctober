@@ -1,11 +1,12 @@
 {
 	autofocus_id: "243C8B57999BDD8B"
 	default_hide_dependency_lines: false
+	default_min_width: 1
 	default_quest_shape: ""
 	filename: "small_ships"
 	group: "6B341B8F1D0CFE88"
 	icon: {
-		id: "smallships:birch_drakkar"
+		id: "smallships:oak_drakkar"
 	}
 	id: "3067D17055C9C5A7"
 	order_index: 2
@@ -14,7 +15,21 @@
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:textures/item/smallships/smallships_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "243C8B57999BDD8B"
+			rewards: [{
+				id: "7BC14122DD10F3DC"
+				item: {
+					count: 1
+					id: "minecraft:oak_chest_boat"
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -90,6 +105,24 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			id: "520964883531432A"
+			rewards: [{
+				id: "0111B5A04CCE2B01"
+				item: {
+					count: 1
+					id: "minecraft:oak_boat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B1575D71212E7F"
+				type: "checkmark"
+			}]
+			x: -1.5d
 			y: 0.0d
 		}
 	]

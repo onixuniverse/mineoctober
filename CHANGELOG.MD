@@ -2,6 +2,58 @@
 
 ---
 
+## v2.2.4.251011.4rc
+### General
+**RU:**
+> Добавлены кастомные инструменты и предметы
+> Улучшена стабильность
+> Исправлены некоторые ошибки
+> Обновлены некоторые рецепты
+
+**EN:**
+> Added custom tools and items
+> Improved stability
+> Fixed some bugs
+> Updated some recipes
+
+### Mods
+- Added: mineoctober-1.0.2
+- Added: remove-terralith-intro-message-1.1
+- Added: farmers-cutting-oh-the-biomes-weve-gone-1.21.1-2.1-neoforge
+- Added: no-f3-2
+- Added: justplayerheads-1.21.1-4.2
+- Added: NaturesCompass-1.21.1-3.0.3-neoforge
+- Added: scaffoldingdropsnearby-1.21.1-3.4
+- Updated: collective-1.21.1-8.7
+- Updated: lithostitched-1.5.0-neoforge-1.21.1
+- Updated: sophisticatedcore-1.21.1-1.3.87.1229
+- Updated: ftb-quests-neoforge-2101.1.16
+- Updated: ftb-library-neoforge-2101.1.21
+- Updated: moonlight-1.21-2.24.0-neoforge
+- Updated: vegandelight-neoforge-1.21.1-2.0.0-beta3
+- Updated: libIPN-neoforge-1.21-6.6.0
+- Updated: sliceanddice-forge-4.1.2
+- Updated: corpse-neoforge-1.21.1-1.1.13
+- Updated: irons_spellbooks-1.21.1-3.14.4
+- Updated: entityculling-neoforge-1.9.0-mc1.21.1
+- Updated: AsyncParticles-3.3.10+1.21.1
+- Updated: letsdo-farm_and_charm-neoforge-1.1.12
+- Updated: crabbersdelight-1.21.1-1.2.3
+- Updated: dynamiccrosshair-9.10+1.21.1-neoforge
+- Updated: fzzy_config-0.7.3+1.21+neoforge
+- Updated: voicechat-neoforge-1.21.1-2.6.5
+- Updated: skinlayers3d-neoforge-1.9.2-mc1.21.1
+- Updated: balm-neoforge-1.21.1-21.0.54
+- Updated: clientsort-neoforge-2.0.1+1.21.1
+- Updated: CrashAssistant-neoforge-1.20.6-1.21.4-1.10.10
+- Updated: EuphoriaPatcher-1.7.2-r5.6.1-neoforge
+- Updated: modonomicon-1.21.1-neoforge-1.117.2
+- Removed: BetterF3-11.0.3-NeoForge-1.21.1
+- Removed: crashutilities-9.0.4
+- Removed: CraftTweaker-neoforge-1.21.1-21.0.34
+
+---
+
 ## v2.2.4.251005.3rc
 ### General
 **RU:**
@@ -14,6 +66,7 @@
 > Improved stability
 > Fixed some bugs
 > Updated some recipes
+> Added a custom notification for increasing the difficulty level
 
 ### Mods
 - Updated: collective-1.21.1-8.7

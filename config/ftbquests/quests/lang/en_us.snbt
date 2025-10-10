@@ -2,7 +2,7 @@
 	chapter.09B56D111668F538.title: "&6&nTraveling"
 	chapter.139369A26CED6377.title: "&2Skill Tree"
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
-	chapter.19C032D1A8489218.title: "Collections"
+	chapter.19C032D1A8489218.title: "&6Collections"
 	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
 	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
 	chapter.2E34C4AF7759F54F.title: "&5Enchanted"
@@ -354,7 +354,6 @@
 		"Oak, Birch, and &eRowan&r saplings have fumes that are key to progression, but others will be wanted later."
 	]
 	quest.0730F5C57F80CC0B.title: "&aSupernatural Scents"
-	quest.07655CF543C452F8.quest_subtitle: "Collect Dragon's Breath in a Glass Bottle."
 	quest.078C4BD0C9D079E3.quest_subtitle: "+3% Stabilizing, -100% wind effect."
 	quest.078DF329C409A210.quest_desc: [
 		"&6The Optical Source&r transforms &cRotational Power&r into&6 Light rays. &r"
@@ -449,7 +448,15 @@
 	quest.089899282C7F87E4.title: "Forgot to Mention"
 	quest.08AA3590E20B7629.quest_desc: ["The &l&6Gearshift&r&r reverses the direction of rotational force output when it receives a Redstone signal."]
 	quest.08B2F767BB0AB1AA.quest_subtitle: "Tusk can be dropped by Hoglins when using the Ravaging enchantment on a hatchet. Additionally, it can be dropped by Pigs when using the Salvaging enchantment on a hatchet."
-	quest.08C8160CED1EFF08.title: "Cogs"
+	quest.08C8160CED1EFF08.quest_desc: [
+		"&2&l&nCog&r"
+		"- Medieval trade ship (cold water)."
+		"- &l108 slots&r, up to &l4 cannons&r, &l5 passengers&r."
+		"- Speed: &l40 km/h&r, Hull: &l300 HP&r."
+		""
+		"{image:mineoctober:textures/item/smallships/smallships_cog.png width:228 height:200 align:center}"
+	]
+	quest.08C8160CED1EFF08.title: "&2&l&nCog&r"
 	quest.08D0CC69D9F44D99.quest_desc: [
 		"&cIncandescent Essence&r can be obtained by crushing &4Blazing Crystals&r (and less efficiently, &cMagma Blocks&r)."
 		""
@@ -929,10 +936,14 @@
 	]
 	quest.1456C26C92A56C10.quest_subtitle: "Change direction with W, S, A and D"
 	quest.1456C26C92A56C10.title: "&2Slime"
+	quest.1495B801FAEFB14C.quest_subtitle: "The most useful thing in The End"
+	quest.1495B801FAEFB14C.title: "The End"
 	quest.14CB47511F2D0E01.quest_subtitle: "Allows you to drink items faster"
 	quest.14CC69CF9016CD4F.quest_desc: ["You can set it to speak a message or show it in chat."]
 	quest.14E9C287665C6AD4.quest_subtitle: "When used for Upgrade: &6+5% Blood Spell Power"
 	quest.153FB224571B339A.quest_subtitle: "&6+15% Cast Time Reduction"
+	quest.154E061F9C019200.quest_desc: ["After the Dragon is defeated, a &dDragon Egg&r appears on the Exit Portal. You can't mine it like normal blocks."]
+	quest.154E061F9C019200.quest_subtitle: "Hold the Dragon Egg"
 	quest.15615777888AF057.quest_desc: [
 		"You always spend a lot of &ctime placing blocks&r. You could almost think that this is the main reason for your existence. Placing a lot of similar blocks is &ctedious&r. Or more like: &owas&r tedious."
 		""
@@ -1590,6 +1601,19 @@
 		""
 		"&eNote: I recommend checking the Ponder menu for further information on each mode.&r"
 	]
+	quest.26F8EAB8817A71D8.quest_desc: [
+		"The &5Ender Dragon&r is a big flying boss found when you enter &5The End&r."
+		""
+		"It protects the end gateways (which lead to the outer islands) and the exit portal (which takes you back to the &2Overworld&r and shows the credits)."
+		""
+		"You can &bre-summon&r the dragon by placing 4 end crystals around the exit portal—one on each side."
+		""
+		"This triggers explosions that rebuild the obsidian pillars, iron bars, and end crystals."
+		""
+		"&aNew challenges await you beyond the dragon. Your End journey has just begun, follow the questline.&r"
+	]
+	quest.26F8EAB8817A71D8.quest_subtitle: "Kill the Ender Dragon"
+	quest.26F8EAB8817A71D8.title: "&4End of All Things"
 	quest.26FB758B3706B935.quest_subtitle: "Slain creatures drop &6+25% experience."
 	quest.2756277E0B589F3E.quest_desc: ["There is a new Ore to be found in the &aOverworld&r in all biomes. It's a rich &1blue ore&r that generates &cvery deep down&r under the surface, and is fairly rare. No, it is not &bDiamonds&r..."]
 	quest.2756277E0B589F3E.title: "A New Ore"
@@ -1619,6 +1643,8 @@
 	quest.28101F299D039864.quest_desc: ["Can be found naturally in &aslime chunks,&r and will spawn as one of two size variants, each with their own stats."]
 	quest.28101F299D039864.title: "Slime golem"
 	quest.2831D3B922697A8C.quest_subtitle: "Raw Tenebrous Meat can be dropped by Wardens when using the Ravaging enchantment on a hatchet."
+	quest.283D0EED8B605920.quest_subtitle: "The most useful thing in The Nether"
+	quest.283D0EED8B605920.title: "The Nether"
 	quest.2843021F7F41ED01.quest_desc: [
 		"The &6&lChute&r&r can insert into or extract items from inventories located above or below them, as well as from Belts and Depots."
 		""
@@ -1668,7 +1694,16 @@
 		"There's a lot of them, so I recommend checking your &eColorful World&r book or &dREI&r for a breakdown of what each of them do!"
 	]
 	quest.29714DA3D453B509.title: "Idols"
-	quest.297641409C94B9FB.title: "Drakkars"
+	quest.297641409C94B9FB.quest_desc: [
+		"&5&l&nDrakkar&r"
+		"- Viking-style ship (cold water)."
+		"- &l54 slots&r, &l11 passengers&r, ice-breaker ability."
+		"- Shields with banner patterns for defense."
+		"- Speed: &l30 km/h&r, Hull: &l200 HP&r."
+		""
+		"{image:mineoctober:textures/item/smallships/smallships_drakkar.png width:380 height:200 align:center}"
+	]
+	quest.297641409C94B9FB.title: "&5&l&nDrakkar&r"
 	quest.29A3A67ACFBCD72E.quest_desc: [
 		"&5Attuned Stones (Charged)&r are a key point of progression in &bcircle magic&r, as they allow a witch to perform certain rituals and rites without setting up a new &eAltar&r at the circle's location. This remote ritual will deplete the &dAttuned Stone's&r charge rather than consuming the item entirely, acting as a reusable 'battery' in a way."
 		"The charging rite itself does consume the other items in the rite however so the storage is not entirely free."
@@ -1963,19 +1998,6 @@
 		""
 		"Clicking with an empty hand gives you a control window to choose the angel of the Hologram."
 	]
-	quest.3052F9967211F448.quest_desc: [
-		"The &5Ender Dragon&r is a big flying boss found when you enter &5The End&r."
-		""
-		"It protects the end gateways (which lead to the outer islands) and the exit portal (which takes you back to the &2Overworld&r and shows the credits)."
-		""
-		"You can &bre-summon&r the dragon by placing 4 end crystals around the exit portal—one on each side."
-		""
-		"This triggers explosions that rebuild the obsidian pillars, iron bars, and end crystals."
-		""
-		"&aNew challenges await you beyond the dragon. Your End journey has just begun, follow the questline.&r"
-	]
-	quest.3052F9967211F448.quest_subtitle: "Kill the Ender Dragon"
-	quest.3052F9967211F448.title: "&4End of All Things"
 	quest.30A49F7BE86E7B7D.quest_desc: [
 		"The &6Blaze Forger&r works like an anvil but with the extra of being able to extract an enchantment into a Template."
 		""
@@ -2046,6 +2068,8 @@
 	]
 	quest.3171F1AE14E3C1ED.title: "&6Farmer's Delight"
 	quest.31A4BB6E2C1C1FA9.quest_subtitle: "Not repeatable"
+	quest.31E21E5D2DB89147.quest_subtitle: "The most useful thing in the Overworld"
+	quest.31E21E5D2DB89147.title: "Overworld"
 	quest.322078F5AA954906.quest_desc: [
 		"Use a &6Schematic and Quill&r to save a build as a schematic file. "
 		""
@@ -2139,6 +2163,12 @@
 	]
 	quest.33628061006314AB.quest_desc: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
 	quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
+	quest.3375BC08E6B1A06F.quest_desc: [
+		"A strange ore found in the End."
+		""
+		"Metal &7&nIridium&r is the most durable and rare metal. Stronger than even &8&nNetherite&r."
+	]
+	quest.3375BC08E6B1A06F.title: "Iridium Ore"
 	quest.33981AF71D789EF7.quest_desc: ["Whenever you enter a new world, you go about the mindless, days-long task of gathering &evillagers&r around you, turning them into &azombies&r, and healing them again, only for one of them to eventually hand you a book of &dMending&r. All this, just so you don't have to &bfix your tools&r. Now that you can process &2Bedrock&r, you have a much more convenient solution anyways."]
 	quest.33981AF71D789EF7.title: "Bedrock Tools"
 	quest.33B0B5607BDA0A0C.quest_desc: ["Your next goal is to find a &anew material&r in the &bswamp&r. It's &dpurple&r and grows from &7clay&r."]
@@ -2168,7 +2198,15 @@
 	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
 	quest.343AB719F81DFC63.quest_desc: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 	quest.343AB719F81DFC63.quest_subtitle: " Craft it using the witch pupil"
-	quest.347B155B19578E65.title: "Briggs"
+	quest.347B155B19578E65.quest_desc: [
+		"&3&l&nBrigg&r"
+		"- Two-masted medieval trade ship (cold water)."
+		"- &l162 slots&r, up to &l6 cannons&r, &l11 passengers&r."
+		"- Speed: &l45 km/h&r, Hull: &l400 HP&r."
+		""
+		"{image:mineoctober:textures/item/smallships/smallships_brigg.png width:228 height:200 align:center}"
+	]
+	quest.347B155B19578E65.title: "&3&l&nBrigg&r"
 	quest.3481C6DF7EF96590.quest_subtitle: "Not repeatable"
 	quest.3488B3847D0D01DC.quest_subtitle: "Craft any Netherite Chest type."
 	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
@@ -2595,6 +2633,8 @@
 		""
 		"Additionally, the &6Storage Controller&r can connect wireless to any storage link within a &n&crange of 15 blocks.&r&r"
 	]
+	quest.3C0A2466459C1FED.quest_subtitle: "Is there something better?..."
+	quest.3C0A2466459C1FED.title: "Iridium Tools"
 	quest.3C14A457DBFBE918.title: "Livestock farming"
 	quest.3CA4542BF17DB864.quest_subtitle: "Enflamed Mandible can be dropped by Blazes when using the Ravaging enchantment on a hatchet."
 	quest.3CAB5264F3C33205.quest_desc: [
@@ -3054,7 +3094,15 @@
 		""
 		"It's &cnot as efficient&r in the individual tasks, but its much better than having to change tools every three seconds."
 	]
-	quest.4B24345FE8791647.title: "Galleys"
+	quest.4B24345FE8791647.quest_desc: [
+		"&6&l&nGalley&r"
+		"- Naval warfare ship (warm water)."
+		"- 54 slots, 9 passengers."
+		"- Speed: 40 km/h, Hull: 200 HP."
+		""
+		"{image:mineoctober:textures/item/smallships/smallships_galley.png width:228 height:200 align:center}"
+	]
+	quest.4B24345FE8791647.title: "&6&l&nGalley&r"
 	quest.4B3E500121857046.quest_desc: [
 		"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind."
 		""
@@ -3097,6 +3145,7 @@
 		"You can also rename the film by &dright click&r."
 	]
 	quest.4B6BE37E7C57BD00.title: "Film rolls "
+	quest.4B91FCCACC8ECCF3.quest_subtitle: "Collect Dragon's Breath in a Glass Bottle."
 	quest.4BA1C262BA0B26C7.quest_subtitle: "Meat Scrap can be dropped by Ravagers when using the Ravaging enchantment on a hatchet."
 	quest.4BB82F98EE45B740.quest_desc: [
 		"The &6train observer&r will look at a specific part of the train track and detect when a train is crossing that specific section of track. It will give out a redstone signal when it detects a train going over that piece of track"
@@ -3320,6 +3369,38 @@
 	quest.51E19ACD3F0994BE.quest_desc: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
 	quest.51ECBE8030E9D801.quest_subtitle: "Craft any Diamond Limited Barrel I type."
 	quest.52092833009BDC49.quest_subtitle: "Craft any Diamond Barrel type."
+	quest.520964883531432A.quest_desc: [
+		"- Place the ship far away into water – they need space to spawn."
+		"- Right-click to sit in the ship."
+		"- &lWhile sitting in the Ship&r:"
+		"    - Press &lR&r to open/close the sail."
+		"    - &lW / S&r to increase or decrease sail speed."
+		"- Third Person View (&lF5&r) + Mousewheel = Adjust camera distance."
+		"- Right-click an entity to dismount it from the ship."
+		"- To open inventory outside of the ship: &lcrouch + right-click&r."
+		""
+		"&3&l&nCannons&r"
+		"- Add a cannon with right-click while holding one."
+		"- Shoot cannons with &lSpace&r while looking in their direction (requires cannonballs in ship inventory)."
+		"- Remove a cannon with a pickaxe."
+		"- Key-binds can be changed in options."
+		""
+		"&a&l&nShip Performance&r"
+		"- Cold-water ships → 10% faster in cold biomes, 10% slower in warm."
+		"- Warm-water ships → 10% faster in warm biomes, 10% slower in cold."
+		"- Each cannon decreases speed by 2.5%."
+		"- Cargo can decrease speed by up to 10%."
+		""
+		"&9&l&nSail Coloring&r"
+		"- Right-click with dye to color sails."
+		""
+		"&5&l&nShip Repairing&r"
+		"- Repair with iron nuggets and planks."
+		""
+		"&c&l&nShip Naming&r"
+		"- Use a nametag to name your ship."
+	]
+	quest.520964883531432A.title: "Small Tips"
 	quest.5216CF235E55D02A.title: "Reset skill tree points of Farmer"
 	quest.522E772BE3BA6548.quest_desc: ["The &eBedrock Sword&r comes &dpre-enchanted&r with &2Sharpness VI&r."]
 	quest.5236164BE64893D2.quest_desc: [
@@ -3635,6 +3716,24 @@
 	quest.5BF082062143531B.title: "&2Plagued Outfit"
 	quest.5C38AF82CEFB8015.quest_subtitle: "Rare random world loot."
 	quest.5C63E2E0D537CF6B.quest_subtitle: "+50 max mana, when equipped tamed familiars that fall below 25% health willl get invisibility effect, crafted."
+	quest.5C6F9E242B865795.quest_desc: [
+		"These are the most difficult items to craft. An end-game, if I may say so."
+		"And you've walked this path, from beginning to end!"
+		""
+		"~~~"
+		""
+		"&a&nonixuniverse&r:"
+		"I've been doing this for over three months. It took a lot of time, more than &l250 hours&r."
+		"And you know..."
+		"I was glad to do it. It was a great adventure for me. And it's a pity that everything went so fast."
+		""
+		"I want to tell you, who are reading this right now, &lTHANK YOU&r for playing &7Mine&r&l&6October&r 2025."
+		"I hope you enjoyed it."
+		""
+		"And also, of course, I didn't do it alone. &lTHANK YOU&r to all who participated and supported. Without &nYOU&r, this miracle would not have happened!"
+	]
+	quest.5C6F9E242B865795.quest_subtitle: "THE END!"
+	quest.5C6F9E242B865795.title: "Star-Imbued"
 	quest.5CDB898FBFF026F2.quest_subtitle: "Upgrades a Gold tier to a diamond tier."
 	quest.5D03D736B9E76E16.quest_desc: [
 		"The Spatial Containment Structure (SCS) consists of a cage of &bSpatial Pylons&f covering the volume you wish to enclose in a Spatial IO cell. At the absolute minimum, an SCS requires three lines of spatial pylon blocks, one for each dimension of the space being contained (length, width, height)."
@@ -4236,6 +4335,69 @@
 		""
 		"Combining it with various &eother liquids&r results in all kinds of weird looking materials to form. Best to try in the &cnether&r too!"
 	]
+	quest.6D404AD1726E4B7D.quest_desc: [
+		"&6&n&lOpening the Quest Book&r"
+		"The quest book is a simple and easy-to-use way to track your progress in the game. It is divided into chapters, each of which contains a number of quests. Each quest has a title, a description, and a set of objectives that you need to complete in order to finish it. When you complete a quest, you will be rewarded with items, experience, or other rewards."
+		""
+		"&lHow to open the quest book&r"
+		"You can open the quest book by opening your inventory and clicking on the book icon in the top left of the screen. This will open the quest book interface, where you can see all the quests and chapters that are available."
+		""
+		"It's also possible to open the quest book by crafting the quest book item and right-clicking it, or by using the key bind &6[F4]&r."
+		""
+		"You will see a list of chapters on the left side of the screen. Clicking on a chapter will show you the quests that are available in that chapter."
+		"{@pagebreak}"
+		"&6&n&lNavigating the Quest Book&r"
+		"&lKey References&r"
+		"FTB Quests has a number of keyboard shortcuts that can help you quickly navigate the quest book, such as Ctrl + F to quickly find a quest."
+		""
+		"You can view a full list of key references by opening the quest book, then clicking on the i icon in the top right of the screen."
+		""
+		"&lShowing the chapter list&r"
+		"Moving your mouse cursor to the left of the screen will open the quest book chapter list. Clicking on a chapter will show you the quests available in that chapter."
+		""
+		"You can also 'pin' the chapter list open by clicking the pin icon in the top left of the screen. This will keep the chapter list open even when you move your mouse away from it."
+		""
+		"&lMoving around the quests&r"
+		"Sometimes there may be countless quests in a single chapter. You can move around the quests by clicking and holding your left mouse button on an empty area of the quest screen and dragging it around."
+		""
+		"&lOpening a quest&r"
+		"To open a quest, simply click on the quest you would like to view. This will then open a new window with the details of the quests, which includes the quest description, tasks, and rewards."
+		""
+		"You can also click on the task to view the crafting recipe or any other extra information about the task."
+		""
+		"&lPinning a quest&r"
+		"You can pin a quest so that the quest is always visible to you by opening the quest you want to track the progress of and then clicking on the pin icon"
+		""
+		"&lCompleting a quest and claiming rewards&r"
+		"Once you have completed all the tasks for a quest, you will get a notification in the top right of the screen and an ! will appear on the quest book icon in your inventory screen."
+		""
+		"When you open the quest book, the chapter the quest is in will also have an ! along with the specific quest that was completed"
+		""
+		"&lClaiming reward&r"
+		"To claim a reward, you can either click on the Claim all button in the top right of the screen."
+		""
+		"Or you can open the completed quest and click on the rewards. Some rewards will allow you to choose between multiple rewards, you can click on the reward you would like to claim."
+		"{@pagebreak}"
+		"&6&n&lTips \\& Tricks&r"
+		"&lAuto-pinning quests&r"
+		"You can tell FTB Quests to automatically pin quests, so they are always visible. To accomplish this, open the quest book and click the pin icon in the top right of the screen. This will pin all the quests in the quest book, in large modpacks this may cause the list of quests to go off the screen."
+		""
+		"&lLocked Quests / Dependencies / Dependents&r"
+		"Sometimes a quest will be locked but you cannot see the incomplete dependency quest(s) because it is in a different quest Chapter."
+		""
+		"If you click the small Left Arrow in the quest, you can open a dropdown that lists all of the dependencies of the quest."
+		""
+		"You can click on a quest in the list to be taken directly to the quest. Note that the chapter the dependency quest is in is listed here in [brackets] if the quest is not in the current chapter."
+		""
+		"You can also use the Right Arrow on the top right of the quest to see a dropdown listing all of the Dependent quests."
+		""
+		"&lLinked Quests&r"
+		"Some quests may be \"Linked\". This means the same quest is displayed in more than one location in the questbook."
+		""
+		"You can jump between the linked quests by clicking the link icon in the titlebar of the quest."
+		""
+		"If the quest is a link, the button will be on the left side. If the quest is the original, the button will be on the right and will give a dropdown when clicked because there can be more than one quest link(s) from it."
+	]
 	quest.6D40B0012EBC27AA.quest_desc: [
 		"&6The Interplanar Projector&r is a special filter for the Camera that lets you&d project custom images onto film using either a local file or a URL.&r"
 		""
@@ -4286,6 +4448,7 @@
 		"&d@teleport&r"
 	]
 	quest.6D5015C82CCC85FE.title: "&aCreate Teleporters&r"
+	quest.6DBE044D92CD3786.quest_subtitle: "He combined everything in himself"
 	quest.6E009D4747E3E485.quest_desc: [
 		"The next step in Enchanted's progression is obtaining &aMutandis&r. Remember the &eWitch's Oven&r? You'll need it for one of the ingredients! Be sure to extract all six products to clear out the cauldron, or there will be mixed ingredients next time."
 		""
@@ -4629,15 +4792,6 @@
 	]
 	quest.745FD767F2A543A5.title: "Film Development"
 	quest.746AE4CA7CE83847.quest_subtitle: "x8"
-	quest.746F82D541EBA386.quest_desc: [
-		"After defeating the &dEnder Dragon&r, explore the Outer End Islands to find &9End Cities.&r"
-		""
-		"Search for &bEnd Ships&r — they contain an&6 Elytra &rinside an item frame, usually at the ship’s rear."
-		""
-		"&aUse End Gateways&r to travel far from the center island."
-		""
-		"&nYou can make a copy&r with dragon scale."
-	]
 	quest.7478E4BA8E84755E.quest_desc: [
 		"The &dObsidian&r was literally pulverized. This is what you call &cpower&r!"
 		""
@@ -4862,12 +5016,6 @@
 		"The full list of compatible outputs can be viewed in JEI. (Press U)"
 	]
 	quest.7BAE050F8E223E6C.title: "&6Collect All Hazen n Stuff"
-	quest.7C185DB8566F7E33.quest_desc: [
-		"After the Dragon is defeated, a &dDragon Egg&r appears on the Exit Portal. You can't mine it like normal blocks."
-		""
-		"Warm that new dragon egg by the fire."
-	]
-	quest.7C185DB8566F7E33.quest_subtitle: "Hold the Dragon Egg"
 	quest.7C3076FCF31295C8.quest_desc: [
 		"&8The shadows&r of the past guard &n15&r sealed &6&nartifacts&r."
 		"Only the one who gathers them all shall hear the whisper of a forgotten truth…"
@@ -5043,13 +5191,14 @@
 	task.15B392AE3B65481E.title: "Any Basic Wand"
 	task.1760536D483EA89E.title: "Any Rune Ingots"
 	task.1798316FBC33C7C4.title: "2x Gemstone Chiseled Blocks"
+	task.17B1575D71212E7F.title: "Ships Tips"
 	task.184D02801FC28C38.title: "&6I'm so excited to play the pack"
 	task.186E974B0E4A0EF6.title: "Smart Cable"
 	task.189BBEB3109D8EC5.title: "Any Basic Netherite Staff"
 	task.18C2FE983DC6D996.title: "8x Either Item Bowl"
 	task.1980C03D7233D789.title: "Any Inquisitor Helmet"
 	task.19B57FFC87475869.title: "Sugar Sticks"
-	task.19DD66B81146FD5B.title: "Any #smallships:briggs"
+	task.19DD66B81146FD5B.title: "Brigg"
 	task.1B20F133B8F9C3E2.title: "Rock Candies"
 	task.1BA1F80CFC203924.title: "Elytra"
 	task.1C2E3C609A8DFD6D.title: "Covered Cable"
@@ -5081,7 +5230,7 @@
 	task.3D5C2226F8539904.title: "Dense Smart Cable"
 	task.3DB26C03AA267EC0.title: "Click to Acknowledge"
 	task.3DC2851D386057E8.title: "ME Fluid Storage Cell"
-	task.3F589B3AFCC9EE03.title: "Any #smallships:drakkars"
+	task.3F589B3AFCC9EE03.title: "Drakkar"
 	task.3F5AC72562569158.title: "Stress Unit"
 	task.408E9FCB4DC6C34D.title: "Any Colored Lamp"
 	task.4126249455C290EB.title: "4x Chiseled Polished Blocks"
@@ -5104,7 +5253,7 @@
 	task.4F8C0625674B4C26.title: "Quartz Wrench"
 	task.509D5321A4F9841D.title: "&6I'm Ready"
 	task.50D55CFFADA15149.title: "Click to Acknowledge"
-	task.51283863B9D3D286.title: "Any #smallships:cogs"
+	task.51283863B9D3D286.title: "Cog"
 	task.51AA3BC3AFF2FEDA.title: "Click to Acknowledge"
 	task.5238AF1BC3F550D1.title: "Any Inquisitor Leggings"
 	task.53C18716A59B10AC.title: "aa"
@@ -5124,7 +5273,7 @@
 	task.5E8BAFC4CC8E2FC7.title: "Crafting Monitor"
 	task.611993D53E1538E9.title: "Spatial Cell Component"
 	task.615F3F51A2F3B534.title: "Any Staff"
-	task.61C84449F23CB3D1.title: "Any #smallships:galleys"
+	task.61C84449F23CB3D1.title: "Galley"
 	task.61EA641A131178A3.title: "d"
 	task.62FE40FB89D4E82D.title: "Click to Acknowledge"
 	task.650AD081A386407A.title: "Click to Acknowledge"

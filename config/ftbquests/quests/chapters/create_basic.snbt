@@ -146,13 +146,10 @@
 			hide_until_deps_complete: true
 			id: "3FF93EB2C771B747"
 			rewards: [{
-				count: 5
-				id: "188D2A41C04E54B5"
-				item: {
-					count: 1
-					id: "create:experience_nugget"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0E7DD37459F2B809"
+				table_id: 4682836084073725053L
+				type: "random"
 			}]
 			shape: "rsquare"
 			size: 1.3d
@@ -965,7 +962,7 @@
 				{
 					count: 4L
 					id: "18C2B02BEE804003"
-					item: { count: 4, id: "create:fluid_tank" }
+					item: { count: 1, id: "create:fluid_tank" }
 					type: "item"
 				}
 			]
@@ -3171,11 +3168,11 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "4AA5B362ACB17E19"
-				item: { count: 1, id: "mineoctober:aluminum_nugget" }
+				item: { count: 1, id: "mineoctober:raw_aluminum" }
 				type: "item"
 			}]
 			x: -10.0d
-			y: -11.5d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -3191,14 +3188,14 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			size: 1.1d
+			size: 1.2d
 			tasks: [{
 				id: "42335E29426537F5"
-				item: { count: 1, id: "mineoctober:duralumin_nugget" }
+				item: { count: 1, id: "mineoctober:duralumin_ingot" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -11.5d
+			x: -6.05d
+			y: -11.0d
 		}
 		{
 			dependencies: ["1883DF46FCE478C7"]

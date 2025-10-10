@@ -14,7 +14,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -9.0d
+			x: -7.0d
 			y: -8.0d
 		}
 		{
@@ -23,7 +23,7 @@
 			order: -1
 			rotation: 0.0d
 			width: 6.0d
-			x: -7.5d
+			x: -5.5d
 			y: -5.0d
 		}
 		{
@@ -31,7 +31,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -7.5d
+			x: -5.5d
 			y: -8.0d
 		}
 		{
@@ -39,7 +39,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.0d
+			x: -4.0d
 			y: -8.0d
 		}
 		{
@@ -47,7 +47,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -10.5d
+			x: -8.5d
 			y: -6.5d
 		}
 		{
@@ -55,7 +55,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -10.5d
+			x: -8.5d
 			y: -5.0d
 		}
 		{
@@ -63,7 +63,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -9.0d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -71,7 +71,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -7.5d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -79,7 +79,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -6.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -87,7 +87,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.5d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -95,7 +95,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -10.5d
+			x: -8.5d
 			y: -3.5d
 		}
 		{
@@ -103,7 +103,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.5d
+			x: -2.5d
 			y: -6.5d
 		}
 		{
@@ -111,7 +111,7 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 1.5d
-			x: -4.5d
+			x: -2.5d
 			y: -5.0d
 		}
 		{
@@ -143,7 +143,7 @@
 				item: { count: 1, id: "endrem:wither_eye" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: -8.0d
 		}
 		{
@@ -163,7 +163,7 @@
 				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -8.0d
 		}
 		{
@@ -183,7 +183,7 @@
 				item: { count: 1, id: "endrem:magical_eye" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -6.5d
 		}
 		{
@@ -203,7 +203,7 @@
 				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -223,7 +223,7 @@
 				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -243,7 +243,7 @@
 				item: { count: 1, id: "endrem:old_eye" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -8.5d
 			y: -6.5d
 		}
 		{
@@ -263,7 +263,7 @@
 				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -284,7 +284,7 @@
 				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -8.5d
 			y: -3.5d
 		}
 		{
@@ -305,7 +305,7 @@
 				item: { count: 1, id: "endrem:guardian_eye" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -326,7 +326,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(endrem:witch_eye)item(endrem:undead_eye))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -8.5d
 			y: -5.0d
 		}
 		{
@@ -347,7 +347,7 @@
 				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.5d
 			y: -5.0d
 		}
 		{
@@ -367,7 +367,7 @@
 				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -7.0d
 			y: -8.0d
 		}
 		{
@@ -389,7 +389,7 @@
 				id: "509D5321A4F9841D"
 				type: "checkmark"
 			}]
-			x: -10.5d
+			x: -8.5d
 			y: -8.0d
 		}
 		{
@@ -408,118 +408,8 @@
 				id: "343ED73AE0A17261"
 				type: "dimension"
 			}]
-			x: -7.5d
+			x: -5.5d
 			y: -4.9d
-		}
-		{
-			dependencies: ["3052F9967211F448"]
-			id: "07655CF543C452F8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "436CCBCA44CC8EE5"
-				table_id: 3030805612006646610L
-				type: "random"
-			}]
-			tasks: [{
-				advancement: "minecraft:end/dragon_breath"
-				criterion: ""
-				id: "0D5FDB7F41EE9FD3"
-				type: "advancement"
-			}]
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3D6259FBCAA99583"]
-			dependency_requirement: "all_started"
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: {
-				id: "minecraft:dragon_head"
-			}
-			id: "3052F9967211F448"
-			rewards: [
-				{
-					id: "719B6E67C4260F9D"
-					type: "xp"
-					xp: 8000
-				}
-				{
-					count: 8
-					id: "026D8E966C2A624F"
-					item: {
-						count: 1
-						id: "minecraft:netherite_scrap"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6EFEB97578968110"
-					table_id: 2744158004945464624L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				advancement: "minecraft:end/kill_dragon"
-				criterion: ""
-				id: "2DC46985587EDE9C"
-				type: "advancement"
-			}]
-			x: -2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["3052F9967211F448"]
-			id: "7C185DB8566F7E33"
-			rewards: [{
-				id: "214C7068BF2A23E7"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				advancement: "minecraft:end/dragon_egg"
-				criterion: ""
-				id: "7C70E53A942A8282"
-				type: "advancement"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3052F9967211F448"]
-			id: "746F82D541EBA386"
-			optional: true
-			rewards: [
-				{
-					count: 164
-					id: "17678618F6845004"
-					item: {
-						count: 1
-						id: "minecraft:firework_rocket"
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4FF5155DB210A762"
-					table_id: 2744158004945464624L
-					type: "random"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "1BA1F80CFC203924"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:elytras)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.75d
 		}
 	]
 }
