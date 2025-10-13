@@ -19,7 +19,19 @@ ServerEvents.recipes(event => {
         );
     };
 
-    replaceInputTemplate('create:wrench', 'create:golden_sheet', '#c:ingots/gold');
+    event.shaped(
+        Item.of('create:wrench'),
+        [
+            "GG ",
+            "GC ",
+            " S "
+        ],
+        {
+            G: "#c:ingots/gold",
+            C: "create:cogwheel",
+            S: "#c:rods/wooden"
+        }
+    )
 
     // Zinc
     replaceInputTemplate('create:zinc_ingot', 'create:zinc_ingot', '#c:ingots/zinc');

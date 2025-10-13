@@ -1,0 +1,149 @@
+{
+	"axe_speed+3%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.axe_speed.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.axe_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:golden_axe"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "rzt33x29fd9exfxa"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_skills:player.axe_speed",
+					"operation": "multiply_base",
+					"value": 0.03
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"block_interaction_range+1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.block_interaction_range.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.block_interaction_range.desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "goal"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "create:brass_hand"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "0mefuj23d6e0ofwn"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "player.block_interaction_range",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"bonus_tree_loot+0.3": {
+		"title": {
+			"translate": "skill_tree.mineoctober.bonus_tree_loot.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.bonus_tree_loot.desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:oak_log"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "knd8vbq5eqo7b0ba"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "mineoctober:bonus_tree_loot",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"fortune+0.1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.fortune_01.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.fortune_01.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:diamond"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "il78rh1t4rbykfnt"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"mining_speed+3%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.mining_speed.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.mining_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:diamond_axe"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "9d17ijbkkd6yy7fj"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"operation": "multiply_base",
+					"value": 0.03
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	}
+}

@@ -3621,11 +3621,6 @@
 	]
 	quest.59753336427A57A6.quest_desc: ["Let's get the basic parts ready to head to space."]
 	quest.59753336427A57A6.quest_subtitle: "Craft a rocket nose cone."
-	quest.597BBC9933D7BC9E.quest_desc: [
-		"Used to unlock lock blocks like &enetherite doors&r, &elock block&r or the &esafe&r. You can put it in any curios slot."
-		""
-		"You can also rename the key using an anvil."
-	]
 	quest.597F01E378266CC3.quest_desc: [
 		"&nYou can make a copy&r with dragon scale."
 		""
@@ -3705,7 +3700,7 @@
 		"Decorate with style and make your Minecraft creations truly stand out."
 	]
 	quest.5BAE6CD47D4ABF2D.quest_subtitle: "Create with style"
-	quest.5BAE6CD47D4ABF2D.title: "Decoration and Building Options."
+	quest.5BAE6CD47D4ABF2D.title: "Decoration and Building Options"
 	quest.5BB1EAC4730AD978.quest_desc: ["The &n&6Schematicannon&r&r will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
 	quest.5BB45847D0AEA0A1.title: "Manor"
 	quest.5BC526ACC0046B20.quest_desc: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]

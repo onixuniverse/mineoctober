@@ -37,7 +37,7 @@ mod_parents = []
 
 [hide]
 	#Shows mods with library badge
-	show_libraries = true
+	show_libraries = false
 	#Hides links of the mod
 	hide_mod_links = false
 	#Hides mod's license

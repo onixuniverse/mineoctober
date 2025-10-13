@@ -1,0 +1,19 @@
+{
+    "unlocked_by_default": false,
+    "exclusive_root": true,
+    "title": {
+			"translate": "skill_tree.mineoctober.explorer.title"
+	},
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "relics:amphibian_boot"
+        }
+    },
+    "background": {
+      "texture": "minecraft:textures/block/dirt_path_top.png",
+      "width": 32,
+      "height": 32,
+      "position": "tile"
+    }
+}

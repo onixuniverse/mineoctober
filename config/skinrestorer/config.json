@@ -3,7 +3,7 @@
   "refreshSkinOnJoin": true,
   "skinApplyDelayOnJoin": 0,
   "fetchSkinOnFirstJoin": true,
-  "firstJoinSkinProvider": "MOJANG",
+  "firstJoinSkinProvider": "ELY.BY",
   "proxy": "",
   "requestTimeout": 10,
   "providers": {

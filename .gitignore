@@ -40,3 +40,4 @@ excluded_server_mods.txt
 optional_mods.txt
 options.txt
 attributes.txt
+config/crash_assistant/

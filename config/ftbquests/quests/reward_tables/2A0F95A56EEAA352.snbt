@@ -310,6 +310,11 @@
 		{ id: "38DC89C914C2661D", item: { count: 1, id: "plushies:large_tropical_fish_plushie" } }
 		{ id: "5BA48F1C0EEE5F51", item: { count: 1, id: "plushies:mule_plushie" } }
 		{ id: "562A483F5E49D09E", item: { count: 1, id: "plushies:donkey_plushie" } }
+		{ id: "62393072A5A85DA4", item: { count: 1, id: "beachparty:music_disc_beachparty" } }
+		{ id: "0B85D5823E950800", item: { count: 1, id: "beachparty:music_disc_caribbean_beach" } }
+		{ id: "2BDB5188006FA80F", item: { count: 1, id: "beachparty:music_disc_pridelands" } }
+		{ id: "38AEE4D75A0E7999", item: { count: 1, id: "beachparty:music_disc_vocalista" } }
+		{ id: "2AC1B15E4BF8F23A", item: { count: 1, id: "beachparty:music_disc_wild_veins" } }
 	]
 	use_title: true
 }

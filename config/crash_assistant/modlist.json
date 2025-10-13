@@ -262,10 +262,10 @@
     "modId": "crabbersdelight",
     "version": "1.2.3"
   },
-  "CraftTweaker-neoforge-1.21.1-21.0.34.jar": {
-    "jarName": "CraftTweaker-neoforge-1.21.1-21.0.34.jar",
-    "modId": "crafttweaker",
-    "version": "21.0.34"
+  "CraftPresence-2.6.2+1.21.1-neoforge.jar": {
+    "jarName": "CraftPresence-2.6.2+1.21.1-neoforge.jar",
+    "modId": "craftpresence",
+    "version": "2.6.2"
   },
   "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.10.jar": {
     "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.10.jar",
@@ -1295,11 +1295,6 @@
     "modId": "sdlink",
     "version": "3.3.3"
   },
-  "SimpleRPC-4.0.4.jar": {
-    "jarName": "SimpleRPC-4.0.4.jar",
-    "modId": "simplerpc",
-    "version": "4.0.4"
-  },
   "sinytra1343-2.0.0.jar": {
     "jarName": "sinytra1343-2.0.0.jar",
     "modId": "sinytra1343",
@@ -1485,6 +1480,11 @@
     "modId": "ubesdelight",
     "version": "0.4.5"
   },
+  "UniLib-1.1.1+1.21.1-neoforge.jar": {
+    "jarName": "UniLib-1.1.1+1.21.1-neoforge.jar",
+    "modId": "unilib",
+    "version": "1.1.1"
+  },
   "UnionLib-1.21.1-12.0.18-NeoForge-all.jar": {
     "jarName": "UnionLib-1.21.1-12.0.18-NeoForge-all.jar",
     "modId": "unionlib",
@@ -1572,17 +1572,20 @@
   "Blues_Better_Skeletons_v0.01.zip (resourcepack)": {
     "jarName": "Blues_Better_Skeletons_v0.01.zip (resourcepack)"
   },
+  "creepers-refreshed-v1.0.zip (resourcepack)": {
+    "jarName": "creepers-refreshed-v1.0.zip (resourcepack)"
+  },
   "cubic-sun-moon-v1.8.3a.zip (resourcepack)": {
     "jarName": "cubic-sun-moon-v1.8.3a.zip (resourcepack)"
   },
-  "Fancy Crops v1.2.zip (resourcepack)": {
-    "jarName": "Fancy Crops v1.2.zip (resourcepack)"
+  "Fancy Crops v1.3.zip (resourcepack)": {
+    "jarName": "Fancy Crops v1.3.zip (resourcepack)"
   },
   "Fancy_Beds-v4.0.zip (resourcepack)": {
     "jarName": "Fancy_Beds-v4.0.zip (resourcepack)"
   },
-  "Fine Armoury v1.5.zip (resourcepack)": {
-    "jarName": "Fine Armoury v1.5.zip (resourcepack)"
+  "Fine Armoury v1.6.zip (resourcepack)": {
+    "jarName": "Fine Armoury v1.6.zip (resourcepack)"
   },
   "Fresh Font.zip (resourcepack)": {
     "jarName": "Fresh Font.zip (resourcepack)"

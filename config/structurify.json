@@ -741,7 +741,7 @@
     },
     {
       "name": "irons_spellbooks:catacombs",
-      "is_disabled": true,
+      "is_disabled": false,
       "enable_flatness_check": false,
       "flatness_check_distance": 96,
       "flatness_check_threshold": 10,
@@ -758,7 +758,7 @@
     },
     {
       "name": "irons_spellbooks:evoker_fort",
-      "is_disabled": true,
+      "is_disabled": false,
       "enable_flatness_check": false,
       "flatness_check_distance": 96,
       "flatness_check_threshold": 10,

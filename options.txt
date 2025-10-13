@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.5
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
 graphicsMode:1
-guiScale:0
+guiScale:4
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -23,7 +23,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 renderDistance:12
-simulationDistance:12
+simulationDistance:6
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -48,10 +48,10 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod_resources","vanilla","fabric","file/SodiumTranslations.zip","file/Visual Titles 1.1+Fix.zip","moonlight:merged_pack","eatinganimations_compat","continuity:default","continuity:glass_pane_culling_fix","file/Fancy Crops v1.2.zip","file/cubic-sun-moon-v1.8.3a.zip","file/Fancy_Beds-v4.0.zip","file/Fine Armoury v1.5.zip","file/miles\u0027s Enhanced Hud.zip","file/waystones_1.21.1.zip","file/§aRemodeled-Fence-and-Gates§8_§61.5.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Reanimated Blue v0.09.zip","file/Blues_Better_Monstersv0.11.zip","file/Better_Farm_Animals_v0.08.zip","file/Blues_Better_Skeletons_v0.01.zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","file/Fresh Font.zip"]
+resourcePacks:["mod_resources","vanilla","fabric","moonlight:merged_pack","file/SodiumTranslations.zip","file/Visual Titles 1.1+Fix.zip","continuity:default","continuity:glass_pane_culling_fix","eatinganimations_compat","file/§aRemodeled-Fence-and-Gates§8_§61.5.zip","file/waystones_1.21.1.zip","file/cubic-sun-moon-v1.8.3a.zip","file/Fine Armoury v1.7.zip","file/Fancy_Beds-v4.0.zip","file/Fancy Crops v1.3.zip","file/miles\u0027s Enhanced Hud.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Reanimated Blue v0.09.zip","file/creepers-refreshed-v1.0.zip","file/Blues_Better_Monstersv0.11.zip","file/Blues_Better_Skeletons_v0.01.zip","file/§3Blue\u0027s §fBetter Zombies §7v0.13.zip","file/Better_Farm_Animals_v0.08.zip","file/Fresh Font.zip"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -75,7 +75,7 @@ tutorialStep:movement
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
@@ -154,11 +154,11 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.contrats.open_my_contracts:key.keyboard.j
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.antique_atlas.open:key.keyboard.unknown
@@ -268,6 +268,7 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
+key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 key_key.entityculling.toggle:key.keyboard.unknown
 soundCategory_master:0.04966887417218543
 soundCategory_music:0.0

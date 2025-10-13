@@ -1,0 +1,19 @@
+{
+    "unlocked_by_default": false,
+    "exclusive_root": true,
+    "title": {
+			"translate": "skill_tree.mineoctober.lumberjack.title"
+	},
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "biomeswevegone:aspen_log"
+        }
+    },
+    "background": {
+      "texture": "minecraft:textures/block/oak_log.png",
+      "width": 32,
+      "height": 32,
+      "position": "tile"
+    }
+}

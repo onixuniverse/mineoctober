@@ -43,7 +43,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills category unlock @s puffish_skills:miner"
+				command: "/puffish_skills category unlock @s mineoctober:miner"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -70,7 +70,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills category unlock @s puffish_skills:lumberjack"
+				command: "/puffish_skills category unlock @s mineoctober:lumberjack"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -97,7 +97,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills category unlock @s puffish_skills:farmer"
+				command: "/puffish_skills category unlock @s mineoctober:farmer"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -204,7 +204,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills category unlock @s puffish_skills:explorer"
+				command: "/puffish_skills category unlock @s mineoctober:explorer"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -231,7 +231,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills category unlock @s puffish_skills:combat"
+				command: "/puffish_skills category unlock @s mineoctober:combat"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -257,7 +257,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills skills reset @s puffish_skills:explorer"
+				command: "/puffish_skills skills reset @s mineoctober:explorer"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -285,7 +285,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills skills reset @s puffish_skills:farmer"
+				command: "/puffish_skills skills reset @s mineoctober:farmer"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -313,7 +313,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills skills reset @s puffish_skills:miner"
+				command: "/puffish_skills skills reset @s mineoctober:miner"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -341,7 +341,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills skills reset @s puffish_skills:lumberjack"
+				command: "/puffish_skills skills reset @s mineoctober:lumberjack"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"
@@ -369,7 +369,7 @@
 			optional: true
 			rewards: [{
 				auto: "enabled"
-				command: "/puffish_skills skills reset @s puffish_skills:combat"
+				command: "/puffish_skills skills reset @s mineoctober:combat"
 				exclude_from_claim_all: true
 				icon: {
 					id: "minecraft:command_block_minecart"

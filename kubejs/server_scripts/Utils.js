@@ -323,6 +323,10 @@ const recipeIds = [
 	'create:crafting/materials/zinc_ingot_from_compacting',
 	'create:crafting/materials/brass_ingot_from_decompacting',
 	'create:crafting/materials/brass_ingot_from_compacting',
+	'create:crafting/materials/zinc_nugget_from_decompacting',
+	'create:crafting/materials/brass_nugget_from_decompacting',
+	'create:crafting/materials/zinc_block_from_compacting',
+	'create:crafting/materials/brass_block_from_compacting',
 	'create:crushing/raw_iron',
 	'create:crushing/raw_gold',
 	'create:crushing/raw_copper',
@@ -333,6 +337,9 @@ const recipeIds = [
 	'create:crushing/raw_silver',
 
 	'dndesires:seething/crushed_raw_zinc',
+	'create:crafting/kinetics/wrench',
+	'create:smelting/zinc_ingot_from_crushed',
+	'create:smelting/zinc_from_raw_ore'
 ];
 
 const hiddenItems = [

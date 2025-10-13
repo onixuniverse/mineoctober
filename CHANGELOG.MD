@@ -1,4 +1,27 @@
 # MineOctober NF 2025
+---
+
+## v2.2.5.251011.1r
+### General
+**RU:**
+> Улучшена стабильность
+> Исправлены некоторые ошибки
+> Обновлены некоторые рецепты
+
+**EN:**
+> Improved stability
+> Fixed some bugs
+> Updated some recipes
+
+### Mods
+- Added: CraftPresence-2.6.2+1.21.1-neoforge
+- Removed: SimpleRPC-4.0.4
+
+### Resourcepacks
+- Added: creepers-refreshed-v1.0
+- Updated: Fine Armoury v1.6
+- Updated: Fancy Crops v1.3
+- Updated: SodiumTranslations
 
 ---
 
@@ -17,7 +40,7 @@
 > Updated some recipes
 
 ### Mods
-- Added: mineoctober-1.0.2
+- Added: mineoctober-1.0.3
 - Added: remove-terralith-intro-message-1.1
 - Added: farmers-cutting-oh-the-biomes-weve-gone-1.21.1-2.1-neoforge
 - Added: no-f3-2
