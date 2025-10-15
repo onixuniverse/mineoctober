@@ -1,0 +1,19 @@
+{
+    "unlocked_by_default": false,
+    "exclusive_root": true,
+    "title": {
+			"translate": "skill_tree.mineoctober.combat.title"
+	},
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "mineoctober:imbued_iridium_sword"
+        }
+    },
+    "background": {
+      "texture": "minecraft:textures/block/beacon.png",
+      "width": 32,
+      "height": 32,
+      "position": "tile"
+    }
+}

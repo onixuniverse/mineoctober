@@ -1,0 +1,492 @@
+{
+	id: "40FCC69B94987C7D"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Create (Common Box)"
+		string_id: "create"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 8
+			id: "4C41095F6C1C5DEB"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "228786D38E248527"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "38AD89A22EEFDD60"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "67E0A4A8102F4E9F"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "11AA2CD5FF098AE5"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "7461824A0F493E30"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "2EFB7568051C80EB"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "420CD4D4E4D0BABA"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "0394DFF1937EF746"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 2
+			id: "0573720913596064"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+			weight: 3.5f
+		}
+		{
+			id: "42EDE860AFD9CFE1"
+			item: {
+				count: 1
+				id: "create:vertical_gearbox"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "0112612D6EA15ECF"
+			item: {
+				count: 1
+				id: "create:crafting_blueprint"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "3865D0A866F760DC"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "67BE3A8577FC351C"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "16B9D737CE38E2AF"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "086B119E3B1DF2A4"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "743CD329FAD4392C"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+			weight: 2.5f
+		}
+		{ id: "6E3316B82B1A3F42", item: { count: 1, id: "create:schematicannon" } }
+		{ id: "79247C4AEC24A9FB", item: { count: 1, id: "create:schematic_table" } }
+		{
+			count: 8
+			id: "71B228290CF79427"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 12
+			id: "625AD5339D4E3B23"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 8
+			id: "169459A50435D92C"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 4
+			id: "0A2BDCE4249E065D"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+		{
+			count: 4
+			id: "2ADD1EE0F0AB7026"
+			item: {
+				count: 1
+				id: "create:vertical_gearbox"
+			}
+		}
+		{ id: "07E4D53AB82D2B22", item: { count: 1, id: "create:clutch" } }
+		{ id: "73DF52B645CB98DE", item: { count: 1, id: "create:gearshift" } }
+		{
+			count: 8
+			id: "22DEA1418FA51D6C"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+		}
+		{
+			count: 3
+			id: "59DA93897A289C09"
+			item: {
+				count: 1
+				id: "create:adjustable_chain_gearshift"
+			}
+		}
+		{
+			count: 2
+			id: "61643848FF7E956B"
+			item: {
+				count: 1
+				id: "create:water_wheel"
+			}
+		}
+		{ id: "162596B29B460462", item: { count: 1, id: "create:encased_fan" } }
+		{ id: "56DDBECCB52EFBD9", item: { count: 1, id: "create:nozzle" } }
+		{ id: "6E622DB788E08A18", item: { count: 1, id: "create:turntable" } }
+		{ id: "4E6F9481FD60C41C", item: { count: 1, id: "create:cuckoo_clock" } }
+		{ id: "079E5806945A1F10", item: { count: 1, id: "create:millstone" } }
+		{ id: "21F46A5C83FA5176", item: { count: 1, id: "create:mechanical_press" } }
+		{ id: "7E74AE38884A35FC", item: { count: 1, id: "create:mechanical_mixer" } }
+		{ id: "11DC2313ABEA21A0", item: { count: 1, id: "create:basin" } }
+		{ id: "24BB8944EC35C043", item: { count: 1, id: "create:blaze_burner" } }
+		{ id: "26EAEC2AF4C614B6", item: { count: 1, id: "create:depot" } }
+		{ id: "7D4A573DF2EE8AF4", item: { count: 1, id: "create:weighted_ejector" } }
+		{
+			count: 3
+			id: "5CB3F5752357004F"
+			item: {
+				count: 1
+				id: "create:chute"
+			}
+		}
+		{ id: "470B695ABC7DEA86", item: { count: 1, id: "create:smart_chute" } }
+		{
+			count: 4
+			id: "1384AC4CCFC8F038"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{ id: "2B1434D8E4D74251", item: { count: 1, id: "create:mechanical_pump" } }
+		{ id: "01455FDCD2C3F555", item: { count: 1, id: "create:copper_valve_handle" } }
+		{ id: "5684CCEE1E9F7AF5", item: { count: 1, id: "create:fluid_valve" } }
+		{ id: "7AF4AB36740303BF", item: { count: 1, id: "create:smart_fluid_pipe" } }
+		{
+			count: 9
+			id: "036DF583808B11F8"
+			item: {
+				count: 1
+				id: "create:fluid_tank"
+			}
+		}
+		{ id: "5CD89C5E1F6F2BDE", item: { count: 1, id: "create:hose_pulley" } }
+		{ id: "1D703C913193C533", item: { count: 1, id: "create:item_drain" } }
+		{ id: "6A66E763150158FA", item: { count: 1, id: "create:spout" } }
+		{
+			count: 2
+			id: "7A025299CCF12AE3"
+			item: {
+				count: 1
+				id: "create:portable_fluid_interface"
+			}
+		}
+		{ id: "50B6200303D1CCA7", item: { count: 1, id: "create:steam_engine" } }
+		{ id: "74EA7927E7B6B7F5", item: { count: 1, id: "create:steam_whistle" } }
+		{ id: "366F88034AE40BC8", item: { count: 1, id: "create:mechanical_piston" } }
+		{ id: "7CDBF7249C49F860", item: { count: 1, id: "create:sticky_mechanical_piston" } }
+		{ id: "72FD013ECE37F4A5", item: { count: 1, id: "create:gantry_carriage" } }
+		{ id: "1B0442B966252435", item: { count: 1, id: "create:windmill_bearing" } }
+		{ id: "51E12AEB712CDD8A", item: { count: 1, id: "create:mechanical_bearing" } }
+		{ id: "63A29F141EF47530", item: { count: 1, id: "create:clockwork_bearing" } }
+		{ id: "76DAFBFAFB1A5C90", item: { count: 1, id: "create:rope_pulley" } }
+		{ id: "5CE9A516DEB6F957", item: { count: 1, id: "create:cart_assembler" } }
+		{ id: "6DD50867A8F7B055", item: { count: 1, id: "create:sticker" } }
+		{
+			count: 3
+			id: "473847D386DE6DA9"
+			item: {
+				count: 1
+				id: "create:mechanical_drill"
+			}
+		}
+		{
+			count: 3
+			id: "26BBA63B0B3A85A6"
+			item: {
+				count: 1
+				id: "create:mechanical_saw"
+			}
+		}
+		{
+			count: 3
+			id: "457AFCDD0AD2EDC0"
+			item: {
+				count: 1
+				id: "create:deployer"
+			}
+		}
+		{
+			count: 2
+			id: "37AC0BBD45465E5D"
+			item: {
+				count: 1
+				id: "create:portable_storage_interface"
+			}
+		}
+		{ id: "2EC0F780EEDAFE75", item: { count: 1, id: "create:redstone_contact" } }
+		{
+			count: 2
+			id: "0473EA4961EFB58B"
+			item: {
+				count: 1
+				id: "create:mechanical_harvester"
+			}
+		}
+		{
+			count: 2
+			id: "5E1433F395574C3E"
+			item: {
+				count: 1
+				id: "create:mechanical_plough"
+			}
+		}
+		{ id: "7C79A16038380675", item: { count: 1, id: "create:white_seat" } }
+		{
+			count: 8
+			id: "017AD0BF0824D0EF"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{ id: "27253712969256F8", item: { count: 1, id: "create:rotation_speed_controller" } }
+		{
+			count: 3
+			id: "0CD1DD8E267982BA"
+			item: {
+				count: 1
+				id: "create:placard"
+			}
+		}
+		{ id: "4AC97AE014D2F5CF", item: { count: 1, id: "create:content_observer" } }
+		{ id: "4811FC495497F36F", item: { count: 1, id: "create:stockpile_switch" } }
+		{
+			count: 4
+			id: "409AE7093D5D146E"
+			item: {
+				count: 1
+				id: "create:item_vault"
+			}
+		}
+		{
+			count: 2
+			id: "572847B6B7B5ECDF"
+			item: {
+				count: 1
+				id: "create:mechanical_crafter"
+			}
+		}
+		{ id: "05FEA6F17D4A2771", item: { count: 1, id: "create:track_station" } }
+		{ id: "4DCDEDCDBD480FEC", item: { count: 1, id: "create:track_signal" } }
+		{ id: "297FF55073BEC04C", item: { count: 1, id: "create:track_observer" } }
+		{ id: "7346A51C2E3F00B1", item: { count: 1, id: "create:controls" } }
+		{
+			count: 3
+			id: "333FFAFB42AB8CDD"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+		{ id: "136EB375FA95789A", item: { count: 1, id: "create:brass_funnel" } }
+		{
+			count: 3
+			id: "2A7B520A5886751E"
+			item: {
+				count: 1
+				id: "create:andesite_tunnel"
+			}
+		}
+		{ id: "1B1D9E27C3255AFF", item: { count: 1, id: "create:brass_tunnel" } }
+		{ id: "792B425CB941ED57", item: { count: 1, id: "create:display_link" } }
+		{
+			count: 6
+			id: "079529F85955DE2F"
+			item: {
+				count: 1
+				id: "create:display_board"
+			}
+		}
+		{
+			count: 2
+			id: "732ECB465142C8A2"
+			item: {
+				count: 1
+				id: "create:nixie_tube"
+			}
+		}
+		{
+			count: 4
+			id: "68CE372D98CEF472"
+			item: {
+				count: 1
+				id: "create:redstone_link"
+			}
+		}
+		{ id: "7315BF08C4DE6014", item: { count: 1, id: "create:brown_toolbox" } }
+		{
+			count: 4
+			id: "0642CF79202C0E15"
+			item: {
+				count: 1
+				id: "create:polished_rose_quartz"
+			}
+		}
+		{
+			count: 2
+			id: "75B1F113CEBA1A6B"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+		}
+		{
+			count: 8
+			id: "554F51ED6DAF973B"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+		}
+		{
+			count: 16
+			id: "5E9A9E8C78A740EA"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 8
+			id: "014659DC1B1F7FE0"
+			item: {
+				count: 1
+				id: "create:white_sail"
+			}
+		}
+		{
+			count: 6
+			id: "1246C8D6C69016A9"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{ id: "5746749D33768C77", item: { count: 1, id: "create:linked_controller" } }
+		{ id: "6675F6437AA52B01", item: { count: 1, id: "create:potato_cannon" } }
+		{ id: "037F810378F8753B", item: { count: 1, id: "create:extendo_grip" } }
+		{ id: "5972A6BE51B0F57A", item: { count: 1, id: "create:wand_of_symmetry" } }
+		{ id: "6FED2D33BA0E6960", item: { count: 1, id: "create:copper_backtank" } }
+		{ id: "6F84897D011B0C43", item: { count: 1, id: "create:copper_diving_helmet" } }
+		{ id: "61764378E1E97A1D", item: { count: 1, id: "create:copper_diving_boots" } }
+		{ id: "64A98B11E0BEB299", item: { count: 1, id: "sliceanddice:slicer" } }
+		{ id: "06853C61D41CEF3D", item: { count: 1, id: "sliceanddice:sprinkler" } }
+		{ id: "4ADDF15E4393B58D", item: { count: 1, id: "create:large_water_wheel" } }
+		{ id: "030878FBA8917F56", item: { count: 1, id: "create:clipboard" } }
+		{ id: "4F032DE398068AB0", item: { count: 1, id: "create:elevator_pulley" } }
+		{ id: "1875D6AE7F21DC03", item: { count: 1, id: "create:contraption_controls" } }
+		{ id: "323356204EA5E56E", item: { count: 1, id: "create:mechanical_roller" } }
+	]
+	use_title: true
+}

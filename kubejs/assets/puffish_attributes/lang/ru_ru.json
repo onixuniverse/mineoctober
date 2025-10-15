@@ -1,0 +1,8 @@
+{
+  "attribute.puffish_attributes.bow_projectile_speed": "Скорость снаряда лука",
+  "attribute.puffish_attributes.crossbow_projectile_speed": "Скорость снаряда арбалета",
+  "attribute.puffish_attributes.experience": "Опыт",
+  "attribute.puffish_attributes.tamed_resistance": "Сопротивление приручённых",
+  "attribute.puffish_attributes.tamed_damage": "Урон приручённых",
+  "attribute.puffish_attributes.stamina.desc": "Действия, такие как: бег, плавание, прыжки тратят выносливость. Когда выносливость заканчивается расходуется единица еды."
+}

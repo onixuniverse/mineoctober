@@ -1,0 +1,840 @@
+{
+	autofocus_id: "627A25524F94FB34"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alshanexs_familiars"
+	group: "58AC0983F019A24B"
+	icon: {
+		id: "alshanex_familiars:familiar_tome"
+	}
+	id: "2385B4F2FA029016"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2651428AF7D72328"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50A5DF68350DEC7A"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_mage"
+				criterion: ""
+				id: "72D0F4B1C1F39444"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 7.754761904761896d
+		}
+		{
+			dependencies: ["2651428AF7D72328"]
+			id: "25C81EB613F46A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52278618C5E273C7"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1560C78B1D04BB29"
+				item: { count: 1, id: "alshanex_familiars:mage_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 7.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7B09AFE245BA7808"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14BE4EBA6B183DFF"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_archmage"
+				criterion: ""
+				id: "621FAFFB9E6FCD94"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 6.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "20BFB23E1ADDC3DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "726B8A4564F8D536"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_necromancer"
+				criterion: ""
+				id: "22B97B98D9432D8C"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 2.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "692D79D601534A2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC477B5FB71998B"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_summoner"
+				criterion: ""
+				id: "4A09BBB33A081513"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 3.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5AA39CCAEED433CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778768256FE68726"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_hunter"
+				criterion: ""
+				id: "1294DDA4CA3BA919"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 4.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "54480115AF9A1DAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5269B531B59A2906"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_druid"
+				criterion: ""
+				id: "3E95CDD54C37B12D"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 5.754761904761896d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "47F3B09688DFA1DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6827B68EED06660A"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_illusionist"
+				criterion: ""
+				id: "45DFC07AB6445EE4"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 0.7547619047618959d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "58EE67ECB33D6AE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CED2E8747404E14"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_plague"
+				criterion: ""
+				id: "1078555E14FEE73E"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: -0.24523809523810414d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5D0DCD2B1AB653BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55AACC1FC278E07E"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_scorcher"
+				criterion: ""
+				id: "5D561431EE0FC84A"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: -1.2452380952381041d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3DD814B346F1B543"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55AE23C4E661BE66"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_cleric"
+				criterion: ""
+				id: "0CBCC0758B51A7C0"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: 1.7547619047618959d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A844214CE94E140"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E1CE330BAEDD390"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_bard"
+				criterion: ""
+				id: "7CE3CA2DCA81170E"
+				type: "advancement"
+			}]
+			x: -0.4166666666666501d
+			y: -2.245238095238104d
+		}
+		{
+			dependencies: ["54480115AF9A1DAD"]
+			id: "4CCA4CC40699E202"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AB0346B0FD18BD7"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5AADA65FED7D7D94"
+				item: { count: 1, id: "alshanex_familiars:forest_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 5.754761904761896d
+		}
+		{
+			dependencies: ["5AA39CCAEED433CA"]
+			id: "0EC55B2CACD070C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D179201706ADC55"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7B628574BCA3D8B2"
+				item: { count: 1, id: "alshanex_familiars:hunter_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 4.754761904761896d
+		}
+		{
+			dependencies: ["20BFB23E1ADDC3DF"]
+			id: "1DDDE80A3D76DD30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D328A15106C35ED"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0369392984FBA988"
+				item: { count: 1, id: "alshanex_familiars:necromancer_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 2.754761904761896d
+		}
+		{
+			dependencies: ["692D79D601534A2E"]
+			id: "1F149DB505D3BC7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41FA03CB839FD31D"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1D2B6A20AC1EF40F"
+				item: { count: 1, id: "alshanex_familiars:summoner_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 3.754761904761896d
+		}
+		{
+			dependencies: ["7B09AFE245BA7808"]
+			id: "3252CBA260461444"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14FDA449DABBA797"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5298BE31BC861A9A"
+				item: { count: 1, id: "alshanex_familiars:archmage_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 6.754761904761896d
+		}
+		{
+			dependencies: ["47F3B09688DFA1DC"]
+			id: "75F8A5AAEB67C3AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "215BBF10586CAD7E"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "409248246AEEE282"
+				item: { count: 1, id: "alshanex_familiars:illusionist_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 0.7547619047618959d
+		}
+		{
+			dependencies: ["5D0DCD2B1AB653BB"]
+			id: "0842349EE8879544"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23152A7DE48B7BBF"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "13B0655CA8493190"
+				item: { count: 1, id: "alshanex_familiars:scorcher_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: -1.2452380952381041d
+		}
+		{
+			dependencies: ["3DD814B346F1B543"]
+			id: "2C1C7767F66A6453"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C6F7C14447FD40"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0A8D90F84B987514"
+				item: { count: 1, id: "alshanex_familiars:cleric_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: 1.7547619047618959d
+		}
+		{
+			dependencies: ["58EE67ECB33D6AE9"]
+			id: "192C9C5B4F236448"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "660FC0002BBBF2FA"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "669A7E229EB70404"
+				item: { count: 1, id: "alshanex_familiars:plague_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: -0.24523809523810414d
+		}
+		{
+			dependencies: ["2A844214CE94E140"]
+			id: "79604D7C48A2B350"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FE9BDADDD0FE920"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "105D51EDBA7F5E05"
+				item: { count: 1, id: "alshanex_familiars:bard_trinket" }
+				type: "item"
+			}]
+			x: 1.08333333333335d
+			y: -2.245238095238104d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "6C7C101DFE4E67F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "463570AEF4147F6C"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "42F084DB9C87D591"
+				item: { count: 1, id: "alshanex_familiars:healing_curio" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "5C63E2E0D537CF6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17E15F3FA48F7C8E"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "62EC4FD2FD280DCE"
+				item: { count: 1, id: "alshanex_familiars:invisibility_curio" }
+				type: "item"
+			}]
+			x: -8.960714285714289d
+			y: 5.5d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "2AEF1BFD3C4C0F7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C0B5B9FC05055D3"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B0ABBEA1793E79E"
+				item: { count: 1, id: "alshanex_familiars:statue_curio" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "7220794AE44350FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A0DFF056D5D563E"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1DFDA44F54AFA8C5"
+				item: { count: 1, id: "alshanex_familiars:evasion_curio" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "3409D29DC6A2360E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27491B21710ECFAB"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5628979A94CD2048"
+				item: { count: 1, id: "alshanex_familiars:broken_shield" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "41338251AEE28EE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72BD42A2F354B843"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F792C8FE98D7F2F"
+				item: { count: 1, id: "alshanex_familiars:life_gem" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "5FE710403BE1AAF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C89D6D6909AA40"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48C7DE51DD7F1A4C"
+				item: { count: 1, id: "alshanex_familiars:rusty_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "0560F717010F1833"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "465608A880575D39"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "05D743315470091C"
+				item: { count: 1, id: "alshanex_familiars:strange_mushroom" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "5D52508105645DD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1017DD856532A550"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E1A00A6522E3A3D"
+				item: { count: 1, id: "alshanex_familiars:bard_harp" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "31B55FB90C23284C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5CF939EEE4D27D"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E3F117C2AE30BFC"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:sound_spell_book" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "7907A37EC21299CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13F7E57985AC3CF5"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "795E3A53B05D06B5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:familiar_spellbook" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "40E256F7660DF8A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748715C364C9F5A4"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6AAAD7AD0F360497"
+				item: { count: 1, id: "alshanex_familiars:pandora_box" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "093BE9C3E8D400D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A52418804007F35"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4471A5C77C787056"
+				item: { count: 1, id: "alshanex_familiars:pet_bed" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.85d
+		}
+		{
+			dependencies: [
+				"1F6BC8C2A5B8F9B2"
+				"53C9B66BEC667ED0"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "alshanex_familiars:strange_mushroom"
+			}
+			id: "627A25524F94FB34"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "56B99567D17C78A2"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.85d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_until_deps_complete: true
+			id: "73BD8A69D47D4C98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05920F084F621FB5"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C47677865D12DED"
+				item: { count: 1, id: "alshanex_familiars:sound_rune" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "3312939A67733194"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47D253B2D7846650"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23F20A6B686E24FE"
+				item: { count: 1, id: "alshanex_familiars:sound_upgrade_orb" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "244D55FC22B55A11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0845FD7B863BE05E"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "757794F68E38780B"
+					item: { count: 1, id: "alshanex_familiars:bard_helmet" }
+					type: "item"
+				}
+				{
+					id: "60DE80E287BA21A4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:bard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5687532A0E136A53"
+					item: { count: 1, id: "alshanex_familiars:bard_leggings" }
+					type: "item"
+				}
+				{
+					id: "087CB67778AB8C43"
+					item: { count: 1, id: "alshanex_familiars:bard_boots" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "32A6059C63E5BFC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56EEA4791DCCFD8C"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6516715F03C50C9B"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(alshanex_familiars:familiar_shards))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1301FCA832D70A15"
+					item: { count: 1, id: "alshanex_familiars:crystal_berry" }
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 2.8d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "594C7C998C98F2EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B6BC7CA62A4BDB"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D805D91D13D243C"
+				item: { count: 1, id: "alshanex_familiars:truth_mirror" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["093BE9C3E8D400D3"]
+			id: "34FC687BC6B1EEDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DC1BE698B38923A"
+				table_id: 1587833252990324007L
+				type: "random"
+			}]
+			tasks: [{
+				id: "575B54DB41FC15B0"
+				item: { count: 1, id: "alshanex_familiars:complete_soul_curio" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+	]
+	require_sequential_tasks: true
+}
