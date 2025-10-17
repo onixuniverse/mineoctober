@@ -1,0 +1,47 @@
+{
+    "id": "tiered:lumberjack_axe_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:axes"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:lumberjack_axe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:axe_speed",
+            "modifier": {
+                "name": "tiered:lumberjack_axe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:lumberjack_axe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "tiered:verdant_tools",
+    "verifiers": [
+        { "tag": "minecraft:hoes" }
+    ],
+    "weight": 20,
+    "style": { "color": "green" },
+    "attributes": [
+        {
+            "type": "additional_attributes:harvest",
+            "modifier": {
+                "name": "tiered:verdant_tools",
+                "operation": "ADD_VALUE",
+                "amount": 1
+            },
+            "optional_equipment_slots": ["MAINHAND"]
+        },
+        {
+            "type": "puffish_attributes:natural_regeneration",
+            "modifier": {
+                "name": "tiered:verdant_tools",
+                "operation": "ADD_VALUE",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": ["MAINHAND"]
+        }
+    ]
+}

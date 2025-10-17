@@ -1,0 +1,47 @@
+{
+    "id": "tiered:farmer_hoe_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:hoes"
+        }
+    ],
+    "weight": 10,
+    "style": {
+        "color": "green"
+    },
+    "attributes": [
+        {
+            "type": "additional_attributes:harvest",
+            "modifier": {
+                "name": "tiered:farmer_hoe_1",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:farmer_hoe_1",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:farmer_hoe_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

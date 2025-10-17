@@ -1,0 +1,152 @@
+{
+	autofocus_id: "243C8B57999BDD8B"
+	default_hide_dependency_lines: false
+	default_min_width: 1
+	default_quest_shape: ""
+	filename: "small_ships"
+	group: "6B341B8F1D0CFE88"
+	icon: {
+		id: "smallships:oak_drakkar"
+	}
+	id: "3067D17055C9C5A7"
+	images: [
+		{
+			height: 1.5d
+			image: "mineoctober:item/quest_smallships"
+			rotation: 0.0d
+			width: 9.846153846153847d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "smallships:item/sail"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:textures/item/smallships/smallships_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "243C8B57999BDD8B"
+			rewards: [{
+				id: "7BC14122DD10F3DC"
+				item: {
+					count: 1
+					id: "minecraft:oak_chest_boat"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "660A53F7C30909B3"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			hide_until_deps_complete: true
+			id: "08C8160CED1EFF08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DFFD13E75B3993E"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51283863B9D3D286"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:cogs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			hide_until_deps_complete: true
+			id: "347B155B19578E65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "591DC18953CEC0B8"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19DD66B81146FD5B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:briggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			hide_until_deps_complete: true
+			id: "4B24345FE8791647"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67102A26F2512B6D"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61C84449F23CB3D1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:galleys)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			hide_until_deps_complete: true
+			id: "297641409C94B9FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3786ECCB366EE8C7"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F589B3AFCC9EE03"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(smallships:drakkars)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["243C8B57999BDD8B"]
+			hide_until_deps_complete: true
+			id: "520964883531432A"
+			rewards: [{
+				id: "0111B5A04CCE2B01"
+				item: {
+					count: 1
+					id: "minecraft:oak_boat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B1575D71212E7F"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

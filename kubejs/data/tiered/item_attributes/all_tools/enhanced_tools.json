@@ -1,0 +1,40 @@
+{
+    "id": "tiered:enhanced_tools",
+    "verifiers": [
+        { "tag": "minecraft:pickaxes" },
+        { "tag": "minecraft:axes" },
+        { "tag": "minecraft:shovels" },
+        { "tag": "minecraft:hoes" }
+    ],
+    "weight": 30,
+    "style": { "color": "aqua" },
+    "attributes": [
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:enhanced_tools",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        },
+        {
+            "type": "puffish_attributes:fortune",
+            "modifier": {
+                "name": "tiered:enhanced_tools",
+                "operation": "ADD_VALUE",
+                "amount": 1
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        },
+        {
+            "type": "apothic_attributes:mining_speed",
+            "modifier": {
+                "name": "tiered:enhanced_tools",
+                "operation": "ADD_VALUE",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        }
+    ]
+}

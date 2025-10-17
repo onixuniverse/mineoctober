@@ -1,0 +1,58 @@
+{
+    "id": "tiered:titan_grip_melee_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:swords"
+        }
+    ],
+    "weight": 4,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:titan_grip_melee_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_knockback",
+            "modifier": {
+                "name": "tiered:titan_grip_melee_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:knockback",
+            "modifier": {
+                "name": "tiered:titan_grip_melee_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:titan_grip_melee_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

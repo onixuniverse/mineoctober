@@ -1,0 +1,276 @@
+{
+	"bonus_loot_count_rolls+1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.bonus_loot_count_rolls.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.bonus_loot_count_rolls.desc"
+		},
+		"cost": 2,
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "magic_vibe_decorations:jewellery_chest"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "aq4gydk4ciwy9ova"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "additionalentityattributes:player.bonus_loot_count_rolls",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"collection_range+5%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.collection_range.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.collection_range.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "pastel:lightweight"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "otyca4dn8ttz1t08"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"jump_strength+0.5": {
+		"title": {
+			"translate": "skill_tree.mineoctober.jump_strength.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.jump_strength.desc"
+		},
+		"cost": 2,
+		"icon": {
+			"data": {
+				"effect": "minecraft:jump_boost"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "vzs4w8vbmuzbr2m0"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:jump",
+					"operation": "addition",
+					"value": 0.08
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"luck+1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.luck.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.luck.desc"
+		},
+		"cost": 2,
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:luck"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "3fhdjzdeqfldimm4"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.luck",
+					"operation": "addition",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"max_health+1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.max_health.desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "c2uk4c8d870d0e9k"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"mount_speed+10%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.mount_speed.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.mount_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:saddle"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "xc4pmp6g54gg3oje"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "artifacts:generic.mount_speed",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"sprinting_speed+10%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.sprint.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.sprint.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:speed"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "8kbzi5we1srzb5zl"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"operation": "multiply_base",
+					"value": 0.025
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"sprinting_step_height+1": {
+		"title": {
+			"translate": "skill_tree.mineoctober.sprinting_step_height.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.sprinting_step_height.desc"
+		},
+		"cost": 2,
+		"frame": {
+			"data": {
+				"frame": "goal"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:diamond_boots"
+			},
+			"type": "item"
+		},
+		"metadata": {
+			"icon": "x4fr0mxrfo9x6ldw"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "artifacts:generic.sprinting_step_height",
+					"operation": "addition",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	},
+	"stamina+10%": {
+		"title": {
+			"translate": "skill_tree.mineoctober.stamina_10.title"
+		},
+		"description": {
+			"translate": "skill_tree.mineoctober.stamina.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.stamina.extra_desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:saturation"
+			},
+			"type": "effect"
+		},
+		"metadata": {
+			"icon": "m1sq7xtaj9kaxl4z"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		]
+	}
+}

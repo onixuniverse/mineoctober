@@ -1,0 +1,8 @@
+{
+	"ftbquests": "FTB Quests",
+	"ftbquests.gui.pin": "Закрепить",
+	"ftbquests.gui.autopin.on": "Авто. закрепление: Включено",
+	"ftbquests.gui.autopin.off": "Авто. закрепление: Отключено",
+	"ftbquests.gui.view_dependants": "Просмотр зависимых",
+	"ftbquests.gui.no_dependants": "Нет зависимых"
+}

@@ -1,0 +1,40 @@
+{
+    "id": "tiered:experience_tools",
+    "verifiers": [
+        { "tag": "minecraft:pickaxes" },
+        { "tag": "minecraft:axes" },
+        { "tag": "minecraft:shovels" },
+        { "tag": "minecraft:hoes" }
+    ],
+    "weight": 11,
+    "style": { "color": "light_purple" },
+    "attributes": [
+        {
+            "type": "player.block_break_speed",
+            "modifier": {
+                "name": "tiered:experience_tools",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        },
+        {
+            "type": "puffish_attributes:experience",
+            "modifier": {
+                "name": "tiered:experience_tools",
+                "operation": "ADD_VALUE",
+                "amount": 2.0
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        },
+        {
+            "type": "apothic_attributes:experience_gained",
+            "modifier": {
+                "name": "tiered:experience_tools",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [ "MAINHAND" ]
+        }
+    ]
+}

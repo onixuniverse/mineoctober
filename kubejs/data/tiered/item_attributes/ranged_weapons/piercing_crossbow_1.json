@@ -1,0 +1,50 @@
+{
+    "id": "tiered:piercing_crossbow_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 10,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "puffish_attributes:armor_shred",
+            "modifier": {
+                "name": "tiered:piercing_crossbow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:protection_shred",
+            "modifier": {
+                "name": "tiered:piercing_crossbow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:piercing_crossbow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "max(1000 * (level ^ 2), 1500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"variables": {
+					"is_walk": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:walk_one_cm"
+								}
+							}
+						]
+					},
+					"is_jump": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:minecraft.jump"
+								}
+							}
+						]
+					},
+					"chest_looted": {
+						"operations": [
+							{
+								"type": "get_stat"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"stat": "minecraft.custom:lootr.looted_stat"
+								}
+							}
+						]
+					},
+					"amount": {
+						"operations": [
+							{
+								"type": "get_increase_amount"
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_walk",
+						"expression": "amount / 10"
+					},
+					{
+						"condition": "is_jump",
+						"expression": "1"
+					},
+					{
+						"condition": "chest_looted",
+						"expression": "100"
+					}
+				]
+			}
+		}
+	]
+}

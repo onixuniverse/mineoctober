@@ -1,0 +1,53 @@
+{
+    "id": "tiered:cursed_ranged_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        },
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 25,
+    "style": {
+        "color": "dark_red"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:cursed_ranged_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.35
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:cursed_ranged_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:cursed_ranged_1",
+                "operation": "ADD_VALUE",
+                "amount": -3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        }
+    ]
+}

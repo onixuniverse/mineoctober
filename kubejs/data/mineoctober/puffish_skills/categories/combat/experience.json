@@ -1,0 +1,103 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "max(1000 * (level ^ 2), 1500)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+				"data": {
+					"variables": {
+						"dropped_xp": {
+							"operations": [
+								{
+									"type": "get_dropped_experience"
+								}
+							]
+						},
+						"max_health": {
+							"operations": [
+								{
+									"type": "get_killed_living_entity"
+								},
+								{
+									"type": "get_max_health"
+								}
+							]
+						},
+						"is_wither_boss": {
+							"operations": [
+								{
+									"type": "get_killed_living_entity"
+								},
+								{
+									"type": "get_type"
+								},
+								{
+									"type": "puffish_skills:test",
+									"data": {
+										"entity_type": "minecraft:wither"
+									}
+								}
+							]
+						},
+						"is_dragon_boss": {
+							"operations": [
+								{
+									"type": "get_killed_living_entity"
+								},
+								{
+									"type": "get_type"
+								},
+								{
+									"type": "puffish_skills:test",
+									"data": {
+										"entity_type": "minecraft:ender_dragon"
+									}
+								}
+							]
+						},
+						"is_warden_boss": {
+							"operations": [
+								{
+									"type": "get_killed_living_entity"
+								},
+								{
+									"type": "get_type"
+								},
+								{
+									"type": "puffish_skills:test",
+									"data": {
+										"entity_type": "minecraft:warden"
+									}
+								}
+							]
+						}
+					},
+					"experience": [
+						{
+							"expression": "dropped_xp + max_health"
+						},
+						{
+							"condition": "is_wither_boss",
+							"expression": "200"
+						},
+						{
+							"condition": "is_warden_boss",
+							"expression": "500"
+						},
+						{
+							"condition": "is_dragon_boss",
+							"expression": "1000"
+						}
+					],
+					"anti_farming": {
+						"limit_per_chunk": 15,
+						"reset_after_seconds": 300
+					}
+				}
+			}
+	]
+}

@@ -1,0 +1,2741 @@
+{
+	"armor_pierce+1": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor_pierce_1.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:cracked_stone_bricks"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_pierce_1.title"
+		},
+		"metadata": {
+			"icon": "7davm675a22mvo91"
+		}
+	},
+	"armor_pierce+2": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor_pierce_1.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:cracked_stone_bricks"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:armor_pierce",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_pierce_1.title"
+		},
+		"metadata": {
+			"icon": "ct1lsltrt1ej6isr"
+		}
+	},
+	"armor_shred+2": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor_shred.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "farmersdelight:diamond_knife"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:armor_shred",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_shred_2.title"
+		},
+		"metadata": {
+			"icon": "wbv6wwc1p2f95d75"
+		}
+	},
+	"armor_toughness+1": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor_toughness.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:chipped_anvil"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_toughness_1.title"
+		},
+		"metadata": {
+			"icon": "grpazxku5uh6o6tg"
+		}
+	},
+	"armor_toughness+2_sprinting_speed-2%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.armor_toughness_2_sprinting_speed_2.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:chipped_anvil"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"operation": "multiply_base",
+					"value": -0.02
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_toughness_2_sprinting_speed_2.title"
+		},
+		"metadata": {
+			"icon": "sk63gkf3ynf5mvhf"
+		}
+	},
+	"armor_toughness+4_sprinting_speed-3%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.armor_toughness_4_sprinting_speed_3.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:chipped_anvil"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "addition",
+					"value": 4
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"operation": "multiply_base",
+					"value": -0.03
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_toughness_4_sprinting_speed_3.title"
+		},
+		"metadata": {
+			"icon": "arv39n6sc0heejae"
+		}
+	},
+	"armor+1": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor.title"
+		},
+		"metadata": {
+			"icon": "tdndlahvpstbyuhm"
+		}
+	},
+	"armor+2_fall_damage_multiplier-10%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.armor_2_fall_damage_multiplier_10.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "create:copper_diving_boots"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.fall_damage_multiplier",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_2_fall_damage_multiplier_10.title"
+		},
+		"metadata": {
+			"icon": "t0uc8hn7vz6df12g"
+		}
+	},
+	"armor+3_fall_damage_multiplier-35%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.armor_3_fall_damage_multiplier_35.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"operation": "addition",
+					"value": 3
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.fall_damage_multiplier",
+					"operation": "multiply_base",
+					"value": 0.70
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_3_fall_damage_multiplier_35.title"
+		},
+		"metadata": {
+			"icon": "wtinp0pkqx7zfhke"
+		}
+	},
+	"arrow_velocity+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_10.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "pastel:topaz_glass_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_10.title"
+		},
+		"metadata": {
+			"icon": "e65ffjjyud8iwa0l"
+		}
+	},
+	"arrow_velocity+20%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_20.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "pastel:topaz_glass_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_20.title"
+		},
+		"metadata": {
+			"icon": "94t1c2i49rwd6iuy"
+		}
+	},
+	"arrow_velocity+50%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_50.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "pastel:topaz_glass_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:arrow_velocity",
+					"operation": "multiply_base",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.arrow_velocity_50.title"
+		},
+		"metadata": {
+			"icon": "9xlgrkw39c79kjns"
+		}
+	},
+	"attack_damage+1": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.attack_damage.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:trident"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.attack_damage_1.title"
+		},
+		"metadata": {
+			"icon": "bmr5uodgouygx1mi"
+		}
+	},
+	"attack_damage+2": {
+		"cost": 8,
+		"description": {
+			"translate": "skill_tree.mineoctober.attack_damage.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:trident"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.attack_damage_2.title"
+		},
+		"metadata": {
+			"icon": "x0b4gpnhko68rydb"
+		}
+	},
+	"attack_speed+10%": {
+		"cost": 5,
+		"description": {
+			"translate": "skill_tree.mineoctober.attack_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/gui/sprites/hud/hotbar_attack_indicator_progress.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.attack_speed_10.title"
+		},
+		"metadata": {
+			"icon": "873tew2gqfy9ax62"
+		}
+	},
+	"attack_speed+5%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.attack_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/gui/sprites/hud/hotbar_attack_indicator_progress.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.attack_speed_5.title"
+		},
+		"metadata": {
+			"icon": "5ikvtfkf3q7amhh9"
+		}
+	},
+	"bow_projectile_speed+1_crossbow_projectile_speed-2": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_1_crossbow_projectile_speed_2.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:bow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": -0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_1_crossbow_projectile_speed_2.title"
+		},
+		"metadata": {
+			"icon": "6h3t8mo3y3dxc8su"
+		}
+	},
+	"bow_projectile_speed+2_crossbow_projectile_speed-4": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_2_crossbow_projectile_speed_4.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:bow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": -1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_2_crossbow_projectile_speed_4.title"
+		},
+		"metadata": {
+			"icon": "c91o57bp4an1o1re"
+		}
+	},
+	"bow_projectile_speed+5_crossbow_projectile_speed-10": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_5_crossbow_projectile_speed_10.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:bow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": 1.25
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": -2.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.bow_projectile_speed_5_crossbow_projectile_speed_10.title"
+		},
+		"metadata": {
+			"icon": "il6v19kwwvnm9dur"
+		}
+	},
+	"crit_chance+10%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.crit_chance_10.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:spider_fang"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_chance_10.title"
+		},
+		"metadata": {
+			"icon": "3kzhfbzn3onk2uwr"
+		}
+	},
+	"crit_chance+10%_ranged_damage-10%": {
+		"cost": 5,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crit_chance_10_ranged_damage_10.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:spider_fang"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"operation": "addition",
+					"value": 0.05
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "multiply_total",
+					"value": -0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_chance_10_ranged_damage_10.title"
+		},
+		"metadata": {
+			"icon": "q2coc6xtqjyn3vfo"
+		}
+	},
+	"crit_chance+20%_ranged_damage-35%": {
+		"cost": 15,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crit_chance_20_ranged_damage_35.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:spider_fang"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"operation": "addition",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "multiply_total",
+					"value": -1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_chance_20_ranged_damage_35.title"
+		},
+		"metadata": {
+			"icon": "na0bq8n9l9m16f7c"
+		}
+	},
+	"crit_chance+5%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.crit_chance_5.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:spider_fang"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_chance",
+					"operation": "addition",
+					"value": 0.05
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_chance_5.title"
+		},
+		"metadata": {
+			"icon": "5n5kragwd9tp8ia2"
+		}
+	},
+	"crit_damage+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.crit_damage_10.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/particle/critical_hit.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"operation": "multiply_base",
+					"value": 0.06
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_damage_10.title"
+		},
+		"metadata": {
+			"icon": "9uja5zuc0tgwusxc"
+		}
+	},
+	"crit_damage+30%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.crit_damage_30.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/particle/critical_hit.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_damage_30.title"
+		},
+		"metadata": {
+			"icon": "xnxw8wlaacab5dkz"
+		}
+	},
+	"crit_damage+30%_max_health-2_stamina-15%": {
+		"cost": 15,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crit_damage_30_max_health_2_stamina_15.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "create:potato_cannon"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:crit_damage",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": -2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"operation": "multiply_total",
+					"value": -0.15
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crit_damage_30_max_health_2_stamina_15.title"
+		},
+		"metadata": {
+			"icon": "wvqeftvoa3zeqr2z"
+		}
+	},
+	"crossbow_projectile_speed+1_bow_projectile_speed-2": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_1_bow_projectile_speed_2.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:crossbow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": -0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_1_bow_projectile_speed_2.title"
+		},
+		"metadata": {
+			"icon": "226hvuaxgpzzxhlv"
+		}
+	},
+	"crossbow_projectile_speed+2_bow_projectile_speed-4": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_2_bow_projectile_speed_4.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:crossbow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": -1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_2_bow_projectile_speed_4.title"
+		},
+		"metadata": {
+			"icon": "bxisd75teni2rq7y"
+		}
+	},
+	"crossbow_projectile_speed+5_bow_projectile_speed-10": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_5_bow_projectile_speed_10.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:crossbow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:crossbow_projectile_speed",
+					"operation": "addition",
+					"value": 1.25
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:bow_projectile_speed",
+					"operation": "addition",
+					"value": -2.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.crossbow_projectile_speed_5_bow_projectile_speed_10.title"
+		},
+		"metadata": {
+			"icon": "j2oko2843y5wu32c"
+		}
+	},
+	"dodge_chance+10%_max_health-2": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.dodge_chance_10_max_health_2.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/mob_effect/burning_dash.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "multiply_total",
+					"value": -0.16
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.dodge_chance_10_max_health_2.title"
+		},
+		"metadata": {
+			"icon": "ysjdb58qereio99c"
+		}
+	},
+	"dodge_chance+20%_max_health-4": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.dodge_chance_20_max_health_4.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/mob_effect/burning_dash.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:dodge_chance",
+					"operation": "addition",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "multiply_total",
+					"value": -0.29
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.dodge_chance_20_max_health_4.title"
+		},
+		"metadata": {
+			"icon": "gye1yl1daq77fdtu"
+		}
+	},
+	"draw_speed+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.draw_speed_10.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "artifacts:power_glove"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.draw_speed_10.title"
+		},
+		"metadata": {
+			"icon": "qu2w3k7451gevkv4"
+		}
+	},
+	"draw_speed+25%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.draw_speed_25.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "artifacts:power_glove"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"operation": "multiply_base",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.draw_speed_25.title"
+		},
+		"metadata": {
+			"icon": "n48a6rmrs5i429ku"
+		}
+	},
+	"draw_speed+50%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.draw_speed_50.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "artifacts:power_glove"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:draw_speed",
+					"operation": "multiply_base",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.draw_speed_50.title"
+		},
+		"metadata": {
+			"icon": "ghqa8dezl7ixhsoe"
+		}
+	},
+	"explosion_knockback_resistance+0_1": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.explosion_knockback_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:tnt"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.explosion_knockback_resistance",
+					"operation": "addition",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.explosion_knockback_resistance_0_1.title"
+		},
+		"metadata": {
+			"icon": "dfunbakz5k0y8vdc"
+		}
+	},
+	"explosion_knockback_resistance+0_2": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.explosion_knockback_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:tnt"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.explosion_knockback_resistance",
+					"operation": "addition",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.explosion_knockback_resistance_0_2.title"
+		},
+		"metadata": {
+			"icon": "2yktjlu3esjq94ad"
+		}
+	},
+	"fall_reduction+10%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.fall_reduction.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:iron_boots"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.fall_reduction_10.title"
+		},
+		"metadata": {
+			"icon": "elj3e23dojyyhsgz"
+		}
+	},
+	"fall_reduction+20%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.fall_reduction.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:iron_boots"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.fall_reduction_20.title"
+		},
+		"metadata": {
+			"icon": "b15gribshgzepgci"
+		}
+	},
+	"healing+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.healing.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "irons_spellbooks:greater_healing_potion"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.healing_10.title"
+		},
+		"metadata": {
+			"icon": "9wp5xvk08nchettn"
+		}
+	},
+	"healing+20%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.healing.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "irons_spellbooks:greater_healing_potion"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.healing_20.title"
+		},
+		"metadata": {
+			"icon": "gz86zid46jf4rdh0"
+		}
+	},
+	"knockback_resistance+10%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.knockback_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:shield"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.knockback_resistance_10.title"
+		},
+		"metadata": {
+			"icon": "05wtx920l76w9yo0"
+		}
+	},
+	"knockback_resistance+25%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.knockback_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:shield"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "multiply_base",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.knockback_resistance_25.title"
+		},
+		"metadata": {
+			"icon": "e0chuxcwzpqittp1"
+		}
+	},
+	"knockback+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.knockback_10.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:stick"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:knockback",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.knockback_10.title"
+		},
+		"metadata": {
+			"icon": "rwlyz7ywcm78cxth"
+		}
+	},
+	"knockback+25%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.knockback_25.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:stick"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:knockback",
+					"operation": "multiply_base",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.knockback_25.title"
+		},
+		"metadata": {
+			"icon": "734gl7adtm4aj2fb"
+		}
+	},
+	"life_steal+10%_resistance-15%": {
+		"cost": 10,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.life_steal_10_resistance_15.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/devour.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"operation": "multiply_base",
+					"value": 0.01
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"operation": "multiply_total",
+					"value": -0.05
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.life_steal_10_resistance_15.title"
+		},
+		"metadata": {
+			"icon": "co5ekl84zppb71tu"
+		}
+	},
+	"life_steal+20%_resistance-30%": {
+		"cost": 20,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.life_steal_20_resistance_30.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/devour.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"operation": "multiply_base",
+					"value": 0.02
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"operation": "multiply_total",
+					"value": -0.10
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.life_steal_20_resistance_30.title"
+		},
+		"metadata": {
+			"icon": "3i9l6250r4s2ci3y"
+		}
+	},
+	"max_health+1": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.max_health.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health_2.title"
+		},
+		"metadata": {
+			"icon": "ydn50ey3vh6en5ek"
+		}
+	},
+	"max_health+2": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.max_health.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health_2.title"
+		},
+		"metadata": {
+			"icon": "qp4qv4n56raz0p22"
+		}
+	},
+	"max_health+2_attack_speed-5%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.max_health_2_attack_speed_5.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "multiply_base",
+					"value": -0.05
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health_2_attack_speed_5.title"
+		},
+		"metadata": {
+			"icon": "a6b9mt87kzvnd769"
+		}
+	},
+	"max_health+4_attack_speed-10%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.max_health_4_attack_speed_10.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 4
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "multiply_base",
+					"value": -0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health_4_attack_speed_10.title"
+		},
+		"metadata": {
+			"icon": "ffueb8fgu89x5ams"
+		}
+	},
+	"max_health+8_attack_speed-15%": {
+		"cost": 6,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.max_health_8_attack_speed_15.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:instant_health"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"operation": "addition",
+					"value": 8
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "multiply_base",
+					"value": -0.15
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.max_health_8_attack_speed_15.title"
+		},
+		"metadata": {
+			"icon": "9povsa2cdh6je9mp"
+		}
+	},
+	"melee_damage+3": {
+		"cost": 8,
+		"description": {
+			"translate": "skill_tree.mineoctober.melee_damage.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:mace"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"operation": "addition",
+					"value": 3
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.melee_damage_3.title"
+		},
+		"metadata": {
+			"icon": "kedjp61shwwkcyxv"
+		}
+	},
+	"melee_resistance_shred+20%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.melee_resistance_shred.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:wooden_sword"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance_shred",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.melee_resistance_shred_20.title"
+		},
+		"metadata": {
+			"icon": "zi9ff1rstv3kr8i4"
+		}
+	},
+	"melee_resistance+10%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.melee_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/oakskin.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.melee_resistance_10.title"
+		},
+		"metadata": {
+			"icon": "s85ybv2zxxlydjuw"
+		}
+	},
+	"melee_resistance+20%": {
+		"cost": 8,
+		"description": {
+			"translate": "skill_tree.mineoctober.melee_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/oakskin.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_resistance",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.melee_resistance_20.title"
+		},
+		"metadata": {
+			"icon": "z8oxbq9ap6esur6f"
+		}
+	},
+	"natural_regeneration+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.natural_regeneration.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/mob_effect/regeneration.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.natural_regeneration_10.title"
+		},
+		"metadata": {
+			"icon": "uwol1myopygknuj4"
+		}
+	},
+	"natural_regeneration+30%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.natural_regeneration.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "minecraft:textures/mob_effect/regeneration.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"operation": "multiply_base",
+					"value": 0.3
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.natural_regeneration_30.title"
+		},
+		"metadata": {
+			"icon": "ter08f82ailtm0mg"
+		}
+	},
+	"projectile_damage+1": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.projectile_damage_1.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:snowball"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:projectile_damage",
+					"operation": "multiply_total",
+					"value": 0.05
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.projectile_damage_1.title"
+		},
+		"metadata": {
+			"icon": "74bey0fd9y48gmc1"
+		}
+	},
+	"projectile_damage+2": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.projectile_damage_2.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:snowball"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "apothic_attributes:projectile_damage",
+					"operation": "multiply_total",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.projectile_damage_2.title"
+		},
+		"metadata": {
+			"icon": "chdod5g06lkvvakh"
+		}
+	},
+	"protection_shred+20%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.protection_shred.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:broken_shield"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:protection_shred",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.protection_shred_20.title"
+		},
+		"metadata": {
+			"icon": "g97f56lydkarp7cm"
+		}
+	},
+	"ranged_damage+1": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_damage_1.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "addition",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_damage_1.title"
+		},
+		"metadata": {
+			"icon": "wh8rlataifmmm63e"
+		}
+	},
+	"ranged_damage+2": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_damage_2.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "addition",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_damage_2.title"
+		},
+		"metadata": {
+			"icon": "pf5ovia66r23ouw0"
+		}
+	},
+	"ranged_damage+2_melee_damage-1": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.ranged_damage_2_melee_damage_1.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "smallships:cannon"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "addition",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"operation": "addition",
+					"value": -1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_damage_2_melee_damage_1.title"
+		},
+		"metadata": {
+			"icon": "950403uy65tg9tg6"
+		}
+	},
+	"ranged_damage+4_melee_damage-2": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.ranged_damage_4_melee_damage_2.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "smallships:cannon"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"operation": "addition",
+					"value": -2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_damage_4_melee_damage_2.title"
+		},
+		"metadata": {
+			"icon": "1i3d9tadsz5put4b"
+		}
+	},
+	"ranged_resistance_shred+1": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_shred_1.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance_shred",
+					"operation": "addition",
+					"value": 1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_shred_1.title"
+		},
+		"metadata": {
+			"icon": "a9e26by7ygt1ds7i"
+		}
+	},
+	"ranged_resistance_shred+2": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_shred_2.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance_shred",
+					"operation": "addition",
+					"value": 2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_shred_2.title"
+		},
+		"metadata": {
+			"icon": "2y0h2qvoeqj6soj7"
+		}
+	},
+	"ranged_resistance+10%": {
+		"cost": 4,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "relics:textures/abilities/umbrella/shield.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_10.title"
+		},
+		"metadata": {
+			"icon": "92sio9uehrt7x6ek"
+		}
+	},
+	"ranged_resistance+20%": {
+		"cost": 8,
+		"description": {
+			"translate": "skill_tree.mineoctober.ranged_resistance.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "relics:textures/abilities/umbrella/shield.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:ranged_resistance",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.ranged_resistance_20.title"
+		},
+		"metadata": {
+			"icon": "hv31s10jincaztm6"
+		}
+	},
+	"resistance_shred+20%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.resistance_shred.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:blaze_powder"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance_shred",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.resistance_shred_20.title"
+		},
+		"metadata": {
+			"icon": "xez6dr6hffqofugr"
+		}
+	},
+	"resistance+10%_attack_damage-11%": {
+		"cost": 6,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.resistance_10_attack_damage_11.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:leather"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"operation": "multiply_total",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "multiply_total",
+					"value": -0.11
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.resistance_10_attack_damage_11.title"
+		},
+		"metadata": {
+			"icon": "1y8p4x9wldr48l62"
+		}
+	},
+	"resistance+20%_attack_damage-22%": {
+		"cost": 12,
+		"description": {
+			"translate": "skill_tree.mineoctober.hold_shift.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.resistance_20_attack_damage_22.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"item": "minecraft:leather"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"operation": "multiply_total",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			},
+			{
+				"data": {
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "multiply_total",
+					"value": -0.22
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.resistance_20_attack_damage_22.title"
+		},
+		"metadata": {
+			"icon": "7netxnlvo6rbic6w"
+		}
+	},
+	"resistance+3%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/shield.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:resistance",
+					"operation": "multiply_base",
+					"value": 0.03
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_3.title"
+		},
+		"metadata": {
+			"icon": "7he3k2zto1ddrw4i"
+		}
+	},
+	"resistance+4%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.armor.desc"
+		},
+		"icon": {
+			"data": {
+				"texture": "irons_spellbooks:textures/gui/spell_icons/shield.png"
+			},
+			"type": "texture"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "minecraft:generic.armor",
+					"operation": "multiply_base",
+					"value": 0.04
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.armor_4.title"
+		},
+		"metadata": {
+			"icon": "9q0f21wm5pq3k3p1"
+		}
+	},
+	"sprinting_speed+10%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.sprinting_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:speed"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"operation": "multiply_base",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.sprinting_speed_10.title"
+		},
+		"metadata": {
+			"icon": "qhtveqso1289kczm"
+		}
+	},
+	"sprinting_speed+20%": {
+		"cost": 3,
+		"description": {
+			"translate": "skill_tree.mineoctober.sprinting_speed.desc"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:speed"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"operation": "multiply_base",
+					"value": 0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.sprinting_speed_20.title"
+		},
+		"metadata": {
+			"icon": "j6w9lxsldr2tg226"
+		}
+	},
+	"stamina+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.stamina.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.stamina.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:saturation"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"operation": "multiply_total",
+					"value": 0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.stamina_10.title"
+		},
+		"metadata": {
+			"icon": "mc0hhmwbgj8pos28"
+		}
+	},
+	"stamina+15%": {
+		"cost": 2,
+		"description": {
+			"translate": "skill_tree.mineoctober.stamina.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.stamina.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:saturation"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"operation": "multiply_total",
+					"value": 0.15
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.stamina_15.title"
+		},
+		"metadata": {
+			"icon": "fxno1uym4975002q"
+		}
+	},
+	"stamina+5%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.stamina.desc"
+		},
+		"extra_description": {
+			"translate": "skill_tree.mineoctober.stamina.extra_desc"
+		},
+		"frame": {
+			"data": {
+				"frame": "challenge"
+			},
+			"type": "advancement"
+		},
+		"icon": {
+			"data": {
+				"effect": "minecraft:saturation"
+			},
+			"type": "effect"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stamina",
+					"operation": "multiply_total",
+					"value": 0.05
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.stamina_5.title"
+		},
+		"metadata": {
+			"icon": "6w5w4qjeerne1usa"
+		}
+	},
+	"stealth+25%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.stealth.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:invisibility_curio"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"operation": "multiply_base",
+					"value": 0.25
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.stealth_25.title"
+		},
+		"metadata": {
+			"icon": "rumremmcvmgeomxz"
+		}
+	},
+	"stealth+50%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.stealth.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "alshanex_familiars:invisibility_curio"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:stealth",
+					"operation": "multiply_base",
+					"value": 0.5
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.stealth_50.title"
+		},
+		"metadata": {
+			"icon": "gk4q8jf641jggewh"
+		}
+	},
+	"tamed_damage+10%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.tamed_damage.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "plushies:polar_bear_plushie"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:tamed_damage",
+					"operation": "multiply_base",
+					"value": -0.1
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.tamed_damage_10.title"
+		},
+		"metadata": {
+			"icon": "4mejh6w8p648jwa3"
+		}
+	},
+	"tamed_damage+20%": {
+		"cost": 1,
+		"description": {
+			"translate": "skill_tree.mineoctober.tamed_damage.desc"
+		},
+		"icon": {
+			"data": {
+				"item": "plushies:polar_bear_plushie"
+			},
+			"type": "item"
+		},
+		"rewards": [
+			{
+				"data": {
+					"attribute": "puffish_attributes:tamed_damage",
+					"operation": "multiply_base",
+					"value": -0.2
+				},
+				"type": "puffish_skills:attribute"
+			}
+		],
+		"title": {
+			"translate": "skill_tree.mineoctober.tamed_damage_20.title"
+		},
+		"metadata": {
+			"icon": "5p1fkpipon86zitx"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+    "id": "tiered:sniper_bow_1",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.range_attack_damage",
+            "modifier": {
+                "name": "tiered:sniper_bow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "puffish_attributes:bow_projectile_speed",
+            "modifier": {
+                "name": "tiered:sniper_bow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "additionalentityattributes:player.critical_bonus_damage",
+            "modifier": {
+                "name": "tiered:sniper_bow_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,713 @@
+{
+	autofocus_id: "5660D6926463579B"
+	default_hide_dependency_lines: false
+	default_min_width: 1
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "139369A26CED6377"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "biomeswevegone:white_sakura_sapling"
+	}
+	id: "139369A26CED6377"
+	images: [
+		{
+			height: 3.0d
+			image: "mineoctober:item/quests_skills"
+			rotation: 0.0d
+			width: 9.5d
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "antique_atlas:textures/gui/book.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: -5.5d
+			y: -4.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:deepslate_emerald_ore"
+			}
+			id: "1BED7E4A786ED5ED"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s mineoctober:miner"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "354731815003866B"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "5E1B6122CDD52414"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "biomeswevegone:aspen_log"
+			}
+			id: "69DCCD0BB312EF6D"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s mineoctober:lumberjack"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "531E0EDA88E95A53"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "47C71D22C7EA5EFB"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:rich_soil_farmland"
+			}
+			id: "66AEBB4916DEF011"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s mineoctober:farmer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "4D93CA08FBA51A44"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "19B187197F9D7BBB"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gills: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										chance: {
+											initialValue: 0.07325d
+										}
+									}
+								}
+								slipping: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 20.13525d
+										}
+										speed: {
+											initialValue: 0.00719d
+										}
+									}
+								}
+								swimming: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										duration: {
+											initialValue: 30.47706d
+										}
+										speed: {
+											initialValue: 0.00798d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "relics:amphibian_boot"
+			}
+			id: "709A20CEDA1459D6"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s mineoctober:explorer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "09C22B95D47ED65D"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "6346882B00DBB2C9"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -6.25d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				id: "mineoctober:imbued_iridium_sword"
+			}
+			id: "1D82BDEB070E5EC4"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills category unlock @s mineoctober:combat"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "4D5B50F9D01388FE"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "01FE8D5882FB1D59"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["709A20CEDA1459D6"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7964F17F21FC30DA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s mineoctober:explorer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "14E8346391367663"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1215EAB260D3827B"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["66AEBB4916DEF011"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5216CF235E55D02A"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s mineoctober:farmer"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "0258A2F4E51A3AF0"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6EE22A600CC84276"
+				item: { count: 1, id: "minecraft:carved_pumpkin" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BED7E4A786ED5ED"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7727033102C53F5B"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s mineoctober:miner"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "569C0476A6BFB444"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "59E686DFF7E4477C"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["69DCCD0BB312EF6D"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A60C877BB963D23"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s mineoctober:lumberjack"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "0E01D63CFE21B927"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "10AF61CA722AB333"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1D82BDEB070E5EC4"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "69A71D4197F983DC"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s mineoctober:combat"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "37A67FFA9BAA4E0E"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "533A7FB1A1700FA3"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7E735829C70E829F"]
+			disable_toast: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:copper_spell_book"
+			}
+			id: "6F96A29435D4C901"
+			optional: true
+			rewards: [{
+				id: "73BE90521FED0D24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "7038F5457DDF5668"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6F96A29435D4C901"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7FD056F2C23A00CB"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s irons_skills:magic1"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "0F8D232307448AC8"
+				permission_level: 2
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "355128AA076B716B"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["42F703879822B218"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3A6137E87D66C279"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s irons_skills:magic2"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "05101C932C748113"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "16964A276B804A75"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E8E6F9BF8CB84D2"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6086A0E149623FDF"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s irons_skills:school1"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "258876A6005504F5"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6E4E8A32CC22E2EA"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6402D6625A1D312E"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "mineoctober:item/gui/reset"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "51272CBEF5940076"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/puffish_skills skills reset @s irons_skills:school2"
+				exclude_from_claim_all: true
+				icon: {
+					id: "minecraft:command_block_minecart"
+				}
+				id: "25DA08DBF7DD8CCD"
+				silent: true
+				type: "command"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "08C3C43C0649F04F"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7E735829C70E829F"
+				"6F96A29435D4C901"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:dragonskin_spell_book"
+			}
+			id: "42F703879822B218"
+			optional: true
+			rewards: [{
+				id: "75C71A079E5CBCDC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "7B335636296360BB"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"7E735829C70E829F"
+				"6F96A29435D4C901"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			id: "5E8E6F9BF8CB84D2"
+			optional: true
+			rewards: [{
+				id: "7B13C513A365ED11"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "0A62CC8070DD6038"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"7E735829C70E829F"
+				"6F96A29435D4C901"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:diamond_spell_book"
+			}
+			id: "6402D6625A1D312E"
+			optional: true
+			rewards: [{
+				id: "364C822C4BB44D6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "732460F7895D1F8F"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+	]
+}
